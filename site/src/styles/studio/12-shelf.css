@@ -1,0 +1,472 @@
+#SiteDocument #SiteBody [data-classlist~="remix-shelf-top"], #SiteDocument #SiteBody [data-classlist~="remix-shelf-foot"] {
+  display: none;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-shelf-list"] {
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--remix-edge) transparent;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-shelf-item"] {
+  transition: background-color var(--site-duration-fast) var(--site-ease-out), box-shadow var(--site-duration-fast) var(--site-ease-out);
+  border-radius: .75rem;
+  position: relative;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-shelf-item"]:hover {
+  background-color: var(--remix-brand-tint);
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-shelf-book"] {
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  color: var(--color-text-default);
+  text-align: start;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  display: block;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-shelf-book"]:focus-visible {
+  outline: 2px solid var(--site-focus-ring);
+  outline-offset: -2px;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-cover"] {
+  aspect-ratio: var(--remix-cover-aspect);
+  box-shadow: var(--remix-shadow-book);
+  transition: translate var(--site-duration-base) var(--site-ease-out), box-shadow var(--site-duration-base) var(--site-ease-out);
+  border-radius: .375rem;
+  flex: none;
+  position: relative;
+  overflow: hidden;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-cover"]:after {
+  content: "";
+  border-radius: inherit;
+  box-shadow: var(--remix-spine);
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+}
+
+/* The cover lifts while the pointer is anywhere on its tile, its read badge included (the badge is the cover button's sibling). */
+#SiteDocument #SiteBody [data-classlist~="remix-shelf-item"]:hover [data-classlist~="remix-cover"] {
+  box-shadow: var(--remix-shadow-book-raised);
+  translate: 0 -.1875rem;
+}
+
+/* The "read the original" badge: a cream circle with the open-book icon on the cover's top-right corner, hanging 10px outside it
+   (--remix-read-pad is the tile padding around the cover). Always shown on the selected cover; on the others it fades in on hover or
+   focus. Hidden, it takes no taps, so a tap near a corner still picks that book. */
+#SiteDocument #SiteBody [data-classlist~="remix-shelf-read"] {
+  --remix-read-pad: var(--remix-tile-pad, .4375rem);
+  --remix-read-hang: 10px;
+  z-index: 1;
+  top: calc(var(--remix-read-pad) - var(--remix-read-hang));
+  right: calc(var(--remix-read-pad) - var(--remix-read-hang));
+  background: var(--remix-sheet);
+  width: 30px;
+  height: 30px;
+  color: var(--color-text-default);
+  box-shadow: 0 0 0 1px var(--remix-line), 0 3px 8px #0000002e;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .15s var(--site-ease-out), translate var(--site-duration-base) var(--site-ease-out), color var(--site-duration-fast) var(--site-ease-out);
+  border: 0;
+  border-radius: 999px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  display: flex;
+  position: absolute;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-shelf-read"] svg {
+  flex: none;
+  width: 15px;
+  height: 15px;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-shelf-read"]:hover {
+  color: var(--color-text-brand);
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-shelf-read"]:focus-visible {
+  outline: 2px solid var(--site-focus-ring);
+  outline-offset: 2px;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-shelf-item"]:hover [data-classlist~="remix-shelf-read"] {
+  translate: 0 -.1875rem;
+}
+
+#SiteDocument #SiteBody :is([data-classlist~="remix-shelf-item"]:has(> [aria-pressed="true"]), [data-classlist~="remix-shelf-item"]:hover, [data-classlist~="remix-shelf-item"]:focus-within) [data-classlist~="remix-shelf-read"], #SiteDocument #SiteBody [data-classlist~="remix-shelf-read"]:focus-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Touch screens: only the selected cover shows it (a keyboard's focus still does). */
+@media (hover: none) {
+  #SiteDocument #SiteBody :is([data-classlist~="remix-shelf-item"]:hover, [data-classlist~="remix-shelf-item"]:focus-within):not(:has(> [aria-pressed="true"])) [data-classlist~="remix-shelf-read"]:not(:focus-visible) {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@media (width >= 64rem) {
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf"] {
+    border-inline-end: 1px solid var(--remix-line);
+    background: var(--remix-canvas);
+    height: 100%;
+    container-type: inline-size;
+  }
+
+  /* The shelf's header bar: the logo and the theme toggle centred in a 4.5rem bar with a hairline under it, mirroring the foot's
+     line above the links. */
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf-top"] {
+    border-bottom: 1px solid var(--remix-line);
+    flex: none;
+    align-items: center;
+    min-height: 4.5rem;
+    padding: 0 var(--remix-edge-pad);
+    display: flex;
+  }
+
+  /* The NovelSpell Remix logo (705.5 x 123.7, about 5.7:1): as tall as the shelf width allows beside the 2rem theme toggle (6rem of
+     gutters, gap and toggle), up to 2rem; the REMIX band (text colour, letters knocked out) stays legible from about 1.75rem. */
+  #SiteDocument #SiteBody [data-classlist~="remix-logo"] {
+    height: clamp(1.25rem, calc((100cqi - 6rem) / 5.75), 2rem);
+    color: var(--color-text-default);
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-logo"] svg {
+    width: auto;
+    height: 100%;
+    display: block;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-logo"]:focus-visible {
+    outline: 2px solid var(--site-focus-ring);
+    outline-offset: 4px;
+  }
+
+  /* The theme toggle: a 36px rounded square with no fill, traced by a hairline the colour of the header's bottom
+     line, its icon (the theme it switches to) in the muted ink; a soft brand tint on hover. Its right edge sits on the second cover
+     column's right edge, centred on the header bar. */
+  #SiteDocument #SiteBody [data-classlist~="remix-theme"] [data-theme-toggle] {
+    border-radius: .625rem;
+    width: 2.25rem;
+    height: 2.25rem;
+    min-height: 0;
+    color: var(--remix-ink-soft);
+    transition: background-color var(--site-duration-fast) var(--site-ease-out), color var(--site-duration-fast) var(--site-ease-out);
+    background: none;
+    box-shadow: inset 0 0 0 1px var(--remix-line);
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-theme"] [data-theme-toggle]:hover {
+    background: var(--remix-brand-tint);
+    color: var(--color-text-brand);
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-theme"] [data-theme-toggle]:focus-visible {
+    outline: 2px solid var(--site-focus-ring);
+    outline-offset: 3px;
+    box-shadow: none;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-theme"] [data-theme-toggle] svg {
+    width: 1.125rem;
+    height: 1.125rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf-nav"] {
+    container-type: size;
+  }
+
+  /* The cover width, gaps and paddings come from the studio frame (01-studio.css), which sizes the covers from the shelf width. The
+     list fills the panel and scrolls; the scrollbar is hidden so it never eats the right gutter (the scroll fade below shows more). */
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf-list"] {
+    scrollbar-width: none;
+    grid-template-columns: repeat(2, calc(var(--remix-shelf-cover-w) + 2 * var(--remix-tile-pad)));
+    place-content: start;
+    gap: var(--remix-shelf-gap);
+    padding: var(--remix-shelf-pad) calc(var(--remix-edge-pad) - var(--remix-tile-pad));
+    scroll-snap-type: y mandatory;
+    scroll-padding-block: var(--remix-shelf-pad);
+    flex: 1;
+    min-height: 0;
+    display: grid;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf-item"] {
+    scroll-snap-align: start;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf-book"] {
+    padding: var(--remix-tile-pad);
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf-foot"] {
+    border-top: 1px solid var(--remix-line);
+    flex: none;
+    align-items: center;
+    min-height: calc(3rem + 1px);
+    padding: .25rem var(--remix-edge-pad);
+    display: flex;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf-links"] {
+    gap: 0 1.25rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf-links"] a {
+    min-width: 0;
+    min-height: 2.5rem;
+    color: var(--remix-ink-soft);
+    opacity: 1;
+    align-items: center;
+    font-size: .8125rem;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-flex;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf-links"] a:hover {
+    color: var(--color-text-brand);
+    text-underline-offset: .2em;
+    text-decoration: underline;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf-links"] a:focus-visible {
+    outline: 2px solid var(--site-focus-ring);
+    outline-offset: 2px;
+  }
+}
+
+/* The book picker (phones and tablets; picker.ts). Desktop never shows its button. */
+#SiteDocument #SiteBody [data-classlist~="remix-picker"] {
+  display: none;
+}
+
+/* Below laptop the shelf is a bar: one button (the current book, the count and a chevron) that drops the covers down over the page.
+   Closed, the covers' list is display:none, so its lazy covers are never fetched at load (the 48px strip cost the phone LCP).
+   Open, about two and a half covers show at a time, wide enough to read their titles, and the row scrolls for the rest. */
+@media (width <= 63.999rem) {
+  #SiteDocument #SiteBody [data-studio] > [data-rail] {
+    background: var(--remix-canvas);
+    border-bottom: 1px solid var(--remix-line);
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-picker"] {
+    width: 100%;
+    height: var(--remix-picker-h);
+    color: var(--color-text-default);
+    font: inherit;
+    text-align: start;
+    cursor: pointer;
+    background: none;
+    border: 0;
+    align-items: center;
+    gap: .625rem;
+    padding: .5rem var(--site-content-pad);
+    display: flex;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-picker"]:focus-visible {
+    outline: 2px solid var(--site-focus-ring);
+    outline-offset: -2px;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-picker-book"] {
+    font-family: var(--font-heading);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    flex: 0 1 auto;
+    font-size: 1.125rem;
+    line-height: 1.25;
+    overflow: hidden;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-picker-book"] > [data-book-panel] {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  /* The shelf pill: the library icon, the count and the chevron in one hairline box (the theme toggle's style), so
+     the chevron reads as "open the shelf" and the count stands apart from the title. It tints like the toggle on hover and while open. */
+  #SiteDocument #SiteBody [data-classlist~="remix-picker-shelf"] {
+    color: var(--remix-ink-soft);
+    white-space: nowrap;
+    box-shadow: inset 0 0 0 1px var(--remix-line);
+    transition: background-color var(--site-duration-fast) var(--site-ease-out), color var(--site-duration-fast) var(--site-ease-out);
+    border-radius: .625rem;
+    flex: none;
+    align-items: center;
+    gap: .375rem;
+    height: 2.25rem;
+    margin-inline-start: auto;
+    padding: 0 .5rem 0 .625rem;
+    display: flex;
+  }
+
+  #SiteDocument #SiteBody :is([data-classlist~="remix-picker"]:hover, [data-picker-open] [data-classlist~="remix-picker"]) [data-classlist~="remix-picker-shelf"] {
+    background: var(--remix-brand-tint);
+    color: var(--color-text-brand);
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-picker-count"] {
+    font-variant-numeric: tabular-nums;
+    font-size: .8125rem;
+    font-weight: 600;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-picker-shelf"] svg {
+    flex: none;
+    width: 1.0625rem;
+    height: 1.0625rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-picker-shelf"] svg:last-child {
+    transition: rotate var(--site-duration-fast) var(--site-ease-out);
+    width: 1rem;
+    height: 1rem;
+    rotate: 90deg;
+  }
+
+  #SiteDocument #SiteBody [data-picker-open] [data-classlist~="remix-picker-shelf"] svg:last-child {
+    rotate: -90deg;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf-nav"] {
+    display: none;
+  }
+
+  #SiteDocument #SiteBody [data-picker-open] > [data-classlist~="remix-shelf-nav"] {
+    background: var(--remix-canvas);
+    border-bottom: 1px solid var(--remix-line);
+    box-shadow: 0 14px 28px light-dark(#26221824, #00000073);
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf-list"] {
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: var(--site-content-pad);
+    scrollbar-width: none;
+    /* Sideways swipes stay in the row; vertical ones pass to the page (the desktop rule above contains both axes). */
+    overscroll-behavior: contain auto;
+    gap: .625rem;
+    padding: .875rem var(--site-content-pad) 1rem;
+    display: flex;
+    overflow: auto hidden;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf-list"]::-webkit-scrollbar {
+    display: none;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf-item"] {
+    scroll-snap-align: start;
+    flex: 0 0 9.5rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf-book"] {
+    padding: .375rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf-read"] {
+    --remix-read-pad: .375rem;
+  }
+
+  /* The badge stays put while the cover lifts (lifted, the row's scroll box would cut its top off). */
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf-item"]:hover [data-classlist~="remix-shelf-read"] {
+    translate: none;
+  }
+}
+
+@media (width <= 63.999rem) and (prefers-reduced-motion: reduce) {
+  #SiteDocument #SiteBody :is([data-classlist~="remix-picker-shelf"], [data-classlist~="remix-picker-shelf"] svg) {
+    transition: none;
+  }
+}
+
+@media (width >= 125.063rem) {
+  #SiteDocument #SiteBody [data-classlist~="remix-logo"] {
+    height: clamp(1.25rem, calc((100cqi - 6rem) / 5.75), 2.375rem);
+  }
+}
+
+@property --remix-shelf-fade-start {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0;
+}
+
+@property --remix-shelf-fade-end {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0;
+}
+
+@keyframes remix-shelf-fade-start {
+  from {
+    --remix-shelf-fade-start: 0px;
+  }
+
+  to {
+    --remix-shelf-fade-start: var(--remix-shelf-fade);
+  }
+}
+
+@keyframes remix-shelf-fade-end {
+  from {
+    --remix-shelf-fade-end: var(--remix-shelf-fade);
+  }
+
+  to {
+    --remix-shelf-fade-end: 0px;
+  }
+}
+
+@supports (animation-timeline: scroll()) {
+  #SiteDocument #SiteBody [data-classlist~="remix-shelf-list"] {
+    --remix-shelf-fade: 2rem;
+    --remix-shelf-fade-to: to right;
+    -webkit-mask-image: linear-gradient(var(--remix-shelf-fade-to), transparent, black var(--remix-shelf-fade-start), black calc(100% - var(--remix-shelf-fade-end)), transparent);
+    mask-image: linear-gradient(var(--remix-shelf-fade-to), transparent, black var(--remix-shelf-fade-start), black calc(100% - var(--remix-shelf-fade-end)), transparent);
+    animation: linear both remix-shelf-fade-start, linear both remix-shelf-fade-end;
+    animation-timeline: scroll(self inline), scroll(self inline);
+    animation-range: 0px var(--remix-shelf-fade), calc(100% - var(--remix-shelf-fade)) 100%;
+  }
+
+  @media (width >= 64rem) {
+    #SiteDocument #SiteBody [data-classlist~="remix-shelf-list"] {
+      --remix-shelf-fade: 2.5rem;
+      --remix-shelf-fade-to: to bottom;
+      animation-timeline: scroll(self), scroll(self);
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #SiteDocument #SiteBody :is([data-classlist~="remix-shelf-item"], [data-classlist~="remix-cover"], [data-classlist~="remix-shelf-read"]) {
+    transition: none;
+  }
+
+  #SiteDocument #SiteBody :is([data-classlist~="remix-shelf-item"]:hover [data-classlist~="remix-cover"], [data-classlist~="remix-shelf-item"]:hover [data-classlist~="remix-shelf-read"]) {
+    translate: none;
+  }
+}

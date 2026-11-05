@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+
+# Cloudflare / local runtime state
+.wrangler/
+.dev.vars
+.dev.vars.*
+
+# secrets (names only live in .env.example)
+.env
+.env.*
+!.env.example
+
+# build outputs
+dist/
+build/
+out/
+.output/
+coverage/
+
+# logs
+*.log
+logs/
+npm-debug.log*
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~

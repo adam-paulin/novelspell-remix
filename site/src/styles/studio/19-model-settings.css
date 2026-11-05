@@ -1,0 +1,268 @@
+/* The settings capsule (ModelSettings.astro) beside Write the chapter and Revise: the three thinking steps, a thin rule and the
+   Fast mode switch (FastToggle.astro), one 2.5rem pill. The steps are real radios inside their labels and the switch a real checkbox
+   (role="switch"); the sliding pill and the switch are drawn here from their :checked state, which first paint already set. The
+   switch also sits, with its name written, on a failed create's card when a writer provider refused the request. */
+#SiteDocument #SiteBody [data-classlist~="remix-settings"] {
+  background: var(--remix-sheet-2);
+  border-radius: 999px;
+  flex: none;
+  align-items: center;
+  gap: .5rem;
+  height: 2.5rem;
+  padding: 0 .5rem 0 3px;
+  display: inline-flex;
+  /* A firmer ring than --remix-line, so the capsule's outer edge (not the step pill inside it) reads as its height, level with Write. */
+  box-shadow: inset 0 0 0 1px light-dark(#26221829, #ffffff24);
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-steps"] {
+  grid-template-columns: repeat(3, 1fr);
+  height: calc(2.5rem - 6px);
+  display: inline-grid;
+  position: relative;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-steps-pill"] {
+  background: var(--remix-sheet);
+  border-radius: 999px;
+  width: calc(100% / 3);
+  transition: translate var(--site-duration-base) var(--site-ease-out);
+  position: absolute;
+  inset-block: 0;
+  left: 0;
+  box-shadow: 0 1px 3px light-dark(#26221833, #0009), 0 0 0 1px var(--remix-line);
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-steps"]:has([value="medium"]:checked) [data-classlist~="remix-steps-pill"] {
+  translate: 100%;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-steps"]:has([value="high"]:checked) [data-classlist~="remix-steps-pill"] {
+  translate: 200%;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-step"] {
+  z-index: 1;
+  color: var(--remix-ink-soft);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  white-space: nowrap;
+  border-radius: 999px;
+  place-items: center;
+  padding: 0 .875rem;
+  font-size: .8125rem;
+  font-weight: 600;
+  transition: color var(--site-duration-fast) var(--site-ease-out);
+  display: grid;
+  position: relative;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-step"]:hover, #SiteDocument #SiteBody [data-classlist~="remix-step"]:has(:checked) {
+  color: var(--color-text-default);
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-step"]:has(:focus-visible) {
+  outline: 2px solid var(--site-focus-ring);
+  outline-offset: 1px;
+}
+
+#SiteDocument #SiteBody :is([data-classlist~="remix-step-input"], [data-classlist~="remix-fast-input"]) {
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  position: absolute;
+  inset-inline-start: 0;
+  pointer-events: none;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-settings-rule"] {
+  background: var(--remix-line);
+  flex: none;
+  width: 1px;
+  height: 1.25rem;
+}
+
+/* The Fast mode switch: a bolt (filled in the brand colour when on) and the track. */
+#SiteDocument #SiteBody [data-classlist~="remix-fast"] {
+  color: var(--remix-ink-soft);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  align-items: center;
+  gap: .5rem;
+  min-height: 2.25rem;
+  padding-inline: .125rem;
+  display: inline-flex;
+  position: relative;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-fast-bolt"] {
+  transition: color var(--site-duration-fast) var(--site-ease-out);
+  display: grid;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-fast-bolt"] svg {
+  width: 1rem;
+  height: 1rem;
+  transition: fill var(--site-duration-fast) var(--site-ease-out);
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-fast"]:has(:checked) [data-classlist~="remix-fast-bolt"] {
+  color: var(--color-text-brand);
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-fast"]:has(:checked) [data-classlist~="remix-fast-bolt"] svg {
+  fill: currentColor;
+}
+
+/* Off: a filled neutral track with a white thumb, clearly a switch on both themes; on: the brand fill. */
+#SiteDocument #SiteBody [data-classlist~="remix-fast-track"] {
+  background: light-dark(#2622182e, #ffffff2b);
+  width: 2.25rem;
+  height: 1.375rem;
+  box-shadow: inset 0 1px 2px light-dark(#2622181f, #00000059);
+  transition: background-color var(--site-duration-fast) var(--site-ease-out), box-shadow var(--site-duration-fast) var(--site-ease-out);
+  border-radius: 999px;
+  flex: none;
+  position: relative;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-fast-thumb"] {
+  background: light-dark(#fff, #f7f5f0);
+  width: 1rem;
+  height: 1rem;
+  box-shadow: 0 1px 3px light-dark(#26221847, #0009);
+  transition: translate var(--site-duration-fast) var(--site-ease-out), background-color var(--site-duration-fast) var(--site-ease-out);
+  border-radius: 50%;
+  position: absolute;
+  top: .1875rem;
+  left: .1875rem;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-fast"]:hover [data-classlist~="remix-fast-track"] {
+  background: light-dark(#26221840, #ffffff3d);
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-fast-input"]:checked ~ [data-classlist~="remix-fast-track"] {
+  background: var(--color-action-primary-bg);
+  box-shadow: none;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-fast"]:hover [data-classlist~="remix-fast-input"]:checked ~ [data-classlist~="remix-fast-track"] {
+  background: var(--color-action-primary-bg-hover);
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-fast-input"]:checked ~ [data-classlist~="remix-fast-track"] [data-classlist~="remix-fast-thumb"] {
+  background: var(--color-action-primary-text);
+  translate: .875rem;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-fast-input"]:focus-visible ~ [data-classlist~="remix-fast-track"] {
+  outline: 2px solid var(--site-focus-ring);
+  outline-offset: 3px;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-fast-label"] {
+  color: var(--color-text-default);
+  white-space: nowrap;
+  font-size: .9375rem;
+  font-weight: 600;
+}
+
+/* The revise dock: the capsule is a third column between the field and Revise (the field and the busy line keep the first). */
+#SiteDocument #SiteBody [data-classlist~="remix-dock-row"] {
+  grid-template-columns: minmax(0, 1fr) auto auto;
+}
+
+#SiteDocument #SiteBody [data-settings-where="dock"] {
+  grid-area: 1 / 2;
+  align-self: center;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-dock-send"] {
+  grid-area: 1 / 3;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-dock-latest"] {
+  grid-area: 1 / 1 / 2 / 4;
+}
+
+#SiteDocument #SiteBody [data-studio][data-has-result][data-revision][data-phase="writing"] [data-settings-where="dock"], #SiteDocument #SiteBody [data-studio][data-viewing-old] [data-settings-where="dock"] {
+  visibility: hidden;
+}
+
+/* A failed create's card: the switch, its name written, sits by Try again only when a writer provider refused the request. */
+#SiteDocument #SiteBody [data-fast-where="fail"] {
+  display: none;
+}
+
+#SiteDocument #SiteBody [data-studio][data-error^="unavailable-"] [data-fast-where="fail"] {
+  display: inline-flex;
+}
+
+@media (width <= 47.999rem) {
+  /* Phones: the capsule takes the composer's first line and Write the chapter the whole second one. */
+  #SiteDocument #SiteBody [data-classlist~="remix-write-row"] [data-classlist~="remix-write"] {
+    flex: 1 0 100%;
+    order: 2;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-step"] {
+    padding: 0 .75rem;
+  }
+
+  /* 360px phones: the capsule ran 9px past the card (final QA 2026-11-04). */
+  @media (width <= 24rem) {
+    #SiteDocument #SiteBody [data-classlist~="remix-step"] {
+      padding: 0 .5rem;
+    }
+  }
+
+  /* The dock keeps the field and Revise roomy: only the Fast switch shows there (the thinking step chosen in the composer, or on a
+     wider screen, still applies to revisions). */
+  #SiteDocument #SiteBody [data-settings-where="dock"] :is([data-classlist~="remix-steps"], [data-classlist~="remix-settings-rule"]) {
+    display: none;
+  }
+
+  #SiteDocument #SiteBody [data-settings-where="dock"] {
+    padding-inline: .375rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-dock-row"] {
+    column-gap: .625rem;
+  }
+}
+
+/* Tablet and desktop: where the dock is too narrow for the field, the capsule and Revise on one line (the middle column from 1024 to
+   about 1600px), the field takes the whole first line and the capsule and Revise share the second. Final QA 2026-11-04: the field had
+   shrunk to 0-34px. Phones keep one line (only the Fast switch shows there). */
+#SiteDocument #SiteBody [data-classlist~="remix-dock"] {
+  container: remix-dock / inline-size;
+}
+
+@media (width >= 48rem) {
+  @container remix-dock (width < 50rem) {
+    #SiteDocument #SiteBody :is([data-classlist~="remix-dock-input"], [data-classlist~="remix-dock-busy"]) {
+      grid-area: 1 / 1 / 2 / 4;
+    }
+
+    #SiteDocument #SiteBody [data-settings-where="dock"] {
+      grid-area: 2 / 1;
+      justify-self: start;
+    }
+
+    #SiteDocument #SiteBody [data-classlist~="remix-dock-send"] {
+      grid-area: 2 / 3;
+    }
+
+    #SiteDocument #SiteBody [data-classlist~="remix-dock-row"] {
+      row-gap: .375rem;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #SiteDocument #SiteBody :is([data-classlist~="remix-steps-pill"], [data-classlist~="remix-step"], [data-classlist~="remix-fast-track"], [data-classlist~="remix-fast-thumb"], [data-classlist~="remix-fast-bolt"] svg) {
+    transition: none;
+  }
+}

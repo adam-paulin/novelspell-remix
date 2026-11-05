@@ -1,0 +1,42 @@
+---
+// The workbench and the comic column. Compose (idle) shows the composer beside the featured example; every other phase shows the
+// masthead over the chapter pane, with the remix's comic column beside it. Everything per book is compiled in as a hidden variant
+// selected by <html data-book>. The phase (idle, restoring, writing, illustrating, ready, error) is data-phase on [data-studio];
+// data-streaming marks a chapter growing in the pane before its record lands. Data only fills reserved boxes, so nothing moves.
+import { en } from "../content/en";
+import featured from "../data/featured.json";
+import Composer from "./Composer.astro";
+import Masthead from "./Masthead.astro";
+import CoverCard from "./CoverCard.astro";
+import ChapterPane from "./ChapterPane.astro";
+import ReviseDock from "./ReviseDock.astro";
+import Showcase from "./Showcase.astro";
+import Comic from "./Comic.astro";
+import { pictureFile } from "../lib/pictures";
+
+const studio = en.studio;
+// The compiled featured remixes: reading the example (or a shared link to it) paints this copy with no network call. One template
+// per distinct example (a book without its own shares another book's), each looked up by its id.
+const records = [...new Map(Object.values(featured).map((entry) => [entry.id, entry])).values()];
+---
+<div class="grid min-h-0 min-w-0" data-classlist="remix-spread" data-workspace>
+	<div hidden>
+		<template data-md="p"><p></p></template>
+		<template data-md="h2"><h3></h3></template>
+		<template data-md="h3"><h4></h4></template>
+		<template data-md="title"><h3 data-classlist="remix-md-title"><span data-slot="text"></span></h3></template>
+		<template data-md="quote"><blockquote></blockquote></template>
+		<template data-md="rule"><hr></template>
+		<template data-md="text"><span data-classlist="remix-md-seg"><span data-slot="text"></span></span></template>
+		<template data-md="em"><em data-classlist="remix-md-seg"><span data-slot="text"></span></em></template>
+		<template data-md="strong"><strong data-classlist="remix-md-seg"><span data-slot="text"></span></strong></template>
+		{records.map((f) => <template data-featured-record data-f-point={f.divergenceId ?? ""} data-f-id={f.id} data-f-book={f.book} data-f-version={f.version} data-f-request={f.request} data-f-title={f.chapter.title} data-f-logline={f.chapter.logline} data-f-chapter-id={f.chapter.divergence.chapterId} data-f-moment={f.chapter.divergence.moment} data-f-change={f.chapter.divergence.change} data-f-share-text={f.chapter.shareText} data-f-cast={f.chapter.castInScene.join(" ")} data-f-panels={JSON.stringify((f.chapter.panels ?? []).map((panel) => panel.beat))} data-f-continuity={JSON.stringify(f.chapter.continuity ?? [])} data-f-comic={pictureFile(f.images.comic)} data-f-cover={pictureFile(f.images.coverFull)} data-f-writer={f.provenance?.writer?.model ?? ""} data-f-illustrator={f.provenance?.illustrator?.model ?? ""}>{f.chapter.chapter}</template>)}
+	</div>
+	<p class="sr-only" data-messages="status" role="status">{Object.entries(studio.status).map(([key, text]) => <span data-message={key} hidden>{text}</span>)}{Object.entries(studio.unavailable).map(([id, text]) => <span data-message={`unavailable-${id}`} hidden>{text.status}</span>)}</p>
+	<div class="min-w-0" data-classlist="remix-area-compose"><Composer /></div>
+	<div class="min-w-0" data-classlist="remix-area-head"><Masthead /><CoverCard where="phone" /></div>
+	<div class="min-w-0" data-classlist="remix-area-page"><ChapterPane /><button type="button" data-control="secondary" data-classlist="remix-follow" data-follow-chip>{studio.result.followAlong}</button><ReviseDock /></div>
+	<aside class="min-w-0" data-classlist="remix-area-art" aria-label={studio.result.comicLabel}>
+		<div data-classlist="remix-art-sticky"><Showcase /><Comic /></div>
+	</aside>
+</div>

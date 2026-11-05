@@ -1,0 +1,49 @@
+---
+// Compose (idle): the per-book heading, the what-if box with Write the chapter and the settings capsule beside it (the thinking
+// steps and Fast mode: how the chapter is written), then the book's turning points. A book's original is read from its cover's badge.
+import { en } from "../content/en";
+import books from "../data/books.json";
+import HostingFoot from "./HostingFoot.astro";
+import ModelSettings from "./ModelSettings.astro";
+import Icon from "./ui/Icon.astro";
+import { inlineScript } from "../lib/inlineScript";
+import { composerStart } from "../lib/firstPaint";
+
+const copy = en.studio.composer;
+const workspace = en.studio.workspace;
+const progress = en.studio.progress;
+// Before first paint, inline: this tab's draft or the book's example in the box, and the turning point to press (src/lib/firstPaint.ts).
+const firstPaint = inlineScript(composerStart);
+---
+<div data-classlist="remix-compose">
+	<p class="m-0" data-classlist="remix-lost" data-lost data-messages="lost" tabindex="-1" role="status"><span data-message="notFound"><strong data-classlist="remix-lost-title">{progress.titles.notFound}</strong><span data-classlist="remix-lost-body">{progress.hints.notFound}</span></span><span data-message="unreachable" hidden><strong data-classlist="remix-lost-title">{progress.titles.network}</strong><span data-classlist="remix-lost-body">{progress.hints.shareNetwork}</span></span></p>
+	<p class="m-0" data-classlist="remix-eyebrow remix-compose-product">{workspace.productName}<span data-classlist="remix-eyebrow-rule" aria-hidden="true"></span></p>
+	<div data-classlist="remix-compose-books">{books.map((book) => <div data-book-panel={book.slug} data-example={book.example?.whatIf ?? ""} data-example-point={book.example?.id ?? ""}>
+	<h1 class="m-0 min-w-0" data-classlist="remix-title remix-compose-title">{workspace.headingBefore} <em>{book.shortTitle}</em> {workspace.headingAfter}</h1>
+</div>)}</div>
+	<p class="m-0" data-classlist="remix-promise">{workspace.promise}</p>
+	<form data-classlist="remix-composer" data-composer>
+		<label class="sr-only" for="RemixRequest">{copy.label}</label>
+		<div class="relative grid" data-classlist="remix-ask-box">
+			<textarea id="RemixRequest" class="block w-full" data-classlist="remix-ask" name="request" data-request rows="3" maxlength="1500" placeholder={copy.placeholder} required>{books[0]?.example?.whatIf ?? ""}</textarea>
+			<div data-classlist="remix-write-row">
+				<button type="submit" data-control="primary" data-arrow data-classlist="remix-write"><span>{copy.submit}</span><Icon name="tabler-outline-arrow-narrow-right" /></button>
+				<ModelSettings where="compose" />
+			</div>
+		</div>
+		<HostingFoot />
+		<script is:inline set:html={firstPaint}></script>
+	</form>
+	<div data-classlist="remix-points-wrap">
+		<p class="m-0" data-classlist="remix-label remix-points-label">{copy.pointsLabel}</p>
+		{books.map((book) => <div data-classlist="remix-points-book" data-book-panel={book.slug}>
+	<div class="grid grid-cols-3 gap-3" data-classlist="remix-points" role="group" aria-label={copy.pointsLabel}>
+		{book.chips.map((chip) => <button type="button" data-classlist="remix-point" data-chip data-divergence={chip.id} data-chapter-id={chip.chapterId ?? ""} data-whatif={chip.whatIf} aria-pressed="false">
+			{chip.chapterTag && <span data-classlist="remix-label remix-point-chapter">{chip.chapterTag}</span>}
+			<span data-classlist="remix-point-label">{chip.label}</span>
+			<span data-classlist="remix-point-gist">{chip.gist}</span>
+		</button>)}
+	</div>
+</div>)}
+	</div>
+</div>

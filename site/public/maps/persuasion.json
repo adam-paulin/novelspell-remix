@@ -1,0 +1,1707 @@
+{
+	"schema": "remix.bookMap/1",
+	"slug": "persuasion",
+	"title": "Persuasion",
+	"author": "Jane Austen",
+	"premise": "Anne Elliot, overlooked by her proud family, meets again the naval officer whose engagement she was persuaded to break eight years before. As her father lets their Somersetshire home and moves to Bath, Anne must observe Captain Wentworth's apparent courtship of another woman while concealing her own attachment.",
+	"hook": "Eight years after giving him up, Anne must watch the man she still loves choose a wife.",
+	"logline": "When Captain Wentworth returns wealthy and resentful, Anne Elliot must discover whether a love broken by persuasion can survive pride, misunderstanding, and the claims of others.",
+	"world": {
+		"setting": "Somersetshire country houses and villages, the Dorset seaside town of Lyme, and the streets, lodgings, shops, and assembly rooms of Bath.",
+		"period": "England, 1814 to early 1815, during the peace following the Napoleonic wars",
+		"rules": [
+			"There is no supernatural element; chance meetings, letters, observation, gossip, and mistaken inference carry the plot.",
+			"Rank governs introductions, precedence, and marriage prospects; a baronet's title and the Kellynch estate are expected to pass to the male heir.",
+			"A woman's fortune and family connections affect her prospects, while her freedom to travel, earn, and initiate courtship is constrained.",
+			"Naval officers can rise through service and gain prize money, but war brings separation, danger, injury, and death; peace leaves officers ashore.",
+			"Country visits are made on foot, horseback, or by carriage; longer journeys require horses, inns, and hours on the road.",
+			"Letters and cards arrange visits and carry news; information also travels through servants, nurses, newspapers, and social calls.",
+			"Doctors, apothecaries, surgeons, nursing, warm baths, and sea air are available, but recovery from a head injury remains uncertain.",
+			"Hospitality ranges from elaborate formal calls and precedence to the Harvilles' open invitation despite their small rooms and limited means."
+		],
+		"tone": "Tender and quietly painful, with sharp social comedy, irony, and a growing sense of recovered hope.",
+		"themes": [
+			"Persuasion, duty, and independent judgment",
+			"Constancy and second chances",
+			"Rank and the actual worth of people",
+			"Loss, recovery, and the passage of time",
+			"Naval friendship and domestic loyalty",
+			"Women's restricted opportunities and voices"
+		],
+		"sensitivities": [
+			"The narration mocks physical size and disability, notably Mrs Musgrove's grief and Sir Walter's contempt for weathered faces.",
+			"Class prejudice, inherited rank, and contempt for tradespeople shape the characters' judgments and language.",
+			"Women's limited legal and economic independence and the vulnerability of a poor widow are central conditions of the story."
+		]
+	},
+	"voice": {
+		"narration": "Third-person past tense, mostly close to Anne's perceptions and private reasoning, with an omniscient narrator who occasionally enters other minds or addresses the reader with ironic authority.",
+		"style": [
+			"Long, balanced sentences accumulate qualifications, parallel clauses, and semicolons; short exclamations interrupt them at moments of feeling.",
+			"Free indirect discourse lets Anne's hopes, doubts, and self-reproaches blend into the narrator's measured judgments.",
+			"Social absurdity is exposed by exact habits, ranks, furnishings, and a quietly devastating reversal rather than broad caricature alone.",
+			"Emotional crises are rendered through glances, pauses, blushes, movements, and the effort to remain composed in company.",
+			"The narrator ranges from teasing general observations to sincere feeling, sometimes allowing irony and compassion to stand together.",
+			"Use the manuscript's British spelling and period diction, including connexion, shewn, staid, and enquire."
+		],
+		"dialogue": "Speech appears in quotation marks, often with semicolons, dashes, interruptions, and brief narrative comments. Polite conversation conceals feeling; characters reveal themselves through repeated complaints, solicitous questions, flattery, or frank naval idiom.",
+		"samplePassages": [
+			"A few years before, Anne Elliot had been a very pretty girl, but her bloom had vanished early; and as even in its height, her father had found little to admire in her, (so totally different were her delicate features and mild dark eyes from his own), there could be nothing in them, now that she was faded and thin, to excite his esteem. He had never indulged much hope, he had now none, of ever reading her name in any other page of his favourite work.",
+			"“Oh! Frederick! But I cannot believe it of you.—All idle refinement!—Women may be as comfortable on board, as in the best house in England. I believe I have lived as much on board as most women, and I know nothing superior to the accommodations of a man-of-war. I declare I have not a comfort or an indulgence about me, even at Kellynch Hall,” (with a kind bow to Anne), “beyond what I always had in most of the ships I have lived in; and they have been five altogether.”",
+			"“Perhaps I shall. Yes, yes, if you please, no reference to examples in books. Men have had every advantage of us in telling their own story. Education has been theirs in so much higher a degree; the pen has been in their hands. I will not allow books to prove anything.”\n\n“But how shall we prove anything?”\n\n“We never shall. We never can expect to prove any thing upon such a point. It is a difference of opinion which does not admit of proof."
+		]
+	},
+	"cast": [
+		{
+			"key": "anne",
+			"name": "Anne Elliot",
+			"aliases": [
+				"Miss Anne Elliot",
+				"Miss Elliot"
+			],
+			"role": "The neglected middle Elliot daughter and emotional centre of the story.",
+			"age": "Twenty-seven at the beginning; in her twenty-eighth year at the reunion.",
+			"appearance": "A small, slender woman with delicate, very regular pretty features and mild dark eyes. Her face is thin and faded at first; colour and animation return to her cheeks and eyes. Dark hair is dressed simply up; she wears modest high-waisted gowns, a pelisse and bonnet outdoors, and little ornament.",
+			"personality": "Observant, cultivated, patient, and tender, with quiet humour and practical composure under pressure.",
+			"motivation": "She wants to do her duty without sacrificing honest feeling, and still loves Wentworth despite expecting no return.",
+			"fears": "She dreads exposing her attachment, losing Wentworth to another woman, and causing pain through family folly.",
+			"speech": "Gentle and measured, often asking or suggesting rather than commanding; in emergencies she gives clear, rapid directions. With trusted company she can argue warmly and precisely.",
+			"arc": "Having broken an engagement under advice, she learns to trust her judgment, acts on her enduring love, and accepts Wentworth again while defending the duty she once felt to Lady Russell.",
+			"relationships": [
+				{
+					"key": "wentworth",
+					"nature": "Former fiancé; their attachment survives estrangement and is renewed."
+				},
+				{
+					"key": "lady_russell",
+					"nature": "Beloved godmother and maternal adviser who persuaded her to break the engagement."
+				},
+				{
+					"key": "sir_walter",
+					"nature": "Her vain father consistently overlooks her."
+				},
+				{
+					"key": "mary",
+					"nature": "Her younger sister relies on her attention and nursing."
+				},
+				{
+					"key": "mr_elliot",
+					"nature": "Her cousin courts her; she grows suspicious and learns of his duplicity."
+				},
+				{
+					"key": "mrs_smith",
+					"nature": "An old school friend whose confidence exposes Mr Elliot."
+				}
+			],
+			"firstChapterId": "c01"
+		},
+		{
+			"key": "wentworth",
+			"name": "Captain Wentworth",
+			"aliases": [
+				"Frederick Wentworth",
+				"Frederick"
+			],
+			"role": "Anne's former fiancé, a successful naval captain seeking a wife.",
+			"age": "About thirty-one or thirty-two.",
+			"appearance": "A fine, strongly made man with an open, glowing, manly face, bright proud eyes and a handsome expressive mouth. His hair is dark and neatly dressed; he wears a well-cut dark coat, pale breeches or trousers, waistcoat and neckcloth, with a hat and, at sea, naval uniform.",
+			"personality": "Warm, lively, confident, generous and proud; his resentment can make him unjust.",
+			"motivation": "He seeks marriage and happiness, while pride leads him to believe he has overcome his attachment to Anne.",
+			"fears": "He fears renewed rejection and being bound in honour to Louisa when his heart belongs elsewhere.",
+			"speech": "Animated and witty, with naval comparisons and teasing exaggeration; feeling makes him abrupt, earnest, or silent. Among officers he speaks with unguarded warmth.",
+			"arc": "He mistakes anger for indifference, flirts with the Musgrove sisters, recognises Anne's worth at Lyme, and overcomes jealousy to offer himself again.",
+			"relationships": [
+				{
+					"key": "anne",
+					"nature": "Former fiancée whom he has never ceased to love."
+				},
+				{
+					"key": "mrs_croft",
+					"nature": "His frank, affectionate sister."
+				},
+				{
+					"key": "louisa",
+					"nature": "His attentions encourage her; he feels honour-bound if she expects him."
+				},
+				{
+					"key": "harville",
+					"nature": "A close naval friend whose household welcomes him."
+				},
+				{
+					"key": "benwick",
+					"nature": "A valued former officer and friend whom he supported in grief."
+				}
+			],
+			"firstChapterId": "c04"
+		},
+		{
+			"key": "sir_walter",
+			"name": "Sir Walter Elliot",
+			"aliases": [
+				"Sir Walter",
+				"the Baronet"
+			],
+			"role": "Anne's vain father, a baronet whose debts force him to let Kellynch Hall.",
+			"age": "Fifty-four.",
+			"appearance": "A tall, still very handsome man with carefully arranged hair, fine features and an erect, self-conscious bearing. He dresses immaculately in fashionable coats, waistcoats and neckcloths, and attends closely to his reflection and grooming.",
+			"personality": "Conceited, extravagant, rank-conscious and preoccupied with beauty.",
+			"motivation": "He wants to preserve his consequence, comforts, appearance and intact estate despite debt.",
+			"fears": "He recoils from social degradation, visible ageing, and economies that diminish his dignity.",
+			"speech": "Polished but complacent, full of judgments on rank and appearance; he turns even practical questions into reflections on his own consequence.",
+			"arc": "He leaves Kellynch for Bath, enjoys fashionable connections, and accepts Wentworth once his fortune, profession and appearance satisfy him.",
+			"relationships": [
+				{
+					"key": "anne",
+					"nature": "His middle daughter, whom he habitually undervalues."
+				},
+				{
+					"key": "elizabeth",
+					"nature": "His favourite daughter and companion in vanity."
+				},
+				{
+					"key": "mr_elliot",
+					"nature": "His heir presumptive, first estranged and then reconciled."
+				},
+				{
+					"key": "mrs_clay",
+					"nature": "Elizabeth's companion, whose flattery gains his favour."
+				},
+				{
+					"key": "lady_russell",
+					"nature": "His late wife's friend and adviser in his financial difficulties."
+				}
+			],
+			"firstChapterId": "c01"
+		},
+		{
+			"key": "elizabeth",
+			"name": "Elizabeth Elliot",
+			"aliases": [
+				"Miss Elliot"
+			],
+			"role": "Sir Walter's eldest daughter and mistress of his household.",
+			"age": "Twenty-nine.",
+			"appearance": "A very handsome woman, still in full bloom, with an elegant figure and a strong likeness to her father. Her hair is carefully dressed; fashionable gowns, a fine pelisse and bonnet, and an assured upright carriage mark her position.",
+			"personality": "Self-possessed, proud, socially ambitious and cold toward Anne.",
+			"motivation": "She seeks an alliance worthy of her birth and the social consequence she feels is due to her.",
+			"fears": "She fears remaining unmarried and suffering visible loss of rank or style.",
+			"speech": "Decisive and ceremonious with fashionable company; dismissive of Anne, and comfortably confidential with Mrs Clay.",
+			"arc": "She leaves Kellynch, pursues Bath society and imagines Mr Elliot's attentions are hers, only to see him withdraw.",
+			"relationships": [
+				{
+					"key": "sir_walter",
+					"nature": "Her father and closest ally in matters of status."
+				},
+				{
+					"key": "anne",
+					"nature": "Her sister, whose convenience and advice she disregards."
+				},
+				{
+					"key": "mrs_clay",
+					"nature": "Her favoured companion, whom she trusts despite warnings."
+				},
+				{
+					"key": "mr_elliot",
+					"nature": "Her cousin and former hoped-for match."
+				}
+			],
+			"firstChapterId": "c01"
+		},
+		{
+			"key": "lady_russell",
+			"name": "Lady Russell",
+			"aliases": [],
+			"role": "Anne's godmother, her mother's intimate friend and a wealthy widow.",
+			"age": "A woman of steady, mature age.",
+			"appearance": "A dignified, upright woman with a composed face and crow's feet at her temples. Her hair is neatly dressed beneath a cap or bonnet; she favours formal, carefully arranged gowns, a shawl and a respectable carriage.",
+			"personality": "Benevolent, conscientious and decorous, but prejudiced in favour of ancestry and polished manners.",
+			"motivation": "She wants Anne secure and happy, and the Elliot family honourably protected.",
+			"fears": "She fears imprudence, financial dependence and alliances that expose Anne or the family to hardship.",
+			"speech": "Courteous, serious and reasoned; her advice combines affection with appeals to principle, prudence and propriety.",
+			"arc": "She hopes Anne will marry Mr Elliot, then recognises her errors about him and Wentworth and welcomes Anne's happiness.",
+			"relationships": [
+				{
+					"key": "anne",
+					"nature": "Her beloved goddaughter and closest young friend."
+				},
+				{
+					"key": "wentworth",
+					"nature": "She opposed his early engagement to Anne, then learns to value him."
+				},
+				{
+					"key": "sir_walter",
+					"nature": "Her old neighbour, whom she advises with regard for his dignity."
+				},
+				{
+					"key": "mr_elliot",
+					"nature": "She misjudges his polished manner as evidence of principle."
+				}
+			],
+			"firstChapterId": "c01"
+		},
+		{
+			"key": "mary",
+			"name": "Mary Musgrove",
+			"aliases": [
+				"Mrs Charles Musgrove",
+				"Mary"
+			],
+			"role": "Anne's younger sister, married to Charles Musgrove and mother of two boys.",
+			"age": "A young married woman, born in 1791.",
+			"appearance": "A well-grown woman once called a fine girl, less handsome than her sisters, with a tendency to look coarse or flushed. She wears fashionable high-waisted gowns and bonnets; at home she may recline on a sofa among the Cottage's worn furnishings.",
+			"personality": "Affectionate when pleased but querulous, self-important, jealous and readily convinced she is neglected or ill.",
+			"motivation": "She wants attention, amusement, precedence and the recognition due to an Elliot.",
+			"fears": "She dreads being left alone, overlooked, ill-used or placed below her relations.",
+			"speech": "Exclamatory and repetitive: she insists that nobody attends to her, then changes her account as circumstances change.",
+			"arc": "Her complaints repeatedly redirect others' plans, including Anne's nursing at Lyme; she later takes credit and comfort from Anne's advantageous marriage.",
+			"relationships": [
+				{
+					"key": "anne",
+					"nature": "Her elder sister, whom she claims as companion and nurse."
+				},
+				{
+					"key": "charles",
+					"nature": "Her good-humoured husband, with whom she often disagrees."
+				},
+				{
+					"key": "louisa",
+					"nature": "Her sister-in-law, whose bedside she insists on remaining at."
+				},
+				{
+					"key": "henrietta",
+					"nature": "Her sister-in-law, whose proposed marriage to Hayter she despises."
+				}
+			],
+			"firstChapterId": "c01"
+		},
+		{
+			"key": "charles",
+			"name": "Charles Musgrove",
+			"aliases": [
+				"Charles"
+			],
+			"role": "Mary's husband and heir to the Uppercross estate; he once proposed to Anne.",
+			"age": "A young married man.",
+			"appearance": "A pleasant, well-built country gentleman with a healthy complexion and easy bearing. He wears practical shooting clothes and boots outdoors, and a plain coat and neckcloth for visits; a gun, dogs or riding gear often accompany him.",
+			"personality": "Good-natured and sociable, more sensible than Mary but chiefly energetic about sport.",
+			"motivation": "He wants his family comfortable and his days occupied with shooting and company.",
+			"fears": "He is alarmed by serious harm to his children or sisters, though he does not dwell on ordinary anxieties.",
+			"speech": "Direct, cheerful and informal, with sporting details and blunt teasing; he defends friends and family without much ceremony.",
+			"arc": "His affection and practical kindness support the family after Louisa's fall; his chance errand leaves Anne and Wentworth alone to reconcile.",
+			"relationships": [
+				{
+					"key": "mary",
+					"nature": "His wife, whose complaints he alternately indulges and resists."
+				},
+				{
+					"key": "anne",
+					"nature": "His sister-in-law and former choice for a wife."
+				},
+				{
+					"key": "louisa",
+					"nature": "His sister, whose injury deeply distressses him."
+				},
+				{
+					"key": "wentworth",
+					"nature": "His shooting companion and warmly admired friend."
+				}
+			],
+			"firstChapterId": "c04"
+		},
+		{
+			"key": "louisa",
+			"name": "Louisa Musgrove",
+			"aliases": [
+				"Miss Louisa Musgrove"
+			],
+			"role": "Charles's high-spirited sister, admired by Wentworth before her fall at Lyme.",
+			"age": "One of the two Musgrove sisters aged nineteen and twenty.",
+			"appearance": "A rather pretty young woman with lively eyes, an animated face and a light, active figure. Her hair is fashionably dressed; she wears a fresh high-waisted gown and, outdoors, a pelisse and bonnet suitable for walking.",
+			"personality": "Merry, enthusiastic, affectionate and determined, with a taste for having her own way.",
+			"motivation": "She wants pleasure, companionship and the freedom to follow her feelings; she admires naval warmth and courage.",
+			"fears": "After her injury she becomes highly susceptible to noise and nervous agitation.",
+			"speech": "Eager and emphatic, full of quick praise and declarations; she speaks firmly when defending a decision.",
+			"arc": "Her insistence on a second jump ends in a severe head injury; during recovery she and Benwick become engaged.",
+			"relationships": [
+				{
+					"key": "henrietta",
+					"nature": "Her close and affectionate sister."
+				},
+				{
+					"key": "wentworth",
+					"nature": "His attentions and praise encourage her; he catches her after her fall."
+				},
+				{
+					"key": "benwick",
+					"nature": "Her companion during recovery and eventual fiancé."
+				},
+				{
+					"key": "charles",
+					"nature": "Her affectionate brother."
+				}
+			],
+			"firstChapterId": "c05"
+		},
+		{
+			"key": "henrietta",
+			"name": "Henrietta Musgrove",
+			"aliases": [
+				"Miss Musgrove"
+			],
+			"role": "Louisa's sister, courted by her cousin Charles Hayter and briefly attracted to Wentworth.",
+			"age": "One of the two Musgrove sisters aged nineteen and twenty.",
+			"appearance": "A rather pretty, fashionably dressed young woman, perhaps the prettier of the sisters, with a gentle expression and a neat, youthful figure. Her hair is dressed up beneath a bonnet; she wears a high-waisted gown and walking pelisse.",
+			"personality": "Pleasant and affectionate, but more easily influenced than Louisa.",
+			"motivation": "She wants a happy marriage with Charles Hayter and advancement in his clerical prospects.",
+			"fears": "She is overwhelmed by the apparent loss of Louisa after the fall.",
+			"speech": "Warm and sociable, with eager repetitions; she speaks earnestly about Dr Shirley's health and Hayter's prospects.",
+			"arc": "Diverted by Wentworth, she renews her attachment to Hayter and gains family consent to marry him.",
+			"relationships": [
+				{
+					"key": "louisa",
+					"nature": "Her close sister, who encourages her visit to Hayter."
+				},
+				{
+					"key": "wentworth",
+					"nature": "His arrival temporarily distracts her from her cousin."
+				},
+				{
+					"key": "anne",
+					"nature": "A sympathetic companion at Uppercross and Lyme."
+				}
+			],
+			"firstChapterId": "c05"
+		},
+		{
+			"key": "mrs_croft",
+			"name": "Mrs Croft",
+			"aliases": [
+				"Sophia Croft",
+				"Sophy"
+			],
+			"role": "Wentworth's sister and the admiral's wife; a welcoming tenant of Kellynch.",
+			"age": "Thirty-eight.",
+			"appearance": "Neither tall nor fat, but square, upright and vigorous, with bright dark eyes, good teeth and an agreeable face. Her complexion is reddened and weather-beaten. She wears practical, neat gowns, a bonnet and shawl for walking or driving.",
+			"personality": "Open, capable, good-humoured and decisive, with a brisk independence.",
+			"motivation": "She values being with her husband and making a comfortable, useful home together.",
+			"fears": "Separation from her husband at sea has caused her real anxiety and imaginary complaints.",
+			"speech": "Frank and sensible, puncturing refinements with practical examples; affectionate and brisk with her husband and brother.",
+			"arc": "She establishes a happy home at Kellynch, befriends Anne, and later witnesses the renewal of Anne's bond with her brother.",
+			"relationships": [
+				{
+					"key": "wentworth",
+					"nature": "Her affectionate brother, whose views she can challenge."
+				},
+				{
+					"key": "admiral_croft",
+					"nature": "Her husband and constant companion ashore and at sea."
+				},
+				{
+					"key": "anne",
+					"nature": "A neighbour she treats with considerate warmth."
+				}
+			],
+			"firstChapterId": "c05"
+		},
+		{
+			"key": "admiral_croft",
+			"name": "Admiral Croft",
+			"aliases": [
+				"the Admiral"
+			],
+			"role": "A retired naval officer who rents Kellynch Hall with his wife.",
+			"age": "A mature man.",
+			"appearance": "A hale, hearty, well-looking man with a slightly weather-beaten face and an easy, substantial figure. He wears a plain dark coat, waistcoat and neckcloth, and often stands with his hands behind his back.",
+			"personality": "Frank, generous, simple-hearted and cheerful, with an absent-minded streak.",
+			"motivation": "He wants a comfortable home in Somerset and the company of his wife and naval friends.",
+			"fears": "He is troubled by others' distress and seeks treatment in Bath when thought gouty.",
+			"speech": "Bluff and conversational, full of digressions, hearty exclamations and naval comparisons; he readily offers practical help.",
+			"arc": "He becomes a considerate tenant and friend to Anne, and brings her reassuring news of Wentworth.",
+			"relationships": [
+				{
+					"key": "mrs_croft",
+					"nature": "His wife, partner in journeys and household decisions."
+				},
+				{
+					"key": "wentworth",
+					"nature": "His brother-in-law, welcome at Kellynch as at home."
+				},
+				{
+					"key": "anne",
+					"nature": "His landlord's daughter, whom he treats as a friend."
+				},
+				{
+					"key": "sir_walter",
+					"nature": "His landlord, whose vanity he regards with good humour."
+				}
+			],
+			"firstChapterId": "c05"
+		},
+		{
+			"key": "mr_elliot",
+			"name": "Mr Elliot",
+			"aliases": [
+				"William Walter Elliot",
+				"Mr William Elliot"
+			],
+			"role": "Sir Walter's heir presumptive and Anne's polished, calculating cousin.",
+			"age": "About thirty at Lyme.",
+			"appearance": "An agreeable-looking man with a well-shaped face, sensible eyes and a noticeably under-hung jaw. He has a fashionable, well-groomed appearance and easy posture; at Lyme he wears mourning, including crape on his hat.",
+			"personality": "Discreet, observant and agreeable in company, but secretive and self-interested.",
+			"motivation": "He wants the baronetcy secured against a possible new heir and comes to desire Anne as his wife.",
+			"fears": "He fears Sir Walter's marriage to Mrs Clay and the loss of his expected title and estate.",
+			"speech": "Polished, attentive and controlled; he flatters subtly, adapts to his listener and withholds damaging information.",
+			"arc": "He reconciles with the Elliots to watch Mrs Clay, courts Anne, and after her engagement leaves Bath; Mrs Clay is later established under his protection.",
+			"relationships": [
+				{
+					"key": "anne",
+					"nature": "His cousin, whom he admires and hopes to marry."
+				},
+				{
+					"key": "sir_walter",
+					"nature": "His relative and predecessor in the expected baronetcy."
+				},
+				{
+					"key": "mrs_clay",
+					"nature": "A rival schemer whom he seeks to keep from marrying Sir Walter."
+				},
+				{
+					"key": "mrs_smith",
+					"nature": "His former friend's widow, whom he has refused to assist."
+				},
+				{
+					"key": "elizabeth",
+					"nature": "His cousin, who once expected to marry him."
+				}
+			],
+			"firstChapterId": "c12"
+		},
+		{
+			"key": "mrs_clay",
+			"name": "Mrs Clay",
+			"aliases": [
+				"Penelope Clay",
+				"Penelope"
+			],
+			"role": "Mr Shepherd's widowed daughter and Elizabeth's insinuating companion.",
+			"age": "A young widow, between thirty and forty.",
+			"appearance": "A well-looking woman with freckles, a projecting tooth and a clumsy wrist. Her hair is neatly dressed, and she wears becoming, carefully maintained gowns and a bonnet; her expression is often ready with a smile.",
+			"personality": "Clever, tactful, observant and adept at making herself useful and agreeable.",
+			"motivation": "She seeks security and advancement through the Elliot household, with designs on Sir Walter.",
+			"fears": "Exposure or interruption of her prospects threatens her position in the household.",
+			"speech": "Fluent and ingratiating, with ready compliments and apparently self-effacing concern for others.",
+			"arc": "She accompanies Elizabeth to Bath, remains close to Sir Walter despite suspicion, and eventually leaves under Mr Elliot's protection.",
+			"relationships": [
+				{
+					"key": "elizabeth",
+					"nature": "Her friend and patroness, whom she flatters."
+				},
+				{
+					"key": "sir_walter",
+					"nature": "Her prospective target for an advantageous marriage."
+				},
+				{
+					"key": "mr_elliot",
+					"nature": "Her opponent in the matter of Sir Walter's remarriage and later protector."
+				},
+				{
+					"key": "anne",
+					"nature": "An observer alert to the danger of her intimacy with Sir Walter."
+				}
+			],
+			"firstChapterId": "c03"
+		},
+		{
+			"key": "mrs_smith",
+			"name": "Mrs Smith",
+			"aliases": [
+				"Miss Hamilton"
+			],
+			"role": "Anne's former school friend, now a poor and disabled widow in Bath.",
+			"age": "Not yet thirty-one.",
+			"appearance": "Formerly fine-looking and well-grown, she is now an infirm woman whose legs were damaged by rheumatic fever. Her hair is simply dressed; she wears a modest gown and shawl, and sits among knitting, thread-cases and small articles for sale.",
+			"personality": "Intelligent, resilient and cheerful, with a shrewd appreciation of human weakness.",
+			"motivation": "She wants companionship, means to help poorer neighbours, and recovery of her husband's West Indian property.",
+			"fears": "She fears poverty, neglected claims and the loss of Anne's friendship through marriage to Mr Elliot.",
+			"speech": "Candid, lively and ironic, drawing on Nurse Rooke's reports; when recalling injury she becomes grave and intensely direct.",
+			"arc": "She renews Anne's friendship, reveals Mr Elliot's past and present designs, and gains Wentworth's help with her property.",
+			"relationships": [
+				{
+					"key": "anne",
+					"nature": "Her former school protégée and devoted friend."
+				},
+				{
+					"key": "mr_elliot",
+					"nature": "Her husband's former friend, whose refusal to act as executor injured her."
+				},
+				{
+					"key": "wentworth",
+					"nature": "Anne's husband, who helps her pursue her property."
+				}
+			],
+			"firstChapterId": "c17"
+		},
+		{
+			"key": "harville",
+			"name": "Captain Harville",
+			"aliases": [],
+			"role": "Wentworth's wounded naval friend and Benwick's almost brother-in-law.",
+			"age": "A mature naval officer.",
+			"appearance": "A tall, dark man with strong features, a sensible benevolent countenance and a slight lameness. Ill health makes him look older than Wentworth. He wears a plain dark coat and often occupies his hands with tools or a fishing net.",
+			"personality": "Warm, unaffected, hospitable and ingenious, with deep feeling beneath a practical manner.",
+			"motivation": "He wants to care for his family and friends and make their limited lodgings comfortable.",
+			"fears": "He fears for those he loves and grieves his sister Fanny's death.",
+			"speech": "Frank, affectionate and vivid, using naval images; strong feeling can interrupt his easy conversation.",
+			"arc": "He shelters Louisa after her fall, mourns Benwick's changed attachment, and unknowingly helps prompt Wentworth's declaration.",
+			"relationships": [
+				{
+					"key": "wentworth",
+					"nature": "His close friend, who brought Benwick news of Fanny's death."
+				},
+				{
+					"key": "benwick",
+					"nature": "His guest and his late sister's former fiancé."
+				},
+				{
+					"key": "anne",
+					"nature": "A valued friend with whom he debates constancy."
+				},
+				{
+					"key": "louisa",
+					"nature": "The injured guest whom his household nurses."
+				}
+			],
+			"firstChapterId": "c11"
+		},
+		{
+			"key": "benwick",
+			"name": "Captain Benwick",
+			"aliases": [
+				"James Benwick"
+			],
+			"role": "A young naval commander mourning Fanny Harville, later engaged to Louisa.",
+			"age": "A young man, the youngest of the three captains at Lyme.",
+			"appearance": "A small man with a pleasing face and melancholy air, younger-looking than Wentworth or Harville. He wears a dark, restrained coat and neckcloth and often carries or sits with a book.",
+			"personality": "Shy, sensitive, affectionate and serious, with a strong taste for poetry.",
+			"motivation": "He seeks comfort and sympathetic companionship after the death of his fiancée.",
+			"fears": "He is oppressed by grief and initially withdraws from unfamiliar company.",
+			"speech": "Quiet and hesitant with strangers; he becomes expressive when discussing poetry and passages of grief.",
+			"arc": "Anne draws him into conversation and recommends prose; during Louisa's recovery he forms a new attachment and becomes engaged to her.",
+			"relationships": [
+				{
+					"key": "harville",
+					"nature": "His host and the brother of his late fiancée."
+				},
+				{
+					"key": "wentworth",
+					"nature": "His former captain and loyal friend."
+				},
+				{
+					"key": "anne",
+					"nature": "A sympathetic reader who recommends books to him."
+				},
+				{
+					"key": "louisa",
+					"nature": "His companion during her recovery and future wife."
+				}
+			],
+			"firstChapterId": "c11"
+		}
+	],
+	"places": [
+		{
+			"key": "kellynch_hall",
+			"name": "Kellynch Hall",
+			"description": "The Elliot family seat, let furnished to the Crofts when Sir Walter's debts force retrenchment.",
+			"visual": "A substantial country house amid park, lawns, groves, shrubberies and flower gardens; formal rooms hold pictures and many looking-glasses. The Crofts hang umbrellas by a shrubbery door."
+		},
+		{
+			"key": "kellynch_lodge",
+			"name": "Kellynch Lodge",
+			"description": "Lady Russell's home near the Hall, a refuge and familiar base for Anne.",
+			"visual": "A comfortable country lodge with modern, elegant apartments, carriage access and grounds close to the village and the Hall."
+		},
+		{
+			"key": "uppercross",
+			"name": "Uppercross",
+			"description": "The Musgroves' busy village, three miles from Kellynch, where Anne stays with Mary.",
+			"visual": "The old Great House has high walls, great gates and trees; its square parlour has a shining floor, small carpet, portraits, piano-forte, harp and scattered tables. The Cottage has a veranda, French windows and a faded sofa."
+		},
+		{
+			"key": "winthrop",
+			"name": "Winthrop",
+			"description": "The Hayter family home, destination of the November walk and Henrietta's renewed attachment.",
+			"visual": "An undistinguished low house enclosed by barns and farm buildings, seen from a hill beyond fields, hedges and stiles."
+		},
+		{
+			"key": "lyme",
+			"name": "Lyme",
+			"description": "A Dorset seaside town visited out of season, where the naval friends live and Louisa is injured.",
+			"visual": "A steep street descends to the sea; a walk skirts a small bay to the old Cobb, its high and lower levels joined by steep steps. Cliffs, sands and a small house near the pier frame the shore."
+		},
+		{
+			"key": "harvilles_house",
+			"name": "The Harvilles' house",
+			"description": "The hospitable naval household near the Cobb, where Louisa is nursed.",
+			"visual": "Very small rooms fitted with handmade shelves and storm protections, curious objects from distant countries, children's toys, tools and a large fishing net."
+		},
+		{
+			"key": "camden_place",
+			"name": "Camden Place",
+			"description": "Sir Walter's fashionable Bath residence, the centre of the Elliots' pursuit of consequence.",
+			"visual": "A lofty town house with two adjoining drawing-rooms and folding doors, elegant furniture, mirrors, china and a mantel clock with silver sounds."
+		},
+		{
+			"key": "westgate_buildings",
+			"name": "Westgate Buildings",
+			"description": "The modest Bath lodgings where Anne renews her friendship with Mrs Smith.",
+			"visual": "A noisy parlour and a dark bedroom behind it, near the hot baths; a small inlaid box of papers and handmade goods occupy the room."
+		},
+		{
+			"key": "white_hart",
+			"name": "The White Hart",
+			"description": "The Bath inn where the Musgroves stay and Wentworth gives Anne his letter.",
+			"visual": "A spacious, busy dining-room with windows, separate tables, writing materials, parcels and visitors continually arriving."
+		},
+		{
+			"key": "bath_rooms",
+			"name": "The Bath rooms",
+			"description": "Public rooms for fashionable gatherings and the concert at which Anne recognises Wentworth's jealousy.",
+			"visual": "An Octagon Room with fires leads to a crowded concert room of benches, orchestra, concert bills, slamming doors and elegantly dressed company."
+		}
+	],
+	"timeline": [
+		{
+			"chapterId": "c01",
+			"title": "Chapter 1",
+			"summary": "The Elliot family history, Sir Walter's vanity, Elizabeth's disappointment and the debts threatening Kellynch are established.",
+			"events": [
+				"Sir Walter consults the Baronetage and his own family entry.",
+				"The family history describes Lady Elliot's death and Anne's neglect.",
+				"Elizabeth's hopes of marrying the heir, Mr Elliot, are frustrated by his marriage and estrangement.",
+				"Sir Walter confesses the extent of his debts to Elizabeth.",
+				"Mr Shepherd and Lady Russell are called upon to advise."
+			],
+			"present": [
+				"sir_walter",
+				"elizabeth",
+				"anne",
+				"lady_russell"
+			],
+			"knowledge": [
+				{
+					"key": "elizabeth",
+					"learns": "She learns the full extent of her father's financial embarrassment."
+				}
+			],
+			"mood": "Ironic, elegant, financially anxious"
+		},
+		{
+			"chapterId": "c02",
+			"title": "Chapter 2",
+			"summary": "A plan to economise at Kellynch fails, and the family decides to move to Bath and secretly let the Hall.",
+			"events": [
+				"Lady Russell consults Anne and drafts a scheme to clear the debts.",
+				"Sir Walter rejects reductions in his household and proposes leaving Kellynch.",
+				"Mr Shepherd supports a change of residence and steers the choice toward Bath.",
+				"The family settles on letting the Hall only to an acceptable unsolicited tenant.",
+				"Lady Russell hopes the move will separate Elizabeth from Mrs Clay."
+			],
+			"present": [
+				"lady_russell",
+				"anne",
+				"sir_walter",
+				"elizabeth"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "She learns that Bath, which she dislikes, is to be her home."
+				},
+				{
+					"key": "lady_russell",
+					"learns": "She sees an opportunity to interrupt Elizabeth's intimacy with Mrs Clay."
+				}
+			],
+			"mood": "Practical conflict and disappointment"
+		},
+		{
+			"chapterId": "c03",
+			"title": "Chapter 3",
+			"summary": "A naval tenant is proposed, and Anne hears that his wife is connected to the Wentworth family.",
+			"events": [
+				"Shepherd advocates naval tenants while Sir Walter objects to sailors' rank and weathered looks.",
+				"Anne defends the navy's claim to domestic comforts.",
+				"Shepherd reports Admiral Croft's interest and describes his means and family.",
+				"Anne identifies Mrs Croft's brother as Mr Wentworth of Monkford.",
+				"Sir Walter authorises negotiations, and Anne walks alone in the grove thinking of another Wentworth."
+			],
+			"present": [
+				"sir_walter",
+				"mrs_clay",
+				"anne",
+				"elizabeth"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "She learns that Mrs Croft is a Wentworth and anticipates Captain Wentworth's possible return."
+				},
+				{
+					"key": "sir_walter",
+					"learns": "He learns that a prosperous admiral wishes to rent Kellynch."
+				}
+			],
+			"mood": "Satirical, then quietly agitated"
+		},
+		{
+			"chapterId": "c04",
+			"title": "Chapter 4",
+			"summary": "The history of Anne and Wentworth's broken engagement explains her agitation at the Crofts' arrival.",
+			"events": [
+				"In 1806 Anne and Frederick Wentworth fall in love and become engaged.",
+				"Sir Walter is cold, and Lady Russell urges Anne against the uncertain match.",
+				"Anne breaks the engagement, believing the sacrifice also benefits Wentworth.",
+				"Anne later refuses Charles Musgrove, while Wentworth prospers at sea.",
+				"In the present Anne considers the past and hopes the Crofts know nothing of the engagement."
+			],
+			"present": [
+				"anne",
+				"wentworth",
+				"sir_walter",
+				"lady_russell",
+				"charles"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "At twenty-seven she believes she would have been happier keeping the engagement, though she does not blame Lady Russell or herself."
+				}
+			],
+			"mood": "Regretful, intimate, hopeful and afraid"
+		},
+		{
+			"chapterId": "c05",
+			"title": "Chapter 5",
+			"summary": "The Crofts take Kellynch, Anne stays behind for Mary, and the Bath party departs with Mrs Clay.",
+			"events": [
+				"Anne avoids the Crofts' inspection; the two parties agree on the tenancy.",
+				"Mary asks Anne to remain at Uppercross Cottage instead of going straight to Bath.",
+				"Anne warns Elizabeth that Mrs Clay might attract Sir Walter; Elizabeth dismisses her.",
+				"Sir Walter, Elizabeth and Mrs Clay leave for Bath.",
+				"Anne reaches the Cottage, cheers the complaining Mary, and visits the Musgroves at the Great House."
+			],
+			"present": [
+				"anne",
+				"lady_russell",
+				"sir_walter",
+				"elizabeth",
+				"mrs_clay",
+				"mary",
+				"louisa",
+				"henrietta",
+				"admiral_croft",
+				"mrs_croft"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "She finds Elizabeth unwilling to credit the danger she sees in Mrs Clay's position."
+				},
+				{
+					"key": "lady_russell",
+					"learns": "She discovers that Mrs Clay is to accompany the family to Bath."
+				}
+			],
+			"mood": "Displacement, domestic comedy, unease"
+		},
+		{
+			"chapterId": "c06",
+			"title": "Chapter 6",
+			"summary": "Anne settles into Uppercross life and learns that Captain Wentworth is expected at Kellynch.",
+			"events": [
+				"Anne finds the Musgroves absorbed in their own local concerns.",
+				"She listens to competing complaints between Mary and the Great House.",
+				"She plays country dances while the young people enjoy themselves.",
+				"The Crofts take possession at Michaelmas and return Mary's visit.",
+				"Louisa reports that her mother has connected Captain Wentworth with the late Dick Musgrove."
+			],
+			"present": [
+				"anne",
+				"mary",
+				"charles",
+				"louisa",
+				"henrietta",
+				"admiral_croft",
+				"mrs_croft"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "She learns that Frederick Wentworth is expected soon and that the Musgroves intend to seek his acquaintance."
+				},
+				{
+					"key": "anne",
+					"learns": "She believes Mrs Croft shows no sign of knowing about the old engagement."
+				}
+			],
+			"mood": "Busy, ironic, increasingly apprehensive"
+		},
+		{
+			"chapterId": "c07",
+			"title": "Chapter 7",
+			"summary": "Little Charles's injury delays Anne's reunion with Wentworth; when they meet, his coldness wounds her.",
+			"events": [
+				"A fall injures little Charles just as Anne and Mary are setting out for the Great House.",
+				"Anne organises help and nurses him while the apothecary examines him.",
+				"She offers to stay with the child so Mary and Charles can dine with Wentworth.",
+				"Wentworth briefly visits the Cottage and exchanges a bow with Anne.",
+				"Mary reports his remark that Anne is so altered he would not have recognised her."
+			],
+			"present": [
+				"anne",
+				"mary",
+				"charles",
+				"louisa",
+				"henrietta",
+				"wentworth",
+				"mrs_croft"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "She hears Wentworth's painful judgment of her altered appearance and believes he wished to avoid her."
+				},
+				{
+					"key": "wentworth",
+					"learns": "He sees Anne again and judges her much altered; he believes his love for her is over."
+				}
+			],
+			"mood": "Alarm, restraint, mortification"
+		},
+		{
+			"chapterId": "c08",
+			"title": "Chapter 8",
+			"summary": "Anne and Wentworth meet repeatedly in company, where his naval stories and formal politeness intensify their estrangement.",
+			"events": [
+				"Wentworth recounts his service in the Asp and the Laconia.",
+				"He comforts Mrs Musgrove about her dead son despite private amusement.",
+				"He and Mrs Croft dispute the comfort of women aboard ships.",
+				"Anne plays for dancing while the young women admire Wentworth.",
+				"He offers Anne her seat at the instrument with studied politeness."
+			],
+			"present": [
+				"anne",
+				"wentworth",
+				"louisa",
+				"henrietta",
+				"charles",
+				"mary",
+				"admiral_croft",
+				"mrs_croft"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "She hears how narrowly the Asp escaped a fatal gale and observes Wentworth's kindness to Mrs Musgrove."
+				}
+			],
+			"mood": "Lively company, private loneliness"
+		},
+		{
+			"chapterId": "c09",
+			"title": "Chapter 9",
+			"summary": "Wentworth's attentions disturb Henrietta's cousin, while a small act of kindness deeply moves Anne.",
+			"events": [
+				"Wentworth postpones visiting his brother and spends his mornings at Uppercross.",
+				"Charles Hayter returns to find Henrietta distracted by Wentworth.",
+				"Mary and Charles speculate about which Musgrove sister Wentworth prefers.",
+				"Wentworth unexpectedly finds Anne nursing little Charles at the Cottage.",
+				"He silently removes the troublesome little Walter from Anne's back."
+			],
+			"present": [
+				"anne",
+				"wentworth",
+				"mary",
+				"charles",
+				"louisa",
+				"henrietta"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "She sees that Wentworth will relieve her distress even while avoiding conversation and thanks."
+				}
+			],
+			"mood": "Jealous, awkward, tender"
+		},
+		{
+			"chapterId": "c10",
+			"title": "Chapter 10",
+			"summary": "On a long autumn walk, Anne overhears Wentworth praise firmness and sees him arrange relief for her fatigue.",
+			"events": [
+				"Charles Hayter withdraws from Uppercross after Henrietta's changed behaviour.",
+				"The Musgrove sisters, Anne, Mary, Charles and Wentworth walk toward Winthrop.",
+				"Louisa persuades Henrietta to visit the Hayters despite Mary's objections.",
+				"Anne overhears Wentworth praise Louisa's firmness and learn that Anne refused Charles.",
+				"Henrietta returns with Hayter, and Wentworth secures Anne a place in the Crofts' gig."
+			],
+			"present": [
+				"anne",
+				"wentworth",
+				"mary",
+				"charles",
+				"louisa",
+				"henrietta",
+				"admiral_croft",
+				"mrs_croft"
+			],
+			"knowledge": [
+				{
+					"key": "wentworth",
+					"learns": "Louisa tells him Anne refused Charles Musgrove; she repeats her parents' belief that Lady Russell caused the refusal."
+				},
+				{
+					"key": "anne",
+					"learns": "She hears Wentworth condemn yielding and believes his assistance shows kindness rather than renewed love."
+				},
+				{
+					"key": "anne",
+					"learns": "She sees Henrietta and Charles Hayter reconciled."
+				}
+			],
+			"mood": "Autumnal, wounded, quietly compassionate"
+		},
+		{
+			"chapterId": "c11",
+			"title": "Chapter 11",
+			"summary": "Louisa drives a party to visit Lyme, where Anne meets Wentworth's naval friends and consoles the grieving Benwick.",
+			"events": [
+				"Wentworth reports finding Captain Harville at Lyme.",
+				"Louisa presses for a visit despite her parents' preference for waiting until summer.",
+				"The party travels to Lyme and meets the Harvilles and Benwick on the Cobb.",
+				"Anne admires the Harvilles' ingenious, hospitable household.",
+				"She discusses poetry and grief with Benwick and recommends strengthening prose."
+			],
+			"present": [
+				"anne",
+				"wentworth",
+				"mary",
+				"charles",
+				"louisa",
+				"henrietta",
+				"harville",
+				"benwick"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "She learns of Benwick's engagement to Fanny Harville and her death while he was at sea."
+				},
+				{
+					"key": "benwick",
+					"learns": "Anne recommends moralists, letters and memoirs as an alternative to unrelieved poetry of grief."
+				}
+			],
+			"mood": "Seaside novelty, hospitality, melancholy"
+		},
+		{
+			"chapterId": "c12",
+			"title": "Chapter 12",
+			"summary": "A stranger admires Anne, then Louisa falls on the Cobb and Anne directs the immediate response.",
+			"events": [
+				"Anne and Henrietta walk by the sea; a gentleman admires Anne on the steps.",
+				"The party learns that the departing stranger is their cousin Mr Elliot.",
+				"Harville tells Anne how Wentworth conveyed news of Fanny's death to Benwick.",
+				"Louisa insists on a second jump from the Cobb steps and falls unconscious.",
+				"Anne directs aid; Benwick fetches a surgeon and the Harvilles take Louisa in.",
+				"Mary insists on staying in Anne's place; Anne returns to Uppercross with Henrietta and Wentworth."
+			],
+			"present": [
+				"anne",
+				"henrietta",
+				"louisa",
+				"wentworth",
+				"mary",
+				"charles",
+				"mr_elliot",
+				"harville",
+				"benwick"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "She identifies the admiring stranger as Mr Elliot and hears of Wentworth's devoted care for Benwick."
+				},
+				{
+					"key": "wentworth",
+					"learns": "He sees Anne act decisively during Louisa's accident and later consults her about breaking the news."
+				},
+				{
+					"key": "anne",
+					"learns": "She hears the surgeon say Louisa's severe head injury is not hopeless."
+				}
+			],
+			"mood": "Beauty, shock, urgent compassion"
+		},
+		{
+			"chapterId": "c13",
+			"title": "Chapter 13",
+			"summary": "Anne helps the Musgroves arrange Louisa's care, returns to Lady Russell and visits the Crofts at Kellynch.",
+			"events": [
+				"Reports from Lyme describe Louisa's condition and Mrs Harville's nursing.",
+				"Anne helps send the old nursery-maid Sarah to Lyme.",
+				"She persuades the remaining Musgroves to join Louisa there.",
+				"Lady Russell takes Anne to Kellynch Lodge.",
+				"At the Hall, Mrs Croft tells Anne that Wentworth brought a note and praised her exertions."
+			],
+			"present": [
+				"anne",
+				"charles",
+				"lady_russell",
+				"admiral_croft",
+				"mrs_croft"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "She learns Wentworth particularly enquired after her and praised her exertions."
+				},
+				{
+					"key": "lady_russell",
+					"learns": "Anne tells her that she believes Wentworth and Louisa attached."
+				},
+				{
+					"key": "anne",
+					"learns": "She concludes that the Crofts are better occupants of Kellynch than its owners."
+				}
+			],
+			"mood": "Anxious, subdued, affectionate"
+		},
+		{
+			"chapterId": "c14",
+			"title": "Chapter 14",
+			"summary": "Louisa improves, Benwick does not visit Anne, and Anne and Lady Russell travel to Bath.",
+			"events": [
+				"Charles and Mary report Louisa sitting up but still weak.",
+				"Charles suggests Benwick admires Anne and wanted to see her.",
+				"Benwick does not make the expected call at Kellynch.",
+				"Anne visits the lively Musgrove household at Christmas.",
+				"Lady Russell and Anne arrive in Bath after hearing of Mr Elliot's reconciliation with the family."
+			],
+			"present": [
+				"anne",
+				"mary",
+				"charles",
+				"lady_russell"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "Charles believes Benwick admires her and has been reading the books she recommended."
+				},
+				{
+					"key": "anne",
+					"learns": "She learns Wentworth has gone to his brother in Shropshire."
+				},
+				{
+					"key": "lady_russell",
+					"learns": "Elizabeth reports Mr Elliot's repeated, attentive calls in Bath."
+				}
+			],
+			"mood": "Convalescence, bustle, reluctant transition"
+		},
+		{
+			"chapterId": "c15",
+			"title": "Chapter 15",
+			"summary": "Anne arrives in Camden Place and meets Mr Elliot, whose polished attention improves an otherwise unwelcome homecoming.",
+			"events": [
+				"Sir Walter and Elizabeth welcome Anne and display their Bath house.",
+				"They explain Mr Elliot's apologies and their renewed intimacy.",
+				"Anne wonders whether he intends to court Elizabeth.",
+				"Mr Elliot calls late and recognises Anne as the woman he admired at Lyme.",
+				"He questions Anne with apparent concern about the accident and her experience."
+			],
+			"present": [
+				"anne",
+				"sir_walter",
+				"elizabeth",
+				"mrs_clay",
+				"mr_elliot"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "She learns how Mr Elliot has explained his former estrangement and considers Elizabeth a possible object of his attention."
+				},
+				{
+					"key": "mr_elliot",
+					"learns": "He discovers that the woman he admired at Lyme is his cousin Anne."
+				}
+			],
+			"mood": "Social vanity, surprise, cautious pleasure"
+		},
+		{
+			"chapterId": "c16",
+			"title": "Chapter 16",
+			"summary": "Mr Elliot wins Lady Russell's approval while Anne notices his taste for rank and his opposition to Mrs Clay.",
+			"events": [
+				"Sir Walter and Elizabeth persuade Mrs Clay to remain.",
+				"Sir Walter praises Anne's looks and recommends Gowland, which Mrs Clay has used.",
+				"Lady Russell grows convinced of Mr Elliot's excellence.",
+				"Sir Walter renews contact with the titled Dalrymple cousins.",
+				"Anne and Mr Elliot debate good company, and he hints that grander acquaintances may distract Sir Walter from Mrs Clay."
+			],
+			"present": [
+				"anne",
+				"sir_walter",
+				"elizabeth",
+				"mrs_clay",
+				"lady_russell",
+				"mr_elliot"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "She sees that Mr Elliot regards Mrs Clay as a danger and values rank more highly than she does."
+				},
+				{
+					"key": "lady_russell",
+					"learns": "She comes to believe Mr Elliot is an estimable man and may contemplate a second marriage."
+				}
+			],
+			"mood": "Polished, watchful, satirical"
+		},
+		{
+			"chapterId": "c17",
+			"title": "Chapter 17",
+			"summary": "Anne renews her friendship with the impoverished Mrs Smith and resists Lady Russell's hopes of a match with Mr Elliot.",
+			"events": [
+				"Anne learns of Mrs Smith's poverty and illness and visits her in Westgate Buildings.",
+				"Mrs Smith describes Nurse Rooke's help and her own small charitable work.",
+				"Anne keeps an engagement with Mrs Smith despite Sir Walter's contempt and an invitation from Lady Dalrymple.",
+				"Lady Russell reports Mr Elliot's praise and imagines Anne as the future Lady Elliot.",
+				"Anne feels the appeal of returning to Kellynch but decides she could never accept Mr Elliot."
+			],
+			"present": [
+				"anne",
+				"mrs_smith",
+				"sir_walter",
+				"elizabeth",
+				"mrs_clay",
+				"lady_russell"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "She discovers Mrs Smith's straitened circumstances and resilient way of life."
+				},
+				{
+					"key": "anne",
+					"learns": "She recognises that she cannot accept Mr Elliot and distrusts his lack of openness."
+				},
+				{
+					"key": "lady_russell",
+					"learns": "She becomes convinced that Mr Elliot intends to seek Anne's hand."
+				}
+			],
+			"mood": "Warm friendship, temptation, reserve"
+		},
+		{
+			"chapterId": "c18",
+			"title": "Chapter 18",
+			"summary": "Mary's letter announces Louisa's engagement to Benwick, and Admiral Croft reports Wentworth's good wishes.",
+			"events": [
+				"The Crofts bring Anne a long letter from Mary.",
+				"Mary reports Louisa's return and engagement to Captain Benwick.",
+				"Anne reasons through the surprise and feels hope that Wentworth is free.",
+				"The Crofts settle in Bath for the admiral's gout.",
+				"Walking with Anne, the admiral describes Wentworth's letter wishing the couple happy."
+			],
+			"present": [
+				"anne",
+				"sir_walter",
+				"elizabeth",
+				"mrs_clay",
+				"admiral_croft",
+				"mrs_croft"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "She learns that Louisa and Benwick are engaged and that Wentworth has written without reproaching either."
+				},
+				{
+					"key": "admiral_croft",
+					"learns": "Through Wentworth's letter he has learned of Louisa's engagement to Benwick."
+				}
+			],
+			"mood": "Astonishment and guarded hope"
+		},
+		{
+			"chapterId": "c19",
+			"title": "Chapter 19",
+			"summary": "Wentworth arrives in Bath and meets Anne in a shop, where Mr Elliot's attentions create a misleading impression.",
+			"events": [
+				"Anne's party shelters from rain at Molland's while Mr Elliot seeks a carriage.",
+				"Wentworth enters, visibly embarrassed, and speaks with Anne.",
+				"Elizabeth refuses to acknowledge him.",
+				"Anne declines Wentworth's umbrella and waits for Mr Elliot, who walks her home.",
+				"Anne later mistakes Lady Russell's interest in window curtains for observation of Wentworth and anticipates the concert."
+			],
+			"present": [
+				"anne",
+				"elizabeth",
+				"mrs_clay",
+				"mr_elliot",
+				"wentworth",
+				"lady_russell",
+				"mrs_smith"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "She sees Wentworth in Bath and notices that he is more embarrassed than at Uppercross."
+				},
+				{
+					"key": "wentworth",
+					"learns": "He sees Mr Elliot's intimate attentions to Anne and hears others anticipate a match."
+				}
+			],
+			"mood": "Agitated, comic, uncertain"
+		},
+		{
+			"chapterId": "c20",
+			"title": "Chapter 20",
+			"summary": "At the concert Anne hears Wentworth's views on constancy, then recognises his jealousy of Mr Elliot.",
+			"events": [
+				"Anne speaks first to Wentworth in the Octagon Room.",
+				"He discusses Louisa and Benwick and declares that a profound attachment should not be forgotten.",
+				"Lady Dalrymple's arrival separates them.",
+				"Mr Elliot sits beside Anne and hints that he wishes her name never to change.",
+				"Anne later makes room for Wentworth, but Mr Elliot interrupts them; Wentworth leaves abruptly."
+			],
+			"present": [
+				"anne",
+				"wentworth",
+				"sir_walter",
+				"elizabeth",
+				"mrs_clay",
+				"mr_elliot",
+				"lady_russell"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "She comes to believe Wentworth's old tenderness has returned and interprets his departure as jealousy."
+				},
+				{
+					"key": "anne",
+					"learns": "Mr Elliot hints at a wish to marry her and claims long prior knowledge of her character."
+				}
+			],
+			"mood": "Exhilaration, interruption, jealousy"
+		},
+		{
+			"chapterId": "c21",
+			"title": "Chapter 21",
+			"summary": "Mrs Smith reveals Mr Elliot's past cruelty and his present designs after learning Anne will not marry him.",
+			"events": [
+				"Anne visits Mrs Smith, who mistakenly assumes she is engaged to Mr Elliot.",
+				"Anne firmly denies the prospect and inadvertently suggests another attachment.",
+				"Mrs Smith decides to disclose Mr Elliot's character.",
+				"She shows Anne his old letter scorning Sir Walter and the Elliot name.",
+				"She recounts his attempt to block Mrs Clay and his refusal to help settle her husband's affairs.",
+				"Anne receives permission to tell Lady Russell about his treatment of Mrs Smith."
+			],
+			"present": [
+				"anne",
+				"mrs_smith"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "She learns Mrs Smith once praised her to Mr Elliot, explaining his mysterious prior knowledge."
+				},
+				{
+					"key": "anne",
+					"learns": "She learns of Mr Elliot's old contempt for his family, his designs against Mrs Clay, and his refusal to act for Mrs Smith."
+				},
+				{
+					"key": "mrs_smith",
+					"learns": "She learns Anne will not marry Mr Elliot and perceives that another man interests her."
+				}
+			],
+			"mood": "Suspense, indignation, confidence"
+		},
+		{
+			"chapterId": "c22",
+			"title": "Chapter 22",
+			"summary": "The Musgroves arrive in Bath; Anne's attempts to reassure Wentworth are complicated by family ceremony and Mr Elliot's movements.",
+			"events": [
+				"Anne treats Mr Elliot coolly and plans to warn Lady Russell.",
+				"Charles and Mary arrive with news of their party and Henrietta's approaching marriage.",
+				"Anne visits the Musgroves at the White Hart; Wentworth and Harville join them.",
+				"Mary spots Mr Elliot talking privately with Mrs Clay, despite his supposed departure.",
+				"Anne says she would prefer a play with the Musgroves to her father's party.",
+				"Elizabeth gives Wentworth a pointed invitation, leaving Anne uncertain whether he will attend."
+			],
+			"present": [
+				"anne",
+				"mr_elliot",
+				"mrs_clay",
+				"sir_walter",
+				"elizabeth",
+				"mary",
+				"charles",
+				"henrietta",
+				"harville",
+				"wentworth",
+				"lady_russell"
+			],
+			"knowledge": [
+				{
+					"key": "anne",
+					"learns": "Charles tells her that Hayter has obtained a living and that both Musgrove sisters can marry soon."
+				},
+				{
+					"key": "anne",
+					"learns": "She sees Mr Elliot and Mrs Clay in private conversation and cannot explain their apparent friendliness."
+				},
+				{
+					"key": "wentworth",
+					"learns": "He hears Anne express a preference for the Musgroves' company over the Camden Place party."
+				}
+			],
+			"mood": "Hopeful, crowded, anxiously watchful"
+		},
+		{
+			"chapterId": "c23",
+			"title": "Chapter 23",
+			"summary": "Anne argues for enduring love, Wentworth writes his declaration, and they renew their engagement.",
+			"events": [
+				"At the White Hart, Anne overhears Mrs Musgrove and Mrs Croft discuss long engagements.",
+				"Harville shows Anne Benwick's miniature and debates men's and women's constancy with her.",
+				"Wentworth writes Anne a letter declaring his unchanged love and asking for a sign.",
+				"Anne leaves on foot; Charles gives Wentworth her arm in his place.",
+				"On the gravel walk Anne and Wentworth explain their misunderstandings and renew their promises.",
+				"At the evening party Anne defends her former submission to Lady Russell, and Wentworth regrets not writing in 1808."
+			],
+			"present": [
+				"anne",
+				"wentworth",
+				"harville",
+				"mrs_croft",
+				"mary",
+				"charles",
+				"henrietta",
+				"lady_russell",
+				"mr_elliot",
+				"sir_walter",
+				"elizabeth",
+				"mrs_clay"
+			],
+			"knowledge": [
+				{
+					"key": "wentworth",
+					"learns": "Anne's conversation with Harville convinces him that her attachment may have endured."
+				},
+				{
+					"key": "anne",
+					"learns": "Wentworth's letter and their walk reveal his constant love, jealousy and sense of honour toward Louisa."
+				},
+				{
+					"key": "wentworth",
+					"learns": "Anne tells him she would have renewed their engagement had he written in 1808."
+				}
+			],
+			"mood": "Suspense, rapture, reconciliation"
+		},
+		{
+			"chapterId": "c24",
+			"title": "Chapter 24",
+			"summary": "The engagement is accepted, Lady Russell revises her judgments, and the newly married couple help Mrs Smith.",
+			"events": [
+				"Sir Walter raises no objection to Wentworth, whose fortune and appearance now recommend him.",
+				"Lady Russell acknowledges her mistakes and comes to love Wentworth.",
+				"Mr Elliot leaves Bath; Mrs Clay follows and is established under his protection.",
+				"Anne and Wentworth marry, and Mrs Smith visits their settled home.",
+				"Wentworth helps Mrs Smith recover her husband's West Indian property."
+			],
+			"present": [
+				"anne",
+				"wentworth",
+				"sir_walter",
+				"elizabeth",
+				"lady_russell",
+				"mary",
+				"mr_elliot",
+				"mrs_clay",
+				"mrs_smith"
+			],
+			"knowledge": [
+				{
+					"key": "lady_russell",
+					"learns": "She recognises that she misjudged both Wentworth and Mr Elliot."
+				},
+				{
+					"key": "sir_walter",
+					"learns": "He and Elizabeth discover that Mrs Clay has deceived them and left with Mr Elliot."
+				}
+			],
+			"mood": "Satisfied, affectionate, tempered by future risk"
+		}
+	],
+	"divergencePoints": [
+		{
+			"id": "engagement_kept",
+			"chapterId": "c04",
+			"label": "Anne Holds Fast",
+			"moment": "Lady Russell steadily urges nineteen-year-old Anne to give up her engagement to the penniless Captain Wentworth.",
+			"canonOutcome": "Anne is persuaded that the engagement is wrong and breaks it, believing the sacrifice also serves Wentworth.",
+			"whatIf": "What if Anne refused to break her engagement to Captain Wentworth, even after Lady Russell's tender, persistent advice?",
+			"stakes": "Their love would face family disapproval, uncertain income and the dangers of naval service together."
+		},
+		{
+			"id": "sickroom_choice",
+			"chapterId": "c07",
+			"label": "The Dinner Meeting",
+			"moment": "Anne offers to nurse little Charles so that Mary can dine at the Great House and meet Wentworth.",
+			"canonOutcome": "Mary goes with her husband, while Anne remains with the child and postpones her meeting with Wentworth.",
+			"whatIf": "What if Anne went to the dinner herself, leaving Mary to care for little Charles, and met Wentworth across the Musgroves' table?",
+			"stakes": "Their first encounter after eight years would take place under the eyes of an eager household."
+		},
+		{
+			"id": "winthrop_turned_back",
+			"chapterId": "c10",
+			"label": "Henrietta Turns Back",
+			"moment": "At the hill above Winthrop, Henrietta is ready to turn back until Louisa presses her to visit their cousins.",
+			"canonOutcome": "Henrietta goes down with Charles, sees Charles Hayter and returns with him, their intimacy restored.",
+			"whatIf": "What if Louisa failed to persuade Henrietta to call at Winthrop, and Henrietta turned back with Mary?",
+			"stakes": "Henrietta's reconciliation with Hayter and the sisters' entanglement with Wentworth would remain unsettled."
+		},
+		{
+			"id": "cobb_second_jump",
+			"chapterId": "c12",
+			"label": "The Jump Refused",
+			"moment": "Louisa runs back up the Cobb steps and insists on a second jump into Wentworth's hands.",
+			"canonOutcome": "Wentworth puts out his hands, but Louisa jumps too soon and falls unconscious on the pavement.",
+			"whatIf": "What if Wentworth refused to catch Louisa a second time and persuaded her to come down the steps safely?",
+			"stakes": "Louisa would escape a grave injury, while Wentworth's understanding of her firmness and Anne's character might remain untested."
+		},
+		{
+			"id": "anne_stays_lyme",
+			"chapterId": "c12",
+			"label": "Anne at the Bedside",
+			"moment": "After Wentworth asks Anne to stay and nurse Louisa, Mary protests that she has the better right.",
+			"canonOutcome": "Charles yields to Mary, who stays at Lyme while Anne returns to Uppercross with Wentworth and Henrietta.",
+			"whatIf": "What if Mary accepted the original arrangement and Anne stayed at the Harvilles' to nurse Louisa?",
+			"stakes": "Anne would enter the intimate household where Louisa recovers and Wentworth feels responsible for her."
+		},
+		{
+			"id": "kellynch_temptation",
+			"chapterId": "c17",
+			"label": "The Future Lady Elliot",
+			"moment": "Lady Russell describes Anne restored to her mother's name and place as mistress of Kellynch through marriage to Mr Elliot.",
+			"canonOutcome": "The picture briefly enchants Anne, but thoughts of Mr Elliot himself restore her conviction that she could not accept him.",
+			"whatIf": "What if Lady Russell's picture of Kellynch persuaded Anne to welcome Mr Elliot's courtship?",
+			"stakes": "Anne's longing for her mother's home would be set against her distrust of a polished man and her love for Wentworth."
+		},
+		{
+			"id": "concert_interruption",
+			"chapterId": "c20",
+			"label": "A Seat Beside Anne",
+			"moment": "Wentworth approaches Anne's vacant place at the concert just before Mr Elliot interrupts to request a translation.",
+			"canonOutcome": "Anne turns to help; Wentworth soon says there is nothing worth his staying for and leaves.",
+			"whatIf": "What if Mr Elliot did not interrupt, and Wentworth sat beside Anne for the rest of the concert?",
+			"stakes": "A private exchange might dispel or deepen Wentworth's jealousy before either knows the other's heart."
+		},
+		{
+			"id": "smith_silent",
+			"chapterId": "c21",
+			"label": "Mrs Smith Keeps Silent",
+			"moment": "Mrs Smith weighs whether to tell Anne what she knows of Mr Elliot after Anne denies any intention of marrying him.",
+			"canonOutcome": "She decides Anne ought to know, shows her his letter and describes his conduct and designs.",
+			"whatIf": "What if Mrs Smith decided that revealing Mr Elliot's past would be an improper interference and kept her knowledge to herself?",
+			"stakes": "Anne would continue to navigate his attentions without the evidence of his cruelty and self-interest."
+		},
+		{
+			"id": "letter_unread",
+			"chapterId": "c23",
+			"label": "The Lost Declaration",
+			"moment": "Wentworth returns under the pretext of fetching his gloves and places his letter before Anne.",
+			"canonOutcome": "Anne reads his declaration, later meets him in the street, and renews their engagement.",
+			"whatIf": "What if Wentworth could not return to leave the letter before Anne, and had to face the evening without knowing her answer?",
+			"stakes": "Their renewed understanding would depend on another encounter amid the crowded Camden Place party."
+		},
+		{
+			"id": "russell_resists",
+			"chapterId": "c24",
+			"label": "Lady Russell's Resistance",
+			"moment": "Lady Russell must reconsider Wentworth and Mr Elliot after learning of Anne's engagement.",
+			"canonOutcome": "She admits her mistaken judgments and comes to attach herself to Wentworth as a mother.",
+			"whatIf": "What if Lady Russell could not bring herself to welcome Wentworth and openly opposed Anne's renewed engagement?",
+			"stakes": "Anne's closest friendship and her hard-won happiness would be drawn into painful conflict."
+		}
+	],
+	"visual": {
+		"era": "Regency England: high-waisted gowns, pelisses and bonnets; tailored coats and neckcloths; naval uniforms, horse-drawn carriages and Georgian interiors.",
+		"palette": "Somerset greens and autumn tawny browns; Lyme's grey-blue sea and pale stone; Bath's rain-muted cream masonry and warm candlelit rooms.",
+		"motifs": [
+			"The Baronetage and family entries",
+			"Letters, folded paper and seals",
+			"Looking-glasses and carefully dressed faces",
+			"Autumn hedges, stiles and a glossy nut",
+			"Ships, naval lists and distant seas",
+			"The Cobb's steep steps and stone pavement",
+			"A piano-forte and country dancing"
+		],
+		"comicStyle": "Regency watercolour and ink with fine, controlled linework, pale washes and delicate crosshatching. Use composed social groupings and small expressive glances, then tighten panels around hands, letters and faces when emotion breaks through."
+	},
+	"glossary": [
+		{
+			"term": "Kellynch Hall",
+			"kind": "place",
+			"note": "The Elliot family seat in Somersetshire.",
+			"locales": {
+				"en": "Kellynch Hall"
+			}
+		},
+		{
+			"term": "Kellynch Lodge",
+			"kind": "place",
+			"note": "Lady Russell's home near the Hall.",
+			"locales": {
+				"en": "Kellynch Lodge"
+			}
+		},
+		{
+			"term": "Uppercross Cottage",
+			"kind": "place",
+			"note": "Charles and Mary Musgrove's home.",
+			"locales": {
+				"en": "Uppercross Cottage"
+			}
+		},
+		{
+			"term": "Winthrop",
+			"kind": "place",
+			"note": "The Hayter family's country home.",
+			"locales": {
+				"en": "Winthrop"
+			}
+		},
+		{
+			"term": "Lyme",
+			"kind": "place",
+			"note": "The seaside town where Louisa falls.",
+			"locales": {
+				"en": "Lyme"
+			}
+		},
+		{
+			"term": "the Cobb",
+			"kind": "place",
+			"note": "Lyme's harbour structure and promenade.",
+			"locales": {
+				"en": "the Cobb"
+			}
+		},
+		{
+			"term": "Camden Place",
+			"kind": "place",
+			"note": "The Elliots' fashionable address in Bath.",
+			"locales": {
+				"en": "Camden Place"
+			}
+		},
+		{
+			"term": "Westgate Buildings",
+			"kind": "place",
+			"note": "The Bath street where Mrs Smith lodges.",
+			"locales": {
+				"en": "Westgate Buildings"
+			}
+		},
+		{
+			"term": "White Hart",
+			"kind": "place",
+			"note": "The Bath inn where the Musgroves stay.",
+			"locales": {
+				"en": "White Hart"
+			}
+		},
+		{
+			"term": "Baronetage",
+			"kind": "object",
+			"note": "The book of titled families Sir Walter consults.",
+			"locales": {
+				"en": "Baronetage"
+			}
+		},
+		{
+			"term": "Asp",
+			"kind": "name",
+			"note": "Wentworth's old sloop, later broken up.",
+			"locales": {
+				"en": "Asp"
+			}
+		},
+		{
+			"term": "Laconia",
+			"kind": "name",
+			"note": "The frigate commanded by Wentworth.",
+			"locales": {
+				"en": "Laconia"
+			}
+		},
+		{
+			"term": "Navy List",
+			"kind": "object",
+			"note": "A published list of naval ships and officers.",
+			"locales": {
+				"en": "Navy List"
+			}
+		},
+		{
+			"term": "Gowland",
+			"kind": "object",
+			"note": "A preparation Sir Walter recommends for the complexion.",
+			"locales": {
+				"en": "Gowland"
+			}
+		},
+		{
+			"term": "Michaelmas",
+			"kind": "term",
+			"note": "The late-September date when the Crofts take possession.",
+			"locales": {
+				"en": "Michaelmas"
+			}
+		},
+		{
+			"term": "Lady Dalrymple",
+			"kind": "title",
+			"note": "The titled cousin courted by the Elliots in Bath.",
+			"locales": {
+				"en": "Lady Dalrymple"
+			}
+		},
+		{
+			"term": "Nurse Rooke",
+			"kind": "name",
+			"note": "Mrs Smith's helpful nurse and source of news.",
+			"locales": {
+				"en": "Nurse Rooke"
+			}
+		},
+		{
+			"term": "landaulette",
+			"kind": "object",
+			"note": "The pretty carriage associated with Anne's married situation.",
+			"locales": {
+				"en": "landaulette"
+			}
+		}
+	]
+}

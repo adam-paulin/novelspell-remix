@@ -1,0 +1,31 @@
+---
+// The comic lightbox (port of Lightbox.js; also the remix's cover, full size, with no beats): the image, the caption naming the
+// remix and the book (one variant per book), and the numbered panel beats, beside the comic on wide screens and under it on
+// phones. The script fills the caption's remix title and clones one beat row per panel.
+import Icon from "./ui/Icon.astro";
+import Slotted from "./ui/Slotted.astro";
+import { en } from "../content/en";
+import books from "../data/books.json";
+
+const copy = en.studio.lightbox;
+const comicAlt = en.studio.result.comicAlt;
+---
+<dialog data-classlist="remix-lightbox" data-modal="comic" aria-labelledby="LightboxLabel">
+	<span class="sr-only" id="LightboxLabel" data-messages="lightbox-label"><span data-message="comic">{copy.label}</span><span data-message="cover" hidden>{copy.coverLabel}</span></span>
+	<span class="sr-only" id="LightboxAlt" data-messages="lightbox-alt"><span data-message="comic">{comicAlt}</span><span data-message="cover" hidden>{en.studio.cover.imageAlt}</span></span>
+	<div class="flex gap-2" data-classlist="remix-lightbox-tools">
+		<a data-control="icon" data-classlist="remix-lightbox-tool" data-lightbox-download data-download-image="comic" href="#" target="_blank" rel="noopener" download={copy.downloadName} aria-label={copy.download}><Icon name="lucide-download" /></a>
+		<button data-control="icon" data-classlist="remix-lightbox-tool" type="button" data-close-dialog aria-label={copy.close}><Icon name="lucide-x" /></button>
+	</div>
+	<div data-classlist="remix-lightbox-body">
+		<img data-classlist="remix-lightbox-img" data-lightbox-img tabindex="-1" autofocus alt={comicAlt} aria-labelledby="LightboxAlt" width="1024" height="1536" sizes="(min-width: 64rem) 40rem, 100vw" decoding="async">
+		<div data-classlist="remix-lightbox-side">
+			{books.map((book) => <p class="m-0" data-classlist="remix-lightbox-caption" data-book-panel={book.slug}><Slotted text={book.lightboxCaption} /></p>)}
+			<div data-classlist="remix-lightbox-beats" data-lightbox-beats hidden>
+				<p class="m-0" data-classlist="remix-dialog-label">{copy.beatsLabel}</p>
+				<ol class="m-0" data-classlist="remix-lightbox-list" data-lightbox-list></ol>
+				<template data-beat-row><li data-lightbox-beat><span data-slot="beat"></span></li></template>
+			</div>
+		</div>
+	</div>
+</dialog>

@@ -1,0 +1,15 @@
+---
+// The studio (/): the whole product as one app inside the page shell.
+import Page from "../layouts/Page.astro";
+import Studio from "../components/Studio.astro";
+import PicturePreload from "../components/ui/PicturePreload.astro";
+import { en } from "../content/en";
+import books from "../data/books.json";
+import { breakpoints } from "../scripts/lib/breakpoints";
+// The studio section's own JSON-LD entry (the dev Studio section seo).
+const app = { "@type": "WebApplication", name: en.seo.title, description: en.seo.description, applicationCategory: "EntertainmentApplication" };
+// From laptop up the shelf column is open at first paint with its first 6 covers in view (1440x900 and 1920x1080), so they are
+// preloaded there instead of waiting for lazy loading. Below laptop the covers sit in the closed picker and are never fetched at load.
+const shelfInView = books.slice(0, 6).map((book) => `${book.slug}-shelf`);
+---
+<Page pageName="Home" path="/" title={en.seo.title} description={en.seo.description} schemas={[app]}><PicturePreload slot="head" names={shelfInView} min={breakpoints.laptop.min} /><Studio /></Page>

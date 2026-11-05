@@ -1,0 +1,11 @@
+---
+// Head preloads for prepared pictures that are visible at first paint from `min` up only (lib/pictures.ts picturePreloads); below
+// `min` nothing is fetched early and the pictures stay plain lazy. Put it in Page's head slot. Use it only for pictures that are
+// visible at first paint on that form factor: the desktop shelf's first covers (index.astro).
+import { picturePreloads } from "../../lib/pictures";
+
+interface Props { names: string[]; min: string }
+const { names, min } = Astro.props;
+const links = names.flatMap((name) => picturePreloads(name, min));
+---
+{links.map((link) => <link rel="preload" as="image" type={link.type} imagesrcset={link.srcset} media={link.media} />)}

@@ -1,0 +1,872 @@
+{
+	"alices-adventures-in-wonderland-shelf": {
+		"src": "/__assets/pictures/458beb01c3b1eff7",
+		"sources": [
+			{
+				"media": "(max-width: 1536px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/458beb01c3b1eff7/alices-adventures-in-wonderland-shelf.q1536.203x304.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/458beb01c3b1eff7/alices-adventures-in-wonderland-shelf.q1920.280x420.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/458beb01c3b1eff7/alices-adventures-in-wonderland-shelf.280x420.jpg",
+			"width": 280,
+			"height": 420
+		}
+	},
+	"alices-adventures-in-wonderland-cover": {
+		"src": "/__assets/pictures/5118e25599da42a6",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/5118e25599da42a6/alices-adventures-in-wonderland-cover.q1920.240x360.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/5118e25599da42a6/alices-adventures-in-wonderland-cover.240x360.jpg",
+			"width": 240,
+			"height": 360
+		}
+	},
+	"alices-adventures-in-wonderland-example-cover": {
+		"src": "/__assets/pictures/62fceef5b6651252",
+		"sources": [
+			{
+				"media": "(max-width: 1536px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/62fceef5b6651252/alices-adventures-in-wonderland-example-cover.q1536.123x184.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/62fceef5b6651252/alices-adventures-in-wonderland-example-cover.q1920.134x201.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/62fceef5b6651252/alices-adventures-in-wonderland-example-cover.134x201.jpg",
+			"width": 134,
+			"height": 201
+		}
+	},
+	"alices-adventures-in-wonderland-example-cover-full": {
+		"src": "/__assets/pictures/ec6c4224df674ce4",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/ec6c4224df674ce4/alices-adventures-in-wonderland-example-cover-full.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/ec6c4224df674ce4/alices-adventures-in-wonderland-example-cover-full.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"alices-adventures-in-wonderland-example-comic": {
+		"src": "/__assets/pictures/e0622b992718a723",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/e0622b992718a723/alices-adventures-in-wonderland-example-comic.q480.448x672.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/e0622b992718a723/alices-adventures-in-wonderland-example-comic.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/e0622b992718a723/alices-adventures-in-wonderland-example-comic.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"a-christmas-carol-shelf": {
+		"src": "/__assets/pictures/c05c6ee4834a2431",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/c05c6ee4834a2431/a-christmas-carol-shelf.q1920.280x420.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/c05c6ee4834a2431/a-christmas-carol-shelf.280x420.jpg",
+			"width": 280,
+			"height": 420
+		}
+	},
+	"a-christmas-carol-cover": {
+		"src": "/__assets/pictures/2387a1e0ff5d399f",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/2387a1e0ff5d399f/a-christmas-carol-cover.q1920.240x360.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/2387a1e0ff5d399f/a-christmas-carol-cover.240x360.jpg",
+			"width": 240,
+			"height": 360
+		}
+	},
+	"a-christmas-carol-example-cover": {
+		"src": "/__assets/pictures/ad7f33097e5d1e37",
+		"sources": [],
+		"img": {
+			"src": "/__assets/pictures/ad7f33097e5d1e37/a-christmas-carol-example-cover.134x201.jpg",
+			"width": 134,
+			"height": 201
+		}
+	},
+	"a-christmas-carol-example-cover-full": {
+		"src": "/__assets/pictures/8740b12fbd06c0c0",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/8740b12fbd06c0c0/a-christmas-carol-example-cover-full.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/8740b12fbd06c0c0/a-christmas-carol-example-cover-full.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"a-christmas-carol-example-comic": {
+		"src": "/__assets/pictures/066569fc576160e6",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/066569fc576160e6/a-christmas-carol-example-comic.q480.448x672.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/066569fc576160e6/a-christmas-carol-example-comic.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/066569fc576160e6/a-christmas-carol-example-comic.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"frankenstein-shelf": {
+		"src": "/__assets/pictures/e207fd2964c4c9c9",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/e207fd2964c4c9c9/frankenstein-shelf.q480.140x210.avif"
+			},
+			{
+				"media": "(max-width: 1536px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/e207fd2964c4c9c9/frankenstein-shelf.q1536.203x304.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/e207fd2964c4c9c9/frankenstein-shelf.q1920.280x420.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/e207fd2964c4c9c9/frankenstein-shelf.280x420.jpg",
+			"width": 280,
+			"height": 420
+		}
+	},
+	"frankenstein-cover": {
+		"src": "/__assets/pictures/00efd350f26d52a4",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/00efd350f26d52a4/frankenstein-cover.q480.117x176.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/00efd350f26d52a4/frankenstein-cover.q1920.240x360.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/00efd350f26d52a4/frankenstein-cover.240x360.jpg",
+			"width": 240,
+			"height": 360
+		}
+	},
+	"frankenstein-example-cover": {
+		"src": "/__assets/pictures/a885ce1928827818",
+		"sources": [
+			{
+				"media": "(max-width: 1536px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/a885ce1928827818/frankenstein-example-cover.q1536.123x184.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/a885ce1928827818/frankenstein-example-cover.q1920.134x201.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/a885ce1928827818/frankenstein-example-cover.134x201.jpg",
+			"width": 134,
+			"height": 201
+		}
+	},
+	"frankenstein-example-cover-full": {
+		"src": "/__assets/pictures/ba97b84810243fbc",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/ba97b84810243fbc/frankenstein-example-cover-full.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/ba97b84810243fbc/frankenstein-example-cover-full.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"frankenstein-example-comic": {
+		"src": "/__assets/pictures/ff16eb52ece61103",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/ff16eb52ece61103/frankenstein-example-comic.q480.448x672.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/ff16eb52ece61103/frankenstein-example-comic.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/ff16eb52ece61103/frankenstein-example-comic.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"the-hound-of-the-baskervilles-shelf": {
+		"src": "/__assets/pictures/9ecb8bb2222522f0",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/9ecb8bb2222522f0/the-hound-of-the-baskervilles-shelf.q480.140x210.avif"
+			},
+			{
+				"media": "(max-width: 1536px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/9ecb8bb2222522f0/the-hound-of-the-baskervilles-shelf.q1536.203x304.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/9ecb8bb2222522f0/the-hound-of-the-baskervilles-shelf.q1920.280x420.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/9ecb8bb2222522f0/the-hound-of-the-baskervilles-shelf.280x420.jpg",
+			"width": 280,
+			"height": 420
+		}
+	},
+	"the-hound-of-the-baskervilles-cover": {
+		"src": "/__assets/pictures/25f1ae9b841bd5c5",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/25f1ae9b841bd5c5/the-hound-of-the-baskervilles-cover.q480.117x176.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/25f1ae9b841bd5c5/the-hound-of-the-baskervilles-cover.q1920.240x360.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/25f1ae9b841bd5c5/the-hound-of-the-baskervilles-cover.240x360.jpg",
+			"width": 240,
+			"height": 360
+		}
+	},
+	"the-hound-of-the-baskervilles-example-cover": {
+		"src": "/__assets/pictures/49bc08b55945c0f0",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/49bc08b55945c0f0/the-hound-of-the-baskervilles-example-cover.q480.118x177.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/49bc08b55945c0f0/the-hound-of-the-baskervilles-example-cover.q1920.134x201.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/49bc08b55945c0f0/the-hound-of-the-baskervilles-example-cover.134x201.jpg",
+			"width": 134,
+			"height": 201
+		}
+	},
+	"the-hound-of-the-baskervilles-example-cover-full": {
+		"src": "/__assets/pictures/dc412746477b84ae",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/dc412746477b84ae/the-hound-of-the-baskervilles-example-cover-full.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/dc412746477b84ae/the-hound-of-the-baskervilles-example-cover-full.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"the-hound-of-the-baskervilles-example-comic": {
+		"src": "/__assets/pictures/7ac0aa4837c694b0",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/7ac0aa4837c694b0/the-hound-of-the-baskervilles-example-comic.q480.448x672.avif"
+			},
+			{
+				"media": "(max-width: 1536px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/7ac0aa4837c694b0/the-hound-of-the-baskervilles-example-comic.q1536.640x960.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/7ac0aa4837c694b0/the-hound-of-the-baskervilles-example-comic.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/7ac0aa4837c694b0/the-hound-of-the-baskervilles-example-comic.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"persuasion-shelf": {
+		"src": "/__assets/pictures/5edaba447ed47db7",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/5edaba447ed47db7/persuasion-shelf.q480.140x210.avif"
+			},
+			{
+				"media": "(max-width: 1536px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/5edaba447ed47db7/persuasion-shelf.q1536.203x304.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/5edaba447ed47db7/persuasion-shelf.q1920.280x420.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/5edaba447ed47db7/persuasion-shelf.280x420.jpg",
+			"width": 280,
+			"height": 420
+		}
+	},
+	"persuasion-cover": {
+		"src": "/__assets/pictures/451ab4b2e6b480b2",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/451ab4b2e6b480b2/persuasion-cover.q480.117x176.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/451ab4b2e6b480b2/persuasion-cover.q1920.240x360.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/451ab4b2e6b480b2/persuasion-cover.240x360.jpg",
+			"width": 240,
+			"height": 360
+		}
+	},
+	"persuasion-example-cover": {
+		"src": "/__assets/pictures/d3b6315c749fbaf3",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/d3b6315c749fbaf3/persuasion-example-cover.q1920.134x201.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/d3b6315c749fbaf3/persuasion-example-cover.134x201.jpg",
+			"width": 134,
+			"height": 201
+		}
+	},
+	"persuasion-example-cover-full": {
+		"src": "/__assets/pictures/6b863f8eaf6b54e3",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/6b863f8eaf6b54e3/persuasion-example-cover-full.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/6b863f8eaf6b54e3/persuasion-example-cover-full.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"persuasion-example-comic": {
+		"src": "/__assets/pictures/12bf06277f0e312b",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/12bf06277f0e312b/persuasion-example-comic.q480.448x672.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/12bf06277f0e312b/persuasion-example-comic.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/12bf06277f0e312b/persuasion-example-comic.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"the-picture-of-dorian-gray-shelf": {
+		"src": "/__assets/pictures/115e2b4c8fc969bf",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/115e2b4c8fc969bf/the-picture-of-dorian-gray-shelf.q480.140x210.avif"
+			},
+			{
+				"media": "(max-width: 1536px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/115e2b4c8fc969bf/the-picture-of-dorian-gray-shelf.q1536.203x304.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/115e2b4c8fc969bf/the-picture-of-dorian-gray-shelf.q1920.280x420.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/115e2b4c8fc969bf/the-picture-of-dorian-gray-shelf.280x420.jpg",
+			"width": 280,
+			"height": 420
+		}
+	},
+	"the-picture-of-dorian-gray-cover": {
+		"src": "/__assets/pictures/d2728b957edf564f",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/d2728b957edf564f/the-picture-of-dorian-gray-cover.q1920.240x360.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/d2728b957edf564f/the-picture-of-dorian-gray-cover.240x360.jpg",
+			"width": 240,
+			"height": 360
+		}
+	},
+	"the-picture-of-dorian-gray-example-cover": {
+		"src": "/__assets/pictures/f6fd3694b6eec703",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/f6fd3694b6eec703/the-picture-of-dorian-gray-example-cover.q480.118x177.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/f6fd3694b6eec703/the-picture-of-dorian-gray-example-cover.q1920.134x201.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/f6fd3694b6eec703/the-picture-of-dorian-gray-example-cover.134x201.jpg",
+			"width": 134,
+			"height": 201
+		}
+	},
+	"the-picture-of-dorian-gray-example-cover-full": {
+		"src": "/__assets/pictures/3ba08f680f41339c",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/3ba08f680f41339c/the-picture-of-dorian-gray-example-cover-full.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/3ba08f680f41339c/the-picture-of-dorian-gray-example-cover-full.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"the-picture-of-dorian-gray-example-comic": {
+		"src": "/__assets/pictures/f407f9136be8eb5b",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/f407f9136be8eb5b/the-picture-of-dorian-gray-example-comic.q480.448x672.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/f407f9136be8eb5b/the-picture-of-dorian-gray-example-comic.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/f407f9136be8eb5b/the-picture-of-dorian-gray-example-comic.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"strange-case-of-dr-jekyll-and-mr-hyde-shelf": {
+		"src": "/__assets/pictures/bdb8ffa894251d28",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/bdb8ffa894251d28/strange-case-of-dr-jekyll-and-mr-hyde-shelf.q480.140x210.avif"
+			},
+			{
+				"media": "(max-width: 1536px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/bdb8ffa894251d28/strange-case-of-dr-jekyll-and-mr-hyde-shelf.q1536.203x304.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/bdb8ffa894251d28/strange-case-of-dr-jekyll-and-mr-hyde-shelf.q1920.280x420.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/bdb8ffa894251d28/strange-case-of-dr-jekyll-and-mr-hyde-shelf.280x420.jpg",
+			"width": 280,
+			"height": 420
+		}
+	},
+	"strange-case-of-dr-jekyll-and-mr-hyde-cover": {
+		"src": "/__assets/pictures/ea89a5f5c8275eee",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/ea89a5f5c8275eee/strange-case-of-dr-jekyll-and-mr-hyde-cover.q480.117x176.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/ea89a5f5c8275eee/strange-case-of-dr-jekyll-and-mr-hyde-cover.q1920.240x360.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/ea89a5f5c8275eee/strange-case-of-dr-jekyll-and-mr-hyde-cover.240x360.jpg",
+			"width": 240,
+			"height": 360
+		}
+	},
+	"strange-case-of-dr-jekyll-and-mr-hyde-example-cover": {
+		"src": "/__assets/pictures/3deda2e4191760c0",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/3deda2e4191760c0/strange-case-of-dr-jekyll-and-mr-hyde-example-cover.q1920.134x201.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/3deda2e4191760c0/strange-case-of-dr-jekyll-and-mr-hyde-example-cover.134x201.jpg",
+			"width": 134,
+			"height": 201
+		}
+	},
+	"strange-case-of-dr-jekyll-and-mr-hyde-example-cover-full": {
+		"src": "/__assets/pictures/998cc4abe84a1470",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/998cc4abe84a1470/strange-case-of-dr-jekyll-and-mr-hyde-example-cover-full.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/998cc4abe84a1470/strange-case-of-dr-jekyll-and-mr-hyde-example-cover-full.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"strange-case-of-dr-jekyll-and-mr-hyde-example-comic": {
+		"src": "/__assets/pictures/8f9f0dbe5d63f3ae",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/8f9f0dbe5d63f3ae/strange-case-of-dr-jekyll-and-mr-hyde-example-comic.q480.448x672.avif"
+			},
+			{
+				"media": "(max-width: 1536px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/8f9f0dbe5d63f3ae/strange-case-of-dr-jekyll-and-mr-hyde-example-comic.q1536.640x960.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/8f9f0dbe5d63f3ae/strange-case-of-dr-jekyll-and-mr-hyde-example-comic.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/8f9f0dbe5d63f3ae/strange-case-of-dr-jekyll-and-mr-hyde-example-comic.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"the-time-machine-shelf": {
+		"src": "/__assets/pictures/7916a71ba79ccf16",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/7916a71ba79ccf16/the-time-machine-shelf.q480.140x210.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/7916a71ba79ccf16/the-time-machine-shelf.q1920.280x420.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/7916a71ba79ccf16/the-time-machine-shelf.280x420.jpg",
+			"width": 280,
+			"height": 420
+		}
+	},
+	"the-time-machine-cover": {
+		"src": "/__assets/pictures/52ecc27a215fa26a",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/52ecc27a215fa26a/the-time-machine-cover.q1920.240x360.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/52ecc27a215fa26a/the-time-machine-cover.240x360.jpg",
+			"width": 240,
+			"height": 360
+		}
+	},
+	"the-time-machine-example-cover": {
+		"src": "/__assets/pictures/666e82f33760943a",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/666e82f33760943a/the-time-machine-example-cover.q1920.134x201.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/666e82f33760943a/the-time-machine-example-cover.134x201.jpg",
+			"width": 134,
+			"height": 201
+		}
+	},
+	"the-time-machine-example-cover-full": {
+		"src": "/__assets/pictures/f440869d6276cbcc",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/f440869d6276cbcc/the-time-machine-example-cover-full.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/f440869d6276cbcc/the-time-machine-example-cover-full.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"the-time-machine-example-comic": {
+		"src": "/__assets/pictures/a007afad196e109b",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/a007afad196e109b/the-time-machine-example-comic.q480.448x672.avif"
+			},
+			{
+				"media": "(max-width: 1536px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/a007afad196e109b/the-time-machine-example-comic.q1536.640x960.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/a007afad196e109b/the-time-machine-example-comic.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/a007afad196e109b/the-time-machine-example-comic.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"the-wonderful-wizard-of-oz-shelf": {
+		"src": "/__assets/pictures/e80a31f697ac90f0",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/e80a31f697ac90f0/the-wonderful-wizard-of-oz-shelf.q1920.280x420.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/e80a31f697ac90f0/the-wonderful-wizard-of-oz-shelf.280x420.jpg",
+			"width": 280,
+			"height": 420
+		}
+	},
+	"the-wonderful-wizard-of-oz-cover": {
+		"src": "/__assets/pictures/9246bc388f167fed",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/9246bc388f167fed/the-wonderful-wizard-of-oz-cover.q1920.240x360.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/9246bc388f167fed/the-wonderful-wizard-of-oz-cover.240x360.jpg",
+			"width": 240,
+			"height": 360
+		}
+	},
+	"the-wonderful-wizard-of-oz-example-cover": {
+		"src": "/__assets/pictures/dff0e8100b39e495",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/dff0e8100b39e495/the-wonderful-wizard-of-oz-example-cover.q480.118x177.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/dff0e8100b39e495/the-wonderful-wizard-of-oz-example-cover.q1920.134x201.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/dff0e8100b39e495/the-wonderful-wizard-of-oz-example-cover.134x201.jpg",
+			"width": 134,
+			"height": 201
+		}
+	},
+	"the-wonderful-wizard-of-oz-example-cover-full": {
+		"src": "/__assets/pictures/c9fe2abc0b7e1057",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/c9fe2abc0b7e1057/the-wonderful-wizard-of-oz-example-cover-full.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/c9fe2abc0b7e1057/the-wonderful-wizard-of-oz-example-cover-full.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"the-wonderful-wizard-of-oz-example-comic": {
+		"src": "/__assets/pictures/42b185db528804f2",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/42b185db528804f2/the-wonderful-wizard-of-oz-example-comic.q480.448x672.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/42b185db528804f2/the-wonderful-wizard-of-oz-example-comic.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/42b185db528804f2/the-wonderful-wizard-of-oz-example-comic.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"treasure-island-shelf": {
+		"src": "/__assets/pictures/42097957402633c2",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/42097957402633c2/treasure-island-shelf.q480.140x210.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/42097957402633c2/treasure-island-shelf.q1920.280x420.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/42097957402633c2/treasure-island-shelf.280x420.jpg",
+			"width": 280,
+			"height": 420
+		}
+	},
+	"treasure-island-cover": {
+		"src": "/__assets/pictures/69b2080dc18791c0",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/69b2080dc18791c0/treasure-island-cover.q1920.240x360.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/69b2080dc18791c0/treasure-island-cover.240x360.jpg",
+			"width": 240,
+			"height": 360
+		}
+	},
+	"treasure-island-example-cover": {
+		"src": "/__assets/pictures/31d3f3394c90b274",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/31d3f3394c90b274/treasure-island-example-cover.q1920.134x201.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/31d3f3394c90b274/treasure-island-example-cover.134x201.jpg",
+			"width": 134,
+			"height": 201
+		}
+	},
+	"treasure-island-example-cover-full": {
+		"src": "/__assets/pictures/7e3207bbcb58664f",
+		"sources": [
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/7e3207bbcb58664f/treasure-island-example-cover-full.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/7e3207bbcb58664f/treasure-island-example-cover-full.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	},
+	"treasure-island-example-comic": {
+		"src": "/__assets/pictures/663b1b38050f62ed",
+		"sources": [
+			{
+				"media": "(max-width: 480px)",
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/663b1b38050f62ed/treasure-island-example-comic.q480.448x672.avif"
+			},
+			{
+				"type": "image/avif",
+				"srcset": "/__assets/pictures/663b1b38050f62ed/treasure-island-example-comic.q1920.757x1136.avif"
+			}
+		],
+		"img": {
+			"src": "/__assets/pictures/663b1b38050f62ed/treasure-island-example-comic.757x1136.jpg",
+			"width": 757,
+			"height": 1136
+		}
+	}
+}

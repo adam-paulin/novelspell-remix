@@ -1,0 +1,36 @@
+# Local secrets and var overrides for `npm run dev`. Copy this file to .dev.vars (never commit .dev.vars).
+
+# The Meta Model API key. For a free local run against a fake Meta server, any non-empty value works.
+META_MODEL_API_KEY=replace-me
+
+# The Baseten key for Fast mode (Muse Spark Open). Without it Fast mode calls are refused (baseten_unconfigured); normal mode is unaffected.
+# BASETEN_API_KEY=
+
+# Signs version tokens and picture signatures: 32+ characters. Tokens only round-trip on a backend with the same secret.
+VERSION_SECRET=replace-with-at-least-32-random-characters
+
+# Point the backend at a local fake Meta server instead of the real API (default https://api.meta.ai/v1).
+# META_BASE_URL=http://127.0.0.1:8788/v1
+# Baseten base URL (default https://inference.baseten.co/v1).
+# BASETEN_BASE_URL=
+
+# The page's dev origin, so a locally served site may call this API (CORS + POST trust).
+# SITE_ORIGINS=http://localhost:3190,http://127.0.0.1:3190
+
+# The spend ceilings, one per provider; "" turns one off. With a ceiling, apply the D1 migrations first (npm run db:migrate:local).
+# META_SPEND_CAP_USD=
+# BASETEN_SPEND_CAP_USD=
+
+# Faster failure paths for local experiments (milliseconds).
+# WRITER_FIRST_DELTA_MS=480000
+# WRITER_STALL_MS=30000
+# WRITER_TIMEOUT_MS=600000
+# ILLUSTRATOR_TIMEOUT_MS=90000
+# RETRIES=3
+# IMAGE_RETRIES=8
+# RETRY_BASE_MS=1000
+# RETRY_MAX_MS=30000
+# STAGE_BUDGET_MS=840000
+
+# What all shared pictures together may hold, in MB.
+# SHARE_STORE_CAP_MB=400

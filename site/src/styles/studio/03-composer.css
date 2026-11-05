@@ -1,0 +1,523 @@
+#SiteDocument #SiteBody [data-classlist~="remix-compose-books"] {
+  --panel-display: block;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-compose-product"] {
+  margin-bottom: .625rem;
+  display: none;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-compose-product"] [data-classlist~="remix-eyebrow-rule"] {
+  display: none;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-compose-title"] {
+  max-width: 14em;
+  font-size: var(--remix-compose-title-size, var(--remix-title-size, var(--site-heading-section)));
+  letter-spacing: -.025em;
+  line-height: 1.08;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-compose-title"] em {
+  line-height: 0;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-promise"] {
+  color: var(--remix-ink-soft);
+  text-wrap: balance;
+  margin-top: .75rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-composer"] {
+  margin-top: 1.75rem;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-compose"] {
+  padding-bottom: .0625rem;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-ask-box"] {
+  border-radius: var(--remix-radius-sheet);
+  background: var(--remix-sheet);
+  box-shadow: var(--remix-shadow-sheet);
+  transition: box-shadow var(--site-duration-base) var(--site-ease-out);
+  flex-direction: column;
+  display: flex;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-ask-box"]:hover {
+  box-shadow: var(--remix-shadow-lift);
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-ask-box"]:focus-within {
+  box-shadow: 0 0 0 2px var(--color-text-brand), var(--remix-shadow-sheet);
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-ask"] {
+  border-radius: var(--remix-radius-sheet) var(--remix-radius-sheet) 0 0;
+  min-height: 6.5rem;
+  max-height: 12rem;
+  color: var(--color-text-default);
+  font-family: var(--font-body);
+  resize: none;
+  field-sizing: content;
+  background: none;
+  border: 0;
+  outline: none;
+  padding: 1.5rem 1.75rem .75rem;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-ask"]::placeholder {
+  color: var(--color-text-subtle);
+  opacity: 1;
+}
+
+/* Write the chapter and the settings capsule (19-model-settings.css) on one line, both 2.5rem pills; on phones the capsule takes
+   the first line and Write the whole second one. */
+#SiteDocument #SiteBody [data-classlist~="remix-write-row"] {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .625rem;
+  margin-top: .25rem;
+  padding: .75rem 1.5rem 1.5rem 1.75rem;
+  display: flex;
+}
+
+#SiteDocument #SiteBody [data-control][data-classlist~="remix-write"] {
+  border-radius: 999px;
+  min-height: 2.5rem;
+  padding: 0 1.125rem 0 1.25rem;
+  gap: .5rem;
+  /* Flat like the capsule beside it: the primary button's drop shadow made it read taller than the capsule at the same 2.5rem. */
+  box-shadow: inset 0 1px #ffffff24;
+}
+
+#SiteDocument #SiteBody [data-composer] [data-hosting-foot] {
+  padding-inline: .25rem;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-points-wrap"] {
+  --panel-display: block;
+  margin-top: 2.25rem;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-points-label"] {
+  margin-bottom: .875rem;
+  padding-inline-start: .25rem;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-point"] {
+  border-radius: var(--remix-radius-card);
+  background: var(--remix-sheet);
+  min-width: 0;
+  box-shadow: var(--remix-shadow-sheet);
+  color: var(--color-text-default);
+  -webkit-hyphens: manual;
+  hyphens: manual;
+  text-align: start;
+  cursor: pointer;
+  transition: box-shadow var(--site-duration-base) var(--site-ease-out), background-color var(--site-duration-fast) var(--site-ease-out), translate var(--site-duration-base) var(--site-ease-out);
+  border: 0;
+  align-content: start;
+  gap: .25rem;
+  padding: 1.125rem 1.25rem 1.25rem;
+  display: grid;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-point"]:hover {
+  box-shadow: var(--remix-shadow-lift);
+  translate: 0 -2px;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-point"][aria-pressed="true"] {
+  background: var(--remix-pick);
+  box-shadow: 0 0 0 2px var(--color-text-brand), var(--remix-shadow-sheet);
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-point-chapter"] {
+  color: var(--remix-ink-soft);
+  letter-spacing: 0;
+  text-transform: none;
+  font-variant-numeric: tabular-nums;
+  font-size: .8125rem;
+  font-weight: 500;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-point-gist"] {
+  color: var(--remix-ink-soft);
+  -webkit-hyphens: manual;
+  hyphens: manual;
+  text-wrap: pretty;
+  margin-top: .25rem;
+  font-size: .875rem;
+  line-height: 1.5;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-point-label"] {
+  font-family: var(--font-heading);
+  letter-spacing: -.005em;
+  text-wrap: balance;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-lost"] {
+  display: none;
+}
+
+#SiteDocument #SiteBody [data-studio][data-phase="idle"]:is([data-error="notFound"], [data-error="unreachable"]) [data-classlist~="remix-lost"] {
+  border-radius: var(--remix-radius-card);
+  background: var(--remix-brand-tint);
+  outline: none;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .125rem .75rem;
+  margin-bottom: 1.25rem;
+  padding: .875rem 1.125rem;
+  display: flex;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-lost"] > [data-message]:not([hidden]) {
+  display: contents;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-lost-title"] {
+  font-family: var(--font-heading);
+  font-size: 1.0625rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-lost-body"] {
+  color: var(--remix-ink-soft);
+  font-size: .9375rem;
+  line-height: 1.45;
+}
+
+@media (width <= 63.999rem) {
+  #SiteDocument #SiteBody [data-classlist~="remix-points"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-compose-product"] {
+    display: flex;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-compose-title"] {
+    font-size: clamp(2.125rem, 6.4vw, 3rem);
+  }
+}
+
+@media (width <= 47.999rem) {
+  #SiteDocument #SiteBody [data-classlist~="remix-compose-title"] {
+    font-size: 2.125rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-promise"] {
+    font-size: 1.0625rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-composer"] {
+    margin-top: 1.5rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-points"] {
+    grid-template-columns: minmax(0, 1fr);
+    gap: .75rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-ask"] {
+    padding: 1.25rem 1.25rem .5rem;
+    font-size: 1.0625rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-write-row"] {
+    --site-button-pad: .5rem;
+    gap: .625rem;
+    width: 100%;
+    padding: .5rem 1rem 1rem;
+  }
+
+  @media (width <= 23.4rem) {
+    #SiteDocument #SiteBody [data-classlist~="remix-write-row"] {
+      --site-button-pad: .3125rem;
+      gap: .5rem;
+      padding-inline: .75rem;
+    }
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-points-wrap"] {
+    margin-top: 2rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-point"] {
+    padding: 1rem 1.125rem 1.125rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-point-label"] {
+    font-size: 1.1875rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #SiteDocument #SiteBody :is([data-classlist~="remix-point"], [data-classlist~="remix-ask-box"]) {
+    transition: none;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-point"]:hover {
+    translate: none;
+  }
+}
+
+@media (width >= 64rem) {
+  #SiteDocument #SiteBody [data-classlist~="remix-compose"] {
+    flex-direction: column;
+    height: 100%;
+    min-height: min-content;
+    padding-top: .125rem;
+    display: flex;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-compose-books"] {
+    flex: none;
+  }
+
+  /* The form never grows (it may shrink, its field scrolling): the turning points take all the slack. When both grew, a slow
+     connection painted the form tall while the points' markup was still arriving, then shrank it, jumping the points up 190px
+     (CLS 0.046 at 1350x940). */
+  #SiteDocument #SiteBody [data-classlist~="remix-composer"] {
+    flex-direction: column;
+    flex: 0 auto;
+    min-height: 0;
+    display: flex;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-compose"] {
+    --remix-compose-title-size: clamp(2.5rem, 3.6vw, 3.75rem);
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-compose-title"] {
+    font-size: min(var(--remix-compose-title-size), var(--remix-title-fit, var(--remix-compose-title-size)));
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-compose-books"] {
+    min-height: calc(2 * 1.08 * var(--remix-compose-title-size));
+    flex-direction: column;
+    justify-content: flex-end;
+    display: flex;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-ask-box"] {
+    flex: 0 auto;
+    min-height: 0;
+    max-height: clamp(13rem, 33vh, 22rem);
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-ask"] {
+    flex: 0 auto;
+    min-height: calc(2lh + 2.5rem);
+    max-height: none;
+    padding: 1.75rem 2rem .75rem;
+    font-size: clamp(1.125rem, 2.1vh, 1.3125rem);
+    overflow-y: auto;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-write-row"] {
+    flex: none;
+    padding: .75rem 2rem 1.75rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-compose"] {
+    --remix-points-gap: clamp(1.75rem, 3.5vh, 2.5rem);
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-points-wrap"] {
+    --panel-display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    margin-top: 0;
+    display: flex;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-points-book"] {
+    flex-direction: column;
+    flex: 1 0 auto;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-points"] {
+    flex: 1 0 auto;
+    grid-auto-rows: 1fr;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-point"] {
+    align-content: center;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-points-label"] {
+    margin-top: var(--remix-points-gap);
+    margin-bottom: .75rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-points"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .875rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-point-label"] {
+    font-size: 1.0625rem;
+  }
+}
+
+@media (width >= 64rem) and (height <= 50rem) {
+  #SiteDocument #SiteBody [data-classlist~="remix-composer"] {
+    margin-top: 1.25rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-compose"] {
+    --remix-compose-title-size: clamp(2rem, 3.1vw, 2.75rem);
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-promise"] {
+    margin-top: .375rem;
+    font-size: 1rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-ask"] {
+    padding-block: 1.25rem .5rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-write-row"] {
+    padding-block: .5rem 1.25rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-compose"] {
+    --remix-points-gap: 1.5rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-point"] {
+    padding: .875rem 1rem 1rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-point-gist"] {
+    margin-top: 0;
+    font-size: .8125rem;
+    line-height: 1.45;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-point-label"] {
+    font-size: 1rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-points"] {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: .75rem;
+  }
+}
+
+@container (width <= 36rem) {
+  #SiteDocument #SiteBody [data-classlist~="remix-points"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @media (height <= 50rem) {
+    #SiteDocument #SiteBody [data-classlist~="remix-points"] {
+      gap: .625rem;
+    }
+
+    #SiteDocument #SiteBody [data-classlist~="remix-point"] {
+      padding: .75rem .875rem .8125rem;
+    }
+  }
+}
+
+@media (width >= 64rem) and (height >= 68.75rem) {
+  #SiteDocument #SiteBody [data-classlist~="remix-composer"] {
+    flex-grow: 0;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-points"] {
+    flex: none;
+    grid-auto-rows: minmax(min-content, 12rem);
+  }
+}
+
+@keyframes remix-pick-card {
+  from {
+    scale: .975;
+  }
+
+  to {
+    scale: 1;
+  }
+}
+
+@keyframes remix-pick-box-1 {
+  from {
+    background-color: var(--remix-pick);
+  }
+}
+
+@keyframes remix-pick-box-2 {
+  from {
+    background-color: var(--remix-pick);
+  }
+}
+
+@keyframes remix-pick-box-3 {
+  from {
+    background-color: var(--remix-pick);
+  }
+}
+
+@keyframes remix-pick-box-4 {
+  from {
+    background-color: var(--remix-pick);
+  }
+}
+
+@keyframes remix-pick-box-5 {
+  from {
+    background-color: var(--remix-pick);
+  }
+}
+
+@keyframes remix-pick-box-6 {
+  from {
+    background-color: var(--remix-pick);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  #SiteDocument #SiteBody [data-studio][data-picked] [data-classlist~="remix-point"][aria-pressed="true"] {
+    animation: remix-pick-card var(--site-duration-base) var(--site-ease-out);
+  }
+
+  #SiteDocument #SiteBody [data-studio][data-picked] [data-classlist~="remix-compose"]:has([data-classlist~="remix-point"]:first-child[aria-pressed="true"]) [data-classlist~="remix-ask-box"] {
+    animation: remix-pick-box-1 .8s var(--site-ease-out);
+  }
+
+  #SiteDocument #SiteBody [data-studio][data-picked] [data-classlist~="remix-compose"]:has([data-classlist~="remix-point"]:nth-child(2)[aria-pressed="true"]) [data-classlist~="remix-ask-box"] {
+    animation: remix-pick-box-2 .8s var(--site-ease-out);
+  }
+
+  #SiteDocument #SiteBody [data-studio][data-picked] [data-classlist~="remix-compose"]:has([data-classlist~="remix-point"]:nth-child(3)[aria-pressed="true"]) [data-classlist~="remix-ask-box"] {
+    animation: remix-pick-box-3 .8s var(--site-ease-out);
+  }
+
+  #SiteDocument #SiteBody [data-studio][data-picked] [data-classlist~="remix-compose"]:has([data-classlist~="remix-point"]:nth-child(4)[aria-pressed="true"]) [data-classlist~="remix-ask-box"] {
+    animation: remix-pick-box-4 .8s var(--site-ease-out);
+  }
+
+  #SiteDocument #SiteBody [data-studio][data-picked] [data-classlist~="remix-compose"]:has([data-classlist~="remix-point"]:nth-child(5)[aria-pressed="true"]) [data-classlist~="remix-ask-box"] {
+    animation: remix-pick-box-5 .8s var(--site-ease-out);
+  }
+
+  #SiteDocument #SiteBody [data-studio][data-picked] [data-classlist~="remix-compose"]:has([data-classlist~="remix-point"]:nth-child(6)[aria-pressed="true"]) [data-classlist~="remix-ask-box"] {
+    animation: remix-pick-box-6 .8s var(--site-ease-out);
+  }
+}

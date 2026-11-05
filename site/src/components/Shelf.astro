@@ -1,0 +1,40 @@
+---
+// The side panel. Desktop: the app's chrome (the logo and the shared theme toggle on top, the books, the shared footer links at the foot)
+// while the page header and footer are hidden (Studio). Below laptop: a sticky picker button (the book, then a library-icon/count/chevron pill) that opens
+// the covers as a dropdown over the page (picker.ts). Closed, the list is display:none, so its lazy covers are never fetched at load.
+// Covers only (every cover carries its title, so the tiles have no text; each button keeps its accessible name).
+// The selected book is CSS keyed on <html data-book> (Studio's book selection styles on data-rail-book): its tile's plate, the
+// padding around the cover, is tinted inside a soft brand ring.
+// Each cover also carries a "read the original" badge: a sibling button (never inside the cover button, so it opens that book's reader
+// through the delegated [data-open-preview] click without selecting the book), shown on the selected cover and on hover or focus.
+import { en } from "../content/en";
+import books from "../data/books.json";
+import Logo from "./Logo.astro";
+import ThemeToggle from "./ThemeToggle.astro";
+import FooterLinks from "./FooterLinks.astro";
+import Icon from "./ui/Icon.astro";
+import Picture from "./ui/Picture.astro";
+import { fill } from "../lib/text";
+
+const copy = en.studio.rail;
+---
+<div class="flex min-h-0 min-w-0 flex-col" data-classlist="remix-shelf" data-rail>
+	<div class="flex items-center justify-between gap-3" data-classlist="remix-shelf-top">
+		<a class="flex min-w-0 items-center" data-classlist="remix-logo" href="/" aria-label={copy.lockupLabel}><Logo /></a>
+		<span class="flex flex-none" data-classlist="remix-theme"><ThemeToggle id={null} /></span>
+	</div>
+	<button type="button" data-classlist="remix-picker" data-picker-toggle aria-expanded="false" aria-controls="RemixShelfNav"><span class="min-w-0" data-classlist="remix-picker-book">{books.map((book) => <span data-book-panel={book.slug}>{book.shortTitle}</span>)}</span><span data-classlist="remix-picker-shelf"><Icon name="lucide-library-big" /><span data-classlist="remix-picker-count">{fill(copy.pickerCount, { count: String(books.length) })}</span><Icon name="lucide-chevron-right" /></span></button>
+	<nav id="RemixShelfNav" class="flex min-h-0 min-w-0 flex-1 flex-col" data-classlist="remix-shelf-nav" aria-label={copy.label}>
+		<ol data-classlist="remix-shelf-list">
+			{books.map((book) => <li data-classlist="remix-shelf-item" data-rail-book={book.slug}>
+				<button type="button" data-classlist="remix-shelf-book" data-target-book={book.slug} aria-label={book.railLabel} aria-pressed="false">
+					<span class="block" data-classlist="remix-cover"><Picture name={`${book.slug}-shelf`} alt="" class="block size-full object-cover" /></span>
+				</button>
+				<button type="button" data-classlist="remix-shelf-read" data-open-preview={book.slug} aria-label={fill(copy.read, { title: book.title })} title={fill(copy.read, { title: book.title })}><Icon name="lucide-book-open" /></button>
+			</li>)}
+		</ol>
+	</nav>
+	<div data-classlist="remix-shelf-foot">
+		<ul class="flex flex-wrap" data-classlist="remix-shelf-links" data-footer-links><FooterLinks /></ul>
+	</div>
+</div>

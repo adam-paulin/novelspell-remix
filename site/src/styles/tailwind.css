@@ -1,0 +1,11 @@
+/* Tailwind 4.2.2 (as the baseline): the theme variables, preflight and utilities the markup and scripts use, in their layers, after
+   the unlayered site CSS (index.css). Bundled into the same stylesheet, after index.css (Page.astro imports both, in this order). */
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities) source(none);
+/* Utilities come only from the components and the browser script (never from the words in content or comments elsewhere). */
+@source "../**/*.astro";
+@source "../scripts/**/*.ts";
+/* Words the scanner reads in markup and comments that are never a class here (the hidden attribute, "start"/"end" in prose...):
+   no rule for them, as in the shipped sheet, whose class set came from the rendered class attributes. */
+@source not inline("visible fixed start end contents hidden inline table outline");

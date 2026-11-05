@@ -1,0 +1,861 @@
+{
+	"schema": "remix.bookMap/1",
+	"slug": "the-time-machine",
+	"title": "The Time Machine",
+	"author": "H. G. Wells",
+	"premise": "A Victorian inventor demonstrates a machine that travels through time, then returns to his dinner guests injured and hungry with a story of the remote future. In a beautiful, ruined Thames valley, he meets the gentle Eloi and discovers evidence of another people beneath the ground.",
+	"hook": "A stolen machine leaves its inventor stranded in humanity’s beautiful and terrifying future.",
+	"logline": "Stranded in the year 802,701, a time traveller must recover his machine from the subterranean Morlocks while protecting his Eloi companion Weena.",
+	"world": {
+		"setting": "The frame begins at the Time Traveller’s house and laboratory in Richmond. His journey reaches the Thames valley in A.D. 802,701, then a remote, dying seashore more than thirty million years in the future.",
+		"period": "Late Victorian England and the remote future",
+		"rules": [
+			"The machine moves through time under its rider’s control; its removable levers start and reverse its motion. Without them it cannot be operated in the ordinary way.",
+			"Rapid time travel makes surrounding changes appear accelerated and the traveller difficult to perceive; stopping where matter occupies the same space risks a disastrous collision.",
+			"The machine can be moved through space while stationary in time. On returning, it occupies the place to which it was physically carried.",
+			"In 802,701 the small, fruit-eating Eloi live among decaying communal palaces; they possess little curiosity and fear darkness.",
+			"The pale Morlocks live underground among machinery and ventilation shafts. Their eyes are sensitive to light, and they emerge at night and prey on Eloi.",
+			"The Traveller’s accounts of the two peoples’ social and evolutionary history are hypotheses, revised as he discovers more; their precise history remains uncertain.",
+			"Matches and open flame are unfamiliar to the Eloi and painful or blinding to Morlocks. The museum matches require the lost box to strike.",
+			"Victorian travel and communication include cabs, railways, newspapers and photography; the Traveller’s guests dine formally and address one another by professional title."
+		],
+		"tone": "Conversational scientific wonder darkens into panic, tenderness and cosmic desolation, with intermittent irony and self-reproach.",
+		"themes": [
+			"Class division and exploitation",
+			"Evolution, adaptation and decline",
+			"The limits of scientific inference",
+			"Fear, companionship and compassion",
+			"The fragility of civilisation",
+			"Deep time and extinction"
+		],
+		"sensitivities": [
+			"The Traveller uses racist language and assumptions in a comparison involving a Black African visitor to London.",
+			"His judgments of gender, disability, intelligence and evolutionary fitness reflect hierarchical Victorian assumptions.",
+			"His descriptions of Morlocks use dehumanising language, although he recognises them as human descendants and sometimes sees their suffering."
+		]
+	},
+	"voice": {
+		"narration": "An unnamed guest frames the story in first-person retrospect, reporting speech and his own doubts. The Traveller’s long first-person past-tense account dominates, addressing his listeners directly and revising his own earlier interpretations.",
+		"style": [
+			"Mix exact measurements, dates and material details with sudden sensory impressions and extravagant comparisons.",
+			"Move between long, semicolon-linked reflections and short exclamations at moments of fear or discovery.",
+			"Let the Traveller propose a scientific or social explanation, then qualify it or admit later evidence has overturned it.",
+			"Use familiar analogies, rhetorical questions, parenthetical corrections and direct appeals to the listeners’ imagination.",
+			"Contrast luxuriant colour and light with decay, darkness and bodily revulsion; use British spelling and period scientific vocabulary.",
+			"Allow dry humour and self-mockery to interrupt speculation or distress."
+		],
+		"dialogue": "Speech uses quotation marks, brief attribution and lively interruptions. The Traveller shifts from patient, argumentative explanation to blunt jokes and urgent confession; the guests counter with professional observations, scepticism and journalistic banter. Eloi speech is mostly reported as sweet, liquid sounds.",
+		"samplePassages": [
+			"The thing the Time Traveller held in his hand was a glittering metallic framework, scarcely larger than a small clock, and very delicately made. There was ivory in it, and some transparent crystalline substance. And now I must be explicit, for this that follows—unless his explanation is to be accepted—is an absolutely unaccountable thing. He took one of the small octagonal tables that were scattered about the room, and set it in front of the fire, with two legs on the hearthrug. On this table he placed the mechanism.",
+			"I looked for the building I knew. Then my eye travelled along to the figure of the White Sphinx upon the pedestal of bronze, growing distinct as the light of the rising moon grew brighter. I could see the silver birch against it. There was the tangle of rhododendron bushes, black in the pale light, and there was the little lawn. I looked at the lawn again. A queer doubt chilled my complacency. ‘No,’ said I stoutly to myself, ‘that was not the lawn.’",
+			"She was exactly like a child. She wanted to be with me always. She tried to follow me everywhere, and on my next journey out and about it went to my heart to tire her down, and leave her at last, exhausted and calling after me rather plaintively. But the problems of the world had to be mastered. I had not, I said to myself, come into the future to carry on a miniature flirtation. Yet her distress when I left her was very great, her expostulations at the parting were sometimes frantic, and I think, altogether, I had as much trouble as comfort from her devotion."
+		]
+	},
+	"cast": [
+		{
+			"key": "time_traveller",
+			"name": "the Time Traveller",
+			"aliases": [
+				"our host"
+			],
+			"role": "Inventor of the Time Machine and narrator of the journey into the future.",
+			"age": "An adult man, no longer young.",
+			"appearance": "A lean man with a broad head, pale face, grey eyes and a lean forefinger. His hair is greying; he wears a dark Victorian suit and, at dinner, evening clothes. He carries himself briskly when rested. After the journey his chin is cut, his knuckles scarred and his feet are in tattered, blood-stained socks.",
+			"personality": "Ingenious, curious and argumentative, with a whimsical streak; he is capable of panic, fierce violence, tenderness and amused self-criticism.",
+			"motivation": "He wants to test his invention and understand humanity’s future; once stranded, he wants his machine back and resolves to bring Weena home.",
+			"fears": "He dreads being stranded, unseen danger in darkness, and harm to Weena.",
+			"speech": "He explains by questions and homely analogies, presses objections briskly and corrects himself. With guests he jokes or demands attention; with Weena he uses simple words, gestures and affectionate reassurance.",
+			"arc": "His expectation of advanced descendants gives way to successive, uncertain theories of decline. After losing Weena and escaping, he leaves on another journey and does not return.",
+			"relationships": [
+				{
+					"key": "narrator",
+					"nature": "A frequent guest who records his account and waits for his return."
+				},
+				{
+					"key": "weena",
+					"nature": "He rescues her and grows deeply attached to her."
+				},
+				{
+					"key": "medical_man",
+					"nature": "A sceptical guest who examines his evidence and condition."
+				},
+				{
+					"key": "psychologist",
+					"nature": "A guest who helps demonstrate the model and explains its apparent invisibility."
+				},
+				{
+					"key": "editor",
+					"nature": "A dinner guest who treats his account as a story and later calls it a lie."
+				}
+			],
+			"firstChapterId": "c01"
+		},
+		{
+			"key": "narrator",
+			"name": "the narrator",
+			"aliases": [],
+			"role": "The Traveller’s frequent guest, who records the demonstration, story and disappearance.",
+			"age": "Adult.",
+			"appearance": "An adult Victorian man of average height and build, with short, neatly parted brown hair and a clean-shaven face. He wears a dark suit, waistcoat, white shirt and collar, and sits attentively among the guests.",
+			"personality": "Observant, sympathetic and cautious in judgment; he remains troubled by the gap between the story and its convincing teller.",
+			"motivation": "He wants to understand what happened to his friend and preserve his remarkable account.",
+			"fears": "He fears that the vanished Traveller may never return.",
+			"speech": "He asks direct questions, offers an occasional dry joke and speaks more sympathetically than the journalists; his written account admits uncertainty.",
+			"arc": "Initially sceptical, he remains undecided after the story, witnesses the second departure and keeps Weena’s flowers as evidence of tenderness.",
+			"relationships": [
+				{
+					"key": "time_traveller",
+					"nature": "A constant guest and concerned friend who records his adventures."
+				},
+				{
+					"key": "editor",
+					"nature": "Shares a cab with him after the Traveller’s account."
+				}
+			],
+			"firstChapterId": "c01"
+		},
+		{
+			"key": "weena",
+			"name": "Weena",
+			"aliases": [
+				"little Weena"
+			],
+			"role": "An Eloi rescued from drowning who becomes the Traveller’s companion.",
+			"age": "An adult Eloi, childlike in stature and behaviour.",
+			"appearance": "A grown woman of about twenty-five, slightly built, her head reaching the Traveller's shoulder, with an adult woman's slender figure, narrow shoulders and long limbs; large mild eyes, thin red lips, a pointed chin and short curly fair hair; she wears a white-and-gold belted tunic and sandals.",
+			"personality": "Affectionate and playful, she is easily tired and deeply frightened of darkness.",
+			"motivation": "She seeks the Traveller’s company and safety, showing gratitude with flowers and kisses.",
+			"fears": "She dreads darkness, shadows and the Morlocks, and is distressed when the Traveller leaves her.",
+			"speech": "She speaks in the Eloi’s sweet, liquid tongue, with simple phrases; she communicates affection and distress through cries, gestures and touch.",
+			"arc": "After the Traveller saves her she follows and comforts him. She accompanies him to the museum, faints during the forest attack and disappears in the fire.",
+			"relationships": [
+				{
+					"key": "time_traveller",
+					"nature": "Her rescuer and beloved companion; she fills his pockets with flowers."
+				}
+			],
+			"firstChapterId": "c08"
+		},
+		{
+			"key": "morlocks",
+			"name": "the Morlock",
+			"aliases": [
+				"Morlocks"
+			],
+			"role": "Subterranean human descendant",
+			"age": "Adult.",
+			"appearance": "A pale, ape-like, stooping figure with a chinless face, large grey-red eyes sensitive to light, and flaxen hair on the head and down the back; it is nocturnal, lean and long-armed, and goes unclothed.",
+			"personality": "Nocturnal and predatory: they shun daylight, tend the machinery of the underworld and come up in packs at night, but scatter before a struck match or fire.",
+			"motivation": "They feed on the Eloi and keep the machines below running; they drag the Time Machine into the pedestal of the White Sphinx.",
+			"fears": "Light and fire; a struck match drives them back.",
+			"speech": "The Traveller never understands them; in the dark he hears only their soft breathing, murmurs and the patter of their feet, and feels their hands pawing at him.",
+			"arc": "First glimpsed as pale ape-like figures on the hill, they are revealed below ground as the Eloi's predators. They take the machine, hunt the Traveller and Weena through the forest and are scattered by the fire; their trap in the White Sphinx fails when he escapes in the machine.",
+			"relationships": [
+				{
+					"key": "time_traveller",
+					"nature": "They take his machine, stalk him in the dark and try to trap him inside the White Sphinx."
+				},
+				{
+					"key": "weena",
+					"nature": "Her people's predators, whom she dreads above all."
+				}
+			],
+			"firstChapterId": "c08"
+		},
+		{
+			"key": "medical_man",
+			"name": "the Medical Man",
+			"aliases": [
+				"the Doctor"
+			],
+			"role": "A dinner guest who questions the machine and examines the Traveller’s evidence.",
+			"age": "Adult.",
+			"appearance": "An adult Victorian man of average build, with short dark hair, a neatly trimmed moustache and a composed face. He wears a dark evening suit, white shirt and stiff collar, and often observes from a still posture.",
+			"personality": "Practical, observant and sceptical, though attentive to the Traveller’s distress.",
+			"motivation": "He seeks a credible explanation and attends to his host’s physical condition.",
+			"fears": "He is wary of accepting an apparent trick as fact.",
+			"speech": "He asks pointed, literal questions, invokes common sense and uses botanical language when examining the flowers.",
+			"arc": "He suspects conjuring, listens to the account and examines the flowers, but suggests the Traveller is overworked.",
+			"relationships": [
+				{
+					"key": "time_traveller",
+					"nature": "A sceptical guest concerned about his host’s condition."
+				},
+				{
+					"key": "narrator",
+					"nature": "Discusses the model’s apparent trick with him."
+				}
+			],
+			"firstChapterId": "c01"
+		},
+		{
+			"key": "psychologist",
+			"name": "the Psychologist",
+			"aliases": [],
+			"role": "A guest who operates the model’s lever and offers an explanation for its disappearance.",
+			"age": "Adult.",
+			"appearance": "An adult Victorian man of average height and build, with short brown hair and a clean-shaven face. He wears a dark dinner suit, waistcoat and white shirt, and handles a cigar among the guests.",
+			"personality": "Interested and sceptical, quick to supply an explanation and to recover his professional composure.",
+			"motivation": "He wants to test and make sense of the Traveller’s paradox.",
+			"fears": "He is concerned to appear composed after the model vanishes.",
+			"speech": "He raises conceptual objections and gives confident, explanatory answers, punctuated by brisk questions and laughter.",
+			"arc": "He calls the demonstration humbug, sends the model away himself and adopts the explanation of diluted presentation.",
+			"relationships": [
+				{
+					"key": "time_traveller",
+					"nature": "His host guides his finger onto the model’s lever."
+				},
+				{
+					"key": "narrator",
+					"nature": "A fellow witness at both dinners."
+				}
+			],
+			"firstChapterId": "c01"
+		},
+		{
+			"key": "editor",
+			"name": "the Editor",
+			"aliases": [
+				"the Editor of a well-known daily paper"
+			],
+			"role": "A sceptical dinner guest who treats the Traveller’s experience as journalistic material.",
+			"age": "A young adult.",
+			"appearance": "A young Victorian man of average build, with short dark hair and a clean-shaven face. He wears a dark evening suit and white shirt, and is often seen with a cigar.",
+			"personality": "Irreverent, curious and ready with caricature, but capable of listening to a compelling story.",
+			"motivation": "He wants an entertaining account and sees the Traveller’s arrival in terms of headlines and copy.",
+			"fears": "He resists being taken in by an improbable account.",
+			"speech": "He jokes in headlines, offers a shilling a line and turns the future into topical caricature; afterward he calls the tale a gaudy lie.",
+			"arc": "He mocks the Traveller’s absence, listens through the story and leaves unconvinced.",
+			"relationships": [
+				{
+					"key": "time_traveller",
+					"nature": "A rare guest who solicits his story but doubts it."
+				},
+				{
+					"key": "narrator",
+					"nature": "Shares a cab and gives him his verdict on the tale."
+				}
+			],
+			"firstChapterId": "c03"
+		}
+	],
+	"places": [
+		{
+			"key": "richmond_house",
+			"name": "the Time Traveller’s house",
+			"description": "The Richmond home where guests dine, hear the model demonstrated and listen to the Traveller’s account.",
+			"visual": "A bright fire, silver lilies holding incandescent lights, patented embracing chairs, wine glasses and a smoking-room lit by a small lamp."
+		},
+		{
+			"key": "laboratory",
+			"name": "the laboratory",
+			"description": "The inventor’s workshop and the departure and return point of the full-sized machine.",
+			"visual": "A draughty corridor leads to a bench strewn with drawings and tools, a skylight and a squat, askew machine of brass, ebony, ivory and quartz."
+		},
+		{
+			"key": "white_sphinx",
+			"name": "the White Sphinx",
+			"description": "The landmark beside the Traveller’s landing place; its hollow bronze pedestal conceals his stolen machine.",
+			"visual": "A colossal weathered white marble sphinx with outspread wings and a faint smile stands on a verdigris-coated, panelled bronze pedestal beside a lawn and rhododendrons."
+		},
+		{
+			"key": "great_hall",
+			"name": "the great hall",
+			"description": "An Eloi communal dining and sleeping building near the landing place.",
+			"visual": "A vast fretted-stone entrance opens into a brown-hung hall with broken coloured glass, a deeply worn white-metal floor, low polished-stone tables, fruit and scattered cushions."
+		},
+		{
+			"key": "underworld",
+			"name": "the Underworld",
+			"description": "The Morlocks’ dark subterranean domain, reached by ventilated shafts with climbing bars.",
+			"visual": "Bronze-rimmed wells descend to black tunnels and a vast arched, oppressive cavern of looming machines, a white-metal table and fleeting reflections from large eyes."
+		},
+		{
+			"key": "green_palace",
+			"name": "the Palace of Green Porcelain",
+			"description": "A ruined museum on high ground, where the Traveller finds a weapon, matches and camphor.",
+			"visual": "Pale bluish-green porcelain facing peels from a corroded frame. Dust covers dinosaur skeletons, glass cases, machinery and the brown remnants of books."
+		},
+		{
+			"key": "forest",
+			"name": "the forest",
+			"description": "The dark wood between the museum and the Sphinx, where Morlocks attack and Weena disappears.",
+			"visual": "Dense black tree trunks and tangled branches surround a grassy hillock crowned by a hawthorn; fire turns the trees into smoking black stems."
+		},
+		{
+			"key": "far_beach",
+			"name": "the far-future beach",
+			"description": "A desolate shore visited in stages as the Traveller follows the earth’s decline.",
+			"visual": "A vast stationary red sun hangs over a still salt sea, red rocks and green lichens; later snow, ice and eclipse darkness cover the shore."
+		}
+	],
+	"timeline": [
+		{
+			"chapterId": "c01",
+			"title": "Chapter 1: Introduction",
+			"summary": "At dinner the Time Traveller argues that time is a fourth dimension and proposes mechanical travel through it.",
+			"events": [
+				"He argues that real bodies must have duration as well as three spatial dimensions.",
+				"The guests object, joke about visiting history and the future, and ask for proof.",
+				"He announces experimental verification and goes to his laboratory."
+			],
+			"present": [
+				"time_traveller",
+				"narrator",
+				"medical_man",
+				"psychologist"
+			],
+			"knowledge": [
+				{
+					"key": "narrator",
+					"learns": "The Traveller claims to have experimental verification of time travel."
+				}
+			],
+			"mood": "Comfortable, sceptical curiosity"
+		},
+		{
+			"chapterId": "c02",
+			"title": "Chapter 2: The Machine",
+			"summary": "The Traveller demonstrates a miniature machine and shows his guests the unfinished full-sized version.",
+			"events": [
+				"He places the ivory and crystal model on a well-lit table and explains its levers.",
+				"He guides the Psychologist’s finger onto a lever; the model flickers and vanishes.",
+				"The guests debate its direction and apparent invisibility.",
+				"In the laboratory they see the larger machine and its unfinished crystal bars."
+			],
+			"present": [
+				"time_traveller",
+				"narrator",
+				"medical_man",
+				"psychologist"
+			],
+			"knowledge": [
+				{
+					"key": "narrator",
+					"learns": "He sees the model vanish and the larger, unfinished machine in the laboratory."
+				},
+				{
+					"key": "psychologist",
+					"learns": "He sees the model disappear when his own finger presses its lever."
+				}
+			],
+			"mood": "Astonishment and disbelief"
+		},
+		{
+			"chapterId": "c03",
+			"title": "Chapter 3: The Time Traveller Returns",
+			"summary": "A week later the Traveller returns late to dinner, injured and ravenous, and prepares to tell his guests what happened.",
+			"events": [
+				"The guests begin dinner without their absent host, following his note.",
+				"The Traveller enters dirty, limping and wearing blood-stained socks; he drinks and goes upstairs.",
+				"He returns in evening clothes, eats mutton and confirms that he has travelled in time.",
+				"In the smoking-room he asks for an uninterrupted hearing and begins his account."
+			],
+			"present": [
+				"time_traveller",
+				"narrator",
+				"medical_man",
+				"psychologist",
+				"editor"
+			],
+			"knowledge": [
+				{
+					"key": "narrator",
+					"learns": "The Traveller claims to have lived eight days since four o’clock that afternoon."
+				},
+				{
+					"key": "editor",
+					"learns": "He hears about the earlier demonstration and the Traveller’s claim to have travelled."
+				}
+			],
+			"mood": "Shock, appetite and suspense"
+		},
+		{
+			"chapterId": "c04",
+			"title": "Chapter 4: Time Travelling",
+			"summary": "The Traveller describes testing the completed machine, racing into the future and landing in a hailstorm.",
+			"events": [
+				"He completes the machine after replacing a short nickel bar and makes a brief test.",
+				"He accelerates through flickering days, seasons and changing buildings.",
+				"Fearing a collision with matter, he stops abruptly and is thrown onto a lawn.",
+				"He rights the machine beneath the White Sphinx and sees a slight, purple-clad figure approach."
+			],
+			"present": [
+				"time_traveller"
+			],
+			"knowledge": [
+				{
+					"key": "time_traveller",
+					"learns": "His first test has carried him from shortly after ten to nearly half-past three."
+				}
+			],
+			"mood": "Exhilaration, nausea and alarm"
+		},
+		{
+			"chapterId": "c05",
+			"title": "Chapter 5: In the Golden Age",
+			"summary": "The gentle future people welcome the Traveller with flowers and lead him to their hall, where he starts learning their language.",
+			"events": [
+				"The small people inspect the Traveller and touch his machine.",
+				"He removes its operating levers and pockets them.",
+				"They garland him and lead him away, leaving the machine on the lawn.",
+				"He eats fruit in their dilapidated hall and learns a few words before his teachers tire."
+			],
+			"present": [
+				"time_traveller"
+			],
+			"knowledge": [
+				{
+					"key": "time_traveller",
+					"learns": "The people seem physically frail and far less intellectually advanced than he expected."
+				}
+			],
+			"mood": "Delight and disappointment"
+		},
+		{
+			"chapterId": "c06",
+			"title": "Chapter 6: The Sunset of Mankind",
+			"summary": "From a hill above the Thames valley, the Traveller develops an initially reassuring theory of humanity’s decline.",
+			"events": [
+				"He leaves the hall and walks toward a hilltop through a landscape of palaces and ruins.",
+				"He notes the absence of small houses and the likeness between the sexes.",
+				"From a corroded metal seat he surveys the river and garden-like landscape.",
+				"He concludes that comfort and security have diminished human strength and intelligence."
+			],
+			"present": [
+				"time_traveller"
+			],
+			"knowledge": [
+				{
+					"key": "time_traveller",
+					"learns": "His dials date the world to A.D. 802,701; he forms a theory of a secure, decadent humanity."
+				}
+			],
+			"mood": "Golden serenity and speculation"
+		},
+		{
+			"chapterId": "c07",
+			"title": "Chapter 7: A Sudden Shock",
+			"summary": "The Traveller discovers his machine missing, panics, then finds evidence that it has been taken into the Sphinx pedestal.",
+			"events": [
+				"By moonlight he sees that the machine has vanished from the lawn.",
+				"He searches wildly, frightens sleeping Eloi and finally sleeps near the Sphinx.",
+				"In daylight he finds a groove and narrow footprints leading toward the hollow pedestal.",
+				"The Eloi recoil from his questions; he hammers the panels without success.",
+				"He resolves to learn the world’s ways and continues studying its simple language."
+			],
+			"present": [
+				"time_traveller"
+			],
+			"knowledge": [
+				{
+					"key": "time_traveller",
+					"learns": "With its levers removed, the machine cannot ordinarily travel in time; he infers it is inside the hollow pedestal."
+				}
+			],
+			"mood": "Panic, exhaustion and wary resolve"
+		},
+		{
+			"chapterId": "c08",
+			"title": "Chapter 8: Explanation",
+			"summary": "The Traveller saves Weena, encounters a pale underground creature and revises his theory of the future.",
+			"events": [
+				"He investigates air currents and machinery sounds in the wells and wonders who supplies the Eloi’s needs.",
+				"He rescues a drowning Eloi; Weena later gives him flowers and becomes his companion.",
+				"He recalls seeing pale figures at dawn before the rescue and learns from Weena that the Eloi fear darkness.",
+				"In a ruin he encounters a pale creature and sees it descend a shaft by metal handholds.",
+				"He infers two human descendant peoples and develops a tentative account of class division; Weena weeps when questioned about the underground people."
+			],
+			"present": [
+				"time_traveller",
+				"weena"
+			],
+			"knowledge": [
+				{
+					"key": "time_traveller",
+					"learns": "Weena is grateful and fears darkness; he concludes that the pale Morlocks and the Eloi are distinct human descendants."
+				},
+				{
+					"key": "weena",
+					"learns": "The Traveller rescues her from the river and accepts her affection."
+				}
+			],
+			"mood": "Tenderness and mounting unease"
+		},
+		{
+			"chapterId": "c09",
+			"title": "Chapter 9: The Morlocks",
+			"summary": "After delaying, the Traveller descends a well, finds Morlocks and machinery, and narrowly escapes.",
+			"events": [
+				"He spots the distant Palace of Green Porcelain but recognises his wish to explore it as an excuse to delay.",
+				"Despite Weena’s protest he climbs down a shaft, nearly falling when a bar bends.",
+				"In the underground cavern he sees Morlocks, machinery and a red joint of meat.",
+				"Morlocks touch and seize him in darkness; he retreats with his remaining matches.",
+				"He climbs to daylight and collapses as Weena and other Eloi gather around him."
+			],
+			"present": [
+				"time_traveller",
+				"weena"
+			],
+			"knowledge": [
+				{
+					"key": "time_traveller",
+					"learns": "Morlocks inhabit the machinery-filled depths, shrink from matchlight and eat meat; their language appears different from the Eloi’s."
+				}
+			],
+			"mood": "Dread and desperate escape"
+		},
+		{
+			"chapterId": "c10",
+			"title": "Chapter 10: When Night Came",
+			"summary": "Fearing the approaching dark nights, the Traveller takes Weena toward the green palace and comes to believe the Morlocks eat Eloi.",
+			"events": [
+				"Weena’s remarks about Dark Nights sharpen his fear as the moon wanes.",
+				"He carries her toward the distant palace, hoping for a defensible refuge.",
+				"At a dark wood he stops and keeps a night vigil beside the sleeping Weena.",
+				"He suspects the underground meat was human and becomes convinced the next morning.",
+				"He plans to find weapons and fire, break open the Sphinx and take Weena home."
+			],
+			"present": [
+				"time_traveller",
+				"weena"
+			],
+			"knowledge": [
+				{
+					"key": "time_traveller",
+					"learns": "He comes to believe that Morlocks prey on Eloi and decides to bring Weena to his own time."
+				}
+			],
+			"mood": "Starlit apprehension and pity"
+		},
+		{
+			"chapterId": "c11",
+			"title": "Chapter 11: The Palace of Green Porcelain",
+			"summary": "The ruined palace proves to be a museum, where the Traveller finds a metal weapon, usable matches and camphor.",
+			"events": [
+				"He and Weena enter the museum and pass dusty skeletons and cases.",
+				"In a darkening machinery gallery he hears Morlocks and breaks off an iron lever as a mace.",
+				"Among ruined books and chemical exhibits he finds good matches and sealed camphor.",
+				"He tests two apparent dynamite cartridges, which prove to be dummies.",
+				"At sunset he decides to sleep outside with a fire and attack the Sphinx doors later."
+			],
+			"present": [
+				"time_traveller",
+				"weena"
+			],
+			"knowledge": [
+				{
+					"key": "time_traveller",
+					"learns": "The palace is a museum; its preserved matches work, while the apparent dynamite cartridges do not explode."
+				}
+			],
+			"mood": "Wonder, decay and renewed confidence"
+		},
+		{
+			"chapterId": "c12",
+			"title": "Chapter 12: In the Darkness",
+			"summary": "In the forest the Traveller fights Morlocks, loses Weena and escapes a fire he himself started.",
+			"events": [
+				"At the wood’s edge he lights his collected fuel and carries Weena into the trees.",
+				"Morlocks close in; Weena collapses, and he lights camphor and builds another fire.",
+				"He falls asleep; the fire dies, the matchbox is lost and Morlocks overpower him until he fights free with the iron bar.",
+				"The first fire reaches the forest; Weena has vanished and he flees among dazzled Morlocks.",
+				"At dawn he searches again, concludes Weena died in the forest and later finds loose matches in his pocket."
+			],
+			"present": [
+				"time_traveller",
+				"weena"
+			],
+			"knowledge": [
+				{
+					"key": "time_traveller",
+					"learns": "He believes Weena’s body was left in the burning forest; her actual fate is unseen."
+				}
+			],
+			"mood": "Terror, fire and grief"
+		},
+		{
+			"chapterId": "c13",
+			"title": "Chapter 13: The Trap of the White Sphinx",
+			"summary": "The Traveller returns to the Sphinx and escapes a Morlock trap by fitting a lever to his recovered machine.",
+			"events": [
+				"He revisits the hilltop seat, reflects on his theories and sleeps until late afternoon.",
+				"At the Sphinx he finds the bronze doors open and the machine inside.",
+				"He enters, discards his iron bar and expects the panels to close behind him.",
+				"His loose matches fail without their box; Morlocks seize him as he struggles to fit the levers.",
+				"He fixes and pulls a lever, escaping through time."
+			],
+			"present": [
+				"time_traveller"
+			],
+			"knowledge": [
+				{
+					"key": "time_traveller",
+					"learns": "The machine has been cleaned and oiled; his loose matches can be struck only on their lost box."
+				}
+			],
+			"mood": "Grief, suspense and frantic escape"
+		},
+		{
+			"chapterId": "c14",
+			"title": "Chapter 14: The Further Vision",
+			"summary": "Having accidentally travelled farther forward, the Traveller witnesses a dying earth beneath an enormous red sun.",
+			"events": [
+				"He discovers that he has sent the machine forward and watches day and night slow.",
+				"He stops on a thin-aired shore and escapes giant crab-like creatures by moving onward.",
+				"He travels in great intervals until the crabs disappear and snow and ice appear.",
+				"An eclipse darkens the shore; he sees a black, tentacled creature moving on a sandbank.",
+				"Sick and afraid of fainting, he climbs back onto the machine."
+			],
+			"present": [
+				"time_traveller"
+			],
+			"knowledge": [
+				{
+					"key": "time_traveller",
+					"learns": "He has travelled forward rather than home and observes life persisting on the shore more than thirty million years hence."
+				}
+			],
+			"mood": "Cosmic desolation and horror"
+		},
+		{
+			"chapterId": "c15",
+			"title": "Chapter 15: The Time Traveller’s Return",
+			"summary": "The Traveller journeys backward to his own laboratory and joins the guests at dinner.",
+			"events": [
+				"The dials run backward as the sun, landscape and familiar buildings return.",
+				"He sees Mrs. Watchett cross the laboratory in reverse.",
+				"He stops and notices that the machine has shifted across the laboratory.",
+				"He checks the newspaper date and clock, smells meat and enters the dining-room."
+			],
+			"present": [
+				"time_traveller"
+			],
+			"knowledge": [
+				{
+					"key": "time_traveller",
+					"learns": "The machine’s displacement corresponds to its movement from the future lawn to the Sphinx pedestal; the date is still his departure day."
+				}
+			],
+			"mood": "Relief and disorientation"
+		},
+		{
+			"chapterId": "c16",
+			"title": "Chapter 16: After the Story",
+			"summary": "The guests question the story; the next day the Traveller departs again, leaving the narrator waiting for a return that has not come.",
+			"events": [
+				"The Traveller offers his account as truth, fiction or prophecy; the guests react sceptically.",
+				"He refuses to give away Weena’s flowers and checks the damaged machine when his own memory falters.",
+				"The narrator returns the next day and finds the Traveller preparing a camera and knapsack.",
+				"The Traveller promises proof at lunch and enters the laboratory.",
+				"The narrator hears a thud and finds the machine gone; three years later the Traveller has not returned."
+			],
+			"present": [
+				"time_traveller",
+				"narrator",
+				"medical_man",
+				"psychologist",
+				"editor"
+			],
+			"knowledge": [
+				{
+					"key": "narrator",
+					"learns": "He sees the damaged machine and witnesses signs of its second departure; the Traveller remains missing three years later."
+				},
+				{
+					"key": "time_traveller",
+					"learns": "Seeing the damaged machine reassures him that his account was true."
+				},
+				{
+					"key": "medical_man",
+					"learns": "He cannot identify the flowers’ natural order."
+				}
+			],
+			"mood": "Doubt, anticipation and absence"
+		},
+		{
+			"chapterId": "c17",
+			"title": "Epilogue",
+			"summary": "The narrator imagines possible destinations for the vanished Traveller and finds comfort in Weena’s preserved flowers.",
+			"events": [
+				"The narrator wonders whether the Traveller went into prehistoric time or a nearer future.",
+				"He recalls the Traveller’s pessimism about civilisation and contrasts it with his own hope.",
+				"He regards the two shrivelled flowers as evidence that gratitude and tenderness survived."
+			],
+			"present": [
+				"narrator"
+			],
+			"knowledge": [],
+			"mood": "Wonder, uncertainty and tenderness"
+		}
+	],
+	"divergencePoints": [
+		{
+			"id": "model_remains",
+			"chapterId": "c02",
+			"label": "The Model Stays",
+			"moment": "The Psychologist presses the model’s lever while the guests watch the brightly lit table.",
+			"canonOutcome": "The model becomes indistinct and vanishes, leaving the guests debating where it went.",
+			"whatIf": "What if the model stayed visible after the Psychologist pressed the lever?",
+			"stakes": "The demonstration and the guests’ confidence in the invention would change."
+		},
+		{
+			"id": "leave_the_lawn",
+			"chapterId": "c05",
+			"label": "Guard the Machine",
+			"moment": "The flower-garlanded Traveller follows the Eloi toward their hall, leaving the machine on the lawn.",
+			"canonOutcome": "He leaves it unattended after removing its levers.",
+			"whatIf": "What if the Traveller refused to leave the machine alone and stayed beside it?",
+			"stakes": "His access to home and his first relations with the Eloi are at stake."
+		},
+		{
+			"id": "machine_missing",
+			"chapterId": "c07",
+			"label": "The Empty Lawn",
+			"moment": "The Traveller sees the lawn by moonlight and realises that his machine is gone.",
+			"canonOutcome": "He rushes down in panic, searches and later infers that it is inside the pedestal.",
+			"whatIf": "What if he noticed whoever had taken the machine before they could hide it?",
+			"stakes": "A chance to recover the machine would expose him to its unknown takers."
+		},
+		{
+			"id": "weena_rescued",
+			"chapterId": "c08",
+			"label": "The River Rescue",
+			"moment": "Weena drifts downstream while the other Eloi make no attempt to save her.",
+			"canonOutcome": "The Traveller wades in below her, brings her ashore and later receives her grateful friendship.",
+			"whatIf": "What if another Eloi plunged in to save Weena before the Traveller reached her?",
+			"stakes": "Weena’s survival and the bond that sustains the Traveller could take a different course."
+		},
+		{
+			"id": "well_refusal",
+			"chapterId": "c09",
+			"label": "Weena at the Well",
+			"moment": "Weena cries out and pulls at the Traveller as he starts down the shaft.",
+			"canonOutcome": "He shakes her off and descends into the Morlocks’ underground world.",
+			"whatIf": "What if Weena persuaded him to leave the well unexplored that morning?",
+			"stakes": "He would avoid the immediate danger but lose his best clue to the Morlocks."
+		},
+		{
+			"id": "keep_firewood",
+			"chapterId": "c12",
+			"label": "Fire at the Forest Edge",
+			"moment": "The Traveller sets down his collected fuel at the dark wood and decides to light it.",
+			"canonOutcome": "The fire spreads behind him and eventually sweeps through the forest.",
+			"whatIf": "What if he carried the firewood onward without lighting the pile at the forest edge?",
+			"stakes": "Weena, the pursuing Morlocks and the forest would face a different danger in the dark."
+		},
+		{
+			"id": "sphinx_trap",
+			"chapterId": "c13",
+			"label": "The Open Bronze Doors",
+			"moment": "The Traveller sees his machine inside the open pedestal and recognises the possibility of a trap.",
+			"canonOutcome": "He enters, throws away his bar and is shut in with the Morlocks, but escapes on the machine.",
+			"whatIf": "What if he kept his iron bar and refused to enter the open pedestal?",
+			"stakes": "His only known way home lies inside a chamber controlled by his enemies."
+		},
+		{
+			"id": "second_departure",
+			"chapterId": "c16",
+			"label": "A Witness for the Journey",
+			"moment": "The Traveller asks the narrator to wait for lunch while he takes his camera and knapsack to the laboratory.",
+			"canonOutcome": "The narrator waits outside; the Traveller departs and has not returned three years later.",
+			"whatIf": "What if the narrator followed him into the laboratory before he started the machine?",
+			"stakes": "The Traveller’s second departure and the promised evidence would have an immediate witness."
+		}
+	],
+	"visual": {
+		"era": "Late Victorian evening dress, gaslit and electrically lit interiors, brass instruments and a workshop; the future retains monumental ruins and simple draped garments.",
+		"palette": "Warm amber firelight and polished brass give way to lush greens, white stone and purple flowers, then black shafts, red forest fire and a dying scarlet sun.",
+		"motifs": [
+			"Ivory levers and glimmering quartz",
+			"The smiling, weathered White Sphinx",
+			"Flowers tucked into a coat pocket",
+			"Bronze-rimmed wells and darkness",
+			"Matches and sudden flames",
+			"The red sun above a silent sea"
+		],
+		"comicStyle": "Use ink and watercolour in a late Victorian illustrated scientific romance: precise architectural and mechanical linework, fine cross-hatching in the underground scenes, and broad luminous washes for the future landscape. Alternate crowded conversational panels with wide, silent views of ruins and sky."
+	},
+	"glossary": [
+		{
+			"term": "Time Machine",
+			"kind": "object",
+			"note": "The Traveller’s vehicle for movement through time.",
+			"locales": {
+				"en": "Time Machine"
+			}
+		},
+		{
+			"term": "Time Traveller",
+			"kind": "name",
+			"note": "The inventor and principal storyteller.",
+			"locales": {
+				"en": "Time Traveller"
+			}
+		},
+		{
+			"term": "Weena",
+			"kind": "name",
+			"note": "The Eloi rescued by the Traveller.",
+			"locales": {
+				"en": "Weena"
+			}
+		},
+		{
+			"term": "Eloi",
+			"kind": "name",
+			"note": "The small, graceful people of the upper world.",
+			"locales": {
+				"en": "Eloi"
+			}
+		},
+		{
+			"term": "Morlocks",
+			"kind": "name",
+			"note": "The pale subterranean descendants of humanity.",
+			"locales": {
+				"en": "Morlocks"
+			}
+		},
+		{
+			"term": "White Sphinx",
+			"kind": "place",
+			"note": "The statue whose bronze pedestal hides the machine.",
+			"locales": {
+				"en": "White Sphinx"
+			}
+		},
+		{
+			"term": "Palace of Green Porcelain",
+			"kind": "place",
+			"note": "The ruined museum on the high ground.",
+			"locales": {
+				"en": "Palace of Green Porcelain"
+			}
+		},
+		{
+			"term": "Dark Nights",
+			"kind": "term",
+			"note": "The moonless nights that Weena fears.",
+			"locales": {
+				"en": "Dark Nights"
+			}
+		},
+		{
+			"term": "Medical Man",
+			"kind": "title",
+			"note": "The professional title used for the sceptical guest.",
+			"locales": {
+				"en": "Medical Man"
+			}
+		},
+		{
+			"term": "Psychologist",
+			"kind": "title",
+			"note": "The guest who presses the model’s lever.",
+			"locales": {
+				"en": "Psychologist"
+			}
+		}
+	]
+}

@@ -1,0 +1,8 @@
+---
+// /privacy: the policy text in full (src/content/legal.ts), as the Lander renders a legal page in place of sections.
+import Page from "../layouts/Page.astro";
+import { legal, legalHtml } from "../content/legal";
+const doc = legal.privacy;
+const html = `\n<h1>${doc.title}</h1>\n${legalHtml(doc.blocks)}\n\n`;
+---
+<Page pageName="Privacy" path="/privacy/" title={doc.seo.title} description={doc.seo.description}><article class="legal-agreement" data-classlist="brand-on-surface" set:html={html} /></Page>

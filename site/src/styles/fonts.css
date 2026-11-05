@@ -1,0 +1,117 @@
+/* Brand fonts (self-hosted, SIL OFL 1.1: LICENSE.txt beside each family in public/fonts): the shared preset unicode-range slices, the same faces
+   the NovelSpell storefront loads. There is no italic face, so italic text is synthesised by the browser; only the two latin subsets are preloaded
+   (Page.astro, _headers). */
+
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("/fonts/playfair-display/000-cyrillic-c108681cba6a.woff2") format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("/fonts/playfair-display/001-vietnamese-ef6446229b59.woff2") format("woff2");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("/fonts/playfair-display/002-latin-ext-42898ad49a6b.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("/fonts/playfair-display/003-latin-e0c764a8e9e1.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Wix Madefor Display;
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url("/fonts/wix-madefor-display/000-cyrillic-ext-b7aed7eef500.woff2") format("woff2");
+  unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: Wix Madefor Display;
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url("/fonts/wix-madefor-display/001-cyrillic-34c9d48261f9.woff2") format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Wix Madefor Display;
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url("/fonts/wix-madefor-display/002-vietnamese-83786d52c788.woff2") format("woff2");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  font-family: Wix Madefor Display;
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url("/fonts/wix-madefor-display/003-latin-ext-910481ea54d7.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Wix Madefor Display;
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url("/fonts/wix-madefor-display/004-latin-19bf2f2f1eaa.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Wix Madefor Display Fallback;
+  src: local(Arial), local(ArialMT);
+  ascent-override: 96.6381%;
+  descent-override: 24.1595%;
+  line-gap-override: 0%;
+  size-adjust: 104.307%;
+}
+
+@font-face {
+  font-family: Wix Madefor Display Fallback Android;
+  src: local(Roboto Regular), local(Roboto-Regular);
+  ascent-override: 96.4264%;
+  descent-override: 24.1066%;
+  size-adjust: 104.536%;
+}
+
+@font-face {
+  font-family: Playfair Display Fallback;
+  src: local(Georgia);
+  ascent-override: 106.716%;
+  descent-override: 24.7558%;
+  size-adjust: 101.391%;
+}
+
+@font-face {
+  font-family: Playfair Display Fallback Android;
+  src: local(Noto Serif Regular), local(NotoSerif-Regular);
+  ascent-override: 115.142%;
+  descent-override: 26.7104%;
+  size-adjust: 93.9709%;
+}

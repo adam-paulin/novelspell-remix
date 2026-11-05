@@ -1,0 +1,6 @@
+---
+// The footer's links as <li> items (port of the shared layout/footer.js FooterLinks): the footer's list and the shelf's foot both use
+// it. They stay real links; on the studio page the browser script opens them in the legal dialog instead ([data-footer-links] a).
+import { en } from "../content/en";
+---
+{en.layout.footer.links.map((link) => <li><a href={link.url} data-classlist="brand-on-surface" class="inline-flex min-h-11 min-w-11 items-center text-base font-medium opacity-90">{link.text}</a></li>)}

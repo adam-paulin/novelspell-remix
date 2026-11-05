@@ -1,0 +1,58 @@
+---
+// The chapter pane: one block per phase (thinking or failed, restoring, ready), never sharing a visible element, so the record
+// landing moves nothing.
+import { en } from "../content/en";
+import books from "../data/books.json";
+import Icon from "./ui/Icon.astro";
+import Slotted from "./ui/Slotted.astro";
+import Dots from "./ui/Dots.astro";
+import Ghosts from "./ui/Ghosts.astro";
+import ChapterEnd from "./ChapterEnd.astro";
+import FastToggle from "./FastToggle.astro";
+
+const GHOST_LINES = 14;
+const copy = en.studio.progress;
+const result = en.studio.result;
+// A writer provider that refused the request (error.provider) has its own card, keyed unavailable-<provider id>.
+const unavailable = Object.entries(en.studio.unavailable).map(([id, text]) => [`unavailable-${id}`, text] as const);
+const otherTitles = [...Object.entries(copy.titles).filter(([key]) => key !== "restoring"), ...unavailable.map(([key, text]) => [key, text.title] as const)];
+const hints = [...Object.entries(copy.hints), ...unavailable.map(([key, text]) => [key, text.hint] as const)];
+const voiced = books.filter((book) => book.voice.length);
+---
+<article data-classlist="remix-page" data-result-chapter tabindex="0" aria-label={result.chapterLabel}>
+	{/* Thinking (no word written yet) and the failure card: one short title, and while thinking one passage in the author's voice.
+	   "chapter 12", or the original's own label alone ("Letter IV"): the script hides the word when the chapter has a label. */}
+	<section data-classlist="remix-progress" data-progress aria-label={copy.label}>
+	<h2 class="m-0" data-classlist="remix-progress-title" data-progress-title tabindex="-1" data-messages="progress-title"><span data-message="opening" hidden>{books.map((book) => <span data-book-panel={book.slug}><Slotted text={book.openingTitle}><Fragment slot="openChapter"><span data-ref-word>{result.chapter} </span><span data-slot="openChapter"></span></Fragment></Slotted></span>)}<Dots /></span><span data-message="finding">{books.map((book) => <span data-book-panel={book.slug}>{book.findingTitle}</span>)}<Dots /></span>{otherTitles.map(([key, text]) => <span data-message={key} hidden>{text}</span>)}</h2>
+	<div class="grid" data-classlist="remix-progress-body">
+		<div data-classlist="remix-progress-run"><figure class="m-0" data-classlist="remix-voice">{voiced.map((book) => <div data-classlist="remix-voice-book" data-book-panel={book.slug} data-voice-book>
+		<figcaption data-classlist="remix-voice-label">{copy.voice}</figcaption>
+		<blockquote class="m-0" data-classlist="remix-voice-line" data-voice-line data-active>{book.voice[0]}</blockquote>
+		<p class="m-0" data-classlist="remix-voice-credit">{book.voiceBy}</p>
+	</div>)}</figure></div>
+		<div data-classlist="remix-progress-fail">
+			<p class="m-0" data-classlist="remix-progress-hint" data-messages="progress-hint">{hints.map(([key, text]) => <span data-message={key} hidden>{text}</span>)}</p>
+			<div class="flex flex-wrap gap-3" data-classlist="remix-progress-actions">
+				<button type="button" data-control="primary" data-retry><Icon name="lucide-refresh-cw" /><span>{copy.retry}</span></button>
+				<FastToggle where="fail" />
+			</div>
+		</div>
+	</div>
+</section>
+	{/* A shared link with nothing painted yet: a quiet skeleton under one status line. */}
+	<div data-classlist="remix-restore">
+	<p class="m-0" data-classlist="remix-page-status">{copy.titles.restoring}</p>
+	<div data-classlist="remix-ghost-lines" aria-hidden="true"><Ghosts count={GHOST_LINES} /></div>
+</div>
+	{/* Ready: the lede (where it splits, which opens the original there, and the read time), the chapter, the end card. */}
+	<div data-classlist="remix-result" data-result>
+	<p class="m-0" data-classlist="remix-demo-note" data-messages="demo-note"><span data-message="create">{books.map((book) => <span data-book-panel={book.slug}>{book.demoNote}</span>)}</span></p>
+	<div data-classlist="remix-lede">
+	<p class="m-0" data-classlist="remix-split" data-messages="split"><span data-message="at" hidden><Slotted text={result.splitsAt}><button slot="splitChapter" type="button" data-classlist="remix-split-chapter" data-read-original aria-label={result.splitReadLabel}><span data-ref-word>{result.chapter} </span><span data-slot="splitChapter"></span></button></Slotted></span><span data-message="plain"><Slotted text={result.splitsPlain} /></span></p>
+	<p class="m-0" data-classlist="remix-live" data-messages="live"><span data-message="writing" hidden><Slotted text={result.writingLive} /></span><span data-message="read" hidden><Slotted text={result.readTime} /></span><button type="button" data-classlist="remix-comic-jump" data-open-lightbox="comic" aria-label={result.fullSize}>{result.comicJump}</button></p>
+	</div>
+	<div data-classlist="remix-prose" data-prose></div>
+	<p class="m-0" data-classlist="remix-fleuron" aria-hidden="true">{result.fleuron}</p>
+	<ChapterEnd where="pane" />
+</div>
+</article>

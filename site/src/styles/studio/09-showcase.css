@@ -1,0 +1,91 @@
+#SiteDocument #SiteBody [data-classlist~="remix-showcase"] {
+  --panel-display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-showcase-comic"] {
+  aspect-ratio: 2 / 3;
+  background: var(--remix-sheet);
+  width: min(100%, 36rem);
+  box-shadow: var(--remix-shadow-sheet);
+  cursor: pointer;
+  transition: box-shadow var(--site-duration-base) var(--site-ease-out), translate var(--site-duration-base) var(--site-ease-out);
+  border-radius: .75rem;
+  flex: none;
+  padding: .5rem;
+  overflow: hidden;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-showcase-comic"] picture {
+  border-radius: .375rem;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-showcase-comic"] img {
+  object-fit: cover;
+  height: 100%;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-showcase-comic"]:hover {
+  box-shadow: var(--remix-shadow-lift);
+  translate: 0 -.1875rem;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-showcase-comic"]:focus-visible {
+  outline-offset: 4px;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-cover-card"][data-cover-card="showcase"] {
+  flex: none;
+  margin-bottom: .875rem;
+  display: grid;
+}
+
+#SiteDocument[data-theme="dark"] #SiteBody [data-classlist~="remix-showcase-comic"] img {
+  filter: brightness(.84);
+  scale: 1.035;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #SiteDocument #SiteBody [data-classlist~="remix-showcase-comic"] {
+    transition: none;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-showcase-comic"]:hover {
+    translate: none;
+  }
+}
+
+@media (width <= 63.999rem) {
+  #SiteDocument #SiteBody [data-classlist~="remix-showcase"] {
+    --remix-cover-h: 11rem;
+    width: min(100%, 30rem);
+    height: auto;
+    margin: 3rem auto 0;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-showcase-comic"] {
+    width: 100%;
+  }
+}
+
+@media (width >= 64rem) {
+  #SiteDocument #SiteBody :is([data-classlist~="remix-showcase-comic"], [data-cover-card="showcase"]) {
+    width: min(100cqw, (100cqh - var(--remix-art-chrome)) * 2 / 3);
+    margin-inline-start: auto;
+  }
+
+  /* The card holds the top and the comic the bottom (margin-top: auto), never the column's end: a slow connection paints the card
+     before the comic's markup arrives, and bottom-aligning the column dropped the card to the foot first, then jumped it up
+     (CLS 0.07 at 1350x940). Where the art column fills, the two meet; where the width cap leaves room, the space sits between them. */
+  #SiteDocument #SiteBody [data-classlist~="remix-showcase"] {
+    justify-content: flex-start;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-showcase-comic"] {
+    margin-top: auto;
+  }
+}

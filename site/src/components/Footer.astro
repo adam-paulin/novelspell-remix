@@ -1,0 +1,32 @@
+---
+// The page footer (the shared Lander footer as this site renders it): the logo, the copyright line and the footer links. On the studio
+// page at >= 64rem it is display: none (the shelf's foot carries the links).
+import Logo from "./Logo.astro";
+import FooterLinks from "./FooterLinks.astro";
+import copyright from "../icons/lucide-copyright.svg?raw";
+import { en } from "../content/en";
+import { fill } from "../lib/text";
+import { site } from "../config";
+// The framework stamps the build year, so a rebuild on 1 January moves the line on.
+const line = fill(en.layout.footer.copyright, { year: new Date().getFullYear(), host: new URL(site.origin).host });
+// The icon sits in a 0.75rem box, so the svg itself carries size-3 (as the shared footer's renderSvg classlist did).
+const mark = copyright.trim().replace("<svg ", '<svg class="size-3" ');
+---
+<footer data-classlist="Footer brand-background-subtle">
+	<div data-footer-shell class="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-10 lg:px-8">
+		<div data-footer-row class="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
+			<div data-footer-brand class="flex min-w-0 flex-col items-center gap-4 text-center sm:items-start sm:text-left">
+				<div class="flex w-full max-w-full justify-center sm:w-auto sm:justify-start" aria-label={en.layout.brand} role="img">
+					<span class="flex h-[34px] max-w-[calc(100vw-8rem)] min-w-0 shrink-0 items-center justify-center sm:justify-start [&>svg]:h-full [&>svg]:w-auto [&>svg]:max-w-full mx-auto sm:mx-0" aria-hidden="true"><Logo /></span>
+				</div>
+				<p class="inline-flex items-center gap-1.5 pt-1 text-xs leading-none" data-classlist="brand-on-surface-muted">
+					<span class="inline-flex size-3 shrink-0 items-center justify-center" set:html={mark}></span>
+					<span>{line}</span>
+				</p>
+			</div>
+			<div data-footer-nav class="flex flex-col items-center gap-4 lg:items-end">
+				<ul data-footer-links class="flex list-none flex-wrap items-center justify-center gap-x-7 gap-y-3 p-0 lg:justify-end"><FooterLinks /></ul>
+			</div>
+		</div>
+	</div>
+</footer>

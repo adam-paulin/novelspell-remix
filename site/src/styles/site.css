@@ -1,0 +1,308 @@
+/* Site layer (dev assets/styles.js): the root size steps, the studio's tokens, the shared controls, the header and footer looks. */
+
+html#SiteDocument body#SiteBody {
+  --site-button-height: 3rem;
+  --site-button-weight: 600;
+  --site-button-pad: 1.5rem;
+  --site-button-text: .9375rem;
+  --site-radius-control: .625rem;
+}
+
+@media (width >= 125.063rem) {
+  html#SiteDocument {
+    font-size: clamp(1rem, min(.571429vw + .285714rem, 1.33333vh), 1.25rem);
+  }
+}
+
+#SiteDocument #SiteBody {
+  --remix-top: var(--layout-sticky-header-offset);
+  --remix-shell: 110rem;
+  --remix-inset: clamp(2.5rem, 3.1vw, 3.25rem);
+  --remix-cover-aspect: 2106 / 2988;
+  --remix-cover-height-ratio: calc(2988 / 2106);
+  --remix-canvas-light: #f3efe7;
+  --remix-canvas-dark: #121311;
+  --remix-canvas: light-dark(var(--remix-canvas-light), var(--remix-canvas-dark));
+  --remix-sheet-light: #fffdf8;
+  --remix-sheet-dark: #1b1c19;
+  --remix-sheet: light-dark(var(--remix-sheet-light), var(--remix-sheet-dark));
+  --remix-sheet-2-light: #f9f6ef;
+  --remix-sheet-2-dark: #222320;
+  --remix-sheet-2: light-dark(var(--remix-sheet-2-light), var(--remix-sheet-2-dark));
+  --remix-line-light: #26221817;
+  --remix-line-dark: #ffffff14;
+  --remix-line: light-dark(var(--remix-line-light), var(--remix-line-dark));
+  --remix-ink-soft-light: #5d5a52;
+  --remix-ink-soft-dark: #b3afa5;
+  --remix-ink-soft: light-dark(var(--remix-ink-soft-light), var(--remix-ink-soft-dark));
+  --remix-radius-card: 1rem;
+  --remix-radius-sheet: 1.25rem;
+  --remix-shadow-sheet: 0 1px 2px light-dark(#2622180a, #00000059), 0 10px 30px -12px light-dark(#26221824, #0000008c), 0 0 0 1px light-dark(#2622180b, #ffffff0d);
+  --remix-shadow-lift: 0 2px 4px light-dark(#2622180d, #00000059), 0 16px 36px -14px light-dark(#26221838, #0009), 0 0 0 1px light-dark(#2622180d, #ffffff0f);
+  --remix-rule-strong-light: color-mix(in srgb, var(--color-border-accent) 72%, transparent);
+  --remix-rule-strong-dark: color-mix(in srgb, var(--color-border-accent) 76%, transparent);
+  --remix-rule-strong: light-dark(var(--remix-rule-strong-light), var(--remix-rule-strong-dark));
+  --remix-edge: var(--remix-line);
+  --remix-edge-live-light: color-mix(in srgb, var(--color-border-accent) 85%, transparent);
+  --remix-edge-live-dark: color-mix(in srgb, var(--color-border-accent) 90%, transparent);
+  --remix-edge-live: light-dark(var(--remix-edge-live-light), var(--remix-edge-live-dark));
+  --remix-paper: var(--remix-canvas);
+  --remix-wash-light: color-mix(in srgb, var(--color-text-brand) 6%, transparent);
+  --remix-wash-dark: color-mix(in srgb, var(--color-text-brand) 13%, transparent);
+  --remix-wash: light-dark(var(--remix-wash-light), var(--remix-wash-dark));
+  --remix-brand-tint-light: color-mix(in srgb, var(--color-text-brand) 7%, transparent);
+  --remix-brand-tint-dark: color-mix(in srgb, var(--color-text-brand) 14%, transparent);
+  --remix-brand-tint: light-dark(var(--remix-brand-tint-light), var(--remix-brand-tint-dark));
+  --remix-pick-light: color-mix(in srgb, var(--color-action-primary-bg) 9%, var(--color-surface-default));
+  --remix-pick-dark: color-mix(in srgb, var(--color-action-primary-bg) 22%, var(--color-surface-default));
+  --remix-pick: light-dark(var(--remix-pick-light), var(--remix-pick-dark));
+  --remix-pick-ring-light: color-mix(in srgb, var(--color-action-primary-bg) 55%, transparent);
+  --remix-pick-ring-dark: color-mix(in srgb, var(--color-text-brand) 60%, transparent);
+  --remix-pick-ring: light-dark(var(--remix-pick-ring-light), var(--remix-pick-ring-dark));
+  --remix-changed-light: color-mix(in srgb, var(--color-action-primary-bg) 16%, var(--color-surface-default));
+  --remix-changed-dark: color-mix(in srgb, var(--color-action-primary-bg) 28%, var(--color-surface-default));
+  --remix-changed: light-dark(var(--remix-changed-light), var(--remix-changed-dark));
+  --remix-pick-edge-light: color-mix(in srgb, var(--color-action-primary-bg) 72%, transparent);
+  --remix-pick-edge-dark: color-mix(in srgb, var(--color-action-primary-bg) 88%, transparent);
+  --remix-pick-edge: light-dark(var(--remix-pick-edge-light), var(--remix-pick-edge-dark));
+  --remix-board: var(--remix-sheet-2);
+  --remix-backdrop: light-dark(#191a166b, #0000009e);
+  --remix-sweep-light: color-mix(in srgb, var(--color-surface-default) 70%, transparent);
+  --remix-sweep-dark: color-mix(in srgb, var(--color-text-brand) 12%, transparent);
+  --remix-sweep: light-dark(var(--remix-sweep-light), var(--remix-sweep-dark));
+  --remix-shadow-book: 0 1px 2px light-dark(#0f1a151f, #0006), 0 18px 34px -15px light-dark(#0f1a1547, #0000009e);
+  --remix-shadow-book-close: 0 1px 2px light-dark(#0f1a1524, #0006), 0 3px 8px -3px light-dark(#0f1a1538, #00000080);
+  --remix-shadow-book-raised: 0 2px 4px light-dark(#0f1a1529, #00000070), 0 24px 44px -14px light-dark(#0f1a154d, #000000a8);
+  --remix-spine: inset .375rem 0 .5rem -.375rem light-dark(#0f1a154d, #00000085), inset 0 0 0 1px light-dark(#0f1a151a, #ffffff14);
+  --remix-prose-font: var(--font-heading);
+  --remix-prose-size: 1.1875rem;
+  --remix-prose-leading: 1.8;
+  --remix-prose-align: start;
+  --remix-prose-ink-light: var(--color-text-default);
+  --remix-prose-ink-dark: #e6e2d8;
+  --remix-prose-ink: light-dark(var(--remix-prose-ink-light), var(--remix-prose-ink-dark));
+  background-color: var(--remix-paper);
+}
+
+#SiteDocument[data-theme="dark"] #SiteBody {
+  -webkit-font-smoothing: antialiased;
+}
+
+#SiteDocument #SiteBody svg {
+  flex-shrink: 0;
+}
+
+#SiteDocument #SiteBody :where([data-control]) {
+  min-height: var(--site-button-height);
+  padding: 0 var(--site-button-pad);
+  border-radius: var(--site-radius-control);
+  color: var(--color-text-brand);
+  font-family: var(--font-body);
+  font-size: var(--site-button-text);
+  font-weight: var(--site-button-weight);
+  letter-spacing: -.005em;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color var(--site-duration-fast) var(--site-ease-out), border-color var(--site-duration-fast) var(--site-ease-out), color var(--site-duration-fast) var(--site-ease-out), opacity var(--site-duration-fast), translate var(--site-duration-fast) var(--site-ease-out);
+  background: none;
+  border: 1px solid #0000;
+  justify-content: center;
+  align-items: center;
+  gap: .625rem;
+  line-height: 1.15;
+  text-decoration: none;
+  display: inline-flex;
+  position: relative;
+}
+
+#SiteDocument #SiteBody :where([data-control]) svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  transition: translate var(--site-duration-fast) var(--site-ease-out);
+  flex: none;
+}
+
+#SiteDocument #SiteBody :where([data-control]):active {
+  translate: 0 1px;
+}
+
+#SiteDocument #SiteBody :where([data-control]):focus-visible {
+  outline: 2px solid var(--site-focus-ring);
+  outline-offset: 3px;
+}
+
+#SiteDocument #SiteBody :where([data-control]):disabled, #SiteDocument #SiteBody :where([data-control])[aria-disabled="true"]:not([data-needs-result], [data-needs-ready]) {
+  border-color: var(--color-border-muted);
+  background: var(--color-surface-sunken);
+  color: var(--color-text-muted);
+  cursor: default;
+  pointer-events: none;
+}
+
+#SiteDocument #SiteBody :where([data-control])[data-arrow]:hover svg:last-child {
+  translate: .15rem;
+}
+
+#SiteDocument #SiteBody [data-control="primary"]:is([data-needs-result], [data-needs-ready])[aria-disabled="true"] {
+  border-color: var(--color-border-primary);
+  box-shadow: none;
+  color: var(--color-text-brand);
+  background: none;
+}
+
+#SiteDocument #SiteBody :where([data-control="primary"]) {
+  background: var(--color-action-primary-bg);
+  color: var(--color-action-primary-text);
+  box-shadow: inset 0 1px light-dark(#ffffff24, #ffffff1a), 0 1px 2px light-dark(#26221824, #0006), 0 6px 16px -8px light-dark(#3c481e73, #00000080);
+}
+
+#SiteDocument #SiteBody :where([data-control="primary"]):hover {
+  background: var(--color-action-primary-bg-hover);
+}
+
+#SiteDocument #SiteBody :where([data-control="secondary"]) {
+  background: var(--remix-brand-tint);
+  border-color: #0000;
+}
+
+#SiteDocument #SiteBody :where([data-control="secondary"]):hover {
+  background: var(--remix-wash);
+  border-color: #0000;
+}
+
+#SiteDocument #SiteBody :where([data-control="quiet"]) {
+  border-color: var(--remix-line);
+  background: var(--remix-sheet);
+  gap: .4375rem;
+  min-height: 2.375rem;
+  padding: 0 .875rem;
+  font-size: .875rem;
+  font-weight: 600;
+}
+
+#SiteDocument #SiteBody :where([data-control="quiet"]):hover {
+  background: var(--remix-brand-tint);
+  border-color: #0000;
+}
+
+#SiteDocument #SiteBody :where([data-control="quiet"]) svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+#SiteDocument #SiteBody :where([data-control="icon"]) {
+  width: 2.75rem;
+  min-height: 2.75rem;
+  color: var(--color-text-default);
+  border-radius: .75rem;
+  padding: 0;
+}
+
+#SiteDocument #SiteBody :where([data-control="icon"]):hover {
+  background: var(--remix-brand-tint);
+  color: var(--color-text-brand);
+}
+
+#SiteDocument #SiteBody :where([data-control="icon"]) svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+#SiteDocument #SiteBody :where([data-control="icon"]):disabled, #SiteDocument #SiteBody :where([data-control="icon"])[aria-disabled="true"] {
+  background: none;
+  border-color: #0000;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #SiteDocument #SiteBody [data-control] {
+    transition: none;
+  }
+
+  #SiteDocument #SiteBody [data-control]:active, #SiteDocument #SiteBody [data-control][data-arrow]:hover svg:last-child {
+    translate: none;
+  }
+}
+
+#SiteDocument {
+  --site-nav-height: 4.5rem;
+}
+
+@media (width <= 63.999rem) {
+  #SiteDocument {
+    --site-nav-height: 4.25rem;
+  }
+}
+
+#SiteDocument #SiteBody {
+  --site-nav-logo-height: 2rem;
+  --site-nav-shell-max: var(--remix-shell);
+  --site-nav-shell-pad: var(--remix-inset);
+}
+
+#SiteDocument #SiteBody header[data-classlist~="Header"] {
+  border-bottom: 1px solid var(--remix-line);
+  background-color: var(--color-surface-overlay);
+}
+
+#SiteDocument #SiteBody footer[data-classlist~="Footer"] {
+  border-top: 1px solid var(--remix-line);
+  background-color: var(--remix-canvas);
+}
+
+#SiteDocument #SiteBody footer[data-classlist~="Footer"] [data-footer-shell] {
+  max-width: var(--remix-shell);
+  padding-block: .25rem;
+  padding-inline: var(--remix-inset);
+}
+
+#SiteDocument #SiteBody footer[data-classlist~="Footer"] [data-footer-row] {
+  justify-content: center;
+  gap: 0;
+}
+
+#SiteDocument #SiteBody footer[data-classlist~="Footer"] [data-footer-brand] {
+  display: none;
+}
+
+#SiteDocument #SiteBody footer[data-classlist~="Footer"] [data-footer-nav] {
+  align-items: center;
+  gap: 0;
+}
+
+#SiteDocument #SiteBody footer[data-classlist~="Footer"] [data-footer-links] {
+  justify-content: center;
+  gap: 0 1.75rem;
+}
+
+#SiteDocument #SiteBody footer[data-classlist~="Footer"] [data-footer-links] a {
+  min-height: 2.75rem;
+  color: var(--remix-ink-soft);
+  transition: color var(--site-duration-fast) var(--site-ease-out);
+  align-items: center;
+  font-size: .875rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+#SiteDocument #SiteBody footer[data-classlist~="Footer"] [data-footer-links] a:hover {
+  color: var(--color-text-brand);
+  text-underline-offset: .2em;
+  text-decoration: underline;
+}
+
+#SiteDocument #SiteBody footer[data-classlist~="Footer"] [data-footer-links] a:focus-visible {
+  outline: 2px solid var(--site-focus-ring);
+  outline-offset: 2px;
+}
+
+@media (width <= 63.999rem) {
+  #SiteDocument #SiteBody {
+    --site-nav-logo-height: 1.9rem;
+    --site-nav-shell-pad: var(--site-content-pad);
+  }
+
+  #SiteDocument #SiteBody footer[data-classlist~="Footer"] [data-footer-shell] {
+    padding-inline: var(--site-content-pad);
+  }
+}

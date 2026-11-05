@@ -1,0 +1,157 @@
+#SiteDocument #SiteBody [data-classlist~="remix-spread"] {
+  grid-template-columns: minmax(0, 1fr) var(--remix-art-w);
+  column-gap: var(--remix-gap);
+  grid-template-rows: auto minmax(0, 1fr);
+  grid-template-areas: "head art"
+                       "page art";
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-area-compose"] {
+  grid-area: 1 / 1 / -1;
+  min-height: 0;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-area-head"] {
+  grid-area: head;
+  display: none;
+  container-type: inline-size;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-area-page"] {
+  grid-area: page;
+  margin-top: 1.25rem;
+  display: none;
+  position: relative;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-area-art"] {
+  grid-area: art;
+  min-height: 0;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-art-sticky"] {
+  height: 100%;
+}
+
+#SiteDocument #SiteBody :where([data-workspace]) :focus-visible {
+  outline: 2px solid var(--site-focus-ring);
+  outline-offset: 2px;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-eyebrow"], #SiteDocument #SiteBody [data-classlist~="remix-label"] {
+  color: var(--remix-ink-soft);
+  font-family: var(--font-body);
+  font-size: var(--site-text-eyebrow, .8125rem);
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-eyebrow"] {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5rem .75rem;
+  display: flex;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-eyebrow-rule"] {
+  border-top: 1px solid var(--remix-line);
+  width: 2.75rem;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-title"] {
+  color: var(--color-text-default);
+  font-family: var(--font-heading);
+  font-size: var(--remix-title-size, var(--site-heading-section));
+  letter-spacing: -.025em;
+  text-wrap: balance;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-title"] em {
+  color: var(--color-text-brand);
+  letter-spacing: -.01em;
+  font-size: 1.06em;
+  font-style: italic;
+  font-weight: 400;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-ghost"] {
+  background: linear-gradient(90deg, transparent 0%, var(--remix-sweep) 50%, transparent 100%) -150% 0 / 60% 100% no-repeat, var(--remix-wash);
+  border-radius: 2px;
+  height: .55em;
+  margin-block: calc(.5lh - .275em);
+  animation: 2.4s ease-in-out infinite remix-sweep;
+  display: block;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-ghost"][data-ghost="title"] {
+  height: .62em;
+  margin-block: calc(.5lh - .31em);
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-ghost"]:nth-child(7n+1) {
+  width: 100%;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-ghost"]:nth-child(7n+2) {
+  width: 97%;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-ghost"]:nth-child(7n+3) {
+  width: 99%;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-ghost"]:nth-child(7n+4) {
+  width: 92%;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-ghost"]:nth-child(7n+5) {
+  width: 98%;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-ghost"]:nth-child(7n+6) {
+  width: 95%;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-ghost"]:nth-child(7n) {
+  width: 63%;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-dots"] {
+  vertical-align: baseline;
+  gap: .2em;
+  margin-inline-start: .3em;
+  display: inline-flex;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-dots"] > span {
+  opacity: .25;
+  background: currentColor;
+  border-radius: 50%;
+  width: .22em;
+  height: .22em;
+  animation: 1.4s ease-in-out infinite remix-dot;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-dots"] > span:nth-child(2) {
+  animation-delay: .2s;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-dots"] > span:nth-child(3) {
+  animation-delay: .4s;
+}
+
+#SiteDocument #SiteBody img[data-fresh] {
+  animation: remix-fade var(--site-duration-slow) var(--site-ease-out) both;
+}
+
+#SiteDocument #SiteBody img[data-fresh="b"] {
+  animation-name: remix-fade-b;
+}
+
+#SiteDocument #SiteBody [data-follow-chip] {
+  display: none;
+}

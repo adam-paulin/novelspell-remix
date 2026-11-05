@@ -1,0 +1,31 @@
+---
+// The whole product as one app (the dev sections/Studio.js). Desktop: the studio is the viewport (the page header and footer are
+// hidden on this page and the shelf carries the logo, theme toggle and footer links); each column scrolls inside itself. Below laptop
+// the parts stack under the normal header, above the normal footer, and the page scrolls. Every state the page can start in has its
+// space reserved in CSS (src/styles/studio/01-studio.css, which also holds the per-book rules keyed on <html data-book>).
+import { en } from "../content/en";
+import books from "../data/books.json";
+import featured from "../data/featured.json";
+import Workspace from "./Workspace.astro";
+import Shelf from "./Shelf.astro";
+import Dialogs from "./Dialogs.astro";
+import HostingParts from "./HostingParts.astro";
+import { inlineScript } from "../lib/inlineScript";
+import { studioHead, studioTail } from "../lib/firstPaint";
+
+const slugs = books.map((book) => book.slug);
+const featuredBooks = Object.fromEntries(Object.values(featured).map((entry) => [entry.id, entry.book]));
+
+// First-paint scripts (src/lib/firstPaint.ts), inline and blocking: the targeted book before the markup, the pressed turning point
+// and a cold restore after it.
+const head = inlineScript(studioHead, slugs, featuredBooks);
+const tail = inlineScript(studioTail);
+---
+<section id="Studio" class="mb-[clamp(2.5rem,4.5vw,3.75rem)] last:mb-0">
+	<script is:inline set:html={head}></script><div class="mx-auto" data-classlist="remix-studio" data-studio data-phase="idle"><span data-messages="tab-title" hidden><span data-message="writing" hidden>{en.studio.tab.writing}</span><span data-message="ready" hidden>{en.studio.tab.ready}</span></span>
+	<Workspace />
+	<Shelf />
+	<script is:inline set:html={tail}></script>
+</div>
+<Dialogs /><HostingParts />
+</section>

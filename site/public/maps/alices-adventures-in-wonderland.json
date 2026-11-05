@@ -1,0 +1,1072 @@
+{
+	"schema": "remix.bookMap/1",
+	"slug": "alices-adventures-in-wonderland",
+	"title": "Alice’s Adventures in Wonderland",
+	"author": "Lewis Carroll",
+	"premise": "A curious little girl follows a waistcoated White Rabbit down a hole into a world of talking animals, abrupt changes of size, and baffling manners. Hoping to reach a beautiful garden, she encounters creatures who turn familiar lessons, games, and rules inside out.",
+	"hook": "A golden key and a door fifteen inches high lead Alice toward a garden ruled by a furious Queen.",
+	"logline": "As Alice searches for her way through Wonderland, she must navigate its shifting scale and nonsensical authorities without losing her sense of herself.",
+	"world": {
+		"setting": "An English riverbank gives way to Wonderland: a deep furnished well, a locked hall, woods and tiny houses, a flower garden and croquet-ground, a rocky shore, and the Hearts' court.",
+		"period": "Victorian England and its dreamlike counterpart",
+		"rules": [
+			"Animals, birds, playing cards, and fabulous creatures speak and take part in human society; Alice can address them, though their habits and appetites differ.",
+			"Bottles, cakes, a fan, and opposite sides of a mushroom can alter Alice's size; their effects and duration are learned by experiment, not from a complete rulebook.",
+			"The Cheshire Cat can appear and vanish in parts, leaving a grin or a head without a visible body.",
+			"The Hatter says Time is a person with whom he quarrelled, leaving his party at six o'clock and always taking tea.",
+			"The Queen orders executions freely; the King pardons those sentenced at croquet, and the Gryphon says nobody is ever executed.",
+			"The King presides over a jury trial, but royal commands, invented rules, and wordplay repeatedly displace evidence and procedure.",
+			"Travel is on foot or by swimming, with sudden transitions between places; the hall can also be entered through a door in a tree.",
+			"Wonderland is revealed as Alice's dream when she wakes on her sister's lap; its transformations need not obey waking physics."
+		],
+		"tone": "Playful, curious, and disconcerting, with sudden threats softened by absurdity and a tender close.",
+		"themes": [
+			"Identity and changes in size",
+			"Authority and arbitrary rules",
+			"Language, logic, and misunderstanding",
+			"Childhood, lessons, and growing up",
+			"Curiosity and the desire for home"
+		],
+		"sensitivities": [
+			"The book treats threats of beheading, rough handling of a baby, and the suppression of guinea-pigs as comic; their violence remains part of the scene.",
+			"Class hierarchy and period assumptions about servants and children's obedience shape the characters' speech and behaviour.",
+			"The Duchess is called very ugly, and physical appearance is sometimes made the basis of a joke."
+		]
+	},
+	"voice": {
+		"narration": "A third-person, past-tense narrator stays close to Alice's perceptions and thoughts, sympathising with her while teasing her mistakes. The narrator occasionally addresses the reader, explains a word, or interrupts with a parenthetical joke; the ending moves into her sister's dream.",
+		"style": [
+			"Long, supple sentences follow chains of observation and qualification, often broken by semicolons, dashes, and parenthetical asides.",
+			"Directly reported thoughts mix practical calculations, schoolroom learning, and wildly literal conclusions.",
+			"Familiar expressions become physical facts: a dry history is supposed to dry wet animals, and a head without a body poses a problem for an executioner.",
+			"Repetition, emphatic italics, exclamations, and abrupt reversals give nonsense the rhythm of earnest argument.",
+			"Descriptions pick out useful visual particulars—a glass table, a pepper-filled kitchen, or a flamingo's twisting neck—amid brisk action.",
+			"Songs and lesson verses parody moral instruction; spelling and vocabulary follow the manuscript's British usage."
+		],
+		"dialogue": "Speech uses double quotation marks, frequent attribution, and expressive dashes and italics. Characters argue over exact words, answer different questions from those asked, and take figures of speech literally. Alice begins politely, corrects herself, and grows increasingly willing to call nonsense nonsense.",
+		"samplePassages": [
+			"Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next. First, she tried to look down and make out what she was coming to, but it was too dark to see anything; then she looked at the sides of the well, and noticed that they were filled with cupboards and book-shelves; here and there she saw maps and pictures hung upon pegs.",
+			"First it marked out a race-course, in a sort of circle, (“the exact shape doesn’t matter,” it said,) and then all the party were placed along the course, here and there. There was no “One, two, three, and away,” but they began running when they liked, and left off when they liked, so that it was not easy to know when the race was over. However, when they had been running half an hour or so, and were quite dry again, the Dodo suddenly called out “The race is over!” and they all crowded round it, panting, and asking, “But who has won?”",
+			"The chief difficulty Alice found at first was in managing her flamingo: she succeeded in getting its body tucked away, comfortably enough, under her arm, with its legs hanging down, but generally, just as she had got its neck nicely straightened out, and was going to give the hedgehog a blow with its head, it would twist itself round and look up in her face, with such a puzzled expression that she could not help bursting out laughing: and when she had got its head down, and was going to begin again, it was very provoking to find that the hedgehog had unrolled itself, and was in the act of crawling away"
+		]
+	},
+	"cast": [
+		{
+			"key": "alice",
+			"name": "Alice",
+			"aliases": [
+				"Mary Ann"
+			],
+			"role": "The curious child whose dream and changing perspective carry the story.",
+			"age": "A little girl",
+			"appearance": "A small, lightly built girl with a fair face, bright eager eyes, and loose hair that wanders into her eyes; she tosses her head to keep it back, and her hair is not in ringlets. She wears a modest Victorian child's knee-length dress, stockings, and shoes. Her height changes repeatedly, while her features and clothes remain recognisably hers.",
+			"personality": "Inquisitive, conscientious, quick to pity and apologise, but increasingly impatient with rudeness and arbitrary commands.",
+			"motivation": "She wants to understand what is happening, regain a comfortable size, and reach the garden; she also misses home and Dinah.",
+			"fears": "She fears shrinking out of existence, drowning, losing her identity, and the Queen's executions.",
+			"speech": "She asks practical questions with 'please' and 'you know,' talks herself through puzzles, and scolds herself. With strangers she starts politely, then objects plainly when provoked; her schoolroom facts and verses often come out wrong.",
+			"arc": "She follows curiosity into the hole, struggles with changes and intimidating creatures, then challenges the court and the Queen before waking.",
+			"relationships": [
+				{
+					"key": "white_rabbit",
+					"nature": "She follows him underground; he later mistakes her for his housemaid."
+				},
+				{
+					"key": "cheshire_cat",
+					"nature": "She regards the grinning Cat as a friend and asks its advice."
+				},
+				{
+					"key": "queen",
+					"nature": "The Queen threatens her; Alice eventually defies her openly."
+				},
+				{
+					"key": "sister",
+					"nature": "Her elder sister listens to her account after she wakes."
+				},
+				{
+					"key": "duchess",
+					"nature": "Alice rescues the Duchess's baby and later endures her intrusive affection."
+				}
+			],
+			"firstChapterId": "c01"
+		},
+		{
+			"key": "white_rabbit",
+			"name": "White Rabbit",
+			"aliases": [
+				"W. Rabbit",
+				"Herald"
+			],
+			"role": "Alice's quarry, a nervous royal attendant and herald at the trial.",
+			"age": "Adult",
+			"appearance": "A small white rabbit with pink eyes, ears, whiskers, and paws. He wears a waistcoat with a pocket for his watch and later splendid formal clothes; he carries white kid gloves and a large fan, and at court a trumpet and parchment scroll. His posture is hurried and alert.",
+			"personality": "Fretful, officious with inferiors, and anxiously deferential to the powerful.",
+			"motivation": "He wants to attend his superiors promptly and perform his duties without punishment.",
+			"fears": "He dreads lateness, the Duchess's anger, and execution.",
+			"speech": "He mutters 'Oh dear!' and exclaims over his ears, whiskers, and fur; he gives sharp orders to supposed servants and speaks to royalty in hurried, respectful corrections.",
+			"arc": "He draws Alice into Wonderland, sends her into his house, then reappears as a courtier and trial herald.",
+			"relationships": [
+				{
+					"key": "alice",
+					"nature": "He mistakes her for Mary Ann and later calls her as a witness."
+				},
+				{
+					"key": "duchess",
+					"nature": "He fears her anger when he is late or loses his things."
+				},
+				{
+					"key": "king",
+					"nature": "He serves as herald and discreetly corrects the King's procedure."
+				},
+				{
+					"key": "queen",
+					"nature": "He is anxious under her dangerous authority."
+				}
+			],
+			"firstChapterId": "c01"
+		},
+		{
+			"key": "mouse",
+			"name": "Mouse",
+			"aliases": [
+				"O Mouse"
+			],
+			"role": "A fellow swimmer and touchy authority among the animals on the bank.",
+			"age": "Adult",
+			"appearance": "A small mouse with close grey-brown fur, little eyes, rounded ears, whiskers, and a long thin tail. Its wet coat clings close on the bank; it sits upright when addressing the company and wears no clothes.",
+			"personality": "Proud, easily offended, and convinced of its own authority, yet willing to promise Alice an explanation.",
+			"motivation": "It wants to escape the pool, dry the company, and make its history understood.",
+			"fears": "It hates and fears cats and dogs.",
+			"speech": "Its voice can be shrill and passionate; it demands silence, recites history with solemn importance, and rebukes Alice sharply when she seems inattentive.",
+			"arc": "It returns when Alice promises to avoid cats and dogs, but walks away when her misunderstandings offend it.",
+			"relationships": [
+				{
+					"key": "alice",
+					"nature": "A sympathetic but repeatedly offending listener to its promised history."
+				}
+			],
+			"firstChapterId": "c02"
+		},
+		{
+			"key": "caterpillar",
+			"name": "Caterpillar",
+			"aliases": [],
+			"role": "The blue mushroom-dweller who tells Alice how its sides affect her size.",
+			"age": "A caterpillar, before its chrysalis",
+			"appearance": "A large blue caterpillar exactly three inches high, with a segmented body, small face and eyes, and several short limbs. It sits upright with arms folded on a round mushroom, smoking a long hookah; it wears no clothes.",
+			"personality": "Languid, stern, short-spoken, and readily offended about its height.",
+			"motivation": "It questions Alice's account of herself and eventually gives her practical information about the mushroom.",
+			"fears": "No particular fear is stated.",
+			"speech": "It speaks in a sleepy voice with terse questions and contradictions: 'Who are you?', 'Why?', and 'Not a bit.' Its instructions are abrupt and initially incomplete.",
+			"arc": "After testing Alice's temper and memory, it identifies the mushroom as the means of changing her height and crawls away.",
+			"relationships": [
+				{
+					"key": "alice",
+					"nature": "It challenges her account of her identity and gives her size-changing advice."
+				}
+			],
+			"firstChapterId": "c04"
+		},
+		{
+			"key": "duchess",
+			"name": "Duchess",
+			"aliases": [],
+			"role": "The peppery kitchen's mistress, mother of the pig-baby, and later Alice's intrusive companion.",
+			"age": "Adult",
+			"appearance": "A short woman, approximately Alice's shoulder height when beside her, with a very ugly face and a sharply pointed little chin. She wears a period gown and cap, with her hair contained beneath it; her chin and close, leaning posture are her most distinctive features.",
+			"personality": "Violent and dismissive in her kitchen, effusively affectionate and moralising at croquet, and frightened of the Queen.",
+			"motivation": "She goes to play croquet and, when friendly, insists on attaching a moral to every subject.",
+			"fears": "She fears the Queen's threat to take off her head.",
+			"speech": "She growls abrupt insults and orders in the kitchen; later she calls Alice 'my dear' and offers twisted proverbs introduced by 'the moral of that is.'",
+			"arc": "She flings her baby to Alice, is sentenced after boxing the Queen's ears, then is fetched from prison and driven away by the Queen.",
+			"relationships": [
+				{
+					"key": "alice",
+					"nature": "She gives Alice her baby and later presses affectionately against her."
+				},
+				{
+					"key": "queen",
+					"nature": "She boxes the Queen's ears and subsequently fears her."
+				},
+				{
+					"key": "cheshire_cat",
+					"nature": "The grinning Cheshire Cat belongs to her."
+				}
+			],
+			"firstChapterId": "c06"
+		},
+		{
+			"key": "cheshire_cat",
+			"name": "Cheshire Cat",
+			"aliases": [
+				"Cheshire Puss"
+			],
+			"role": "The Duchess's grinning cat, Alice's conversational guide and friend.",
+			"age": "Adult",
+			"appearance": "A large cat with a broad grin from ear to ear, very long claws, and a great many teeth. Its fur is softly striped in brown and grey; its long tail, paws, eyes, ears, and grin can appear or fade separately. It wears no clothes and often sits on a bough.",
+			"personality": "Good-natured in appearance, unhurried, teasing, and calmly self-assured.",
+			"motivation": "It answers Alice's questions, announces that everyone there is mad, and returns to ask about the baby.",
+			"fears": "No particular fear is stated.",
+			"speech": "It speaks in cool, compact logical turns, treating questionable premises as proofs; it obliges Alice by vanishing slowly when she objects to its sudden appearances.",
+			"arc": "It directs Alice toward the Hatter and March Hare, visits her at croquet, and vanishes before the executioner can resolve how to behead its head.",
+			"relationships": [
+				{
+					"key": "alice",
+					"nature": "It advises her and becomes a welcome friend at croquet."
+				},
+				{
+					"key": "duchess",
+					"nature": "It is the Duchess's cat."
+				},
+				{
+					"key": "king",
+					"nature": "It refuses to kiss his hand and troubles him by looking at him."
+				},
+				{
+					"key": "queen",
+					"nature": "She orders its head off."
+				}
+			],
+			"firstChapterId": "c06"
+		},
+		{
+			"key": "hatter",
+			"name": "Hatter",
+			"aliases": [],
+			"role": "A tea-party host and frightened first witness at the Knave's trial.",
+			"age": "Adult",
+			"appearance": "A small, slight man with a pale face, wide eyes, untidy brown hair, and a tall hat from his stock. He wears a Victorian coat, waistcoat, trousers, and shoes, and carries a pocket watch; at the trial he brings a teacup and bread-and-butter and shakes his shoes off.",
+			"personality": "Rude, argumentative, restless, and easily terrified by royal authority.",
+			"motivation": "He keeps taking tea at six o'clock and wants to escape the trial and finish it.",
+			"fears": "He fears the Queen will recognise him from the concert and have him executed.",
+			"speech": "He makes blunt personal remarks, asks an unanswered riddle, and turns words back on their speakers. In court he trembles, repeats 'I'm a poor man,' and confuses tea with twinkling.",
+			"arc": "He describes his quarrel with Time, irritates Alice into leaving tea, and flees the court before the Queen's officer can reach him.",
+			"relationships": [
+				{
+					"key": "march_hare",
+					"nature": "His tea companion, blamed for putting butter in his watch."
+				},
+				{
+					"key": "alice",
+					"nature": "He puzzles and offends her at tea, then encounters her at court."
+				},
+				{
+					"key": "queen",
+					"nature": "She condemned his singing at her concert and orders his head off at trial."
+				}
+			],
+			"firstChapterId": "c07"
+		},
+		{
+			"key": "march_hare",
+			"name": "March Hare",
+			"aliases": [],
+			"role": "The Hatter's tea companion, whose house Alice chooses to visit.",
+			"age": "Adult",
+			"appearance": "An upright brown hare with long ears, whiskers, large eyes, and a lean body. He wears a period coat and waistcoat and sits at a crowded outdoor tea-table with cups, a milk-jug, and bread-and-butter.",
+			"personality": "Erratic, impolite, easily bored, and sometimes meek before the Hatter.",
+			"motivation": "He keeps the tea-party moving and seeks a new subject or story when conversation tires him.",
+			"fears": "No particular fear is stated.",
+			"speech": "He offers nonexistent wine, objects to Alice's manners, and corrects her phrases with brisk logical reversals; he insists the watch butter was 'the best.'",
+			"arc": "He helps make the tea-party unbearable for Alice and later denies the Hatter's account during the trial.",
+			"relationships": [
+				{
+					"key": "hatter",
+					"nature": "His fellow tea-drinker and argumentative companion."
+				},
+				{
+					"key": "alice",
+					"nature": "He offers her imaginary wine and disputes her wording."
+				}
+			],
+			"firstChapterId": "c07"
+		},
+		{
+			"key": "queen",
+			"name": "Queen of Hearts",
+			"aliases": [
+				"the Queen"
+			],
+			"role": "The furious royal authority who dominates croquet and the trial.",
+			"age": "Adult",
+			"appearance": "A flat, oblong playing-card queen made of cardboard, with hands and feet at the corners, a crowned head, and a royal gown patterned with red hearts. Her face turns crimson or purple with anger; she stamps and folds her arms.",
+			"personality": "Explosive, imperious, impatient, and accustomed to immediate obedience.",
+			"motivation": "She wants her orders obeyed and difficulties removed at once, usually by beheading.",
+			"fears": "No particular fear is stated.",
+			"speech": "She shouts short commands, especially 'Off with her head!' or 'Off with his head!' She demands sentence before verdict and gives the Duchess a choice between departure and death.",
+			"arc": "She threatens Alice and others at croquet, presides over the Knave's trial, and orders Alice's execution before the pack flies at her.",
+			"relationships": [
+				{
+					"key": "king",
+					"nature": "Her timid husband and fellow ruler."
+				},
+				{
+					"key": "alice",
+					"nature": "She invites Alice to croquet, then orders her head off when defied."
+				},
+				{
+					"key": "duchess",
+					"nature": "She sentences the Duchess after having her ears boxed."
+				},
+				{
+					"key": "hatter",
+					"nature": "She recognises a possible singer from her concert and orders his execution."
+				}
+			],
+			"firstChapterId": "c08"
+		},
+		{
+			"key": "king",
+			"name": "King of Hearts",
+			"aliases": [
+				"the King",
+				"the judge"
+			],
+			"role": "The Queen's husband, who pardons croquet players and judges the Knave's trial.",
+			"age": "Adult",
+			"appearance": "A flat, oblong cardboard king with hands and feet at the corners, a royal robe and crown. At trial he wears a great judge's wig with the crown awkwardly over it and puts on spectacles; his posture is often timid beside the Queen.",
+			"personality": "Pompous and muddled in court, yet nervous of the Queen and capable of quiet mercy.",
+			"motivation": "He wants to conduct the trial and have his authority respected; he also quietly pardons the sentenced players.",
+			"fears": "He is uneasy before the Queen and anxious when challenged in court.",
+			"speech": "He pronounces simple directions with judicial gravity, makes puns and faulty deductions, and asks for a verdict prematurely. He speaks timidly to the Queen.",
+			"arc": "He restrains the Queen over Alice, pardons the croquet players, and presides over an increasingly absurd trial that Alice challenges.",
+			"relationships": [
+				{
+					"key": "queen",
+					"nature": "Her husband; he sometimes softens or reverses her harsh orders."
+				},
+				{
+					"key": "alice",
+					"nature": "He defends her as a child, then tries to exclude her from court."
+				},
+				{
+					"key": "white_rabbit",
+					"nature": "The Rabbit serves and corrects him as herald."
+				},
+				{
+					"key": "cheshire_cat",
+					"nature": "He wants the Cat removed after it refuses his hand."
+				}
+			],
+			"firstChapterId": "c08"
+		},
+		{
+			"key": "gryphon",
+			"name": "Gryphon",
+			"aliases": [],
+			"role": "The Queen's guide for Alice and the Mock Turtle's brisk companion.",
+			"age": "Adult",
+			"appearance": "A gryphon with an eagle-like head and beak, feathered wings and foreparts, and a lion-like body, paws, and tail. Its feathers are brown and its fur tawny; it lies asleep in the sun, then moves energetically on its paws.",
+			"personality": "Brusque, amused, impatient, and ready to order Alice about.",
+			"motivation": "It escorts Alice to the Mock Turtle, prompts his stories, and takes her to the trial.",
+			"fears": "No particular fear is stated.",
+			"speech": "It uses informal constructions such as 'this here' and 'they never executes nobody,' says 'Come on!' repeatedly, and interrupts with emphatic explanations.",
+			"arc": "It dismisses the Queen's executions and the Turtle's sorrow as fancy, joins in the dance, and hurries Alice to court.",
+			"relationships": [
+				{
+					"key": "alice",
+					"nature": "It escorts her, quizzes her, and leads her to the trial."
+				},
+				{
+					"key": "mock_turtle",
+					"nature": "It prompts its old fellow's stories and dances with him."
+				},
+				{
+					"key": "queen",
+					"nature": "It obeys her order to take Alice to the Mock Turtle."
+				}
+			],
+			"firstChapterId": "c09"
+		},
+		{
+			"key": "mock_turtle",
+			"name": "Mock Turtle",
+			"aliases": [],
+			"role": "The melancholy creature who recounts his sea-school and sings to Alice.",
+			"age": "Adult, recalling childhood",
+			"appearance": "A turtle-bodied creature with a shell and flappers, a calf-like head, and large eyes full of tears. His face is long and brown, his shell muted green-brown; he sits heavily on a rock and wipes his eyes with a flapper.",
+			"personality": "Sorrowful, ceremonious, proud of his education, and readily offended by questions.",
+			"motivation": "He wants to recount his history and school accomplishments and demonstrate the Lobster Quadrille.",
+			"fears": "He anxiously compares his education with Alice's and fears hers may have included superior extras.",
+			"speech": "He speaks in a deep hollow voice, with long silences, sighs, and sobs; he treats puns such as 'Tortoise' and 'porpoise' as straightforward explanations.",
+			"arc": "He moves from his claim that he was once a real Turtle through school reminiscences and a dance to the interrupted song of beautiful Soup.",
+			"relationships": [
+				{
+					"key": "gryphon",
+					"nature": "His old companion prompts him, joins the dance, and shakes him when he sobs."
+				},
+				{
+					"key": "alice",
+					"nature": "He tells her his history, hears her adventures, and sings for her."
+				}
+			],
+			"firstChapterId": "c09"
+		},
+		{
+			"key": "sister",
+			"name": "Alice's sister",
+			"aliases": [],
+			"role": "Alice's companion on the bank and the listener who dreams over her adventures.",
+			"age": "Older than Alice; a young woman",
+			"appearance": "A young woman with a fair face, neatly arranged brown hair, and a long Victorian day dress. She sits on the grassy bank with a book, later holding Alice's head in her lap and leaning her own head on one hand.",
+			"personality": "Quiet, affectionate, attentive, and imaginative.",
+			"motivation": "She listens to Alice and treasures the child's imaginative and loving nature.",
+			"fears": "No particular fear is stated.",
+			"speech": "She speaks gently and briefly, calling Alice 'dear' and sending her in to tea.",
+			"arc": "She reads beside Alice, wakes her, hears the dream, and imagines the creatures and Alice's future adulthood.",
+			"relationships": [
+				{
+					"key": "alice",
+					"nature": "Her younger sister, whose dream she hears and cherishes."
+				}
+			],
+			"firstChapterId": "c01"
+		}
+	],
+	"places": [
+		{
+			"key": "riverbank",
+			"name": "The bank",
+			"description": "The English bank where Alice sits by her reading sister, falls asleep, and wakes to tell her dream.",
+			"visual": "Long grass, daisies, a nearby pool and reeds, overhanging trees shedding leaves, and a hedge with a large rabbit-hole; later the sun is setting."
+		},
+		{
+			"key": "hall",
+			"name": "The hall of doors",
+			"description": "The locked hall where Alice first sees the garden and repeatedly struggles to match her size to its door and key.",
+			"visual": "A long low hall lit by hanging lamps, doors all round, a three-legged solid glass table, and a low curtain concealing a fifteen-inch door and narrow passage."
+		},
+		{
+			"key": "rabbit_house",
+			"name": "The White Rabbit's house",
+			"description": "The neat little house where Alice grows until she fills an upstairs room.",
+			"visual": "A bright brass plate engraved W. RABBIT on the door; upstairs a tidy room has a window table, looking-glass, fan, gloves, and a fireplace with a narrow chimney."
+		},
+		{
+			"key": "wood",
+			"name": "The wood",
+			"description": "A shifting woodland of oversized plants, the Caterpillar's mushroom, and paths to the Duchess and March Hare.",
+			"visual": "Thick trees, grass and flowers tower over small Alice; a round mushroom supports a blue hookah-smoking Caterpillar, and a door opens in one tree."
+		},
+		{
+			"key": "duchess_house",
+			"name": "The Duchess's house",
+			"description": "A little house where Alice encounters the violent cook, Duchess, baby, and Cheshire Cat.",
+			"visual": "A house about four feet high with a doorway guarded by a frog-faced footman; its large kitchen is smoky with pepper and crowded with a cauldron, hearth, and flying dishes."
+		},
+		{
+			"key": "tea_table",
+			"name": "The March Hare's tea-table",
+			"description": "An outdoor table where the Hatter, March Hare, and Dormouse remain at tea-time.",
+			"visual": "A large table under a tree in front of a house with ear-shaped chimneys and a fur-thatched roof; many used cups and places surround three crowded companions."
+		},
+		{
+			"key": "garden",
+			"name": "The Queen's garden",
+			"description": "The lovely garden Alice seeks, containing the rose-tree and the chaotic royal croquet-ground.",
+			"visual": "Bright flower-beds and cool fountains, a white rose-tree painted red, and a ridged and furrowed lawn with flamingoes, hedgehogs, and bent card-soldier arches."
+		},
+		{
+			"key": "shore",
+			"name": "The Mock Turtle's shore",
+			"description": "The rocky place where the Gryphon introduces Alice to the Mock Turtle and they recount sea-school and dancing.",
+			"visual": "A sunny approach to a little ledge of rock where the tearful Mock Turtle sits alone, with the sea and shore nearby."
+		},
+		{
+			"key": "court",
+			"name": "The court of justice",
+			"description": "The Hearts' crowded court, where the Knave is tried for stealing tarts.",
+			"visual": "King and Queen on their throne, the King in crown and wig; a chained Knave between guards, twelve jurors with slates, and a central table bearing a large dish of tarts."
+		}
+	],
+	"timeline": [
+		{
+			"chapterId": "c01",
+			"title": "Chapter 1: Down the Rabbit-Hole",
+			"summary": "Alice follows the White Rabbit down a deep well and discovers a locked hall and a garden she cannot yet enter.",
+			"events": [
+				"Bored beside her sister, Alice sees the Rabbit consult his watch and follows him down the hole.",
+				"She falls slowly past shelves and cupboards, replaces an empty marmalade jar, and lands unhurt.",
+				"Following the Rabbit into a lamp-lit hall, she finds a golden key and opens a tiny door onto a garden passage.",
+				"She drinks from an unmarked-for-poison bottle labelled DRINK ME and shrinks to ten inches.",
+				"Unable to reach the key on the glass table, she finds and finishes a cake marked EAT ME."
+			],
+			"present": [
+				"alice",
+				"sister",
+				"white_rabbit"
+			],
+			"knowledge": [
+				{
+					"key": "alice",
+					"learns": "The golden key opens the little garden door; the bottle shrinks her, leaving the key out of reach."
+				}
+			],
+			"mood": "Curious, lonely, and magical"
+		},
+		{
+			"chapterId": "c02",
+			"title": "Chapter 2: The Pool of Tears",
+			"summary": "Alice grows enormous, cries a pool, shrinks again, and swims to shore with a Mouse and other creatures.",
+			"events": [
+				"Alice grows over nine feet tall, takes the key, and weeps when she still cannot enter the garden.",
+				"The returning Rabbit drops his gloves and fan in fright when Alice speaks to him.",
+				"Fanning herself, Alice questions her identity and discovers she is shrinking; she drops the fan just in time.",
+				"She finds the garden door shut and the key on the table, then slips into her own pool of tears.",
+				"She offends the swimming Mouse by mentioning cats and a rat-killing dog, then promises to avoid both subjects.",
+				"The Mouse promises its history, and Alice leads the crowded swimming party to shore."
+			],
+			"present": [
+				"alice",
+				"white_rabbit",
+				"mouse"
+			],
+			"knowledge": [
+				{
+					"key": "alice",
+					"learns": "The fan makes her shrink; her failed lessons lead her briefly to believe she may have become Mabel."
+				},
+				{
+					"key": "mouse",
+					"learns": "Alice promises not to talk about cats or dogs if it returns."
+				}
+			],
+			"mood": "Puzzled, frightened, and sociable"
+		},
+		{
+			"chapterId": "c03",
+			"title": "Chapter 3: A Caucus-Race and a Long Tale",
+			"summary": "The wet party dries itself with a Caucus-race, but Alice's misunderstandings and talk of Dinah leave her alone.",
+			"events": [
+				"The Mouse recites dry history, but Alice remains wet.",
+				"The Dodo arranges a Caucus-race; after about half an hour everyone is dry and everyone is declared a winner.",
+				"Alice distributes comfits, and the Dodo solemnly returns her own thimble to her as a prize.",
+				"The Mouse begins its sad tale; Alice thinks of its tail and mistakes 'not' for 'knot,' prompting it to leave.",
+				"Alice praises Dinah's skill at catching mice and birds, and the remaining creatures depart."
+			],
+			"present": [
+				"alice",
+				"mouse"
+			],
+			"knowledge": [
+				{
+					"key": "alice",
+					"learns": "The animals dry off by running; her account of Dinah frightens away the birds."
+				}
+			],
+			"mood": "Absurdly ceremonious, then lonely"
+		},
+		{
+			"chapterId": "c04",
+			"title": "Chapter 4: The Rabbit Sends in a Little Bill",
+			"summary": "Mistaken for a housemaid, Alice grows trapped inside the Rabbit's house, escapes by eating a cake, and meets a Caterpillar.",
+			"events": [
+				"The Rabbit mistakes Alice for Mary Ann and sends her home for gloves and a fan.",
+				"In his upstairs room she drinks from an unlabelled bottle and grows until an arm is out the window and a foot up the chimney.",
+				"She frightens the Rabbit and Pat with her hand, then kicks Bill up the chimney.",
+				"The crowd throws pebbles through the window; they turn into cakes, and Alice eats one and shrinks.",
+				"She escapes the pursuing crowd, plays defensively with an enormous puppy, and runs away.",
+				"Beside a mushroom she looks up and sees a blue Caterpillar smoking a hookah."
+			],
+			"present": [
+				"alice",
+				"white_rabbit",
+				"caterpillar"
+			],
+			"knowledge": [
+				{
+					"key": "alice",
+					"learns": "The unlabelled bottle enlarges her, and a cake made from a thrown pebble shrinks her."
+				},
+				{
+					"key": "white_rabbit",
+					"learns": "An enormous arm occupies his window; his attempted entry and Bill's descent fail."
+				}
+			],
+			"mood": "Cramped, alarming, and energetic"
+		},
+		{
+			"chapterId": "c05",
+			"title": "Chapter 5: Advice from a Caterpillar",
+			"summary": "The Caterpillar questions Alice and tells her the mushroom changes height; she experiments until she regains her usual size.",
+			"events": [
+				"The Caterpillar asks who Alice is, tells her to keep her temper, and has her recite the altered Father William verse.",
+				"Offended by her complaint about being three inches high, it nevertheless tells her opposite sides of the mushroom change height.",
+				"Alice takes two pieces; the right-hand piece shrinks her sharply and the left-hand piece sends her neck above the trees.",
+				"A Pigeon attacks and calls her a serpent; Alice admits she eats eggs but denies seeking the Pigeon's.",
+				"Alternating mushroom pieces, Alice regains her usual height, then shrinks to nine inches before approaching a little house."
+			],
+			"present": [
+				"alice",
+				"caterpillar"
+			],
+			"knowledge": [
+				{
+					"key": "alice",
+					"learns": "Opposite mushroom pieces shrink and enlarge her; careful alternation can restore her usual height."
+				}
+			],
+			"mood": "Testy, bewildered, and experimental"
+		},
+		{
+			"chapterId": "c06",
+			"title": "Chapter 6: Pig and Pepper",
+			"summary": "Alice enters the Duchess's peppery kitchen, carries away a baby that becomes a pig, and asks the Cheshire Cat for directions.",
+			"events": [
+				"A fish-faced footman delivers the Queen's croquet invitation; Alice gets past the frog-faced footman by opening the door herself.",
+				"In the smoky kitchen the cook throws dishes while the Duchess nurses and shakes her sneezing baby.",
+				"The Duchess flings the baby to Alice and leaves; Alice carries it outside to save it.",
+				"The baby becomes a pig, which Alice sets down to trot into the wood.",
+				"The Cheshire Cat describes the Hatter and March Hare as mad, vanishes and reappears, and asks about the baby.",
+				"Alice chooses the March Hare's direction, sees the Cat vanish slowly to its grin, and enlarges herself before approaching the Hare's house."
+			],
+			"present": [
+				"alice",
+				"duchess",
+				"cheshire_cat"
+			],
+			"knowledge": [
+				{
+					"key": "alice",
+					"learns": "The baby has become a pig; the Cat says both the Hatter and March Hare are mad and will see her at croquet."
+				},
+				{
+					"key": "cheshire_cat",
+					"learns": "Alice tells it that the baby turned into a pig."
+				}
+			],
+			"mood": "Violent, comic, and inquisitive"
+		},
+		{
+			"chapterId": "c07",
+			"title": "Chapter 7: A Mad Tea-Party",
+			"summary": "Alice endures an ill-mannered tea-party, leaves, and finally enters the garden by remembering the key before shrinking.",
+			"events": [
+				"Alice sits at the March Hare's table despite cries of 'No room' and is offered wine that is not there.",
+				"The Hatter asks an unanswerable riddle and explains that his quarrel with Time has left the party at six o'clock.",
+				"The Dormouse tells an interrupted story of three sisters in a treacle-well; the party moves places for a clean cup.",
+				"Insulted by the Hatter, Alice leaves while the hosts try to put the Dormouse into the teapot.",
+				"A door in a tree returns her to the hall; she takes the key, unlocks the garden door, shrinks with mushroom, and enters."
+			],
+			"present": [
+				"alice",
+				"hatter",
+				"march_hare"
+			],
+			"knowledge": [
+				{
+					"key": "alice",
+					"learns": "The Hatter says Time stopped cooperating after the Queen's concert, so the party remains at tea-time."
+				}
+			],
+			"mood": "Exasperating, then triumphant"
+		},
+		{
+			"chapterId": "c08",
+			"title": "Chapter 8: The Queen’s Croquet-Ground",
+			"summary": "Alice protects three gardeners from the Queen, joins a chaotic croquet game, and helps the Cheshire Cat evade a beheading dispute.",
+			"events": [
+				"Alice finds three card gardeners painting white roses red to conceal their mistake.",
+				"The royal procession arrives; Alice stands, answers the Queen, and calls her order to behead Alice nonsense.",
+				"The Queen orders the gardeners executed, but Alice hides them in a flower-pot and the soldiers report their heads gone.",
+				"Alice joins croquet with live flamingoes, hedgehogs, and card-soldier arches; the Rabbit says the Duchess is sentenced for boxing the Queen's ears.",
+				"The Cheshire Cat's head appears; Alice introduces it to the King, who asks the Queen to remove it.",
+				"The Queen orders its head off; while executioner, King, and Queen dispute the head without a body, Alice suggests asking the Duchess.",
+				"The executioner fetches the Duchess, but the Cat's head vanishes before they return."
+			],
+			"present": [
+				"alice",
+				"white_rabbit",
+				"queen",
+				"king",
+				"cheshire_cat",
+				"duchess"
+			],
+			"knowledge": [
+				{
+					"key": "alice",
+					"learns": "The gardeners planted the wrong rose-tree; the Duchess is under sentence for boxing the Queen's ears."
+				},
+				{
+					"key": "queen",
+					"learns": "The soldiers report that the gardeners' heads are gone."
+				},
+				{
+					"key": "king",
+					"learns": "Alice identifies the Cheshire Cat as her friend and says it belongs to the Duchess."
+				}
+			],
+			"mood": "Threatening, chaotic, and defiant"
+		},
+		{
+			"chapterId": "c09",
+			"title": "Chapter 9: The Mock Turtle’s Story",
+			"summary": "The Duchess moralises at Alice until the Queen drives her away; Alice is then sent with the Gryphon to hear the Mock Turtle.",
+			"events": [
+				"The affectionate Duchess walks with Alice, digging her sharp chin into her shoulder and finding morals in everything.",
+				"The Queen threatens the Duchess, who immediately leaves; croquet resumes until all other players are in custody.",
+				"The King quietly pardons the sentenced company as the Queen takes Alice to a sleeping Gryphon.",
+				"The Queen orders the Gryphon to escort Alice to the Mock Turtle and leaves to attend to executions.",
+				"The Gryphon says the executions and the Turtle's sorrow are fancy, then introduces Alice to the tearful creature.",
+				"The Mock Turtle describes his sea-school, punning subjects, and lessons that lessen each day."
+			],
+			"present": [
+				"alice",
+				"duchess",
+				"queen",
+				"king",
+				"gryphon",
+				"mock_turtle"
+			],
+			"knowledge": [
+				{
+					"key": "alice",
+					"learns": "The King has pardoned the croquet players; the Gryphon claims nobody is ever executed and the Turtle's sorrow is fancy."
+				},
+				{
+					"key": "alice",
+					"learns": "The Mock Turtle says he was once a real Turtle and describes his lessons under the sea."
+				}
+			],
+			"mood": "Oppressive, then melancholy and ridiculous"
+		},
+		{
+			"chapterId": "c10",
+			"title": "Chapter 10: The Lobster Quadrille",
+			"summary": "The Gryphon and Mock Turtle demonstrate their dance, hear Alice's adventures, and interrupt a song to take her toward the trial.",
+			"events": [
+				"The Gryphon and Mock Turtle describe the Lobster Quadrille and dance its first figure around Alice while the Turtle sings.",
+				"They explain whiting, shoes, and a fish's 'porpoise' through a succession of puns.",
+				"Alice recounts her adventures from the White Rabbit onward, including her altered Father William recitation.",
+				"At the Gryphon's command she recites altered verses, which the Mock Turtle finds confusing.",
+				"Alice asks for a song; the Turtle sings of beautiful Soup until a cry announces the trial.",
+				"The Gryphon takes Alice by the hand and runs off with her, leaving the song behind."
+			],
+			"present": [
+				"alice",
+				"gryphon",
+				"mock_turtle"
+			],
+			"knowledge": [
+				{
+					"key": "gryphon",
+					"learns": "Alice recounts her adventures since seeing the White Rabbit, including the changed Father William verse."
+				},
+				{
+					"key": "mock_turtle",
+					"learns": "Alice recounts her adventures and demonstrates that her recitation comes out differently."
+				},
+				{
+					"key": "alice",
+					"learns": "A trial is beginning, though the Gryphon does not tell her whose trial it is."
+				}
+			],
+			"mood": "Mournful, playful, and hurried"
+		},
+		{
+			"chapterId": "c11",
+			"title": "Chapter 11: Who Stole the Tarts?",
+			"summary": "At the Knave's trial Alice watches two unhelpful witnesses and begins growing before the Rabbit calls her name.",
+			"events": [
+				"Alice sees the chained Knave, the tarts, and jurors writing their names; she takes Bill's squeaking pencil.",
+				"The Rabbit reads the accusation in verse; the King prematurely asks for a verdict.",
+				"The Hatter gives confused evidence while the Queen inspects a list of concert singers.",
+				"Alice begins growing and decides to stay while there is room; the Dormouse moves away from her.",
+				"The Hatter is dismissed and escapes before an officer can carry out the Queen's order to behead him.",
+				"The cook refuses to cooperate, says tarts are mostly pepper, and disappears during the commotion over the Dormouse.",
+				"The Rabbit calls Alice as the next witness."
+			],
+			"present": [
+				"alice",
+				"gryphon",
+				"king",
+				"queen",
+				"white_rabbit",
+				"hatter",
+				"march_hare"
+			],
+			"knowledge": [
+				{
+					"key": "alice",
+					"learns": "The Knave is accused of stealing the Queen's tarts; she realises she is growing again."
+				},
+				{
+					"key": "alice",
+					"learns": "She is called as the next witness despite the little useful evidence heard so far."
+				}
+			],
+			"mood": "Farcical, tense, and expectant"
+		},
+		{
+			"chapterId": "c12",
+			"title": "Chapter 12: Alice’s Evidence",
+			"summary": "Alice challenges the court's evidence and the Queen's sentence, wakes on the bank, and tells her sister the dream.",
+			"events": [
+				"Alice rises and overturns the jury-box; she replaces the jurors and rights Bill, whom she had put in headfirst.",
+				"She says she knows nothing of the business and refuses the King's newly asserted rule excluding people more than a mile high.",
+				"The Rabbit produces unsigned verses not in the Knave's handwriting; the King and Queen treat them as proof while Alice objects.",
+				"The King forces meanings onto the verses; the Queen demands sentence before verdict.",
+				"Alice refuses to hold her tongue and calls the court a pack of cards; the pack flies at her.",
+				"Alice wakes on her sister's lap, recounts the dream, and runs in to tea.",
+				"Her sister dreams over the creatures and imagines Alice grown up, preserving a loving childhood heart."
+			],
+			"present": [
+				"alice",
+				"king",
+				"queen",
+				"white_rabbit",
+				"sister"
+			],
+			"knowledge": [
+				{
+					"key": "alice",
+					"learns": "The newly produced verses are unsigned and not in the Knave's handwriting; she believes they prove nothing."
+				},
+				{
+					"key": "sister",
+					"learns": "Alice tells her the strange adventures she has dreamed."
+				},
+				{
+					"key": "alice",
+					"learns": "On waking, she recognises the adventures as a curious dream."
+				}
+			],
+			"mood": "Defiant, awakening, and tender"
+		}
+	],
+	"divergencePoints": [
+		{
+			"id": "rabbit_hole",
+			"chapterId": "c01",
+			"label": "After the White Rabbit",
+			"moment": "Alice sees the watch-carrying Rabbit disappear down the hole and follows without considering how she will get out.",
+			"canonOutcome": "She drops into a deep well and reaches the hall of locked doors.",
+			"whatIf": "What if Alice stopped at the edge of the rabbit-hole and called after the White Rabbit instead of following him down?",
+			"stakes": "Her curiosity might bring Wonderland to the bank or leave its garden undiscovered."
+		},
+		{
+			"id": "mouse_history",
+			"chapterId": "c03",
+			"label": "The Mouse Stays",
+			"moment": "The Mouse accuses Alice of not attending to its tale after she asks about the fifth bend.",
+			"canonOutcome": "Alice mistakes 'not' for 'knot'; the offended Mouse walks away without finishing.",
+			"whatIf": "What if Alice realised the Mouse meant a tale, not its tail, and persuaded it to finish its history?",
+			"stakes": "Alice could gain the Mouse's confidence instead of losing a companion."
+		},
+		{
+			"id": "house_fire",
+			"chapterId": "c04",
+			"label": "Burn Down the House",
+			"moment": "The Rabbit proposes burning his house down while Alice is trapped inside it.",
+			"canonOutcome": "Alice threatens to set Dinah on the crowd; they fall silent and later throw pebbles that become cakes.",
+			"whatIf": "What if the Rabbit's threat to burn the house down were acted on before Alice could frighten the crowd with Dinah?",
+			"stakes": "Alice's escape and the Rabbit's home would both be in immediate danger."
+		},
+		{
+			"id": "pig_baby",
+			"chapterId": "c06",
+			"label": "Keep the Baby",
+			"moment": "Alice carries the Duchess's baby outside, then discovers that it has become a pig.",
+			"canonOutcome": "She sets the pig down, and it trots quietly into the wood.",
+			"whatIf": "What if Alice kept carrying the baby after it turned into a pig?",
+			"stakes": "Her attempt to save the creature could continue in a form she finds absurd."
+		},
+		{
+			"id": "tea_party",
+			"chapterId": "c07",
+			"label": "Stay for Tea",
+			"moment": "The Hatter tells Alice she should not talk if she does not think, and she rises in disgust.",
+			"canonOutcome": "Alice leaves the tea-party and discovers a door in a tree leading back to the hall.",
+			"whatIf": "What if Alice answered the Hatter's insult and stayed at the tea-table?",
+			"stakes": "Her route to the garden could be delayed by another encounter with the party."
+		},
+		{
+			"id": "gardeners_saved",
+			"chapterId": "c08",
+			"label": "The Rose Gardeners",
+			"moment": "The Queen orders the three gardeners executed for the rose-tree, and they run to Alice for protection.",
+			"canonOutcome": "Alice hides them in a flower-pot, and the soldiers report that their heads are gone.",
+			"whatIf": "What if Alice openly defended the gardeners to the Queen instead of hiding them in the flower-pot?",
+			"stakes": "The gardeners' lives and Alice's standing with the Queen would be at risk."
+		},
+		{
+			"id": "king_pardons",
+			"chapterId": "c09",
+			"label": "No Royal Pardon",
+			"moment": "As the Queen leads Alice away from croquet, the King quietly pardons the sentenced company.",
+			"canonOutcome": "Alice hears the pardon and is relieved for the many condemned players.",
+			"whatIf": "What if the King kept silent instead of pardoning the croquet players?",
+			"stakes": "The assembled players would remain in custody under the Queen's sentences."
+		},
+		{
+			"id": "alice_leaves_court",
+			"chapterId": "c11",
+			"label": "Outgrowing the Court",
+			"moment": "Alice starts to grow during the Hatter's evidence and considers leaving the courtroom.",
+			"canonOutcome": "She decides to remain as long as there is room for her.",
+			"whatIf": "What if Alice left the court as soon as she began to grow?",
+			"stakes": "The trial would continue without the witness who later challenges its procedure."
+		},
+		{
+			"id": "sentence_first",
+			"chapterId": "c12",
+			"label": "Sentence First",
+			"moment": "The Queen demands sentence before verdict, and Alice protests.",
+			"canonOutcome": "Alice refuses to be silent, calls the court a pack of cards, and wakes as the pack flies at her.",
+			"whatIf": "What if Alice held her tongue when the Queen demanded sentence before verdict?",
+			"stakes": "The Knave's fate and Alice's confrontation with the court would remain unresolved."
+		}
+	],
+	"visual": {
+		"era": "Victorian children's dress, waistcoats and livery, court wigs, pocket watches, brass doorplates, crockery, and formal gardens, transformed into a dream inhabited by animals and playing cards.",
+		"palette": "Summer greens and warm daylight on the bank; dark browns and lamplight in the hall; peppery grey in the kitchen; bright flower colours and red hearts in the garden.",
+		"motifs": [
+			"A tiny golden key and glass table",
+			"Bottles, cakes, and mushroom pieces",
+			"A watch and white kid gloves",
+			"A grin suspended without a cat",
+			"Red paint on white roses",
+			"Flamingoes and hedgehogs at croquet",
+			"Tea-cups and bread-and-butter",
+			"Playing-card faces and flying cards"
+		],
+		"comicStyle": "Victorian wood-engraving tradition: precise ink outlines, fine cross-hatching, expressive faces, and detailed natural textures. Use clear sequential panels, dramatic changes of scale, and crowded comic tableaux, with quieter open panels for the bank and the tearful shore."
+	},
+	"glossary": [
+		{
+			"term": "White Rabbit",
+			"kind": "name",
+			"note": "The pink-eyed, waistcoated rabbit Alice follows.",
+			"locales": {
+				"en": "White Rabbit"
+			}
+		},
+		{
+			"term": "Mary Ann",
+			"kind": "name",
+			"note": "The Rabbit's housemaid, for whom he mistakes Alice.",
+			"locales": {
+				"en": "Mary Ann"
+			}
+		},
+		{
+			"term": "W. RABBIT",
+			"kind": "name",
+			"note": "The name engraved on the Rabbit's brass doorplate.",
+			"locales": {
+				"en": "W. RABBIT"
+			}
+		},
+		{
+			"term": "Dinah",
+			"kind": "name",
+			"note": "Alice's cat, whose hunting frightens Wonderland animals.",
+			"locales": {
+				"en": "Dinah"
+			}
+		},
+		{
+			"term": "Caucus-race",
+			"kind": "term",
+			"note": "A race with irregular starts and stops in which everybody wins.",
+			"locales": {
+				"en": "Caucus-race"
+			}
+		},
+		{
+			"term": "comfits",
+			"kind": "object",
+			"note": "Sweets Alice distributes as prizes after the race.",
+			"locales": {
+				"en": "comfits"
+			}
+		},
+		{
+			"term": "Cheshire Cat",
+			"kind": "name",
+			"note": "The Duchess's grinning, vanishing cat.",
+			"locales": {
+				"en": "Cheshire Cat"
+			}
+		},
+		{
+			"term": "March Hare",
+			"kind": "name",
+			"note": "The Hatter's companion at the perpetual tea-party.",
+			"locales": {
+				"en": "March Hare"
+			}
+		},
+		{
+			"term": "Dormouse",
+			"kind": "name",
+			"note": "The sleepy tea-party guest who tells the treacle-well story.",
+			"locales": {
+				"en": "Dormouse"
+			}
+		},
+		{
+			"term": "Queen of Hearts",
+			"kind": "title",
+			"note": "The card queen who repeatedly orders beheadings.",
+			"locales": {
+				"en": "Queen of Hearts"
+			}
+		},
+		{
+			"term": "Knave of Hearts",
+			"kind": "title",
+			"note": "The card accused of stealing the Queen's tarts.",
+			"locales": {
+				"en": "Knave of Hearts"
+			}
+		},
+		{
+			"term": "Mock Turtle",
+			"kind": "name",
+			"note": "The tearful creature who says he was once a real Turtle.",
+			"locales": {
+				"en": "Mock Turtle"
+			}
+		},
+		{
+			"term": "Gryphon",
+			"kind": "name",
+			"note": "The creature who escorts Alice to the Mock Turtle and trial.",
+			"locales": {
+				"en": "Gryphon"
+			}
+		},
+		{
+			"term": "Lobster Quadrille",
+			"kind": "term",
+			"note": "A sea dance involving lobster partners and a plunge into the water.",
+			"locales": {
+				"en": "Lobster Quadrille"
+			}
+		},
+		{
+			"term": "DRINK ME",
+			"kind": "object",
+			"note": "The label on Alice's first shrinking bottle.",
+			"locales": {
+				"en": "DRINK ME"
+			}
+		},
+		{
+			"term": "EAT ME",
+			"kind": "object",
+			"note": "The words marked in currants on Alice's first cake.",
+			"locales": {
+				"en": "EAT ME"
+			}
+		},
+		{
+			"term": "Rule Forty-two",
+			"kind": "term",
+			"note": "The King's asserted rule excluding persons more than a mile high from court.",
+			"locales": {
+				"en": "Rule Forty-two"
+			}
+		}
+	]
+}

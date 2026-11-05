@@ -1,0 +1,93 @@
+---
+// The shell of every page (the Lander document as this site ships it): <html id="SiteDocument" data-page-name data-theme>, the head
+// (font preloads, stylesheet, icons, manifest, SEO, Open Graph, Twitter, JSON-LD and the blocking theme script), then the body with the
+// skip link, header, <main> and footer; the deferred browser script is included in the head. The CSS keys page-level rules on data-page-name and scopes the site
+// under #SiteDocument #SiteBody, so both ids stay.
+// Props: pageName (Home | Terms | Privacy | NotFound), path (the canonical path), title and description (this page's SEO), schemas (extra
+// JSON-LD @graph entries after the WebPage, e.g. the studio's WebApplication), robots (index/follow; default en.seo.robots, the 404 passes its own).
+import "../styles/index.css";
+import "../styles/tailwind.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { en } from "../content/en";
+import { site } from "../config";
+import { inlineScript } from "../lib/inlineScript";
+import { themeHead } from "./theme";
+
+interface Props { pageName: string; path: string; title: string; description: string; schemas?: object[]; robots?: { index: boolean; follow: boolean } }
+const seo = en.seo;
+const { pageName, path, title, description, schemas = [], robots: crawl = seo.robots } = Astro.props;
+const url = new URL(path, site.origin).href;
+const image = new URL(seo.image.url, site.origin).href;
+const brand = { light: "#656e43", dark: "#919b6f" }; // the browser UI colour per theme (brand primary)
+const robots = `${crawl.index ? "index" : "noindex"}, ${crawl.follow ? "follow" : "nofollow"}, max-snippet:-1, max-image-preview:large, max-video-preview:-1`;
+const graph = {
+	"@context": "https://schema.org",
+	"@graph": [
+		...seo.schemas,
+		{ "@type": "WebSite", "@id": `${site.origin}/#website`, url: `${site.origin}/`, name: seo.og.siteName, publisher: { "@id": seo.schemas[0]["@id"] }, inLanguage: site.locale },
+		{
+			"@type": "WebPage", "@id": `${url}#webpage`, url, name: title, description,
+			isPartOf: { "@id": `${site.origin}/#website` }, about: { "@id": seo.schemas[0]["@id"] }, inLanguage: site.locale,
+			primaryImageOfPage: { "@type": "ImageObject", "@id": `${url}#primaryimage`, url: image, width: seo.image.width, height: seo.image.height, caption: seo.image.alt },
+		},
+		...schemas,
+	],
+};
+// JSON-LD cannot close its own tag.
+const jsonLd = JSON.stringify(graph).replaceAll("</", "<\\/");
+
+// First paint, blocking (src/layouts/theme.ts): the theme and the browser UI colour before anything is drawn.
+const themeCode = inlineScript(themeHead, brand);
+---
+<!doctype html>
+<html id="SiteDocument" lang={site.locale} data-page-name={pageName} data-theme={en.layout.header.nav.tools.theme.default}>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="preload" href="/fonts/playfair-display/003-latin-e0c764a8e9e1.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="preload" href="/fonts/wix-madefor-display/004-latin-19bf2f2f1eaa.woff2" as="font" type="font/woff2" crossorigin />
+	<slot name="head" />
+	<meta name="color-scheme" content="light dark" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/logo/favicon/favicon-32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/logo/favicon/favicon-16.png" />
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="any" />
+	<link rel="apple-touch-icon" sizes="256x256" href="/images/logo/favicon/favicon-256.png" />
+	<link rel="manifest" href="/site.webmanifest" fetchpriority="low" />
+	<title>{title}</title>
+	<meta name="description" content={description} />
+	<meta name="author" content={seo.author} />
+	<meta name="robots" content={robots} />
+	<meta name="theme-color" content={brand.light} />
+	<meta name="theme-color" media="(prefers-color-scheme: light)" content={brand.light} />
+	<meta name="theme-color" media="(prefers-color-scheme: dark)" content={brand.dark} />
+	<link rel="canonical" href={url} />
+	<meta property="og:type" content={seo.og.type} />
+	<meta property="og:title" content={title} />
+	<meta property="og:description" content={description} />
+	<meta property="og:url" content={url} />
+	<meta property="og:site_name" content={seo.og.siteName} />
+	<meta property="og:locale" content={site.locale.replace("-", "_")} />
+	<meta property="og:image" content={image} />
+	<meta property="og:image:width" content={String(seo.image.width)} />
+	<meta property="og:image:height" content={String(seo.image.height)} />
+	<meta property="og:image:alt" content={seo.image.alt} />
+	<meta property="og:image:type" content={seo.image.type} />
+	<meta name="twitter:card" content={seo.twitter.card} />
+	<meta name="twitter:title" content={title} />
+	<meta name="twitter:description" content={description} />
+	<meta name="twitter:image" content={image} />
+	<meta name="twitter:image:alt" content={seo.twitter.imageAlt} />
+	<script is:inline type="application/ld+json" set:html={jsonLd}></script>
+	<script is:inline set:html={themeCode}></script>
+	{/* The deferred browser script (a module script runs after parsing, like the original defer); in the head so it downloads early. */}
+	<script src="../scripts/main.ts"></script>
+</head>
+<body id="SiteBody" data-classlist="brand-background-page brand-on-surface">
+	<span id="Top" class="sr-only"></span>
+	<a class="site-skip-link" href="#SiteMain">{en.layout.header.skipToContent}</a>
+	<Header />
+	<main id="SiteMain" tabindex="-1" data-classlist="brand-background-page brand-on-surface"><slot /></main>
+	<Footer />
+</body>
+</html>

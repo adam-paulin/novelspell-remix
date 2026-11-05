@@ -1,0 +1,17 @@
+---
+// The theme control (port of the shared layout/header.js ThemeToggle): moon and sun stacked in one grid cell (CSS shows the one for
+// the other theme on <html data-theme>), and one visible-to-AT label per target theme that the browser script swaps (data-theme-label).
+// `id`: the header's toggle is #ThemeToggle; a second toggle on the same page (the shelf's) passes id={null}.
+import Icon from "./ui/Icon.astro";
+import { en } from "../content/en";
+interface Props { id?: string | null }
+const { id = "ThemeToggle" } = Astro.props;
+const copy = en.layout.header.localization;
+const isDark = (en.layout.header.nav.tools.theme.default as string) === "dark"; // the content default; light today
+---
+<button id={id ?? undefined} type="button" data-theme-toggle data-nav-slot aria-live="polite" class="grid min-h-11 cursor-pointer place-items-center rounded-lg transition-colors duration-150 hover:bg-black/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-current focus-visible:ring-offset-2 dark:hover:bg-white/10 relative" data-classlist="brand-on-surface">
+	<span class="[grid-area:1/1]" data-theme-icon="moon" aria-hidden="true" title={copy.themeDark}><Icon name="lucide-moon" /></span>
+	<span class="[grid-area:1/1]" data-theme-icon="sun" aria-hidden="true" title={copy.themeLight}><Icon name="lucide-sun" /></span>
+	<span class="absolute inset-0 rounded-lg" data-theme-label="light" title={copy.themeLight} hidden={!isDark}><span class="sr-only">{copy.themeLight}</span></span>
+	<span class="absolute inset-0 rounded-lg" data-theme-label="dark" title={copy.themeDark} hidden={isDark}><span class="sr-only">{copy.themeDark}</span></span>
+</button>

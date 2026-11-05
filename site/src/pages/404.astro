@@ -1,0 +1,8 @@
+---
+// The 404 page (served for any unknown path): the NotFound sheet. Its JSON-LD names the section (the dev NotFoundSection seo).
+import Page from "../layouts/Page.astro";
+import NotFound from "../components/NotFound.astro";
+import { en } from "../content/en";
+const section = { "@type": "WebPageElement", name: en.notFound.heading };
+---
+<Page pageName="NotFound" path="/404/" title={en.notFound.seo.title} description={en.notFound.seo.description} schemas={[section]} robots={en.notFound.seo.robots}><NotFound /></Page>

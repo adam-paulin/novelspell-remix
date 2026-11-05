@@ -1,0 +1,8 @@
+---
+// The hosted demo's credit gate, the page's part: a refusal is a quiet notice over the page, compiled
+// in and hidden; the deferred script picks the variant and shows it.
+import { en } from "../content/en";
+
+const toast = en.studio.hosting.toast;
+---
+<p class="m-0" data-classlist="remix-hosting-toast" data-hosting-toast data-messages="hosting-toast" role="status">{Object.entries(toast).map(([name, line]) => <span data-message={name} hidden>{line}</span>)}</p>

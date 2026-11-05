@@ -1,0 +1,24 @@
+---
+// The settings capsule beside Write the chapter and Revise: the three thinking steps (radios named per copy; the request's
+// thinking, one stored choice `remix:thinking`, Medium by default) and, after a thin divider, the Fast mode switch. Every copy is bound
+// to the same two stored choices and paints them before first paint (src/lib/firstPaint.ts thinkingStart, fastStart).
+import { en } from "../content/en";
+import FastToggle from "./FastToggle.astro";
+import { inlineScript } from "../lib/inlineScript";
+import { thinkingStart } from "../lib/firstPaint";
+
+interface Props { where: "compose" | "dock" }
+const { where } = Astro.props;
+const copy = en.studio.thinking;
+const steps = ["low", "medium", "high"] as const;
+const firstPaint = inlineScript(thinkingStart);
+---
+<div data-classlist="remix-settings" data-settings-where={where}>
+	<div data-classlist="remix-steps" role="radiogroup" aria-label={copy.label}>
+		<span data-classlist="remix-steps-pill" aria-hidden="true"></span>
+		{steps.map((step) => <label data-classlist="remix-step" title={copy.steps[step].hint}><input type="radio" data-classlist="remix-step-input" name={`thinking-${where}`} value={step} data-thinking checked={step === "medium"} autocomplete="off" /><span>{copy.steps[step].label}</span></label>)}
+		<script is:inline set:html={firstPaint}></script>
+	</div>
+	<span data-classlist="remix-settings-rule" aria-hidden="true"></span>
+	<FastToggle where={where} />
+</div>

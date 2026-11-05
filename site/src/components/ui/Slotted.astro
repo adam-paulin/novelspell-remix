@@ -1,0 +1,10 @@
+---
+// A content line with {name} holes as markup: a hole with a named slot gets that slot's markup, any other hole becomes an
+// empty <span data-slot="name"> that the browser script fills at run time.
+import { holes } from "../../lib/text";
+interface Props { text: string }
+const parts = holes(Astro.props.text);
+const filled: Record<string, string> = {};
+for (const part of parts) if ("hole" in part && Astro.slots.has(part.hole)) filled[part.hole] = await Astro.slots.render(part.hole);
+---
+{parts.map((part) => "text" in part ? part.text : part.hole in filled ? <Fragment set:html={filled[part.hole]} /> : <span data-slot={part.hole}></span>)}

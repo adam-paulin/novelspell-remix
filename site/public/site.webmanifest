@@ -1,0 +1,28 @@
+{
+  "name": "NovelSpell Remix",
+  "short_name": "Remix",
+  "description": "NovelSpell Remix lets a reader fork a public-domain classic: pick a book, ask what if, and get a new canon-divergence chapter with its own comic page, then build it into a full novel on NovelSpell.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fdfdfd",
+  "theme_color": "#656e43",
+  "icons": [
+    {
+      "src": "/images/logo/favicon/favicon-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo/favicon/favicon-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo/square/logo-square-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

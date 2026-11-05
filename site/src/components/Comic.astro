@@ -1,0 +1,28 @@
+---
+// The comic column of a remix: the cover card, the comic page (a calm board until it lands: what the model has settled, then the
+// beats in the panels it is drawing), then, below the laptop band, the end card.
+import { en } from "../content/en";
+import Slotted from "./ui/Slotted.astro";
+import Dots from "./ui/Dots.astro";
+import CoverCard from "./CoverCard.astro";
+import ChapterEnd from "./ChapterEnd.astro";
+
+const PANELS = 6;
+const beats = Array.from({ length: PANELS }, (_, index) => `beat${index + 1}`);
+const copy = en.studio.result;
+---
+<div data-classlist="remix-artifact-body">
+	<CoverCard where="card" />
+	<p class="m-0" data-classlist="remix-eyebrow remix-comic-eyebrow">{en.studio.actions.comicEyebrow}<span data-classlist="remix-eyebrow-rule" aria-hidden="true"></span></p>
+	<figure class="relative m-0" data-classlist="remix-comic" data-comic-frame>
+		<div class="sr-only" id="ComicAltText" data-messages="comic-alt"><span data-message="plain">{copy.comicAlt}</span><div data-message="beats" hidden><Slotted text={copy.comicAltBeats} /><ol>{beats.map((beat) => <li><span data-slot={beat}></span></li>)}</ol></div></div>
+		<div data-classlist="remix-board" data-comic-wait>
+	<span data-classlist="remix-panels" aria-hidden="true">{beats.map((beat) => <span data-classlist="remix-panel"><span data-classlist="remix-panel-beat" data-slot={beat}></span></span>)}</span>
+	<span data-classlist="remix-label remix-board-caption"><span data-classlist="remix-board-caption-next">{copy.drawingNext}</span><span data-classlist="remix-board-caption-draw">{copy.drawing}</span><Dots /></span>
+	<span data-classlist="remix-board-note"><span data-messages="comic-note"><span data-message="missing">{copy.comicMissing}</span><span data-message="failed" hidden>{copy.comicFailed}</span><span data-message="unloaded" hidden>{copy.comicUnloaded}</span></span><button type="button" data-control="secondary" data-classlist="remix-comic-retry" data-comic-retry>{copy.comicRetry}</button><button type="button" data-control="secondary" data-classlist="remix-comic-reload" data-comic-reload>{copy.comicReload}</button></span>
+</div>
+		<span data-classlist="remix-redraw" aria-hidden="true">{copy.redrawing}</span>
+		<button type="button" class="absolute inset-0 block p-0" data-classlist="remix-comic-open" data-open-lightbox aria-label={copy.fullSize}><img class="block size-full" data-classlist="remix-comic-img" data-comic alt={copy.comicAlt} aria-labelledby="ComicAltText" width="1024" height="1536" sizes="(min-width: 64rem) min(30vw, 46rem), min(100vw, 30rem)" decoding="async" hidden></button>
+	</figure>
+	<ChapterEnd where="phone" />
+</div>

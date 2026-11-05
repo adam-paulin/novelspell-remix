@@ -1,0 +1,13 @@
+---
+// The decorative NovelSpell Remix logo (aria-hidden, no title; the link or frame around it carries the brand name): the NovelSpell
+// book with a REMIX band across its base and the NovelSpell wordmark, one pure SVG (src/icons/novelspell-remix-logo.svg). Its book +
+// the book takes the brand green, and the band and wordmark the text colour (dark on light, cream on dark), so the REMIX letters,
+// knocked out of the band, read at the highest contrast the page allows. All through data-classlist. The band's knockouts are SVG masks, so each copy on a page gets
+// its own id prefix (ids must be unique, and a mask referenced from a hidden copy would not paint). Used by the header, the footer
+// and the shelf.
+import svg from "../icons/novelspell-remix-logo.svg?raw";
+import { nextLogoId } from "../lib/logoId";
+
+const id = nextLogoId();
+---
+<Fragment set:html={svg.trim().replaceAll("nsr-", `${id}-`)} />

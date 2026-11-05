@@ -1,0 +1,17 @@
+{
+  // The payload CLI only (Node): compiles cli.ts and the Worker's src/prompts it imports to build/prompt-cli. The Worker's own
+  // tsconfig (../tsconfig.json) never sees these files.
+  "compilerOptions": {
+    "target": "es2024",
+    "lib": ["es2024"],
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "rootDir": "..",
+    "outDir": "../build/prompt-cli",
+    "types": ["node"],
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "skipLibCheck": true
+  },
+  "include": ["*.ts", "../src/prompts/**/*.ts", "../src/imageCheck.ts"]
+}

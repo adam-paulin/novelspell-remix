@@ -1,0 +1,75 @@
+---
+// The cover card is the remix's share preview: the forked book's cover, the book line and the reader's
+// what-if as the headline, a row of share icons (no labels, no menu) and the one next step (Make it a full novel; Read this example on
+// a compose example). One structure and the same live actions in every state: while the chapter is written the what-if is already
+// there and the cover waits as the original's.
+// It exists three ways (the CSS shows one): "card" tops the comic column on desktop, "phone" sits under the masthead below that,
+// "showcase" is a compose example (compiled, live from the first frame). `fixed` fills a card at build time instead of from the
+// script: { book, request, state: "writing" | "ready" | "example", id?, cover?, coverFull? } (the showcase's example; the card lab).
+// cover and coverFull are prepared-picture keys (src/data/pictures.json): the card's picture and the full-size file its download saves.
+//
+// The share icons: Meta's four in order of relevance (Instagram, where the cover itself goes; Facebook, the widest reach; WhatsApp,
+// where links pass between friends; Threads), then copy link and download; on a touch device with a share sheet, the sheet's button
+// takes copy link's place (the sheet has its own Copy, and reaches Messenger, Stories and the rest). The Meta four are squares filled
+// with their brand colour, their official white logo inside (MetaShareLogos); copy link and download are neutral outline squares, so
+// the two kinds read apart. No labels (each says what it does to assistive tech). Live in every state: before the
+// chapter is done they share the book and its what-if and save the original's cover.
+import { site } from "../config";
+import { en } from "../content/en";
+import books from "../data/books.json";
+import Cover from "./ui/Cover.astro";
+import Icon from "./ui/Icon.astro";
+import Picture from "./ui/Picture.astro";
+import { pictureFile } from "../lib/pictures";
+import MetaShareLogos from "./MetaShareLogos.astro";
+
+export type CoverCardWhere = "card" | "phone" | "showcase";
+export interface CoverCardFixed { state: "writing" | "ready" | "example"; book: string; request: string; id?: string; cover?: string; coverFull?: string }
+interface Props { where: CoverCardWhere; fixed?: CoverCardFixed | null }
+
+const { where, fixed = null } = Astro.props;
+const copy = en.studio.cover;
+const featured = en.studio.featured;
+const phone = where === "phone";
+const book = fixed ? books.find((item) => item.slug === fixed.book) : undefined;
+const example = fixed?.state === "example" ? fixed : null;
+// Round 8: a compose example says what it is ("An example remix"); the headline beside it already names the book.
+const bookLine = fixed ? (example ? featured.eyebrow : book?.kicker ?? "") : null;
+// The live card's intent links carry a compiled href from the first frame (crawlable, followable): the site itself, until the script
+// swaps in the remix's own caption and link (share.ts paintShare). The same three intent forms as share.ts intents(). The download
+// link likewise starts on the first book's original cover (the studio's first book) until view.ts cover() points it at the one on screen.
+const home = `${site.origin}/`;
+const intent: Record<string, string> = {
+	facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(home)}`,
+	whatsapp: `https://wa.me/?text=${encodeURIComponent(home)}`,
+	threads: `https://www.threads.com/intent/post?text=${encodeURIComponent(home)}`,
+};
+---
+<section data-classlist="remix-cover-card" data-cover-card={where} data-hashtag={copy.hashtag} data-reddit-title={copy.redditTitle} data-share-text={copy.shareText} aria-label={example ? featured.eyebrow : copy.heading}>
+	{fixed?.cover
+		? <figure class="relative m-0" data-classlist="remix-cover-art"><button type="button" class="absolute inset-0 block p-0" data-classlist="remix-cover-read" data-read-featured={example ? example.id : undefined} tabindex={example ? "-1" : undefined} aria-hidden={example ? "true" : undefined} aria-label={example ? `${featured.read}: ${fixed.request}` : copy.fullSize}><Picture name={fixed.cover} alt="" class="block size-full object-cover" /></button></figure>
+		: fixed
+			? <figure class="relative m-0" data-classlist="remix-cover-art"><span data-classlist="remix-cover-wait" aria-hidden="true">{book && <Cover book={book} />}</span></figure>
+			: <figure class="relative m-0" data-classlist="remix-cover-art">
+		<span data-classlist="remix-cover-wait" aria-hidden="true">{books.map((item) => <span data-book-panel={item.slug}><Cover book={item} /></span>)}</span>
+		<button type="button" class="absolute inset-0 block p-0" data-classlist="remix-cover-open" data-open-lightbox="cover" aria-label={copy.fullSize}><img class="block size-full" data-classlist="remix-cover-img" data-cover-thumb={phone ? "" : undefined} data-cover={phone ? undefined : ""} alt={copy.imageAlt} width="832" height="1248" sizes="10rem" decoding="async" hidden /></button>
+	</figure>}
+	<div data-classlist="remix-card-body">
+		<p class="m-0" data-classlist="remix-card-book"><span data-classlist="remix-card-book-text">{bookLine ?? books.map((item) => <span data-book-panel={item.slug}>{item.kicker}</span>)}</span><span data-classlist="remix-card-flourish" aria-hidden="true"><span data-classlist="remix-card-rule"></span><span data-classlist="remix-card-leaf"><Icon name="lucide-leaf" /></span></span></p>
+		<p class="m-0" data-classlist="remix-card-whatif">{fixed ? fixed.request : <span data-slot="request"></span>}</p>
+		<div data-classlist="remix-card-share" role="group" aria-label={copy.group} data-cover-actions={where}>
+		<button type="button" data-classlist="remix-share-icon" data-social="instagram" data-brand data-share-instagram data-featured-id={example?.id} aria-label={copy.instagram}><MetaShareLogos kind="instagram" /></button>
+		<a data-classlist="remix-share-icon" data-social="facebook" data-brand data-share-link={example ? undefined : "facebook"} href={example ? undefined : intent.facebook} data-share-featured={example ? "facebook" : undefined} data-featured-id={example?.id} target="_blank" rel="noopener noreferrer" aria-label={copy.facebook}><MetaShareLogos kind="facebook" /></a>
+		<a data-classlist="remix-share-icon" data-social="whatsapp" data-brand data-share-link={example ? undefined : "whatsapp"} href={example ? undefined : intent.whatsapp} data-share-featured={example ? "whatsapp" : undefined} data-featured-id={example?.id} target="_blank" rel="noopener noreferrer" aria-label={copy.whatsapp}><MetaShareLogos kind="whatsapp" /></a>
+		<a data-classlist="remix-share-icon" data-social="threads" data-brand data-share-link={example ? undefined : "threads"} href={example ? undefined : intent.threads} data-share-featured={example ? "threads" : undefined} data-featured-id={example?.id} target="_blank" rel="noopener noreferrer" aria-label={copy.threads}><MetaShareLogos kind="threads" /></a>
+		<button type="button" data-classlist="remix-share-icon remix-cover-copy" data-social="link" data-copy-featured={example?.id} data-copy-link={example ? undefined : ""} aria-label={copy.copy}><Icon name="tabler-outline-link" /><Icon name="tabler-outline-check" /><span class="sr-only" data-messages="copy-status" role="status"><span data-message="idle"></span><span data-message="copied" hidden>{copy.copied}</span><span data-message="failed" hidden>{copy.copyFailed}</span></span></button>
+		{example
+			? <a data-classlist="remix-share-icon" data-social="download" data-download-image="cover" href={example.coverFull ? pictureFile(example.coverFull) : undefined} download={copy.downloadName} aria-label={copy.download}><Icon name="tabler-outline-download" /></a>
+			: <a data-classlist="remix-share-icon" data-social="download" data-cover-download data-download-image="cover" href={pictureFile(`${books[0].slug}-cover`)} download={copy.downloadName} aria-label={copy.download}><Icon name="tabler-outline-download" /></a>}
+		{!example && <button type="button" data-classlist="remix-share-icon" data-social="native" data-cover-native aria-label={copy.native} hidden><Icon name="tabler-outline-share" /></button>}
+	</div>
+		{example
+			? <button type="button" data-control="secondary" data-classlist="remix-card-next" data-read-featured={example.id}><Icon name="lucide-book-open" /><span>{featured.read}</span></button>
+			: <button type="button" data-control="primary" data-classlist="remix-card-next remix-cover-build" data-open-build><Icon name="lucide-book-open" /><span>{en.studio.actions.build}</span></button>}
+	</div>
+</section>

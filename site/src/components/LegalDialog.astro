@@ -1,0 +1,29 @@
+---
+// The footer-link dialog (port of LegalDialog.js; content studio.legal.pages). Each title variant carries the url of the footer link
+// it answers (data-legal-url). A legal page's text is compiled in as <template data-legal-text="<key>"> from the same documents its own
+// page renders, minus the title (the dialog's heading); any other link (mailto) shows the contact block. The script picks the variant.
+import DialogShell from "./DialogShell.astro";
+import ReviewRow from "./ReviewRow.astro";
+import { en } from "../content/en";
+import { legal, legalHtml } from "../content/legal";
+const copy = en.studio.legal;
+const contact = copy.contact;
+const pages = Object.entries(copy.pages);
+const texts = pages.filter(([key]) => key in legal).map(([key]) => [key, `${legalHtml(legal[key as keyof typeof legal].blocks)}\n`] as const);
+---
+<DialogShell close={copy.close} class="flex-col" data-classlist="remix-dialog remix-dialog-legal" data-modal="legal" data-legal-dialog aria-labelledby="LegalTitle">
+	<header slot="head" class="flex flex-none items-center" data-classlist="remix-reader-bar">
+		<h2 class="m-0 min-w-0" data-classlist="remix-legal-title" id="LegalTitle" tabindex="-1" autofocus>{pages.map(([key, page]) => <span data-legal-title={key} data-legal-url={page.url} hidden>{page.title}</span>)}</h2>
+	</header>
+	<div class="min-h-0 flex-1" data-classlist="remix-legal-body" data-legal-body tabindex="0">
+		<article data-classlist="remix-measure remix-legal-text" data-legal-text hidden></article>
+		{texts.map(([key, html]) => <template data-legal-text={key} set:html={html} />)}
+		<div data-classlist="remix-measure" data-legal-contact hidden>
+			<p class="m-0" data-classlist="remix-dialog-lede">{contact.lede}</p>
+			<dl class="m-0" data-classlist="remix-review">
+				<ReviewRow label={contact.emailLabel}><dd class="m-0" data-classlist="remix-review-value"><a data-classlist="remix-legal-mail" href={`mailto:${contact.email}`}>{contact.email}</a></dd></ReviewRow>
+				<ReviewRow label={contact.operatorLabel}><dd class="m-0" data-classlist="remix-review-value">{contact.operator}</dd></ReviewRow>
+			</dl>
+		</div>
+	</div>
+</DialogShell>

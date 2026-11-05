@@ -1,0 +1,16 @@
+---
+// The end card (the dev ChapterPane.js renderEnd). It exists twice: "pane" ends the chapter on desktop, "phone" sits in the comic
+// column below it.
+import { en } from "../content/en";
+import Icon from "./ui/Icon.astro";
+
+interface Props { where: "pane" | "phone" }
+const { where } = Astro.props;
+const actions = en.studio.actions;
+---
+<aside data-classlist="remix-end" data-end={where}>
+		<p class="m-0" data-classlist="remix-eyebrow remix-end-eyebrow">{actions.endEyebrow}</p>
+		<p class="m-0" data-classlist="remix-end-line">{actions.endCard}</p>
+		<button type="button" data-control="secondary" data-arrow data-classlist="remix-end-build" data-open-build data-needs-result><span>{actions.build}</span><Icon name="tabler-outline-arrow-narrow-right" /></button>
+		<button type="button" data-classlist="remix-end-share" data-open-share data-needs-result>{actions.endShare}</button>
+	</aside>

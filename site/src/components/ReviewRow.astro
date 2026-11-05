@@ -1,0 +1,7 @@
+---
+// One label/value row of a <dl data-classlist="remix-review"> (DialogShell.js reviewRow): a quiet label over its value, on a tinted
+// card. The value (its <dd>) is the default slot.
+interface Props { label: string }
+const { label } = Astro.props;
+---
+<div data-classlist="remix-review-row"><dt data-classlist="remix-dialog-label">{label}</dt><slot /></div>

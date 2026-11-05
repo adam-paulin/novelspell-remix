@@ -1,0 +1,21 @@
+---
+// The page header (the shared Lander header as this site renders it): the logo home link and the theme toggle. On the studio page at
+// >= 64rem it is display: none (the shelf carries the chrome); below that, and on every other page, it is the header. The end column is
+// one slot wide (the toggle) so the row never shifts. The site has no navigation links, so the framework's phone/tablet menu
+// (an always-empty popover) is not rendered.
+import Logo from "./Logo.astro";
+import ThemeToggle from "./ThemeToggle.astro";
+import { en } from "../content/en";
+---
+<header class="sticky top-0 z-50 border-b" data-classlist="Header brand-background-page brand-border-muted">
+	<div data-nav-shell>
+		<div data-nav-row>
+			<a data-nav-logo class="inline-flex min-h-11 max-w-full items-center" href="/#Top" aria-label={en.layout.brand}>
+				<span class="flex h-[var(--site-nav-logo-height,30px)] min-w-0 items-center sm:h-[var(--site-nav-logo-height,34px)] [&>svg]:h-full [&>svg]:w-auto [&>svg]:max-w-full" aria-hidden="true"><Logo /></span>
+			</a>
+			<div data-nav-end>
+				<div data-nav-tools><ThemeToggle /></div>
+			</div>
+		</div>
+	</div>
+</header>

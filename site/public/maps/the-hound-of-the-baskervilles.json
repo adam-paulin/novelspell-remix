@@ -1,0 +1,1109 @@
+{
+	"schema": "remix.bookMap/1",
+	"slug": "the-hound-of-the-baskervilles",
+	"title": "The Hound of the Baskervilles",
+	"author": "Arthur Conan Doyle",
+	"premise": "After Sir Charles Baskerville is found dead near his moorland home, a doctor brings Sherlock Holmes a family legend and evidence of a gigantic hound. Sir Charles's Canadian heir arrives to claim the estate, carrying a fortune and a warning to keep away from the moor.",
+	"hook": "A stolen boot, a family curse, and a hound whose jaws appear to burn.",
+	"logline": "As Sir Henry Baskerville takes possession of his ancestral home, Holmes and Watson must discover who is stalking him and how a legendary hound can kill.",
+	"world": {
+		"setting": "Baker Street and hotel-lined London give way to Baskerville Hall and scattered settlements on Dartmoor, Devon: granite tors, prehistoric stone huts, lonely roads, and the treacherous Grimpen Mire.",
+		"period": "Late Victorian England, with the main Dartmoor investigation in October",
+		"rules": [
+			"The apparent hell-hound is a living, savage animal made luminous with a phosphorus preparation; it can be wounded and killed.",
+			"The hound follows scent, including that retained on a worn boot or clothing; its phosphorescent coating does not prevent it from scenting.",
+			"The Grimpen Mire swallows animals and people; a few concealed routes cross it, marked in places by planted wands, and fog can make them impossible to follow.",
+			"Trains, horse-drawn cabs and traps, telegrams, letters, and hired messengers connect London with Devon; travel and messages take time.",
+			"A baronet owns an entailed estate, commands servants, and is expected to support the neighbourhood; a fortune may be disposed of separately by will.",
+			"A married woman's movements and prospects are constrained by law and reputation; a private night visit to a bachelor's house risks scandal.",
+			"An arrest and conviction require evidence that can persuade a jury, not merely a detective's conviction about a suspect's guilt.",
+			"The family legend and sightings create real fear, but no supernatural agency is established as the cause of the modern crimes."
+		],
+		"tone": "A rational investigation moves through dread, loneliness, and sudden violence, relieved by affectionate banter and flashes of comedy.",
+		"themes": [
+			"Reason against superstition",
+			"Inheritance and family resemblance",
+			"Deception and concealed identity",
+			"Loyalty, love, and coercion",
+			"The moral cost of solving a crime",
+			"Ancient landscape beside modern England"
+		],
+		"sensitivities": [
+			"The text uses racialized language and discredited theories connecting skull shape, ancestry, character, and criminality.",
+			"Watson describes Selden in dehumanizing, animalistic terms and associates his appearance with moral depravity.",
+			"Beryl suffers coercive control, confinement, and physical abuse; Laura's vulnerability is shaped by marriage law and the threat of scandal."
+		]
+	},
+	"voice": {
+		"narration": "Dr. Watson narrates in the first person, mostly in retrospect and the past tense, admiring Holmes while recording his own mistakes, loyalties, and fear. Letters and dated diary entries give the moorland inquiry the immediacy of his incomplete knowledge.",
+		"style": [
+			"Combine lucid accounts of physical clues with long, rhythmically balanced sentences that build atmosphere and suspense.",
+			"Render the moor as a vast living presence through colour, weather, sound, and comparisons to seas, monsters, and grasping hands.",
+			"Let Watson state a hypothesis, test it against particulars, and admit when a later discovery overturns it.",
+			"Use emphatic dashes, exclamations, and short questions at moments of surprise; end scenes on a decisive revelation or sound.",
+			"Contrast Holmes's precise professional reasoning with Watson's emotional, sometimes Gothic impressions.",
+			"Use British period spelling and terms such as moor, trap, wicket-gate, and baronet."
+		],
+		"dialogue": "Dialogue uses quotation marks and frequent brief exchanges, interrupted by gestures and observations. Holmes moves from courteous questions to rapid deductions and dry jokes; Watson asks for explanations; Sir Henry speaks directly with Western and American turns of phrase. Speakers address one another by title or surname until familiarity warrants more.",
+		"samplePassages": [
+			"He had never said as much before, and I must admit that his words gave me keen pleasure, for I had often been piqued by his indifference to my admiration and to the attempts which I had made to give publicity to his methods. I was proud, too, to think that I had so far mastered his system as to apply it in a way which earned his approval. He now took the stick from my hands and examined it for a few minutes with his naked eyes. Then with an expression of interest he laid down his cigarette, and carrying the cane to the window, he looked over it again with a convex lens.",
+			"A long, low moan, indescribably sad, swept over the moor. It filled the whole air, and yet it was impossible to say whence it came. From a dull murmur it swelled into a deep roar, and then sank back into a melancholy, throbbing murmur once again. Stapleton looked at me with a curious expression in his face.\n\n“Queer place, the moor!” said he.\n\n“But what is it?”\n\n“The peasants say it is the Hound of the Baskervilles calling for its prey. I’ve heard it once or twice before, but never quite so loud.”"
+		]
+	},
+	"cast": [
+		{
+			"key": "watson",
+			"name": "Dr. Watson",
+			"aliases": [
+				"Watson"
+			],
+			"role": "Narrator, physician, Holmes's companion and Sir Henry's appointed protector.",
+			"age": "Adult",
+			"appearance": "A solidly built, medium-height English gentleman with a moustache, short brown hair, and a weathered face. He wears a dark Victorian suit and hat in town, and a practical coat and boots on the moor; a revolver may be in his pocket.",
+			"personality": "Loyal, observant, courageous, and susceptible to the moor's terrors; sensitive to Holmes's praise and to the duties of friendship.",
+			"motivation": "He wants to protect Sir Henry, supply Holmes with useful facts, and prove worthy of his friend's confidence.",
+			"fears": "He dreads harm to Sir Henry through his own negligence and fears the unknown watcher on the moor.",
+			"speech": "Courteous and earnest, he asks direct questions, ventures theories, and readily admits bewilderment. With Holmes he is affectionate, sometimes piqued, and frank about his own feelings.",
+			"arc": "Sent as Holmes's eyes and ears, he follows several misleading clues, finds Holmes's hiding place, and helps save Sir Henry from the hound.",
+			"relationships": [
+				{
+					"key": "holmes",
+					"nature": "Friend, chronicler, and trusted investigative assistant."
+				},
+				{
+					"key": "henry",
+					"nature": "Companion and protector who grows sincerely attached to him."
+				},
+				{
+					"key": "stapleton",
+					"nature": "Initially studies the helpful naturalist before recognizing him as the enemy."
+				}
+			],
+			"firstChapterId": "c01"
+		},
+		{
+			"key": "holmes",
+			"name": "Sherlock Holmes",
+			"aliases": [
+				"Mr. Sherlock Holmes",
+				"Mr. Holmes"
+			],
+			"role": "Consulting detective who investigates the threat to the Baskervilles.",
+			"age": "Adult",
+			"appearance": "A tall, thin, athletic man with a keen, clean-shaven face and grey eyes. His posture can be austere or stooping with his head thrust forward; on the moor he wears a tweed suit and cloth cap, with immaculate linen.",
+			"personality": "Analytical, secretive, resourceful, and capable of warmth, vanity, irony, and intense excitement in a difficult case.",
+			"motivation": "He wants to protect Sir Henry and obtain evidence that will expose and convict the murderer.",
+			"fears": "He fears losing a client through his own miscalculation and letting a formidable criminal escape justice.",
+			"speech": "Incisive and controlled, he asks sequences of exact questions, distinguishes observation from inference, and calls Watson 'my dear fellow.' He teases friends and can be sharply impatient.",
+			"arc": "He moves from physical clues and guarded hypotheses to a secret vigil, then uses Sir Henry as bait and acknowledges the danger his plan caused.",
+			"relationships": [
+				{
+					"key": "watson",
+					"nature": "Close friend whose reports and courage he values, though he conceals his presence from him."
+				},
+				{
+					"key": "henry",
+					"nature": "Client whom he protects and ultimately exposes to danger as bait."
+				},
+				{
+					"key": "stapleton",
+					"nature": "A cunning opponent whom he seeks to catch with evidence."
+				},
+				{
+					"key": "mortimer",
+					"nature": "Client whose observations first bring him the case."
+				}
+			],
+			"firstChapterId": "c01"
+		},
+		{
+			"key": "mortimer",
+			"name": "Dr. Mortimer",
+			"aliases": [
+				"James Mortimer",
+				"Mr. Mortimer"
+			],
+			"role": "Country medical practitioner, Sir Charles's friend and executor, who brings Holmes the problem.",
+			"age": "A young man, under thirty by Holmes's estimate",
+			"appearance": "Very tall and thin, with a bowed back, a long beak-like nose, and close-set keen grey eyes behind gold-rimmed glasses. His dingy frock-coat and frayed trousers are professionally cut but slovenly; his long fingers quiver and his head thrusts forward.",
+			"personality": "Benevolent, absent-minded, scientifically enthusiastic, and uncertain when evidence seems to support superstition.",
+			"motivation": "He wants sound advice about Sir Henry's safety while preserving the prosperity that an occupied Hall brings to the district.",
+			"fears": "He fears that the Baskerville curse may be real and that Sir Henry may meet his uncle's fate.",
+			"speech": "Polite and precise about his modest medical title, he digresses eagerly into skulls and comparative anatomy. His account of the hound becomes hushed and emotional.",
+			"arc": "He discloses the private evidence withheld at the inquest, assists the heir, and later accompanies the recovering Sir Henry on a long voyage.",
+			"relationships": [
+				{
+					"key": "holmes",
+					"nature": "Consults him about the heir and the mysterious death."
+				},
+				{
+					"key": "henry",
+					"nature": "Executor, adviser, physician, and travelling companion."
+				},
+				{
+					"key": "stapleton",
+					"nature": "Neighbour and apparent scientific friend who learned from him of Sir Charles's weak heart."
+				}
+			],
+			"firstChapterId": "c01"
+		},
+		{
+			"key": "henry",
+			"name": "Sir Henry Baskerville",
+			"aliases": [
+				"Sir Henry",
+				"Baskerville",
+				"the baronet"
+			],
+			"role": "Sir Charles's heir, newly returned from North America to take possession of Baskerville Hall.",
+			"age": "About thirty",
+			"appearance": "Small, sturdy, and alert, with weather-beaten skin, thick black eyebrows, a strong pugnacious face, and large hazel eyes. He wears a ruddy tweed suit and carries himself with quiet assurance.",
+			"personality": "Generous, courageous, impulsive, proud of his family, and quick-tempered when he thinks himself wronged.",
+			"motivation": "He wants to restore his family's house and estate, face the danger surrounding them, and marry the woman he knows as Miss Stapleton.",
+			"fears": "The hound's cry shakes his courage, and he fears being left alone amid the Hall's unexplained dangers.",
+			"speech": "Direct and warm, with Western and American expressions such as 'by thunder' and 'right away.' Anger broadens his dialect; with friends he speaks openly and gratefully.",
+			"arc": "He insists on claiming the Hall, falls in love with Beryl, becomes Holmes's unwitting bait, and survives the hound but needs a long recovery.",
+			"relationships": [
+				{
+					"key": "watson",
+					"nature": "Welcomes him as companion and protector and trusts his frankness."
+				},
+				{
+					"key": "beryl",
+					"nature": "Loves and proposes to her, believing her unmarried."
+				},
+				{
+					"key": "holmes",
+					"nature": "Trusts the detective and agrees to follow his directions blindly."
+				},
+				{
+					"key": "barrymore",
+					"nature": "Employer who first suspects him and then shows him mercy."
+				}
+			],
+			"firstChapterId": "c04"
+		},
+		{
+			"key": "stapleton",
+			"name": "Stapleton",
+			"aliases": [
+				"Jack Stapleton",
+				"Rodger Baskerville",
+				"Vandeleur"
+			],
+			"role": "Naturalist of Merripit House and concealed Baskerville heir who engineers the attacks.",
+			"age": "Between thirty and forty",
+			"appearance": "Small, slim, and lean-jawed, with a clean-shaven prim face, flaxen hair, and light grey eyes. He wears a grey suit and straw hat, often carrying a green butterfly-net and a tin specimen box; he moves with nimble, jerky speed.",
+			"personality": "Patient, calculating, outwardly courteous, and capable of sudden jealous fury and calculated cruelty.",
+			"motivation": "He wants the Baskerville estate and fortune and uses the family legend to remove the lives between him and the inheritance.",
+			"fears": "He fears exposure and losing control of the women whose knowledge could implicate him.",
+			"speech": "Smooth and educated, he offers help and speaks enthusiastically of natural history. He probes for information under polite conversation, retreats when challenged, and can turn peremptory or violent.",
+			"arc": "Having killed Sir Charles through the hound, he pursues Henry under a false identity; his plan fails and he is presumed swallowed by the mire.",
+			"relationships": [
+				{
+					"key": "beryl",
+					"nature": "His wife, whom he passes off as his sister, controls, and abuses."
+				},
+				{
+					"key": "laura",
+					"nature": "Promises marriage and manipulates her into arranging Sir Charles's fatal appointment."
+				},
+				{
+					"key": "henry",
+					"nature": "Secretly plans to kill his cousin and take the succession."
+				},
+				{
+					"key": "holmes",
+					"nature": "Recognizes him as a dangerous opponent and tries to mislead him."
+				}
+			],
+			"firstChapterId": "c07"
+		},
+		{
+			"key": "beryl",
+			"name": "Mrs. Stapleton",
+			"aliases": [
+				"Beryl",
+				"Miss Stapleton",
+				"Beryl Garcia",
+				"Mrs. Vandeleur"
+			],
+			"role": "Stapleton's wife, presented as his sister, who tries to warn Sir Henry.",
+			"age": "Young adult",
+			"appearance": "Tall, slim, and elegantly dressed, with a perfect figure, a dark complexion, a proud finely cut face, a sensitive mouth, and beautiful dark, eager eyes. Her dark hair is arranged in a period style.",
+			"personality": "Proud, passionate, and compassionate, but cautious under her husband's surveillance.",
+			"motivation": "She wants to keep Sir Henry safe while, for much of the story, avoiding betrayal of the husband whose love she hopes to retain.",
+			"fears": "She fears her husband's violence and the discovery of her warnings.",
+			"speech": "Her English has a curious lisp. In private she speaks urgently and emotionally; before Stapleton she changes the subject, gives evasive explanations, and checks herself.",
+			"arc": "She refuses to lure Sir Charles, repeatedly warns Henry, and turns decisively against Stapleton after learning of his betrayal and suffering confinement.",
+			"relationships": [
+				{
+					"key": "stapleton",
+					"nature": "Abused wife compelled to pose as his sister and assist his deception."
+				},
+				{
+					"key": "henry",
+					"nature": "Warns the man who loves her while concealing her marriage."
+				},
+				{
+					"key": "watson",
+					"nature": "Mistakes him for Henry and urgently warns him away from the moor."
+				}
+			],
+			"firstChapterId": "c07"
+		},
+		{
+			"key": "barrymore",
+			"name": "Barrymore",
+			"aliases": [
+				"John Barrymore",
+				"Mr. Barrymore"
+			],
+			"role": "Baskerville Hall's butler, whose secret signals conceal help for his wife's brother.",
+			"age": "Adult",
+			"appearance": "Tall and handsome, with pale distinguished features, dark eyes, and a square full black beard. He wears the dark, formal clothes of a Victorian butler and holds himself with a subdued, trained manner.",
+			"personality": "Reserved and dutiful, protective of his wife, and capable of firm defiance when her secret is threatened.",
+			"motivation": "He wants to help his wife keep her brother alive and honour the kindness shown by the Baskervilles.",
+			"fears": "He fears Selden's capture, trouble for his wife, and the danger gathering around Sir Henry.",
+			"speech": "Respectful and formal with his employer, using 'sir'; under pressure he pleads, then speaks bluntly about foul play and black villainy.",
+			"arc": "His furtive conduct makes him a suspect; after his secret is exposed, he gains Henry's mercy and shares the clue of the burned letter.",
+			"relationships": [
+				{
+					"key": "eliza",
+					"nature": "Husband who helps her feed and shelter her fugitive brother."
+				},
+				{
+					"key": "henry",
+					"nature": "Butler whose trust he risks but whose kindness he repays with information."
+				},
+				{
+					"key": "watson",
+					"nature": "Initially the object of his suspicions; later tells him about another man on the moor."
+				}
+			],
+			"firstChapterId": "c06"
+		},
+		{
+			"key": "eliza",
+			"name": "Mrs. Barrymore",
+			"aliases": [
+				"Eliza Barrymore",
+				"Eliza",
+				"Miss Selden"
+			],
+			"role": "Baskerville Hall's housekeeper and the escaped convict Selden's elder sister.",
+			"age": "Adult",
+			"appearance": "A large, solid, heavy-featured woman with an impassive face and a stern-set mouth. She wears a plain dark housekeeper's dress and apron, with a shawl over her shoulders at night.",
+			"personality": "Respectable and apparently unemotional, but deeply loyal and capable of intense grief and courage.",
+			"motivation": "She wants to keep her younger brother from starving or being taken, remembering the child she once cared for.",
+			"fears": "She fears Selden's recapture or death and the disgrace her secret brings upon her husband.",
+			"speech": "Usually restrained, she speaks with urgent, heartfelt plainness when defending her brother and takes responsibility for her husband's actions.",
+			"arc": "Her hidden grief and food signals arouse suspicion; she reveals the truth to protect her husband and later mourns Selden.",
+			"relationships": [
+				{
+					"key": "barrymore",
+					"nature": "Wife whose husband shares the risk of helping her brother."
+				},
+				{
+					"key": "henry",
+					"nature": "His housekeeper, who appeals to his compassion for her family."
+				},
+				{
+					"key": "watson",
+					"nature": "Her tears and nighttime secret draw his attention."
+				}
+			],
+			"firstChapterId": "c06"
+		},
+		{
+			"key": "laura",
+			"name": "Mrs. Laura Lyons",
+			"aliases": [
+				"Laura Lyons",
+				"L. L."
+			],
+			"role": "Frankland's estranged daughter, whose letter brings Sir Charles to the moor-gate.",
+			"age": "Adult",
+			"appearance": "A very handsome brunette with rich hazel hair and eyes, freckled cheeks, and a pink flush. She wears a neat late Victorian dress and works at a Remington typewriter in her well-appointed rooms.",
+			"personality": "Proud, defensive, and resourceful, with a capacity for fierce indignation when deceived.",
+			"motivation": "She wants freedom from her husband and believes Stapleton will marry her if she can obtain a divorce.",
+			"fears": "She fears scandal, exposure of her appointment with Sir Charles, and being compelled to live with her husband.",
+			"speech": "Initially guarded and sharp under questioning, she denies and qualifies; when cornered or betrayed, she speaks in a rapid, passionate torrent.",
+			"arc": "She conceals Stapleton's role until Holmes proves he is married, then reveals his dictation of the letter and his pressure to remain silent.",
+			"relationships": [
+				{
+					"key": "stapleton",
+					"nature": "Trusts his promise of marriage until she learns he already has a wife."
+				},
+				{
+					"key": "holmes",
+					"nature": "Gives him the hidden facts after he shows her proof of Stapleton's marriage."
+				},
+				{
+					"key": "watson",
+					"nature": "Admits writing the letter to him but withholds Stapleton's involvement."
+				}
+			],
+			"firstChapterId": "c11"
+		}
+	],
+	"places": [
+		{
+			"key": "baker_street",
+			"name": "Baker Street",
+			"description": "Holmes and Watson's London sitting-room, where Mortimer presents the case and Holmes later reconstructs it.",
+			"visual": "A breakfast table with a silver-plated coffee-pot, a hearth-rug, a settee, papers, a lamp, and a fire; tobacco smoke can fill the room."
+		},
+		{
+			"key": "baskerville_hall",
+			"name": "Baskerville Hall",
+			"description": "The ancestral estate, newly inherited by Sir Henry, with a gloomy old centre and more modern wings.",
+			"visual": "Twin crenelated towers rise above ivy-covered black granite; boars' heads top the gate pillars. Inside are oak rafters, stained glass, ancestral portraits, a great fireplace, and a shadowy dining-room."
+		},
+		{
+			"key": "yew_alley",
+			"name": "The yew alley",
+			"description": "Sir Charles's nightly walk and the place where he waited for a woman and died.",
+			"visual": "A gravel path runs between twelve-foot clipped yew hedges, with grass strips on each side, a white moor-gate halfway along, and a decaying summer-house at the far end."
+		},
+		{
+			"key": "moor",
+			"name": "Dartmoor",
+			"description": "The broad, sparsely populated landscape around the Hall, crossed by tracks and dotted with prehistoric remains.",
+			"visual": "Russet and olive slopes, jagged granite tors and boulders, roofless circles of ancient stone huts, scattered cottages, and changing banks of mist under wide skies."
+		},
+		{
+			"key": "grimpen_mire",
+			"name": "The great Grimpen Mire",
+			"description": "A dangerous bog concealing the island where Stapleton kennels his hound.",
+			"visual": "Bright green rushes and cotton grass break up green-scummed pools and quivering black mud; small wands mark a zigzag route to an island with abandoned mine machinery and ruined cottages."
+		},
+		{
+			"key": "merripit_house",
+			"name": "Merripit House",
+			"description": "The Stapletons' isolated home, a former grazing farm repaired as a modern dwelling.",
+			"visual": "A bleak house with serrated roof and chimneys stands in a stunted orchard behind a low wall. Its large rooms are elegantly furnished; an out-house and a butterfly collection are close at hand."
+		},
+		{
+			"key": "stone_hut",
+			"name": "Holmes's stone hut",
+			"description": "A prehistoric shelter Holmes uses when he needs to watch the moor unseen.",
+			"visual": "A low circular stone ruin with a partly surviving roof, blankets on a stone slab, a crude grate, cooking utensils, empty tins, and a flat stone table."
+		},
+		{
+			"key": "coombe_tracey",
+			"name": "Coombe Tracey",
+			"description": "The town where Laura Lyons works, and a base for Holmes's secret investigation.",
+			"visual": "A railway station and central, well-appointed rooms where a Remington typewriter stands ready for work."
+		}
+	],
+	"timeline": [
+		{
+			"chapterId": "c01",
+			"title": "Chapter 1: Mr. Sherlock Holmes",
+			"summary": "Holmes and Watson reconstruct the owner of a forgotten walking-stick before the owner, James Mortimer, returns to consult Holmes.",
+			"events": [
+				"Watson examines the inscribed stick and offers his deductions.",
+				"Holmes corrects him, inferring a young country practitioner and a dog from the stick.",
+				"The Medical Directory confirms Mortimer's hospital and country appointments.",
+				"Mortimer arrives with his spaniel and explains that the stick was a marriage present.",
+				"Mortimer admires Holmes's skull and asks his help with an extraordinary problem."
+			],
+			"present": [
+				"watson",
+				"holmes",
+				"mortimer"
+			],
+			"knowledge": [
+				{
+					"key": "watson",
+					"learns": "Most of his deductions from the stick were wrong; Mortimer left hospital on marrying."
+				},
+				{
+					"key": "holmes",
+					"learns": "The stick was presented on Mortimer's marriage, complicating his inference about the occasion."
+				}
+			],
+			"mood": "Playful, curious, anticipatory"
+		},
+		{
+			"chapterId": "c02",
+			"title": "Chapter 2: The Curse of the Baskervilles",
+			"summary": "Mortimer reads the Baskerville legend and a newspaper account of Sir Charles's death, then reveals evidence he withheld at the inquest.",
+			"events": [
+				"Mortimer produces the family manuscript dated 1742.",
+				"He reads how Hugo pursued an abducted woman and was found with a monstrous hound at his throat.",
+				"He reads the newspaper account of Sir Charles's death in the yew alley and the natural-death verdict.",
+				"He describes Sir Charles's fear and a large black creature seen before the death.",
+				"He reveals that he saw fresh gigantic hound footprints near the body."
+			],
+			"present": [
+				"watson",
+				"holmes",
+				"mortimer"
+			],
+			"knowledge": [
+				{
+					"key": "holmes",
+					"learns": "Mortimer withheld the hound tracks and Sir Charles had been intensely afraid of the family legend."
+				},
+				{
+					"key": "watson",
+					"learns": "The official account omitted gigantic hound footprints found near Sir Charles."
+				}
+			],
+			"mood": "Legendary, ominous, astonished"
+		},
+		{
+			"chapterId": "c03",
+			"title": "Chapter 3: The Problem",
+			"summary": "Holmes questions Mortimer about the physical evidence and the arriving heir, then studies the moor and develops a theory of Sir Charles's last movements.",
+			"events": [
+				"Mortimer describes the alley, locked gate, cigar ash, and distant hound prints.",
+				"He reports pre-death sightings of a luminous creature and asks what to do with Sir Henry.",
+				"Holmes tells Mortimer to meet the heir and bring him to Baker Street next morning.",
+				"Holmes studies an Ordnance map while Watson spends the day at his club.",
+				"Holmes concludes Sir Charles was waiting at the gate and then ran desperately away from the house."
+			],
+			"present": [
+				"watson",
+				"holmes",
+				"mortimer"
+			],
+			"knowledge": [
+				{
+					"key": "holmes",
+					"learns": "Sir Henry is arriving from Canada; Mortimer knows of no sightings of the apparition after Sir Charles's death."
+				},
+				{
+					"key": "watson",
+					"learns": "Holmes interprets the altered footprints as running and the cigar ash as evidence of waiting."
+				}
+			],
+			"mood": "Analytical, eerie, expectant"
+		},
+		{
+			"chapterId": "c04",
+			"title": "Chapter 4: Sir Henry Baskerville",
+			"summary": "Sir Henry receives a warning, learns the family evidence, and insists on going to the Hall; Holmes spots but loses the man following him.",
+			"events": [
+				"Henry shows Holmes an anonymous warning assembled from printed words and reports a missing new tan boot.",
+				"Holmes identifies the printed words as cut from a Times leader and examines the disguised address.",
+				"Mortimer tells Henry the story, and Henry declares that neither man nor devil will keep him from his home.",
+				"Holmes and Watson follow Henry and Mortimer and spot a black-bearded watcher in a cab.",
+				"The watcher escapes; Holmes notes cab number 2704 and sends Cartwright to search hotel waste-paper."
+			],
+			"present": [
+				"watson",
+				"holmes",
+				"mortimer",
+				"henry"
+			],
+			"knowledge": [
+				{
+					"key": "henry",
+					"learns": "The private circumstances of his uncle's death and the danger associated with the hound."
+				},
+				{
+					"key": "holmes",
+					"learns": "Henry is being watched in London by a man in a cab; the warning's printed words came from the Times."
+				}
+			],
+			"mood": "Alert, defiant, thwarted"
+		},
+		{
+			"chapterId": "c05",
+			"title": "Chapter 5: Three Broken Threads",
+			"summary": "A second boot disappears, Watson agrees to accompany Henry to Devon, and Holmes's London leads fail to identify the watcher.",
+			"events": [
+				"Holmes checks the hotel register and questions the staff about recent guests.",
+				"Henry reports that an old black boot has vanished as well as the new brown one.",
+				"Mortimer explains the legacies and identifies the apparent next heir, James Desmond.",
+				"Holmes recommends Watson as Henry's companion, and Watson accepts.",
+				"The new brown boot reappears; telegrams and the cabman fail to identify the watcher, who called himself Sherlock Holmes."
+			],
+			"present": [
+				"watson",
+				"holmes",
+				"mortimer",
+				"henry"
+			],
+			"knowledge": [
+				{
+					"key": "holmes",
+					"learns": "Henry inherits a residue of £740,000; the cab passenger gave the driver Holmes's own name."
+				},
+				{
+					"key": "watson",
+					"learns": "He is to accompany Henry and report carefully to Holmes."
+				},
+				{
+					"key": "henry",
+					"learns": "He was followed in London and Barrymore has a black beard like the watcher's."
+				}
+			],
+			"mood": "Puzzled, purposeful, uneasy"
+		},
+		{
+			"chapterId": "c06",
+			"title": "Chapter 6: Baskerville Hall",
+			"summary": "Watson, Henry, and Mortimer travel to Devon, hear of an escaped murderer, and reach the sombre Hall.",
+			"events": [
+				"Holmes instructs Watson to report facts, carry his revolver, and keep Henry from going alone.",
+				"The travellers see the moor from the train and take a wagonette from the station.",
+				"Perkins explains that Selden, the Notting Hill murderer, has escaped from Princetown.",
+				"The party reaches Baskerville Hall; Mortimer goes home and the Barrymores receive the guests.",
+				"Barrymore says he and his wife wish eventually to leave; that night Watson hears a woman sobbing."
+			],
+			"present": [
+				"watson",
+				"holmes",
+				"mortimer",
+				"henry",
+				"barrymore",
+				"eliza"
+			],
+			"knowledge": [
+				{
+					"key": "watson",
+					"learns": "Selden is loose on the moor and the Barrymores intend to leave after new arrangements are made."
+				},
+				{
+					"key": "henry",
+					"learns": "The Hall's servants wish to leave because Sir Charles's death made the house painful to them."
+				}
+			],
+			"mood": "Melancholy, ancestral, threatening"
+		},
+		{
+			"chapterId": "c07",
+			"title": "Chapter 7: The Stapletons of Merripit House",
+			"summary": "Watson discovers a flaw in the telegram test, meets Stapleton and his supposed sister, and receives her urgent warning.",
+			"events": [
+				"Barrymore denies that his wife sobbed, but Watson sees her swollen, tear-reddened eyes.",
+				"At Grimpen, Watson learns the test telegram was handed to Mrs. Barrymore rather than her husband.",
+				"Stapleton meets Watson, takes him toward Merripit House, and shows him the deadly mire.",
+				"They hear a strange moan; Stapleton pursues a butterfly into the mire.",
+				"Beryl mistakes Watson for Henry and warns him to return to London before concealing the exchange from Stapleton.",
+				"After Watson visits Merripit House, Beryl intercepts him and gives an evasive explanation of her warning."
+			],
+			"present": [
+				"watson",
+				"henry",
+				"barrymore",
+				"eliza",
+				"stapleton",
+				"beryl"
+			],
+			"knowledge": [
+				{
+					"key": "watson",
+					"learns": "The telegram did not prove Barrymore was at the Hall; Beryl urgently wants Henry away but will give no definite reason."
+				},
+				{
+					"key": "beryl",
+					"learns": "The man she warned is Watson, not Sir Henry."
+				},
+				{
+					"key": "stapleton",
+					"learns": "Watson is at the Hall and says Holmes cannot leave London at present."
+				}
+			],
+			"mood": "Bright but increasingly uncanny"
+		},
+		{
+			"chapterId": "c08",
+			"title": "Chapter 8: First Report of Dr. Watson",
+			"summary": "Watson's report describes the neighbours and Henry's attraction to Beryl, then records Barrymore's mysterious nighttime vigil.",
+			"events": [
+				"Watson reports that the district believes Selden has left the moor.",
+				"Stapleton shows Watson and Henry the legendary valley; Henry meets Beryl at Merripit House.",
+				"Mortimer shows the party the yew alley, and Watson describes the litigious Frankland.",
+				"Henry questions Barrymore about the telegram and later gives him old clothes.",
+				"At night Watson follows Barrymore to an empty room and sees him hold a candle against a window overlooking the moor.",
+				"Watson and Henry plan to investigate the nocturnal movements."
+			],
+			"present": [
+				"watson",
+				"henry",
+				"mortimer",
+				"stapleton",
+				"beryl",
+				"barrymore",
+				"eliza"
+			],
+			"knowledge": [
+				{
+					"key": "watson",
+					"learns": "Barrymore claims his wife brought him the telegram; his candle vigil suggests a secret connected with the moor."
+				},
+				{
+					"key": "henry",
+					"learns": "Watson's account leaves the telegram test unable to establish Barrymore's whereabouts independently."
+				}
+			],
+			"mood": "Watchful, lonely, suspicious"
+		},
+		{
+			"chapterId": "c09",
+			"title": "Chapter 9: The Light upon the Moor [Second Report of Dr. Watson]",
+			"summary": "Stapleton interrupts Henry's courtship; the Barrymores' signal is explained, and a pursuit of Selden ends with a glimpse of another man.",
+			"events": [
+				"Watson and Henry decide to watch Barrymore at night.",
+				"Henry goes to meet Beryl; Watson follows and sees Stapleton furiously interrupt Henry's proposal.",
+				"Stapleton apologizes and secures Henry's promise to wait three months before pressing his suit.",
+				"After one fruitless vigil, Watson and Henry confront Barrymore at the window and see an answering light.",
+				"Mrs. Barrymore reveals that the lights arrange food for her fugitive brother Selden.",
+				"Henry and Watson pursue Selden, hear the hound's cry, and fail to catch him; Watson sees a tall stranger on a tor."
+			],
+			"present": [
+				"watson",
+				"henry",
+				"stapleton",
+				"beryl",
+				"barrymore",
+				"eliza"
+			],
+			"knowledge": [
+				{
+					"key": "henry",
+					"learns": "Beryl warns him of danger; Barrymore's signal helps Selden, Mrs. Barrymore's brother."
+				},
+				{
+					"key": "watson",
+					"learns": "The Barrymores feed Selden, and another tall man is watching from the moor."
+				},
+				{
+					"key": "barrymore",
+					"learns": "Henry and Watson have discovered the signal and Selden's identity."
+				}
+			],
+			"mood": "Romantic frustration, revelation, terror"
+		},
+		{
+			"chapterId": "c10",
+			"title": "Chapter 10: Extract from the Diary of Dr. Watson",
+			"summary": "Henry agrees not to inform on Selden; Barrymore repays him with a clue to Sir Charles's appointment, and Watson identifies two new lines of inquiry.",
+			"events": [
+				"Watson reflects on the hound and resolves to find the stranger on the tor.",
+				"Barrymore protests the chase and says arrangements are being made to send Selden to South America.",
+				"Henry agrees not to tell the police; Barrymore reveals a burned letter signed L. L. asking Sir Charles to meet at ten.",
+				"Mortimer tells Watson that Laura Lyons of Coombe Tracey has those initials.",
+				"Barrymore tells Watson that Selden saw another man living among the stone huts and supplied by a boy."
+			],
+			"present": [
+				"watson",
+				"henry",
+				"barrymore",
+				"mortimer"
+			],
+			"knowledge": [
+				{
+					"key": "henry",
+					"learns": "Sir Charles had an appointment at the gate with a woman signing herself L. L."
+				},
+				{
+					"key": "watson",
+					"learns": "Laura Lyons is a possible L. L.; the unknown man has a boy bringing supplies to a stone hut."
+				},
+				{
+					"key": "barrymore",
+					"learns": "Henry will not report Selden's presence to the police."
+				}
+			],
+			"mood": "Fogbound, troubled, investigative"
+		},
+		{
+			"chapterId": "c11",
+			"title": "Chapter 11: The Man on the Tor",
+			"summary": "Watson questions Laura Lyons, follows a clue from Frankland's telescope to a stone hut, and discovers that its occupant knows his movements.",
+			"events": [
+				"Watson tells Henry about Laura Lyons and goes alone to Coombe Tracey.",
+				"Laura first denies the appointment, then admits writing the letter but says she never went.",
+				"She explains that she sought help with divorce expenses but received help elsewhere.",
+				"Frankland shows Watson a boy carrying a bundle toward the moor and refuses to help the police.",
+				"Watson finds the occupied stone hut and a note reporting his own visit to Coombe Tracey.",
+				"He waits armed for the tenant, whose familiar voice addresses him from outside."
+			],
+			"present": [
+				"watson",
+				"henry",
+				"laura",
+				"holmes"
+			],
+			"knowledge": [
+				{
+					"key": "watson",
+					"learns": "Laura wrote the appointment letter but claims not to have gone; someone in the hut receives reports on his movements."
+				},
+				{
+					"key": "laura",
+					"learns": "Watson knows the burned postscript and is investigating Sir Charles's death."
+				}
+			],
+			"mood": "Baffled, solitary, suspenseful"
+		},
+		{
+			"chapterId": "c12",
+			"title": "Chapter 12: Death on the Moor",
+			"summary": "The stranger proves to be Holmes, who identifies the Stapletons' deception; a hound pursuit kills Selden in Henry's clothes.",
+			"events": [
+				"Holmes reveals himself and explains his secret presence and use of Cartwright.",
+				"Watson recounts his interview with Laura; Holmes reveals that Beryl is Stapleton's wife.",
+				"Screams and a hound's cry send them racing across the moor to a fallen body in Henry's tweed.",
+				"They discover the dead man is Selden, wearing clothes Henry gave Barrymore.",
+				"Stapleton arrives, recognizes Holmes, and explains that he had invited Henry over.",
+				"Holmes and Watson return toward the Hall; Holmes plans for Henry to dine alone at Merripit House."
+			],
+			"present": [
+				"watson",
+				"holmes",
+				"stapleton"
+			],
+			"knowledge": [
+				{
+					"key": "watson",
+					"learns": "Holmes is the moorland watcher, Beryl is Stapleton's wife, and Selden died in Henry's clothes."
+				},
+				{
+					"key": "holmes",
+					"learns": "Laura sought divorce expenses and Selden had Henry's discarded clothes; he infers the hound followed their scent."
+				},
+				{
+					"key": "stapleton",
+					"learns": "Holmes is on the moor and Selden, not Henry, is the dead man."
+				}
+			],
+			"mood": "Relieved, horrified, combative"
+		},
+		{
+			"chapterId": "c13",
+			"title": "Chapter 13: Fixing the Nets",
+			"summary": "Holmes recognizes Stapleton's likeness to Hugo, sets a trap using Henry, and persuades Laura to reveal Stapleton's role.",
+			"events": [
+				"Watson tells the Barrymores of Selden's death; Henry agrees to obey Holmes's directions.",
+				"Holmes notices Hugo's portrait and shows Watson its resemblance to Stapleton.",
+				"Holmes orders Henry to dine at Merripit House and walk home by the straight path.",
+				"Holmes and Watson appear to leave for London; Cartwright is sent ahead to dispatch a misleading telegram.",
+				"Holmes shows Laura evidence of Stapleton's marriage, and she reveals that he dictated the letter and stopped her attending.",
+				"Lestrade arrives from London with an unsigned warrant."
+			],
+			"present": [
+				"watson",
+				"holmes",
+				"henry",
+				"barrymore",
+				"eliza",
+				"laura"
+			],
+			"knowledge": [
+				{
+					"key": "holmes",
+					"learns": "Laura confirms Stapleton dictated the appointment letter, dissuaded her from going, and made her keep silent."
+				},
+				{
+					"key": "laura",
+					"learns": "Stapleton is married to the woman presented as his sister and has deceived her."
+				},
+				{
+					"key": "watson",
+					"learns": "Holmes infers from Hugo's portrait that Stapleton is a Baskerville with designs on the succession."
+				},
+				{
+					"key": "henry",
+					"learns": "Holmes wants him to dine at Merripit and walk home alone along the specified path."
+				}
+			],
+			"mood": "Resolute, deceptive, tightening"
+		},
+		{
+			"chapterId": "c14",
+			"title": "Chapter 14: The Hound of the Baskervilles",
+			"summary": "Holmes's ambush saves Henry from the luminous hound; Beryl is freed, and the search of the mire suggests Stapleton has perished.",
+			"events": [
+				"Holmes, Watson, and Lestrade hide near Merripit House as fog advances.",
+				"Watson sees Henry dining with Stapleton and watches Stapleton visit a locked out-house.",
+				"Henry walks home; the glowing hound emerges from the fog, and Holmes shoots it after it reaches him.",
+				"They find Beryl bound and bruised in the house; she directs them toward the mire.",
+				"Henry learns the truth about Beryl and falls ill with fever.",
+				"Next morning the party follows the marked route, recovers Henry's black boot, and finds the hound's island lair but no trace of Stapleton reaching it."
+			],
+			"present": [
+				"watson",
+				"holmes",
+				"henry",
+				"stapleton",
+				"beryl",
+				"mortimer"
+			],
+			"knowledge": [
+				{
+					"key": "watson",
+					"learns": "The hound's apparent fire is a phosphorus preparation; Stapleton kept it on the mire island."
+				},
+				{
+					"key": "henry",
+					"learns": "Beryl is Stapleton's wife and the hound pursuing him was real."
+				},
+				{
+					"key": "beryl",
+					"learns": "Henry survived and the hound is dead."
+				},
+				{
+					"key": "holmes",
+					"learns": "Beryl can identify Stapleton's refuge; the recovered boot and absence of tracks suggest he died in the mire."
+				}
+			],
+			"mood": "Climactic, terrifying, exhausted"
+		},
+		{
+			"chapterId": "c15",
+			"title": "Chapter 15: A Retrospection",
+			"summary": "At the end of November Holmes reconstructs Stapleton's history and methods for Watson and acknowledges the cost to Sir Henry.",
+			"events": [
+				"Henry and Mortimer call in London before their restorative voyage.",
+				"Holmes identifies Stapleton as Rodger Baskerville's son and recounts his marriage and schoolmastering past.",
+				"He explains the hound's purchase, concealment, and use against Sir Charles after Laura's dictated letter.",
+				"He reconstructs Beryl's warning, the stolen boots, and Stapleton's surveillance in London.",
+				"He explains his own secret investigation, the use of Henry as bait, and Beryl's final revolt against her husband.",
+				"Holmes admits uncertainty about how Stapleton would have claimed the inheritance and proposes an evening at the opera."
+			],
+			"present": [
+				"watson",
+				"holmes",
+				"henry",
+				"mortimer"
+			],
+			"knowledge": [
+				{
+					"key": "watson",
+					"learns": "Stapleton was Rodger Baskerville's son; Holmes had inferred a real hound from the boots and suspected a woman from the warning's scent."
+				},
+				{
+					"key": "holmes",
+					"learns": "From later conversations with Beryl and inquiries, he has established Stapleton's background and the women's parts in the plot."
+				}
+			],
+			"mood": "Reflective, explanatory, rueful"
+		}
+	],
+	"divergencePoints": [
+		{
+			"id": "mortimer_silence",
+			"chapterId": "c02",
+			"label": "The Footprints Withheld",
+			"moment": "Mortimer reaches the private evidence he concealed from the inquest and tells Holmes about the tracks near Sir Charles.",
+			"canonOutcome": "He reveals that the fresh, clear footprints were those of a gigantic hound.",
+			"whatIf": "What if Mortimer kept the hound footprints secret from Holmes as well as the coroner?",
+			"stakes": "Holmes's first understanding of the death and the danger to Henry would change."
+		},
+		{
+			"id": "henry_refuses",
+			"chapterId": "c04",
+			"label": "The Heir Turns Back",
+			"moment": "After hearing the legend and the circumstances of his uncle's death, Henry decides whether to go to Baskerville Hall.",
+			"canonOutcome": "He declares that neither devil nor man will prevent him from going to his family's home.",
+			"whatIf": "What if Sir Henry heeded the warning and refused to go to Baskerville Hall?",
+			"stakes": "His inheritance, the district's hopes, and the attacker's access to him hang on the decision."
+		},
+		{
+			"id": "spy_followed",
+			"chapterId": "c04",
+			"label": "The Cab Shadowed",
+			"moment": "Holmes spots the cab following Henry and Mortimer and moves to get a closer look at its passenger.",
+			"canonOutcome": "The passenger sees Holmes and escapes in the cab before Holmes can follow.",
+			"whatIf": "What if Holmes quietly hired another cab and followed the bearded watcher instead of exposing himself?",
+			"stakes": "The watcher's identity and movements might be exposed before the journey to Devon."
+		},
+		{
+			"id": "beryl_tells_watson",
+			"chapterId": "c07",
+			"label": "Beryl Speaks Plainly",
+			"moment": "Beryl intercepts Watson after her warning and hesitates when he presses her to explain Henry's danger.",
+			"canonOutcome": "She attributes her warning to the family curse and refuses to give definite information.",
+			"whatIf": "What if Beryl told Watson what she knew about her husband and the hound on that lonely path?",
+			"stakes": "Henry could be warned, but Beryl would risk Stapleton's retaliation."
+		},
+		{
+			"id": "selden_shot",
+			"chapterId": "c09",
+			"label": "A Shot at Selden",
+			"moment": "Selden flees across the moonlit moor while Watson has a chance of a long revolver shot.",
+			"canonOutcome": "Watson refuses to shoot an unarmed fleeing man, and Selden escapes.",
+			"whatIf": "What if Watson fired at the fleeing Selden and brought him down?",
+			"stakes": "A fugitive's freedom and the Barrymores' hopes would depend on the shot."
+		},
+		{
+			"id": "barrymore_betrayed",
+			"chapterId": "c10",
+			"label": "The Butler's Bargain",
+			"moment": "Barrymore begs Henry not to tell the police that Selden remains on the moor.",
+			"canonOutcome": "Henry agrees to stay silent, and a grateful Barrymore reveals the burned L. L. letter.",
+			"whatIf": "What if Sir Henry refused Barrymore's plea and reported Selden to the police?",
+			"stakes": "Selden's escape, the Barrymores' trust, and the clue to Sir Charles's appointment are at risk."
+		},
+		{
+			"id": "selden_saved",
+			"chapterId": "c12",
+			"label": "The Wrong Man Hunted",
+			"moment": "Holmes and Watson hear a man screaming as the hound pursues him across the dark moor.",
+			"canonOutcome": "They reach the fallen man too late and discover that Selden has died wearing Henry's clothes.",
+			"whatIf": "What if Holmes and Watson reached Selden before he fell and saved him from the hound?",
+			"stakes": "Selden's life and the evidence available against Stapleton would change."
+		},
+		{
+			"id": "laura_stays_loyal",
+			"chapterId": "c13",
+			"label": "Laura's Silence",
+			"moment": "Holmes shows Laura evidence that the man who promised to marry her already has a wife.",
+			"canonOutcome": "She turns against Stapleton and reveals that he dictated the letter and stopped her attending.",
+			"whatIf": "What if Laura refused to believe Holmes's evidence and kept Stapleton's secret?",
+			"stakes": "A crucial account of Sir Charles's last appointment would remain concealed."
+		},
+		{
+			"id": "hound_in_fog",
+			"chapterId": "c14",
+			"label": "The Hound Breaks Through",
+			"moment": "The luminous hound bursts from the fog and runs past the startled men toward Sir Henry.",
+			"canonOutcome": "Holmes and Watson fire, pursue it, and Holmes kills it after it knocks Henry down but before it wounds him.",
+			"whatIf": "What if the fog hid the hound from Holmes and Watson until it had reached Sir Henry?",
+			"stakes": "Henry's life and the success of Holmes's dangerous trap hang on a few moments."
+		},
+		{
+			"id": "beryl_wands",
+			"chapterId": "c14",
+			"label": "The Missing Wands",
+			"moment": "Beryl reveals that she and Stapleton planted wands to mark the route through the mire and wishes she had removed them that day.",
+			"canonOutcome": "The markers remain, and Stapleton flees into the fog-bound mire while pursuit must wait until morning.",
+			"whatIf": "What if Beryl had pulled out the guiding wands before Stapleton fled toward the mire?",
+			"stakes": "Stapleton's escape route and the search for his refuge would be altered."
+		}
+	],
+	"visual": {
+		"era": "Late Victorian England: frock-coats, tweeds, long skirts, horse-drawn vehicles, railway carriages, telegraph offices, and a granite ancestral house with older Tudor and Cavalier details.",
+		"palette": "Smoke-grey London and warm firelight; russet, olive, granite grey, and cold moon-silver on the moor; startling blue-green phosphorescence in fog.",
+		"motifs": [
+			"A black hound with luminous jaws",
+			"A candle answering another across darkness",
+			"Granite tors and roofless stone circles",
+			"The white gate between high yew hedges",
+			"A butterfly-net and specimen box",
+			"An old black boot in green mire"
+		],
+		"comicStyle": "Use the ink line and engraved cross-hatching of a late Victorian illustrated magazine, with restrained watercolour washes. Give the moor broad, quiet panels and crowded interiors deep shadows; reserve sharp close-ups and broken, urgent panels for discoveries and pursuit."
+	},
+	"glossary": [
+		{
+			"term": "Baskerville Hall",
+			"kind": "place",
+			"note": "The ancestral house inherited by Sir Henry.",
+			"locales": {
+				"en": "Baskerville Hall"
+			}
+		},
+		{
+			"term": "Grimpen",
+			"kind": "place",
+			"note": "The hamlet where Mortimer practises and the local telegraph is delivered.",
+			"locales": {
+				"en": "Grimpen"
+			}
+		},
+		{
+			"term": "Grimpen Mire",
+			"kind": "place",
+			"note": "The treacherous bog concealing Stapleton's island refuge.",
+			"locales": {
+				"en": "Grimpen Mire"
+			}
+		},
+		{
+			"term": "Merripit House",
+			"kind": "place",
+			"note": "The isolated home occupied by the Stapletons.",
+			"locales": {
+				"en": "Merripit House"
+			}
+		},
+		{
+			"term": "Coombe Tracey",
+			"kind": "place",
+			"note": "The town where Laura Lyons lives and works.",
+			"locales": {
+				"en": "Coombe Tracey"
+			}
+		},
+		{
+			"term": "Princetown",
+			"kind": "place",
+			"note": "The location of the convict prison from which Selden escapes.",
+			"locales": {
+				"en": "Princetown"
+			}
+		},
+		{
+			"term": "Penang lawyer",
+			"kind": "object",
+			"note": "The thick, bulbous-headed walking-stick Mortimer leaves at Baker Street.",
+			"locales": {
+				"en": "Penang lawyer"
+			}
+		},
+		{
+			"term": "M.R.C.S.",
+			"kind": "title",
+			"note": "Mortimer's medical qualification, which he carefully distinguishes from a doctorate.",
+			"locales": {
+				"en": "M.R.C.S."
+			}
+		},
+		{
+			"term": "goyal",
+			"kind": "term",
+			"note": "The local word used in the legend for a deep dip or narrow valley.",
+			"locales": {
+				"en": "goyal"
+			}
+		},
+		{
+			"term": "L. L.",
+			"kind": "name",
+			"note": "The initials on the surviving fragment of Sir Charles's burned letter.",
+			"locales": {
+				"en": "L. L."
+			}
+		},
+		{
+			"term": "Vandeleur",
+			"kind": "name",
+			"note": "The name Stapleton used while running a Yorkshire school.",
+			"locales": {
+				"en": "Vandeleur"
+			}
+		},
+		{
+			"term": "wicket-gate",
+			"kind": "object",
+			"note": "The gate from the yew alley onto the moor.",
+			"locales": {
+				"en": "wicket-gate"
+			}
+		},
+		{
+			"term": "Cartwright",
+			"kind": "name",
+			"note": "The messenger boy who assists Holmes in London and on the moor.",
+			"locales": {
+				"en": "Cartwright"
+			}
+		},
+		{
+			"term": "Selden",
+			"kind": "name",
+			"note": "The escaped Notting Hill murderer and Mrs. Barrymore's brother.",
+			"locales": {
+				"en": "Selden"
+			}
+		}
+	]
+}

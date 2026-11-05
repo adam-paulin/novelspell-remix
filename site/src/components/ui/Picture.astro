@@ -1,0 +1,11 @@
+---
+// One prepared picture (lib/pictures.ts), rendered as the picture pipeline's PreparedPicture renders it: one AVIF <source> per media
+// query in their fixed order (the last without media), then the fallback <img>. isPriority (an important above-the-fold picture only)
+// gives loading="eager" fetchpriority="high"; every other picture is lazy. class goes on the <img>; CSS owns sizing.
+import { picture } from "../../lib/pictures";
+
+interface Props { name: string; alt: string; isPriority?: boolean; class?: string }
+const { name, alt, isPriority = false, class: className } = Astro.props;
+const { sources, img } = picture(name);
+---
+<picture>{sources.map((source) => <source media={source.media} type={source.type} srcset={source.srcset} />)}<img src={img.src} alt={alt} loading={isPriority ? "eager" : "lazy"} fetchpriority={isPriority ? "high" : undefined} class={className} /></picture>

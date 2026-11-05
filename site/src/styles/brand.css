@@ -1,0 +1,44 @@
+/* Framework brand classes: the data-classlist colour roles the site renders (page backgrounds, text, muted borders, the brand icon) and the theme toggle's icon swap. */
+
+[data-classlist][data-classlist~="brand-background-page"] {
+  background: var(--color-background-page);
+  color: var(--color-on-surface);
+}
+
+[data-classlist][data-classlist~="brand-background-subtle"] {
+  background: var(--color-background-subtle);
+  color: var(--color-on-surface);
+}
+
+[data-classlist][data-classlist~="brand-on-surface"] {
+  color: var(--color-on-surface);
+}
+
+[data-classlist][data-classlist~="brand-on-surface-muted"] {
+  color: var(--color-on-surface-muted);
+}
+
+[data-classlist][data-classlist~="brand-border-muted"] {
+  border-color: var(--color-border-muted);
+  --tw-ring-color: var(--color-border-muted);
+  outline-color: var(--color-border-muted);
+}
+
+[data-classlist][data-classlist~="brand-border-muted"] > :not([hidden]) ~ :not([hidden]):not([data-classlist]) {
+  border-color: var(--color-border-muted);
+}
+
+[data-classlist][data-classlist~="brand-icon-brand"] {
+  color: var(--color-icon-brand);
+}
+
+[data-theme-toggle] [data-theme-icon] {
+  opacity: 1;
+  pointer-events: none;
+  will-change: opacity;
+  transition: opacity .12s;
+}
+
+html[data-theme="light"] [data-theme-toggle] [data-theme-icon="sun"], html[data-theme="dark"] [data-theme-toggle] [data-theme-icon="moon"] {
+  opacity: 0;
+}

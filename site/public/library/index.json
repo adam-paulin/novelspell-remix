@@ -1,0 +1,166 @@
+{
+	"books": [
+		{
+			"slug": "frankenstein",
+			"title": "Frankenstein",
+			"author": "Mary Wollstonecraft Shelley",
+			"genre": "Gothic horror",
+			"subgenres": [
+				"Science fiction",
+				"Psychological horror",
+				"Philosophical fiction",
+				"Epistolary fiction"
+			],
+			"hook": "A maker flees his living creation, and the abandoned being comes looking for an answer.",
+			"logline": "A scientist must confront the articulate, powerful creature he abandoned as its demand for companionship threatens everyone he loves.",
+			"premise": "Genevese student Victor Frankenstein discovers how to animate lifeless matter and creates a gigantic human being. His horror at the living result sends creator and creature along paths of isolation, injury, and vengeance, recounted to an Arctic explorer.",
+			"chapters": 28,
+			"words": 74919
+		},
+		{
+			"slug": "alices-adventures-in-wonderland",
+			"title": "Alice’s Adventures in Wonderland",
+			"author": "Lewis Carroll",
+			"genre": "Children’s fantasy",
+			"subgenres": [
+				"Nonsense fiction",
+				"Comic fantasy",
+				"Dream fantasy"
+			],
+			"hook": "A golden key and a door fifteen inches high lead Alice toward a garden ruled by a furious Queen.",
+			"logline": "As Alice searches for her way through Wonderland, she must navigate its shifting scale and nonsensical authorities without losing her sense of herself.",
+			"premise": "A curious little girl follows a waistcoated White Rabbit down a hole into a world of talking animals, abrupt changes of size, and baffling manners. Hoping to reach a beautiful garden, she encounters creatures who turn familiar lessons, games, and rules inside out.",
+			"chapters": 12,
+			"words": 26369
+		},
+		{
+			"slug": "a-christmas-carol",
+			"title": "A Christmas Carol",
+			"author": "Charles Dickens",
+			"genre": "Literary fiction",
+			"subgenres": [
+				"Christmas fiction",
+				"Ghost story",
+				"Moral fable"
+			],
+			"hook": "A miser is given one haunted night to discover what his life has cost.",
+			"logline": "Warned by his condemned partner, Scrooge must face the past, present and possible future of his selfish life before his chance to change is lost.",
+			"premise": "On Christmas Eve, Ebenezer Scrooge dismisses charity, family and the holiday itself while his clerk shivers over his work. That night his dead partner returns in chains, promising three spirits who will show him his own life and the lives around him.",
+			"chapters": 5,
+			"words": 28459
+		},
+		{
+			"slug": "treasure-island",
+			"title": "Treasure Island",
+			"author": "Robert Louis Stevenson",
+			"genre": "Adventure",
+			"subgenres": [
+				"Pirate adventure",
+				"Sea story",
+				"Coming-of-age fiction"
+			],
+			"hook": "A cabin-boy seeking buried gold discovers that the pirates are already aboard.",
+			"logline": "When a treasure voyage becomes a mutiny, Jim Hawkins must help a handful of loyal companions survive Long John Silver and recover their ship.",
+			"premise": "Jim Hawkins finds a dead seaman’s papers and joins an expedition to an island marked with Captain Flint’s buried treasure. The schooner’s crew includes men who know more about Flint than their employers suspect.",
+			"chapters": 34,
+			"words": 67751
+		},
+		{
+			"slug": "the-picture-of-dorian-gray",
+			"title": "The Picture of Dorian Gray",
+			"author": "Oscar Wilde",
+			"genre": "Gothic fiction",
+			"subgenres": [
+				"Supernatural horror",
+				"Psychological fiction",
+				"Philosophical fiction",
+				"Social satire"
+			],
+			"hook": "A beautiful young man keeps his face while his portrait records the life behind it.",
+			"logline": "As his hidden portrait bears the marks of age and wrongdoing, Dorian Gray pursues pleasure while struggling to conceal the corruption it reveals.",
+			"premise": "A painter’s portrait awakens Dorian Gray to his own beauty just as Lord Henry Wotton persuades him that youth is life’s greatest possession. Dorian’s wish to remain young while the picture ages becomes entangled with his pursuit of sensation and the harm he does to others.",
+			"chapters": 20,
+			"words": 78884
+		},
+		{
+			"slug": "strange-case-of-dr-jekyll-and-mr-hyde",
+			"title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+			"author": "Robert Louis Stevenson",
+			"genre": "Gothic horror",
+			"subgenres": [
+				"Psychological horror",
+				"Mystery",
+				"Science fiction"
+			],
+			"hook": "A respectable doctor's back door opens onto a life his closest friends cannot imagine.",
+			"logline": "As Hyde's violence threatens Dr. Jekyll's reputation and life, Utterson tries to protect his friend without knowing the secret that binds the two men.",
+			"premise": "A London lawyer grows alarmed by his old friend Dr. Jekyll's attachment to the repellent Edward Hyde, who has a key to the doctor's laboratory and stands to inherit his fortune. A brutal crime and Jekyll's increasing seclusion deepen a mystery guarded by friendship, professional honour and shame.",
+			"chapters": 10,
+			"words": 25531
+		},
+		{
+			"slug": "the-wonderful-wizard-of-oz",
+			"title": "The Wonderful Wizard of Oz",
+			"author": "L. Frank Baum",
+			"genre": "Children's fantasy",
+			"subgenres": [
+				"Fairy tale",
+				"Quest adventure",
+				"Portal fantasy"
+			],
+			"hook": "A girl seeking home must cross a land where scarecrows talk, witches rule, and a famous wizard demands a terrible favor.",
+			"logline": "Dorothy and her unlikely friends face witches, monsters, and a deceptive wizard as they pursue the gifts they believe will make them whole.",
+			"premise": "A cyclone carries Dorothy and her little dog Toto from the gray Kansas prairie to the marvelous Land of Oz. Seeking a way home, she follows a yellow brick road with three companions who hope the Great Wizard can grant their own wishes.",
+			"chapters": 24,
+			"words": 39292
+		},
+		{
+			"slug": "the-time-machine",
+			"title": "The Time Machine",
+			"author": "H. G. Wells",
+			"genre": "Science fiction",
+			"subgenres": [
+				"Time travel",
+				"Dystopian fiction",
+				"Scientific adventure"
+			],
+			"hook": "A stolen machine leaves its inventor stranded in humanity’s beautiful and terrifying future.",
+			"logline": "Stranded in the year 802,701, a time traveller must recover his machine from the subterranean Morlocks while protecting his Eloi companion Weena.",
+			"premise": "A Victorian inventor demonstrates a machine that travels through time, then returns to his dinner guests injured and hungry with a story of the remote future. In a beautiful, ruined Thames valley, he meets the gentle Eloi and discovers evidence of another people beneath the ground.",
+			"chapters": 17,
+			"words": 32310
+		},
+		{
+			"slug": "the-hound-of-the-baskervilles",
+			"title": "The Hound of the Baskervilles",
+			"author": "Arthur Conan Doyle",
+			"genre": "Mystery",
+			"subgenres": [
+				"Detective fiction",
+				"Gothic mystery",
+				"Suspense"
+			],
+			"hook": "A stolen boot, a family curse, and a hound whose jaws appear to burn.",
+			"logline": "As Sir Henry Baskerville takes possession of his ancestral home, Holmes and Watson must discover who is stalking him and how a legendary hound can kill.",
+			"premise": "After Sir Charles Baskerville is found dead near his moorland home, a doctor brings Sherlock Holmes a family legend and evidence of a gigantic hound. Sir Charles's Canadian heir arrives to claim the estate, carrying a fortune and a warning to keep away from the moor.",
+			"chapters": 15,
+			"words": 59018
+		},
+		{
+			"slug": "persuasion",
+			"title": "Persuasion",
+			"author": "Jane Austen",
+			"genre": "Romance",
+			"subgenres": [
+				"Second-chance romance",
+				"Novel of manners",
+				"Psychological fiction"
+			],
+			"hook": "Eight years after giving him up, Anne must watch the man she still loves choose a wife.",
+			"logline": "When Captain Wentworth returns wealthy and resentful, Anne Elliot must discover whether a love broken by persuasion can survive pride, misunderstanding, and the claims of others.",
+			"premise": "Anne Elliot, overlooked by her proud family, meets again the naval officer whose engagement she was persuaded to break eight years before. As her father lets their Somersetshire home and moves to Bath, Anne must observe Captain Wentworth's apparent courtship of another woman while concealing her own attachment.",
+			"chapters": 24,
+			"words": 83232
+		}
+	]
+}

@@ -1,0 +1,9 @@
+---
+// One inline SVG icon by file name from src/icons (the exact markup the site ships; icons draw in currentColor).
+const icons = import.meta.glob<string>("../../icons/*.svg", { query: "?raw", import: "default", eager: true });
+interface Props { name: string }
+const { name } = Astro.props;
+const svg = icons[`../../icons/${name}.svg`];
+if (!svg) throw new Error(`Unknown icon: ${name} (add src/icons/${name}.svg)`);
+---
+<Fragment set:html={svg.trim()} />

@@ -1,0 +1,41 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "novelspell-remix",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-10-01",
+	"workers_dev": true,
+	"preview_urls": false,
+	"observability": { "enabled": true },
+	// No source maps are uploaded (Wrangler uploads them by default).
+	"upload_source_maps": false,
+	// One Worker serves the site and the API: the built site (npm run build:site, from ../site) is served as static files, its _headers applied;
+	// the Worker code runs only for /api/*, so page and file requests never invoke it.
+	"assets": { "directory": "build/site", "not_found_handling": "404-page", "run_worker_first": ["/api/*"] },
+	// /api/health reports the version id from this binding (`wrangler dev` supplies a local one; null without the binding).
+	"version_metadata": { "binding": "CF_VERSION_METADATA" },
+	// Actions per client per minute (src/clientLimits.ts): creates, revises, redraws and shares. namespace_id is any number unique in the account.
+	"ratelimits": [{ "name": "ACTION_LIMITER", "namespace_id": "41771", "simple": { "limit": 8, "period": 60 } }],
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "novelspell-remix",
+			// The NovelSpell Remix deployment's database. To deploy your own, create one (`npx wrangler d1 create novelspell-remix`) and put its id here.
+			// Local dev (`wrangler dev --local`, `wrangler d1 migrations apply DB --local`) never touches it.
+			"database_id": "92503112-a8cc-4113-9b26-c84813392077",
+			"migrations_dir": "migrations"
+		}
+	],
+	// Secrets (never here): META_MODEL_API_KEY, VERSION_SECRET and, for Fast mode, BASETEN_API_KEY (`npx wrangler secret put ...`; locally in .dev.vars).
+	"vars": {
+		"META_BASE_URL": "https://api.meta.ai/v1",
+		"WRITER_TIMEOUT_MS": "600000",
+		"ILLUSTRATOR_TIMEOUT_MS": "90000",
+		"RETRY_BASE_MS": "1000",
+		"STAGE_BUDGET_MS": "840000",
+		// The spend ceiling in USD (Meta list price); "" = no ceiling. With a ceiling, calls need the D1 spend row (fail closed).
+		"META_SPEND_CAP_USD": "130",
+		"BASETEN_SPEND_CAP_USD": "95",
+		// Model actions per client per UTC day (src/clientLimits.ts); "" = no daily limit.
+		"ACTION_DAILY_LIMIT": "60"
+	}
+}

@@ -1,0 +1,33 @@
+{
+  "name": "novelspell-remix-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NovelSpell Remix: a Cloudflare Worker (Hono + D1) that serves the studio site and streams AI-written alternate chapters and comic pages from the Meta Model API.",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "type": "module",
+  "packageManager": "npm@11.21.1",
+  "scripts": {
+    "build:site": "PUBLIC_API_URL= npm --prefix ../site run build -- --outDir ../server/build/site",
+    "dev": "npm run build:site && node local-headers.mjs && wrangler dev --local",
+    "dev:mock": "node mock/dev.mjs",
+    "typecheck": "tsc --noEmit && tsc -p prompt-cli --noEmit && tsc -p test --noEmit",
+    "test": "vitest run",
+    "db:migrate:local": "wrangler d1 migrations apply DB --local",
+    "deploy": "npm run build:site && wrangler deploy",
+    "prompts": "node -e \"require('fs').rmSync('build/prompt-cli',{recursive:true,force:true})\" && tsc -p prompt-cli && node build/prompt-cli/prompt-cli/cli.js"
+  },
+  "dependencies": {
+    "hono": "^4.13.16",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-plugin": "^1.5.1",
+    "@cloudflare/workers-types": "^5.20261103.1",
+    "@types/node": "^22.19.0",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0",
+    "wrangler": "^4.157.0"
+  }
+}

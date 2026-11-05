@@ -1,0 +1,6 @@
+---
+// Skeleton lines: N ghosts take exactly N lines of their host.
+interface Props { count: number; kind?: string }
+const { count, kind = "line" } = Astro.props;
+---
+{Array.from({ length: count }, () => <span data-classlist="remix-ghost" data-ghost={kind}></span>)}

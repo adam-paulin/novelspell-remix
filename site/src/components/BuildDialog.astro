@@ -1,0 +1,46 @@
+---
+// The hand-off to NovelSpell (port of BuildDialog.js): the remix's cover over its title, the pitch, Genre and Story arc, and the
+// link to the NovelSpell builder. The lookups, the brief lines and every book's facts are compiled in (hidden) for the script that
+// builds the link.
+import DialogShell from "./DialogShell.astro";
+import ReviewRow from "./ReviewRow.astro";
+import { en } from "../content/en";
+import books from "../data/books.json";
+import { pictureFile } from "../lib/pictures";
+
+const copy = en.studio.build;
+const link = en.novelspellLink;
+const fields = [{ label: copy.fields.genre, slot: "genre" }, { label: copy.fields.arc, slot: "arc" }];
+const lookups = [
+	{ name: "genre", entries: Object.entries(en.novelspell.genres) },
+	{ name: "arc", entries: Object.entries(en.novelspell.arcs) },
+	{ name: "brief", entries: Object.entries(copy.brief) },
+];
+---
+<DialogShell close={copy.close} data-classlist="remix-dialog remix-dialog-build" data-modal="build" data-build-dialog aria-labelledby="BuildTitle" data-origin={link.origin} data-path={link.path} data-language={link.language}>
+	<div class="grid grid-cols-[15rem_minmax(0,1fr)]" data-classlist="remix-dialog-grid">
+		<div data-classlist="remix-build-board" aria-hidden="true">
+			<div data-classlist="remix-build-art"><img class="block size-full object-cover" data-build-img alt="" width="832" height="1248" sizes="16rem" hidden></div>
+			<div class="flex flex-col items-center gap-3" data-classlist="remix-build-board-frame">
+				<span data-classlist="remix-dialog-rule"></span>
+				<span data-classlist="remix-build-board-kickers">{books.map((book) => <span data-classlist="remix-build-board-kicker" data-book-panel={book.slug}>{book.buildKicker}</span>)}</span>
+			</div>
+		</div>
+		<div class="flex min-w-0 flex-col" data-classlist="remix-build-body">
+			<h2 class="m-0" data-classlist="remix-dialog-title" id="BuildTitle" tabindex="-1" autofocus>{copy.title}</h2>
+			<p class="m-0" data-classlist="remix-dialog-lede">{copy.intro}</p>
+			<dl class="m-0" data-classlist="remix-review">
+				{fields.map((field) => <ReviewRow label={field.label}><dd class="m-0" data-classlist="remix-review-value" data-slot={field.slot}></dd></ReviewRow>)}
+			</dl>
+			<div data-classlist="remix-dialog-foot"><a data-control="primary" data-classlist="remix-build-open" data-build-link href={`${link.origin}${link.path}`} target="_blank" rel="noopener noreferrer"><span>{copy.open}</span></a></div>
+		</div>
+	</div>
+	<div hidden>
+		{lookups.map(({ name, entries }) => <ul data-lookup={name}>{entries.map(([id, label]) => <li data-id={id}>{label}</li>)}</ul>)}
+		{books.map((book) => (
+			<div data-book-facts={book.slug} data-title={book.title} data-author={book.author} data-ns-genre={book.nsGenre} data-ns-arc={book.nsArc} data-genre={book.genre} data-subgenres={book.subgenres.join(", ")} data-tone={book.tone} data-cover-src={pictureFile(`${book.slug}-cover`)} hidden>
+				{book.cast.map((member) => <span data-cast data-key={member.key} data-name={member.name} data-role={member.role}></span>)}
+			</div>
+		))}
+	</div>
+</DialogShell>

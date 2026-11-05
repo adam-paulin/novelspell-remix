@@ -1,0 +1,26 @@
+{
+  "name": "novelspell-remix-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NovelSpell Remix site: a static Astro build (vanilla TypeScript in the browser, no UI framework) that talks to the Remix API.",
+  "type": "module",
+  "packageManager": "npm@11.21.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "@tailwindcss/vite": "4.2.2",
+    "astro": "~7.3.8",
+    "lightningcss": "^1.32.0",
+    "tailwindcss": "4.2.2",
+    "typescript": "^6.0.3",
+    "vite": "^8.3.5"
+  }
+}

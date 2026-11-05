@@ -1,0 +1,31 @@
+---
+// Every phase but compose: a fixed-height box (the kicker, one reserved meta line for the tag, the version switcher and the
+// Meta credit, then two title lines and the request's two lines), so nothing under it moves whatever arrives.
+import { en } from "../content/en";
+import books from "../data/books.json";
+import Icon from "./ui/Icon.astro";
+import Slotted from "./ui/Slotted.astro";
+import Ghosts from "./ui/Ghosts.astro";
+
+const copy = en.studio.workspace;
+const result = en.studio.result;
+// The Meta credit: each part shows only when a Muse model served that stage of the version on screen; phones get the short form.
+const credit = en.studio.credit;
+const creditParts = [["writerWonder", credit.writerWonder, credit.writerWonderShort], ["writer", credit.writer, credit.writerShort], ["writerOpen", credit.writerOpen, credit.writerOpenShort], ["illustrator", credit.illustrator, credit.illustratorShort]] as const;
+---
+<header class="flex items-start" data-classlist="remix-masthead">
+	<div class="min-w-0 flex-1" data-classlist="remix-masthead-text">
+		<div data-classlist="remix-masthead-top">
+			<p class="m-0" data-classlist="remix-eyebrow remix-masthead-eyebrow">{books.map((book) => <span data-book-panel={book.slug}>{book.kicker}</span>)}<span data-classlist="remix-eyebrow-rule" aria-hidden="true"></span></p>
+			<div data-classlist="remix-eyebrow remix-masthead-meta"><span data-classlist="remix-preview-tag" data-preview-tag hidden><span data-messages="tag"><span data-message="demo" hidden>{result.tagDemo}</span><span data-message="example" hidden>{result.tagExample}</span><span data-message="shared" hidden>{result.tagShared}</span></span></span><span data-classlist="remix-version" data-version-wrap hidden><button type="button" data-control="icon" data-classlist="remix-version-step" data-version-prev><Icon name="lucide-chevron-left" /><span class="sr-only" data-messages="label-prev"><span data-message="plain">{result.versionPrev}</span><span data-message="with" hidden><Slotted text={result.versionPrevWith} /></span></span></button><span><Slotted text={result.version} /><span data-classlist="remix-version-of"> <Slotted text={result.versionOf} /></span></span><button type="button" data-control="icon" data-classlist="remix-version-step" data-version-next><Icon name="lucide-chevron-right" /><span class="sr-only" data-messages="label-next"><span data-message="plain">{result.versionNext}</span><span data-message="with" hidden><Slotted text={result.versionNextWith} /></span></span></button></span><span data-classlist="remix-credit" data-credit hidden>{creditParts.map(([key, long, short]) => <span data-credit-part={key} hidden><span data-classlist="remix-credit-long">{long}</span><span data-classlist="remix-credit-short">{short}</span></span>)}</span></div>
+			<button type="button" class="flex-none" data-control="quiet" data-classlist="remix-new" data-new-remix><Icon name="lucide-plus" /><span>{copy.newRemix}</span><span data-classlist="remix-new-short" aria-hidden="true">{copy.newRemixShort}</span></button>
+		</div>
+		<h1 class="m-0" data-classlist="remix-title remix-masthead-title" data-remix-heading tabindex="-1">
+			<span data-classlist="remix-heading-request" data-slot="request"></span>
+			<span data-classlist="remix-heading-title" data-slot="title"></span>
+			<span data-classlist="remix-heading-ghost" aria-hidden="true"><Ghosts count={2} kind="title" /></span>
+		</h1>
+		<p class="m-0" data-classlist="remix-heading-sub" data-slot="request"></p>
+		<p class="m-0" data-classlist="remix-heading-changed" data-changed-head hidden><span data-classlist="remix-changed-label">{result.changed}</span> <span data-classlist="remix-changed-text" data-slot="changeText"></span></p>
+	</div>
+</header>

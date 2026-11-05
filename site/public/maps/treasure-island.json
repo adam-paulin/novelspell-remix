@@ -1,0 +1,1706 @@
+{
+	"schema": "remix.bookMap/1",
+	"slug": "treasure-island",
+	"title": "Treasure Island",
+	"author": "Robert Louis Stevenson",
+	"premise": "Jim Hawkins finds a dead seaman’s papers and joins an expedition to an island marked with Captain Flint’s buried treasure. The schooner’s crew includes men who know more about Flint than their employers suspect.",
+	"hook": "A cabin-boy seeking buried gold discovers that the pirates are already aboard.",
+	"logline": "When a treasure voyage becomes a mutiny, Jim Hawkins must help a handful of loyal companions survive Long John Silver and recover their ship.",
+	"world": {
+		"setting": "An English coastal inn, the docks of Bristol, the schooner Hispaniola, and a wooded Atlantic island with sheltered anchorages, marshes, rocky hills and a pirate stockade.",
+		"period": "The eighteenth century, in the reign of King George",
+		"rules": [
+			"Ships depend on wind, tide, seamanship and navigators; a becalmed schooner can be moved by boats but cannot simply sail away.",
+			"Muskets and pistols require powder, shot and dry priming; a wet pistol may fail, and reloading takes time.",
+			"Pirates elect captains, hold councils and use the black spot to announce a summons or deposition; their rules do not make them trustworthy.",
+			"A gentleman’s word of honour binds him socially, while servants and seamen are expected to obey their employers and officers.",
+			"Island marshes breed fever; exposure, wounds, thirst, hunger and drunkenness have serious consequences.",
+			"There is no demonstrated supernatural intervention: Ben Gunn supplies the voice mistaken for Flint’s ghost, although the pirates fear spirits.",
+			"Treasure consists of heavy gold bars and mixed coin requiring repeated journeys to move; the map also marks separate caches of silver and arms."
+		],
+		"tone": "Eager, companionable adventure darkens into suspense, violence and remorse, with humour persisting among peril and hardship.",
+		"themes": [
+			"Greed and the cost of treasure",
+			"Duty, discipline and disobedience",
+			"Courage mixed with fear",
+			"Loyalty, betrayal and divided allegiance",
+			"The seduction and aftermath of adventure"
+		],
+		"sensitivities": [
+			"The narrative uses dated racial descriptions and assumptions, including Trelawney’s speculation about Silver’s wife; these reflect the period’s prejudice.",
+			"Piracy brings murder, threatened torture, addiction, disability and traumatic memories; the adventure does not erase their human cost."
+		]
+	},
+	"voice": {
+		"narration": "Jim Hawkins recalls the adventure in first-person past tense, addressing the reader and occasionally anticipating later discoveries. Chapters 16–18 are narrated by Dr. Livesey, whose account overlaps Jim’s shore adventure and has a brisker professional confidence.",
+		"style": [
+			"Concrete actions and nautical mechanics build suspense step by step; a sudden cry, movement or short sentence breaks longer descriptions.",
+			"Jim admits fear, vanity, curiosity and disobedience, then judges his younger self with hindsight rather than posing as fearless.",
+			"Landscape is precise and sensory: sand, resin, marsh vapour, surf, light and the motion of water colour the action.",
+			"Similes draw on animals, weather, household objects, games and ships; lively exaggeration sits beside careful observation.",
+			"Colons, semicolons, dashes, exclamations and parentheses accommodate digression, contrast and abrupt turns.",
+			"Spelling and vocabulary follow the supplied nineteenth-century text, with eighteenth-century maritime terms and rank."
+		],
+		"dialogue": "Double quotation marks frame quick exchanges. Gentlemen speak in complete, often formal clauses; seamen use contractions, dropped consonants, nautical metaphors, oaths and repeated phrases. Silver shifts from ingratiating endearments to threats, while Smollett makes terse, practical points.",
+		"samplePassages": [
+			"I remember him as if it were yesterday, as he came plodding to the inn door, his sea-chest following behind him in a hand-barrow--a tall, strong, heavy, nut-brown man, his tarry pigtail falling over the shoulder of his soiled blue coat, his hands ragged and scarred, with black, broken nails, and the sabre cut across one cheek, a dirty, livid white. I remember him looking round the cove and whistling to himself as he did so, and then breaking out in that old sea-song that he sang so often afterwards:",
+			"“Well, gentlemen,” continued the captain, “I don’t know who has this map; but I make it a point, it shall be kept secret even from me and Mr. Arrow. Otherwise I would ask you to let me resign.”\n\n“I see,” said the doctor. “You wish us to keep this matter dark and to make a garrison of the stern part of the ship, manned with my friend’s own people, and provided with all the arms and powder on board. In other words, you fear a mutiny.”",
+			"The cold evening breeze, of which I have spoken, whistled through every chink of the rude building and sprinkled the floor with a continual rain of fine sand. There was sand in our eyes, sand in our teeth, sand in our suppers, sand dancing in the spring at the bottom of the kettle, for all the world like porridge beginning to boil. Our chimney was a square hole in the roof; it was but a little part of the smoke that found its way out, and the rest eddied about the house and kept us coughing and piping the eye."
+		]
+	},
+	"cast": [
+		{
+			"key": "jim",
+			"name": "Jim Hawkins",
+			"aliases": [
+				"James Hawkins",
+				"Hawkins",
+				"Master Hawkins"
+			],
+			"role": "Innkeeper’s son, cabin-boy and principal narrator.",
+			"age": "A boy, old enough to work at the inn and go to sea.",
+			"appearance": "A slim, short English boy with a youthful face, brown hair and fair skin. He wears a plain eighteenth-century shirt, waistcoat, jacket, breeches, stockings, shoes and sea-cap; his mother’s soft silk handkerchief is among his possessions.",
+			"personality": "Curious, observant and brave despite vivid fears; impulsive, proud and capable of sharp self-reproach.",
+			"motivation": "He wants adventure and discovery, but also strives to protect his mother and the companions whose lives his discoveries put in danger.",
+			"fears": "Pirates, torture, drowning and harm to his friends; the island returns in nightmares.",
+			"speech": "Polite and direct with gentlemen, he calls them sir; excitement makes him speak boldly and at length. His retrospective narration admits what he did not understand at the time.",
+			"arc": "His curiosity uncovers the plot and helps recover the ship, but his unauthorized adventures endanger others. He keeps his parole to Silver and returns unwilling ever to revisit the island.",
+			"relationships": [
+				{
+					"key": "mother",
+					"nature": "Her son and helper at the Admiral Benbow."
+				},
+				{
+					"key": "livesey",
+					"nature": "Trusted protector and physician who values his discoveries."
+				},
+				{
+					"key": "silver",
+					"nature": "First trusts him, then opposes him; their bargain saves each other’s lives."
+				},
+				{
+					"key": "smollett",
+					"nature": "His captain, whose discipline he initially resents."
+				},
+				{
+					"key": "ben_gunn",
+					"nature": "Finds the maroon and carries his proposal to the loyal party."
+				}
+			],
+			"firstChapterId": "c02"
+		},
+		{
+			"key": "billy",
+			"name": "the captain",
+			"aliases": [
+				"Billy Bones",
+				"Bill",
+				"Mr. W. Bones"
+			],
+			"role": "Flint’s former first mate, whose sea-chest contains the treasure map.",
+			"age": "An old seaman.",
+			"appearance": "Tall, strong and heavy, with nut-brown skin, a dirty livid-white sabre cut across one cheek, a tarry pigtail, ragged scarred hands and black broken nails. His soiled blue coat is heavily patched; one cock of his hat hangs down. His arm bears tattoos, including a gallows.",
+			"personality": "Silent and watchful when sober, bullying and violent in drink, yet frightened of his former shipmates.",
+			"motivation": "He wants rum, concealment and exclusive possession of the papers Flint entrusted to him.",
+			"fears": "The one-legged seaman, Flint’s surviving crew, the black spot and the horrors brought on by lack of rum.",
+			"speech": "Rough sea-talk and oaths alternate with wheedling appeals to Jim as ‘matey’; he sings the dead man’s chest song and orders company silent.",
+			"arc": "His enemies find him at the inn; weakened by a stroke and drink, he dies immediately after receiving the black spot.",
+			"relationships": [
+				{
+					"key": "jim",
+					"nature": "Pays him to watch for a one-legged sailor and later confides in him."
+				},
+				{
+					"key": "livesey",
+					"nature": "The doctor defies his threats and treats his stroke."
+				},
+				{
+					"key": "silver",
+					"nature": "Dreads the one-legged former quartermaster of Flint’s crew."
+				},
+				{
+					"key": "pew",
+					"nature": "His former shipmate delivers the black spot."
+				}
+			],
+			"firstChapterId": "c02"
+		},
+		{
+			"key": "mother",
+			"name": "Jim’s mother",
+			"aliases": [
+				"Mrs. Hawkins",
+				"Mother"
+			],
+			"role": "Widowed keeper of the Admiral Benbow.",
+			"age": "An adult woman with a son old enough to work.",
+			"appearance": "A fair-skinned English woman of middle height and ordinary build, with brown hair pinned beneath a modest cap. She wears a practical long gown, apron and sturdy shoes suited to keeping an eighteenth-century coastal inn.",
+			"personality": "Determined, scrupulous about money owed, frightened yet willing to act.",
+			"motivation": "She wants the captain’s unpaid lodging recovered for herself and her fatherless son.",
+			"fears": "The approaching pirates and leaving Jim unprovided for.",
+			"speech": "Plain and forthright; she reproaches the hamlet’s ‘chicken-hearted’ men and insists on her lawful dues.",
+			"arc": "She returns to open the chest despite danger, takes only part of the debt, and later keeps the repaired inn with an apprentice.",
+			"relationships": [
+				{
+					"key": "jim",
+					"nature": "Her son accompanies and protects her during the raid."
+				},
+				{
+					"key": "billy",
+					"nature": "Her lodger leaves a long unpaid account."
+				}
+			],
+			"firstChapterId": "c02"
+		},
+		{
+			"key": "livesey",
+			"name": "Dr. Livesey",
+			"aliases": [
+				"Doctor Livesey",
+				"David Livesey",
+				"the doctor"
+			],
+			"role": "Physician, magistrate and loyal leader; narrator of three chapters.",
+			"age": "An established adult physician and former soldier.",
+			"appearance": "A neat, bright English gentleman with bright black eyes and close-cropped black hair beneath a snow-white powdered wig. He wears a clean eighteenth-century coat, waistcoat, breeches and stockings, and carries medical instruments and a snuff-box.",
+			"personality": "Calm under threat, decisive, dryly humorous and professionally conscientious.",
+			"motivation": "He wants to protect his companions, do his medical duty and bring the expedition safely home.",
+			"fears": "Fever, the party’s dwindling provisions and the consequences of the crew’s treachery.",
+			"speech": "Clear, kind and brisk, with dry rebukes and medical confidence; he says he will ‘stake my wig’ and treats even mutineers with professional composure.",
+			"arc": "He challenges Billy, helps organize the voyage, discovers Ben’s secret and bargains away the stockade and obsolete map before rescuing Jim.",
+			"relationships": [
+				{
+					"key": "jim",
+					"nature": "Protects and rebukes him, then promises to rescue him."
+				},
+				{
+					"key": "trelawney",
+					"nature": "Friend and expedition partner whose loose tongue he cautions."
+				},
+				{
+					"key": "smollett",
+					"nature": "Respects the captain’s judgment and works with him."
+				},
+				{
+					"key": "silver",
+					"nature": "Treats his sick crew and promises to help him short of perjury."
+				},
+				{
+					"key": "ben_gunn",
+					"nature": "Wins his confidence and learns where the treasure lies."
+				}
+			],
+			"firstChapterId": "c02"
+		},
+		{
+			"key": "trelawney",
+			"name": "Squire Trelawney",
+			"aliases": [
+				"John Trelawney",
+				"the squire",
+				"Mr. Trelawney"
+			],
+			"role": "Wealthy owner and enthusiastic outfitter of the treasure expedition.",
+			"age": "An adult gentleman with long experience of travel.",
+			"appearance": "Over six feet tall and broad, with a bluff face roughened, reddened and lined by travel, and very black expressive eyebrows. He dresses as a gentleman and, for the voyage, in stout blue cloth like a sea-officer.",
+			"personality": "Generous, impulsive, outspoken and excitable; brave and cool when shooting.",
+			"motivation": "He wants Flint’s treasure and the glory of a sea voyage, and cares for his servants and friends.",
+			"fears": "The harm his decisions have brought upon his companions.",
+			"speech": "Grand, exclamatory and lavish with praise or indignation: ‘trump,’ ‘prodigious’ and ‘monstrous’ suit his open manner.",
+			"arc": "His indiscretion helps expose the venture; he admits Smollett was right, fights loyally and reluctantly agrees not to prosecute Silver.",
+			"relationships": [
+				{
+					"key": "livesey",
+					"nature": "His friend tempers his enthusiasm with caution."
+				},
+				{
+					"key": "smollett",
+					"nature": "Initially distrusts him, then acknowledges his command."
+				},
+				{
+					"key": "jim",
+					"nature": "Engages him as cabin-boy and repairs his mother’s inn."
+				},
+				{
+					"key": "silver",
+					"nature": "Hires and admires him before discovering his deception."
+				},
+				{
+					"key": "redruth",
+					"nature": "His devoted old gamekeeper accompanies the expedition."
+				}
+			],
+			"firstChapterId": "c07"
+		},
+		{
+			"key": "silver",
+			"name": "Long John Silver",
+			"aliases": [
+				"John Silver",
+				"Barbecue",
+				"Cap’n Silver"
+			],
+			"role": "Ship’s cook, pirate leader and Jim’s shifting ally.",
+			"age": "Fifty.",
+			"appearance": "Very tall and strong, with a broad, smooth, pale blond face and a large mouth; his left leg is missing close to the hip. He moves on a crutch, sometimes hung by a lanyard, and wears a blue coat, sailor’s hat and, ashore, a cutlass and pistols. A green parrot often perches on his shoulder.",
+			"personality": "Affable, resourceful and formidable; a persuasive actor who can become ruthless in an instant.",
+			"motivation": "He wants treasure and comfortable independence, but adapts quickly to save his neck when the venture fails.",
+			"fears": "The gallows, poverty and losing control of his crew.",
+			"speech": "Mixes sea terms, flattery, ‘you may lay to that’ and ‘by the powers’ with elaborate politeness to gentlemen. To his men he alternates jokes, arguments and explosive threats.",
+			"arc": "He wins the expedition’s trust, leads the mutiny, protects Jim as hostage and witness, changes sides as circumstances shift, and escapes with a sack of coin.",
+			"relationships": [
+				{
+					"key": "jim",
+					"nature": "Flatters and later protects him; each becomes the other’s hope of survival."
+				},
+				{
+					"key": "livesey",
+					"nature": "Bargains with him and seeks his help against the gallows."
+				},
+				{
+					"key": "smollett",
+					"nature": "Respects his seamanship but opposes his authority."
+				},
+				{
+					"key": "hands",
+					"nature": "His confidant and fellow mutineer."
+				},
+				{
+					"key": "ben_gunn",
+					"nature": "His former shipmate fears him and helps the loyal party."
+				}
+			],
+			"firstChapterId": "c09"
+		},
+		{
+			"key": "smollett",
+			"name": "Captain Smollett",
+			"aliases": [
+				"Alexander Smollett",
+				"the captain"
+			],
+			"role": "Master of the Hispaniola and commander of the loyal party.",
+			"age": "An experienced adult sea captain.",
+			"appearance": "A sharp-looking man over six feet tall, with a lean, upright build, weathered fair skin, short dark hair and a clean-shaven face. He wears a practical eighteenth-century captain’s coat, waistcoat, breeches and sturdy shoes.",
+			"personality": "Stern, candid, disciplined and courageous, with dry humour beneath his reserve.",
+			"motivation": "He wants to discharge his duty to the ship, owner and crew, and keep his people alive.",
+			"fears": "A badly prepared voyage, mutiny and the loss of his ship and men.",
+			"speech": "Short, dry and exact; he states numbered points, gives brisk orders and refuses to have conclusions put into his mouth.",
+			"arc": "His precautions help the loyal party survive; wounded in the stockade assault, he returns home and retires from the sea.",
+			"relationships": [
+				{
+					"key": "trelawney",
+					"nature": "His employer initially resents his frank precautions."
+				},
+				{
+					"key": "livesey",
+					"nature": "Works with the doctor to defend the party."
+				},
+				{
+					"key": "jim",
+					"nature": "Values his help but distrusts his independent streak."
+				},
+				{
+					"key": "silver",
+					"nature": "Rejects the mutineer’s terms and refuses to strike his colours."
+				}
+			],
+			"firstChapterId": "c10"
+		},
+		{
+			"key": "ben_gunn",
+			"name": "Ben Gunn",
+			"aliases": [
+				"Benjamin Gunn",
+				"the man of the island"
+			],
+			"role": "Marooned former pirate who has already recovered Flint’s treasure.",
+			"age": "An adult former seaman.",
+			"appearance": "A white man with a deeply sun-burned face and blackened lips, fair eyes and pleasing features. His ragged patchwork of old canvas and sea-cloth is fastened with brass buttons, sticks and tarry loops; a sound leather belt with a brass buckle circles his waist.",
+			"personality": "Lonely, talkative, sly and eager for human company; quick-footed and anxious about old shipmates.",
+			"motivation": "He wants passage home, a thousand pounds, respectable treatment and the Christian food he has missed, especially cheese.",
+			"fears": "Silver and the pirates, being abandoned again, and a future as a liveried lodge-keeper.",
+			"speech": "Rambling, confidential and full of ‘says you’; he repeats his own name, pinches Jim for emphasis and invokes his pious mother.",
+			"arc": "After three years marooned he makes contact through Jim, allies with the doctor, helps rescue Jim and returns home, where he quickly spends his reward.",
+			"relationships": [
+				{
+					"key": "jim",
+					"nature": "Entrusts him with a proposal to the gentlemen."
+				},
+				{
+					"key": "livesey",
+					"nature": "Reveals the treasure’s removal and helps his rescue party."
+				},
+				{
+					"key": "silver",
+					"nature": "Fears his old quartermaster and later enables his escape."
+				}
+			],
+			"firstChapterId": "c16"
+		},
+		{
+			"key": "hands",
+			"name": "Israel Hands",
+			"aliases": [
+				"Mr. Hands",
+				"the coxswain"
+			],
+			"role": "Silver’s confidant, former gunner and Jim’s adversary aboard the schooner.",
+			"age": "An elderly seaman.",
+			"appearance": "A weathered, brandy-faced old sailor with grizzled hair and a frayed whisker ringlet. He has a sturdy seaman’s build and wears a worn jacket, shirt, breeches and sea shoes; a bloody thigh wound later restricts his movement.",
+			"personality": "Experienced and crafty, greedy for comforts and ready to kill when an opportunity appears.",
+			"motivation": "He wants the ship and the cabin’s comforts, and later seeks to regain control from Jim.",
+			"fears": "Being outmanoeuvred while wounded and helpless.",
+			"speech": "Coarse and practical, with sailor’s contractions, cynical maxims and a favourite toast, ‘Here’s luck!’",
+			"arc": "He joins Silver’s plot, fights O’Brien, helps Jim beach the ship and then attacks him; Jim shoots him in the rigging.",
+			"relationships": [
+				{
+					"key": "silver",
+					"nature": "A trusted fellow mutineer who urges an earlier rising."
+				},
+				{
+					"key": "jim",
+					"nature": "Temporarily pilots for him, then tries to murder him."
+				}
+			],
+			"firstChapterId": "c11"
+		},
+		{
+			"key": "pew",
+			"name": "Pew",
+			"aliases": [
+				"the blind man",
+				"the blind beggar",
+				"old Pew"
+			],
+			"role": "Blind pirate who delivers Billy’s summons and directs the raid on the inn.",
+			"age": "An adult who appears hunched with age or weakness.",
+			"appearance": "A hunched blind man in a huge tattered sea-cloak with a hood, and a great green shade over his eyes and nose. He taps the road with a stick and moves with startling speed despite his bent outline.",
+			"personality": "Cruel, commanding and fiercely determined, with a beggar’s practiced false humility.",
+			"motivation": "He wants Flint’s papers and a share of the wealth that could free him from begging.",
+			"fears": "Remaining a poor beggar and losing his chance at the treasure.",
+			"speech": "Begins in a soft, sing-song appeal to charitable strangers; once he has a grip on Jim, his voice becomes cold, threatening and peremptory.",
+			"arc": "He delivers the black spot, leads the search for Flint’s papers and is abandoned by his men and trampled by a horse.",
+			"relationships": [
+				{
+					"key": "billy",
+					"nature": "His former shipmate and target for the black spot."
+				},
+				{
+					"key": "jim",
+					"nature": "Forces him to lead him to Billy and later hunts him."
+				}
+			],
+			"firstChapterId": "c04"
+		},
+		{
+			"key": "redruth",
+			"name": "Tom Redruth",
+			"aliases": [
+				"Thomas Redruth",
+				"old Redruth"
+			],
+			"role": "Trelawney’s gamekeeper and loyal servant.",
+			"age": "An old man, the oldest of the loyal party.",
+			"appearance": "A tall, broad old English gamekeeper over six feet high, with weathered fair skin, grey hair and a lined face. He wears a plain country coat, waistcoat, breeches, stockings and sturdy shoes.",
+			"personality": "Grumbling and reluctant to leave home, but dogged, obedient and dependable in danger.",
+			"motivation": "He serves the squire faithfully, even on a voyage he does not welcome.",
+			"fears": "Leaving his familiar life for the voyage.",
+			"speech": "Brief and respectful to the squire, with country phrasing; he grumbles more freely when speaking to Jim.",
+			"arc": "He guards Jim, follows the party into the stockade and dies after being shot, asking for a prayer.",
+			"relationships": [
+				{
+					"key": "trelawney",
+					"nature": "His longtime employer, whom he serves to the end."
+				},
+				{
+					"key": "jim",
+					"nature": "Guards him before and during the journey to Bristol."
+				}
+			],
+			"firstChapterId": "c08"
+		},
+		{
+			"key": "gray",
+			"name": "Abraham Gray",
+			"aliases": [
+				"Abe Gray",
+				"Gray"
+			],
+			"role": "Carpenter’s mate who leaves the mutineers to follow his captain.",
+			"age": "An adult seaman.",
+			"appearance": "A working seaman of sturdy build with weathered skin and short brown hair, dressed in a plain shirt, waistcoat, breeches and sailor’s shoes. A knife cut on his cheek is bandaged after he escapes the mutineers.",
+			"personality": "Steady, courageous and practical once he commits himself.",
+			"motivation": "He chooses his captain’s service and thereafter works to defend the loyal party.",
+			"fears": "The immediate danger posed by the mutineers and their guns.",
+			"speech": "Respectful and concise with officers, using plain seamanship and occasional sea oaths among companions.",
+			"arc": "He breaks away from the mutineers, fights for the loyal party, saves Jim from Anderson and later becomes a mate and part owner of a ship.",
+			"relationships": [
+				{
+					"key": "smollett",
+					"nature": "Answers his captain’s summons and serves him faithfully."
+				},
+				{
+					"key": "jim",
+					"nature": "Fights beside him and kills Anderson as he threatens him."
+				},
+				{
+					"key": "livesey",
+					"nature": "Joins the doctor’s party to rescue Jim."
+				}
+			],
+			"firstChapterId": "c17"
+		}
+	],
+	"places": [
+		{
+			"key": "benbow",
+			"name": "Admiral Benbow",
+			"description": "The Hawkins family’s lonely coastal inn, where Billy lodges and his former shipmates come seeking his papers.",
+			"visual": "A small inn above Black Hill Cove, with a hanging Admiral Benbow sign, parlour fire, bar, upstairs rooms and a road past the door; cliffs, beach and a little bridge lie nearby."
+		},
+		{
+			"key": "hall",
+			"name": "the hall",
+			"description": "Trelawney’s country house, where the packet is opened and Jim waits before the voyage.",
+			"visual": "A leafless avenue leads between old gardens to pale buildings; the great library has bookcases topped with busts and a bright fire."
+		},
+		{
+			"key": "spyglass_inn",
+			"name": "the Spy-glass",
+			"description": "Silver’s Bristol public-house, where Jim meets him and recognizes Black Dog.",
+			"visual": "A little dockside tavern with a large brass telescope sign, red window curtains, a clean sanded floor and two open doors clearing tobacco smoke from its low room."
+		},
+		{
+			"key": "hispaniola",
+			"name": "Hispaniola",
+			"description": "Trelawney’s two-hundred-ton schooner, the prize both parties need to leave the island.",
+			"visual": "A sailing schooner with white canvas, a long brass nine amidships, galley and forecastle forward, stern cabins and a white-and-gilt cabin with stern windows."
+		},
+		{
+			"key": "anchorage",
+			"name": "Captain Kidd’s Anchorage",
+			"description": "The island’s southern haven behind Skeleton Island, where the schooner anchors and the mutiny begins.",
+			"visual": "A landlocked basin ringed with woods and distant rocky hills; two swampy streams enter it, and low shores smell of sodden leaves and rotting trunks."
+		},
+		{
+			"key": "stockade",
+			"name": "the stockade",
+			"description": "Flint’s old defensible enclosure, first held by the loyal party and later ceded to Silver.",
+			"visual": "A six-foot palisade without a gate surrounds a sandy knoll and a loopholed pine log-house. A spring wells beneath its porch into a bottomless iron ship’s kettle; the roof has a square smoke-hole."
+		},
+		{
+			"key": "north_inlet",
+			"name": "North Inlet",
+			"description": "A sheltered northern estuary where Jim beaches the recovered schooner.",
+			"visual": "A long, narrow, wooded inlet with flat sand and a decaying three-masted wreck draped in seaweed and flowering bushes."
+		},
+		{
+			"key": "treasure_site",
+			"name": "the tall pine",
+			"description": "Flint’s marked treasure cache on the plateau below the Spy-glass, already emptied by Ben Gunn.",
+			"visual": "A giant red-trunked pine rises above nutmeg and azalea; beneath it is a grass-grown excavation with broken pick shaft and boards branded WALRUS."
+		},
+		{
+			"key": "cave",
+			"name": "Ben Gunn’s cave",
+			"description": "Ben’s refuge on the two-pointed hill and the hiding place of the recovered treasure.",
+			"visual": "A black cave mouth above a gentle beach slope opens into an airy sandy chamber with a spring, fern-hung pool, fire and heaps of coins and gold bars."
+		}
+	],
+	"timeline": [
+		{
+			"chapterId": "c02",
+			"title": "Chapter 1: The Old Sea-dog at the Admiral Benbow",
+			"summary": "Jim recalls Billy’s arrival at the inn, his reign of fear and his defeat in a confrontation with Dr. Livesey.",
+			"events": [
+				"The scarred seaman arrives with his chest and pays in gold.",
+				"He pays Jim to watch for a one-legged sailor and terrorizes the inn’s company.",
+				"Livesey refuses his demand for silence and threatens him with the assizes.",
+				"Billy puts away his knife and stays quiet after the doctor leaves."
+			],
+			"present": [
+				"jim",
+				"billy",
+				"mother",
+				"livesey"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "Billy fears a one-legged seafaring man and wants warning of his arrival."
+				},
+				{
+					"key": "livesey",
+					"learns": "The dangerous lodger is in his district and threatens him with a knife."
+				}
+			],
+			"mood": "Ominous, curious, defiant"
+		},
+		{
+			"chapterId": "c03",
+			"title": "Chapter 2: Black Dog Appears and Disappears",
+			"summary": "Black Dog confronts Billy, and a fight is followed by Billy’s stroke and the doctor’s warning.",
+			"events": [
+				"Black Dog questions Jim and waits behind the parlour door.",
+				"Billy recognizes him; their private discussion ends in a cutlass fight.",
+				"Black Dog flees wounded and Billy collapses.",
+				"Livesey bleeds Billy and warns that continued rum drinking will kill him."
+			],
+			"present": [
+				"jim",
+				"billy",
+				"mother",
+				"livesey"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "The visitor is Black Dog, an old shipmate of the captain; the captain’s arm bears the name Billy Bones."
+				},
+				{
+					"key": "livesey",
+					"learns": "Billy has suffered a stroke rather than a fighting wound."
+				}
+			],
+			"mood": "Frosty, violent, alarming"
+		},
+		{
+			"chapterId": "c04",
+			"title": "Chapter 3: The Black Spot",
+			"summary": "Billy confides in Jim, Jim’s father dies, and Pew delivers a summons that immediately precedes Billy’s death.",
+			"events": [
+				"Jim gives the weakened Billy one glass of rum.",
+				"Billy says Flint’s crew seek his chest and tells Jim when to warn Livesey.",
+				"Jim’s father dies; Billy resumes drinking during the days around the funeral.",
+				"Pew forces Jim to lead him to Billy and passes Billy the black spot.",
+				"Billy reads its deadline, tries to rise and dies of apoplexy."
+			],
+			"present": [
+				"jim",
+				"billy",
+				"pew"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "Billy was Flint’s first mate, received something from him at Savannah, and calls the black spot a summons."
+				},
+				{
+					"key": "billy",
+					"learns": "The black spot gives him until ten o’clock."
+				}
+			],
+			"mood": "Mourning and mounting terror"
+		},
+		{
+			"chapterId": "c05",
+			"title": "Chapter 4: The Sea-chest",
+			"summary": "Jim and his mother brave the inn to recover their debt and escape with part of the money and the oilskin packet.",
+			"events": [
+				"Jim tells his mother what he knows; the hamlet refuses to defend the inn.",
+				"Mother insists on returning for her lawful money, and Jim accompanies her.",
+				"They find the black spot, Billy’s key and the contents of his chest.",
+				"Pew tries the bolted door while Mother counts the mixed coins.",
+				"A whistle sends them fleeing with some money and the packet; Jim hides his fainting mother beneath the bridge."
+			],
+			"present": [
+				"jim",
+				"mother",
+				"billy",
+				"pew"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "The black spot says Billy had until ten that night; the chest contains gold and an oilcloth packet."
+				},
+				{
+					"key": "mother",
+					"learns": "Billy’s chest holds enough money to pay at least part of his debt."
+				}
+			],
+			"mood": "Desperate, stealthy, tense"
+		},
+		{
+			"chapterId": "c06",
+			"title": "Chapter 5: The Last of the Blind Man",
+			"summary": "Pew’s raid fails to find the packet, and revenue officers arrive as his men abandon him.",
+			"events": [
+				"Pew’s men search Billy and his chest while Jim watches from hiding.",
+				"Pew demands Flint’s writing and orders a search for the innkeepers.",
+				"A warning whistle and approaching riders scatter the pirates.",
+				"Pew is trampled to death; Dance’s officers find the lugger escaping.",
+				"Jim asks to place the packet with Livesey and rides with Dance."
+			],
+			"present": [
+				"jim",
+				"mother",
+				"pew"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "The pirates want Flint’s writing rather than merely Billy’s money; the whistle warns them of danger."
+				}
+			],
+			"mood": "Panic and narrow escape"
+		},
+		{
+			"chapterId": "c07",
+			"title": "Chapter 6: The Captain’s Papers",
+			"summary": "At the hall, the packet yields Billy’s account-book and Flint’s treasure map, inspiring an expedition.",
+			"events": [
+				"Dance and Jim report the raid to Livesey and Trelawney.",
+				"Jim hands over the packet and eats while Dance is dismissed.",
+				"The doctor opens Billy’s account-book and the sealed island map.",
+				"Trelawney proposes fitting out a ship and taking Jim and Livesey.",
+				"Livesey insists on secrecy and travelling with protection."
+			],
+			"present": [
+				"jim",
+				"livesey",
+				"trelawney"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "The packet contains an island map marked with three red crosses and directions to Flint’s caches."
+				},
+				{
+					"key": "trelawney",
+					"learns": "The recovered papers provide a practical clue to Flint’s treasure."
+				},
+				{
+					"key": "livesey",
+					"learns": "The papers include a chart and a record interpreted as Billy’s shares of plunder."
+				}
+			],
+			"mood": "Excitement tempered by caution"
+		},
+		{
+			"chapterId": "c08",
+			"title": "Chapter 7: I Go to Bristol",
+			"summary": "Trelawney’s letter announces the ship and crew; Jim says goodbye to his mother and travels to Bristol.",
+			"events": [
+				"Jim waits at the hall under Redruth’s supervision and dreams over the map.",
+				"Trelawney writes that Silver has helped recruit the crew and the Hispaniola is ready.",
+				"Jim visits the repaired inn and meets the apprentice replacing him.",
+				"He leaves his mother and travels by mail with Redruth.",
+				"In Bristol, Trelawney tells Jim they sail tomorrow."
+			],
+			"present": [
+				"jim",
+				"mother",
+				"redruth",
+				"trelawney"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "The squire has talked about treasure and hired a one-legged cook named Silver."
+				},
+				{
+					"key": "jim",
+					"learns": "Leaving home means another boy will take his place beside his mother."
+				}
+			],
+			"mood": "Anticipation and homesickness"
+		},
+		{
+			"chapterId": "c09",
+			"title": "Chapter 8: At the Sign of the Spy-glass",
+			"summary": "Jim meets Silver, recognizes Black Dog in his tavern and is persuaded of Silver’s innocence.",
+			"events": [
+				"Jim takes Trelawney’s note to Silver’s tavern.",
+				"Black Dog flees when Jim recognizes him; Silver sends men after him.",
+				"Silver questions Morgan and performs outrage at the visitor’s escape.",
+				"He charms Jim on their walk and reports the affair to the gentlemen.",
+				"Livesey and Trelawney praise Silver."
+			],
+			"present": [
+				"jim",
+				"silver",
+				"livesey",
+				"trelawney"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "Black Dog has been at Silver’s tavern, but comes to believe Silver is innocent."
+				},
+				{
+					"key": "silver",
+					"learns": "Jim knows Black Dog and Pew and can identify Black Dog."
+				}
+			],
+			"mood": "Lively, deceptive, reassuring"
+		},
+		{
+			"chapterId": "c10",
+			"title": "Chapter 9: Powder and Arms",
+			"summary": "Smollett voices his doubts and secures precautions before the voyage.",
+			"events": [
+				"Jim and the gentlemen board the schooner.",
+				"Smollett objects to the cruise, the crew and Arrow’s familiarity with the men.",
+				"He asks to move arms and loyal berths aft and keep the map secret.",
+				"Trelawney agrees reluctantly; the powder and berths are shifted.",
+				"Silver reports aboard, and Smollett sends Jim to work."
+			],
+			"present": [
+				"jim",
+				"livesey",
+				"trelawney",
+				"smollett",
+				"silver"
+			],
+			"knowledge": [
+				{
+					"key": "smollett",
+					"learns": "The owners will accept his precautions despite Trelawney’s resentment."
+				},
+				{
+					"key": "jim",
+					"learns": "The crew know the island’s coordinates and details of the treasure voyage."
+				}
+			],
+			"mood": "Tense and distrustful"
+		},
+		{
+			"chapterId": "c11",
+			"title": "Chapter 10: The Voyage",
+			"summary": "The Hispaniola sails; Arrow disappears, Silver wins Jim’s affection, and Jim hides in the apple barrel.",
+			"events": [
+				"The crew sing as the schooner weighs anchor.",
+				"Arrow repeatedly appears drunk and disappears overboard on a dark night.",
+				"Silver tends his spotless galley, parrot and friendship with Jim.",
+				"The ship approaches the island after a generally successful passage.",
+				"Jim climbs into the apple barrel and hears Silver begin a dangerous conversation."
+			],
+			"present": [
+				"jim",
+				"silver",
+				"hands",
+				"smollett",
+				"trelawney",
+				"livesey"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "Silver’s opening words reveal a plot threatening the honest men, though Jim has not yet heard its full details."
+				}
+			],
+			"mood": "Adventurous, then suddenly fearful"
+		},
+		{
+			"chapterId": "c12",
+			"title": "Chapter 11: What I Heard in the Apple-Barrel",
+			"summary": "Jim overhears Silver recruit Dick and discuss the timing and murderous purpose of the mutiny.",
+			"events": [
+				"Silver tells Dick of his pirate service and savings.",
+				"Dick agrees to join the plot.",
+				"Hands presses for action; Silver insists they wait for the treasure and navigation.",
+				"Silver votes to kill the loyal party and claims Trelawney for himself.",
+				"Dick fetches rum instead of an apple, and the lookout cries land."
+			],
+			"present": [
+				"jim",
+				"silver",
+				"hands"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "Silver was Flint’s quartermaster and plans murder after the treasure is aboard; some hands remain faithful."
+				},
+				{
+					"key": "silver",
+					"learns": "Dick will join the mutineers."
+				}
+			],
+			"mood": "Claustrophobic and appalled"
+		},
+		{
+			"chapterId": "c13",
+			"title": "Chapter 12: Council of War",
+			"summary": "Jim secretly warns the officers, who decide to wait and identify their allies.",
+			"events": [
+				"The island is sighted and Silver identifies the anchorage from an unmarked chart copy.",
+				"Jim privately asks Livesey to arrange a meeting.",
+				"The captain sends the men grog and calls Jim to the cabin.",
+				"Jim recounts Silver’s conversation; Trelawney admits Smollett was right.",
+				"The officers decide to continue and watch for a chance to strike."
+			],
+			"present": [
+				"jim",
+				"silver",
+				"livesey",
+				"trelawney",
+				"smollett"
+			],
+			"knowledge": [
+				{
+					"key": "livesey",
+					"learns": "Silver leads a plot to seize the treasure and kill the loyal party."
+				},
+				{
+					"key": "smollett",
+					"learns": "The conspiracy includes Hands and is larger and better concealed than he had suspected."
+				},
+				{
+					"key": "trelawney",
+					"learns": "His admired cook is the mutineers’ leader."
+				}
+			],
+			"mood": "Controlled alarm"
+		},
+		{
+			"chapterId": "c14",
+			"title": "Chapter 13: How I Began My Shore Adventure",
+			"summary": "The crew’s discontent becomes dangerous, and Jim secretly goes ashore with the mutineers.",
+			"events": [
+				"The becalmed ship is warped into the island anchorage.",
+				"Livesey notices the stagnant smell and predicts fever.",
+				"Smollett offers shore leave to ease the immediate crisis.",
+				"Thirteen men embark, leaving six aboard.",
+				"Jim slips into a boat and escapes into the thicket ahead of Silver."
+			],
+			"present": [
+				"jim",
+				"silver",
+				"livesey",
+				"trelawney",
+				"smollett"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "The crew’s discipline is breaking down and Silver is openly managing the shore party."
+				},
+				{
+					"key": "silver",
+					"learns": "Jim has joined the boats going ashore."
+				}
+			],
+			"mood": "Sweltering and volatile"
+		},
+		{
+			"chapterId": "c15",
+			"title": "Chapter 14: The First Blow",
+			"summary": "Jim explores the island and witnesses Silver murder the loyal sailor Tom.",
+			"events": [
+				"Jim passes marsh, sandy ground and a rattlesnake.",
+				"He follows voices and hides near Silver and Tom.",
+				"A distant scream announces Alan’s death; Tom rejects Silver’s cause.",
+				"Silver throws his crutch at Tom and stabs him twice.",
+				"Jim flees in terror toward the two-peaked hill."
+			],
+			"present": [
+				"jim",
+				"silver"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "Silver will murder an unarmed loyal sailor; Alan has apparently been killed as well."
+				},
+				{
+					"key": "silver",
+					"learns": "Tom refuses to join the mutiny."
+				}
+			],
+			"mood": "Sunlit, savage, desperate"
+		},
+		{
+			"chapterId": "c16",
+			"title": "Chapter 15: The Man of the Island",
+			"summary": "Jim meets marooned Ben Gunn and learns enough to hope for an ally.",
+			"events": [
+				"Jim confronts the strange figure pursuing him among the trees.",
+				"Ben identifies himself and asks for cheese and news of the ship.",
+				"Jim tells him about Silver and the mutiny.",
+				"Ben describes Flint’s burial party and his own marooning, and proposes terms.",
+				"A cannon sounds; the two run toward the anchorage and see a flag."
+			],
+			"present": [
+				"jim",
+				"ben_gunn"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "Ben has lived alone for three years, claims to be rich and has a homemade boat under a white rock."
+				},
+				{
+					"key": "ben_gunn",
+					"learns": "Flint is dead, but Silver leads mutineers on the newly arrived ship."
+				}
+			],
+			"mood": "Strange, hopeful, urgent"
+		},
+		{
+			"chapterId": "c17",
+			"title": "Chapter 16: Narrative Continued by the Doctor: How the Ship Was Abandoned",
+			"summary": "Livesey finds a defensible stockade and the loyal party transfers supplies from the ship.",
+			"events": [
+				"Hunter reports Jim has gone ashore; Livesey and Hunter investigate the stockade.",
+				"Livesey finds its spring and hears a death cry he fears is Jim’s.",
+				"The loyal party loads the jolly-boat while Redruth guards the passage.",
+				"Livesey establishes Hunter and Joyce in the stockade and returns for another load.",
+				"Smollett summons Gray, who fights free of the mutineers and joins the boat."
+			],
+			"present": [
+				"livesey",
+				"trelawney",
+				"smollett",
+				"redruth",
+				"gray",
+				"hands"
+			],
+			"knowledge": [
+				{
+					"key": "livesey",
+					"learns": "The stockade encloses a spring, making it a defensible alternative to the waterless cabin."
+				},
+				{
+					"key": "gray",
+					"learns": "Smollett will take him with the loyal party if he joins immediately."
+				}
+			],
+			"mood": "Urgent and methodical"
+		},
+		{
+			"chapterId": "c18",
+			"title": "Chapter 17: Narrative Continued by the Doctor: The Jolly-boat’s Last Trip",
+			"summary": "The overloaded boat faces the ebb and the schooner’s gun, then sinks near shore with much of the supplies.",
+			"events": [
+				"The five men struggle to keep the overloaded boat afloat against the ebb.",
+				"They see the mutineers preparing the long nine.",
+				"Trelawney shoots at Hands but hits another man.",
+				"The gun fires as the captain backs water; the boat sinks in the shallows.",
+				"The party wades ashore with only two serviceable guns, leaving stores behind."
+			],
+			"present": [
+				"livesey",
+				"trelawney",
+				"smollett",
+				"redruth",
+				"gray",
+				"hands"
+			],
+			"knowledge": [
+				{
+					"key": "livesey",
+					"learns": "The mutineers possess the long nine and its ammunition; Gray identifies Hands as Flint’s former gunner."
+				}
+			],
+			"mood": "Exposed and perilous"
+		},
+		{
+			"chapterId": "c19",
+			"title": "Chapter 18: Narrative Continued by the Doctor: End of the First Day’s Fighting",
+			"summary": "The party reaches the stockade, but Redruth is killed and the mutineers recover the lost stores.",
+			"events": [
+				"The loyal party repels Anderson’s men near the stockade.",
+				"A shot from the woods mortally wounds Redruth.",
+				"The captain raises British colours and covers the dead man with a flag.",
+				"Cannonballs strike around the fort; Smollett refuses to lower the colours.",
+				"Gray and Hunter find the pirates carrying away the lost stores.",
+				"Jim arrives at the stockade."
+			],
+			"present": [
+				"livesey",
+				"trelawney",
+				"smollett",
+				"redruth",
+				"gray",
+				"silver",
+				"jim"
+			],
+			"knowledge": [
+				{
+					"key": "smollett",
+					"learns": "A rescue consort cannot be expected until after the end of August, while provisions are very short."
+				},
+				{
+					"key": "livesey",
+					"learns": "Jim has survived and reached the stockade."
+				}
+			],
+			"mood": "Grief under bombardment"
+		},
+		{
+			"chapterId": "c20",
+			"title": "Chapter 19: Narrative Resumed by Jim Hawkins: The Garrison in the Stockade",
+			"summary": "Jim rejoins the loyal party and tells them about Ben Gunn as they bury Redruth and assess their chances.",
+			"events": [
+				"Ben identifies the British flag and tells Jim how a gentleman may approach him.",
+				"Cannon fire separates them; Jim watches the pirate flag and locates the white rock.",
+				"Jim reaches the stockade and tells his story.",
+				"Smollett assigns watches and work; Redruth is buried.",
+				"The leaders decide to reduce the pirates’ numbers while relying also on rum and fever."
+			],
+			"present": [
+				"jim",
+				"ben_gunn",
+				"livesey",
+				"trelawney",
+				"smollett",
+				"gray",
+				"redruth"
+			],
+			"knowledge": [
+				{
+					"key": "livesey",
+					"learns": "Ben Gunn wants a gentleman to meet him alone with a white object; he has a particular craving for cheese."
+				},
+				{
+					"key": "jim",
+					"learns": "The loyal party has lost Redruth and cannot expect its food to last until relief arrives."
+				}
+			],
+			"mood": "Reunion amid hardship"
+		},
+		{
+			"chapterId": "c21",
+			"title": "Chapter 20: Silver’s Embassy",
+			"summary": "Silver offers terms for the chart, but Smollett rejects him and prepares for an attack.",
+			"events": [
+				"Silver approaches under a flag of truce.",
+				"He alludes to a pirate attacked during the night.",
+				"He offers the loyal party passage or provisions in exchange for the chart.",
+				"Smollett offers only surrender and trial, and threatens to shoot Silver next time.",
+				"Denied help to rise, Silver crawls to his crutch and leaves vowing an assault."
+			],
+			"present": [
+				"jim",
+				"silver",
+				"smollett",
+				"livesey",
+				"trelawney",
+				"gray"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "A pirate was attacked in the night and suspects Ben Gunn was responsible."
+				},
+				{
+					"key": "silver",
+					"learns": "Smollett will not exchange the chart for Silver’s proposed terms."
+				}
+			],
+			"mood": "Cold, theatrical confrontation"
+		},
+		{
+			"chapterId": "c22",
+			"title": "Chapter 21: The Attack",
+			"summary": "The pirates assault the stockade and are repelled at heavy cost to both sides.",
+			"events": [
+				"Smollett scolds the defenders for leaving their posts and arranges the defence.",
+				"Joyce fires, and the pirates answer from the woods.",
+				"Attackers scale the palisade and press the log-house loopholes.",
+				"The defenders rush out with cutlasses; Gray kills Anderson as he threatens Jim.",
+				"The surviving pirates retreat; Joyce is dead, Hunter stunned and Smollett wounded."
+			],
+			"present": [
+				"jim",
+				"livesey",
+				"trelawney",
+				"smollett",
+				"gray"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "The assault has cost the loyal party Joyce and left Hunter and the captain badly hurt."
+				}
+			],
+			"mood": "Fierce and costly"
+		},
+		{
+			"chapterId": "c23",
+			"title": "Chapter 22: How I Began My Sea Adventure",
+			"summary": "After the battle, Jim slips away to find Ben’s boat and plans to cut the schooner adrift.",
+			"events": [
+				"Livesey treats the wounded; Hunter lingers unconscious and later dies.",
+				"The doctor leaves with the chart, apparently to visit Ben Gunn.",
+				"Jim takes biscuit and pistols and slips out while the others tend Smollett.",
+				"He finds the coracle beneath a goatskin tent by the white rock.",
+				"At night he carries it to the water, intending to cut the schooner’s cable."
+			],
+			"present": [
+				"jim",
+				"livesey",
+				"trelawney",
+				"smollett",
+				"gray",
+				"silver"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "Ben’s boat is a tiny, portable goatskin coracle; Silver leaves two men aboard the schooner."
+				}
+			],
+			"mood": "Oppressive, impulsive, expectant"
+		},
+		{
+			"chapterId": "c24",
+			"title": "Chapter 23: The Ebb-tide Runs",
+			"summary": "Jim cuts the schooner loose and is carried with her toward the open sea.",
+			"events": [
+				"The difficult coracle drifts to the schooner’s taut hawser.",
+				"Jim waits for wind to slacken the rope and cuts most strands.",
+				"He hears Hands and the other watchman quarrelling drunkenly.",
+				"He severs the last strands and glimpses the men wrestling in the cabin.",
+				"The ebb carries schooner and coracle through the narrows; Jim falls asleep expecting death."
+			],
+			"present": [
+				"jim",
+				"hands"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "Hands and the other watchman are drunk and fighting rather than guarding the ship."
+				}
+			],
+			"mood": "Dark, precarious, exhausted"
+		},
+		{
+			"chapterId": "c25",
+			"title": "Chapter 24: The Cruise of the Coracle",
+			"summary": "Jim survives the swell, spots the unsteered schooner and boards her as she bears down on him.",
+			"events": [
+				"Jim wakes off the island’s dangerous southwestern cliffs.",
+				"He avoids the surf and sea lions and learns to balance the coracle among the waves.",
+				"Thirst torments him as he drifts past the wooded coast.",
+				"He sees the schooner sailing erratically and paddles after her.",
+				"She turns toward him; he leaps onto the jib-boom as she destroys the coracle."
+			],
+			"present": [
+				"jim"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "The schooner is apparently unsteered and may be recaptured."
+				}
+			],
+			"mood": "Lonely, thirsty, exhilarating"
+		},
+		{
+			"chapterId": "c26",
+			"title": "Chapter 25: I Strike the Jolly Roger",
+			"summary": "Jim takes possession of the schooner and bargains with wounded Hands for help sailing her.",
+			"events": [
+				"Jim boards and finds O’Brien dead and Hands badly wounded.",
+				"He searches the wrecked cabin, eats and drinks, and brings Hands brandy.",
+				"Jim declares himself captain and throws the pirate flag overboard.",
+				"Hands agrees to pilot the ship in return for food, drink and a dressing.",
+				"They sail toward North Inlet while Hands watches Jim slyly."
+			],
+			"present": [
+				"jim",
+				"hands"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "Hands and O’Brien fought; Hands survives and knows how to navigate the schooner."
+				},
+				{
+					"key": "hands",
+					"learns": "Jim intends to beach the schooner in North Inlet."
+				}
+			],
+			"mood": "Triumphant but suspicious"
+		},
+		{
+			"chapterId": "c27",
+			"title": "Chapter 26: Israel Hands",
+			"summary": "Hands pilots the ship into North Inlet, then attacks Jim, who shoots him from the rigging.",
+			"events": [
+				"Hands sends Jim for wine, but Jim secretly watches him retrieve a bloody dirk.",
+				"They discuss death and Hands pilots the schooner into the inlet.",
+				"Hands attacks; Jim’s wet pistol fails and they dodge around the mast.",
+				"The ship grounds and tips, and Jim climbs the shrouds and reloads.",
+				"Hands climbs after him, throws the dirk into his shoulder and is shot as Jim’s pistols discharge."
+			],
+			"present": [
+				"jim",
+				"hands"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "Hands can move and has hidden a dirk, making their bargain a prelude to attack."
+				},
+				{
+					"key": "hands",
+					"learns": "Jim has reloaded his pistols while beyond his reach in the rigging."
+				}
+			],
+			"mood": "Taut, treacherous, violent"
+		},
+		{
+			"chapterId": "c28",
+			"title": "Chapter 27: “Pieces of Eight”",
+			"summary": "Jim leaves the recovered schooner and returns to the stockade, only to walk into Silver’s camp.",
+			"events": [
+				"Hands sinks dead; Jim frees his lightly pinned shoulder from the mast.",
+				"Jim throws O’Brien’s body overboard and secures what sail he can.",
+				"He wades ashore and makes his way back through the woods.",
+				"He mistakes the stockade’s sleeping occupants for his friends.",
+				"Silver’s parrot cries out and Jim is captured."
+			],
+			"present": [
+				"jim",
+				"hands",
+				"silver"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "The pirates occupy the stockade he thought still held his friends."
+				},
+				{
+					"key": "silver",
+					"learns": "Jim has returned to the stockade and is in pirate hands."
+				}
+			],
+			"mood": "Relief turning to shock"
+		},
+		{
+			"chapterId": "c29",
+			"title": "Chapter 28: In the Enemy’s Camp",
+			"summary": "Jim defies the pirates, and Silver protects him while seeking a witness against the gallows.",
+			"events": [
+				"Silver says Livesey bargained away the stockade and that Jim’s friends have left.",
+				"Jim reveals he overheard the plot and took the schooner.",
+				"Morgan threatens Jim, but Silver defies the crew and protects him.",
+				"The pirates withdraw for a council.",
+				"Silver privately bargains with Jim: protection in return for help at his trial, and reveals that Livesey gave him the chart."
+			],
+			"present": [
+				"jim",
+				"silver"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "His friends were alive when they left, and Silver has the original chart."
+				},
+				{
+					"key": "silver",
+					"learns": "Jim overheard the plot and removed the schooner; he believes Jim has hidden it safely."
+				}
+			],
+			"mood": "Defiant and precariously allied"
+		},
+		{
+			"chapterId": "c30",
+			"title": "Chapter 29: The Black Spot Again",
+			"summary": "Silver defeats an attempt to depose him by answering the crew’s charges and producing the chart.",
+			"events": [
+				"The crew return with a black spot cut from Dick’s Bible.",
+				"George Merry reads the charges against Silver and demands his deposition.",
+				"Silver answers each charge, calling Jim a valuable hostage.",
+				"He produces Flint’s chart, and the men crowd around it.",
+				"The crew restore Silver as captain; he gives Jim the black spot."
+			],
+			"present": [
+				"jim",
+				"silver"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "The crew had previously challenged Silver’s authority on landing and now fear they are near the gallows."
+				},
+				{
+					"key": "silver",
+					"learns": "His possession of the chart can restore the crew’s confidence in him."
+				}
+			],
+			"mood": "Mutinous, then greedily jubilant"
+		},
+		{
+			"chapterId": "c31",
+			"title": "Chapter 30: On Parole",
+			"summary": "Livesey visits the pirates, and Jim refuses escape because he has given Silver his word.",
+			"events": [
+				"Livesey treats the pirates’ wounds and fever.",
+				"Silver obtains Jim’s parole and lets him speak to the doctor across the palisade.",
+				"Livesey urges Jim to escape, but Jim refuses to break his word.",
+				"Jim tells him the schooner is beached in North Inlet.",
+				"Livesey warns Silver about the treasure, promises help short of perjury and goes to seek assistance."
+			],
+			"present": [
+				"jim",
+				"silver",
+				"livesey"
+			],
+			"knowledge": [
+				{
+					"key": "livesey",
+					"learns": "Jim recovered the schooner and left her on the southern beach of North Inlet."
+				},
+				{
+					"key": "jim",
+					"learns": "Livesey intends to seek help and warns that danger awaits at the treasure."
+				},
+				{
+					"key": "silver",
+					"learns": "Livesey will try to save him without perjury and advises him to keep Jim close."
+				}
+			],
+			"mood": "Shame, loyalty and fragile hope"
+		},
+		{
+			"chapterId": "c32",
+			"title": "Chapter 31: The Treasure-hunt--Flint’s Pointer",
+			"summary": "Silver leads the pirates and tethered Jim toward the treasure, where a skeleton points the way.",
+			"events": [
+				"Silver thanks Jim for keeping his parole and restores the crew’s confidence.",
+				"The pirates take both gigs across the anchorage with tools and provisions.",
+				"They climb toward the plateau, with Jim tied to Silver.",
+				"They find a skeleton laid straight with its arms above its head.",
+				"A compass bearing reveals that the bones point toward Skeleton Island."
+			],
+			"present": [
+				"jim",
+				"silver"
+			],
+			"knowledge": [
+				{
+					"key": "silver",
+					"learns": "The skeleton has been laid as a directional pointer and appears to be Allardyce."
+				},
+				{
+					"key": "jim",
+					"learns": "The skeleton’s bearing matches the direction written on the treasure map."
+				}
+			],
+			"mood": "Greedy anticipation and dread"
+		},
+		{
+			"chapterId": "c33",
+			"title": "Chapter 32: The Treasure-hunt--The Voice Among the Trees",
+			"summary": "A mysterious voice terrifies the pirates, who press on to discover an empty treasure pit.",
+			"events": [
+				"The party rests on the plateau and discusses Flint.",
+				"A voice sings the pirates’ song and calls for Darby M’Graw and rum.",
+				"Silver and the older hands recognize the voice as Ben Gunn’s.",
+				"The party checks successive tall trees and closes on the correct pine.",
+				"They find a grass-grown excavation with broken tools and empty packing-case boards."
+			],
+			"present": [
+				"jim",
+				"silver",
+				"ben_gunn"
+			],
+			"knowledge": [
+				{
+					"key": "silver",
+					"learns": "Ben Gunn appears to be on the island, and the marked treasure cache has already been emptied."
+				},
+				{
+					"key": "jim",
+					"learns": "The treasure has been removed before the pirates’ arrival at the marked site."
+				}
+			],
+			"mood": "Superstitious terror and crushing disappointment"
+		},
+		{
+			"chapterId": "c34",
+			"title": "Chapter 33: The Fall of a Chieftain",
+			"summary": "Livesey’s party rescues Jim at the empty cache, and Ben’s removal of the treasure is explained.",
+			"events": [
+				"Silver arms Jim and places the pit between them and the angry pirates.",
+				"Livesey, Gray and Ben fire from concealment; Silver shoots the wounded Merry.",
+				"The three remaining pirates flee inland.",
+				"Livesey explains Ben found and moved the treasure and why he gave Silver the chart.",
+				"The rescuers recover and anchor the drifting schooner, then reunite at Ben’s cave among the gold."
+			],
+			"present": [
+				"jim",
+				"silver",
+				"livesey",
+				"gray",
+				"ben_gunn",
+				"trelawney",
+				"smollett"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "Ben moved the treasure to his cave before the voyage arrived; Livesey’s bargain secured a safe move there."
+				},
+				{
+					"key": "silver",
+					"learns": "Ben had found the treasure and the doctor knew the chart was obsolete."
+				},
+				{
+					"key": "livesey",
+					"learns": "The schooner has floated free but remains recoverable in North Inlet."
+				}
+			],
+			"mood": "Violent reversal and reunion"
+		},
+		{
+			"chapterId": "c35",
+			"title": "Chapter 34: And Last",
+			"summary": "The survivors load the treasure, leave three pirates on the island, and return home after Silver escapes.",
+			"events": [
+				"The party carries treasure to the beach and loads it over several days.",
+				"They leave supplies for the three surviving mutineers and sail despite their pleas.",
+				"In Spanish America, Ben helps Silver escape with a sack of coin.",
+				"The remaining company recruits hands and returns to Bristol.",
+				"Jim recounts the survivors’ fortunes and his enduring nightmares of the island."
+			],
+			"present": [
+				"jim",
+				"silver",
+				"livesey",
+				"trelawney",
+				"smollett",
+				"gray",
+				"ben_gunn"
+			],
+			"knowledge": [
+				{
+					"key": "jim",
+					"learns": "Ben connived at Silver’s escape and Silver took a sack worth perhaps three or four hundred guineas."
+				},
+				{
+					"key": "ben_gunn",
+					"learns": "Silver has escaped the ship with money."
+				}
+			],
+			"mood": "Relief shadowed by loss"
+		}
+	],
+	"divergencePoints": [
+		{
+			"id": "billy_survives",
+			"chapterId": "c04",
+			"label": "Billy Beats the Clock",
+			"moment": "Billy reads the black spot’s deadline and rises to act before ten.",
+			"canonOutcome": "He suffers a fatal apoplectic stroke and falls dead on the parlour floor.",
+			"whatIf": "What if Billy survived the black spot and had six hours to get away with his chest?",
+			"stakes": "Billy’s papers, Jim’s safety and the pirates’ pursuit would all remain in play."
+		},
+		{
+			"id": "mother_takes_gold",
+			"chapterId": "c05",
+			"label": "The Whole Money-Bag",
+			"moment": "Jim urges his mother to take the whole bag when Pew has tried the bolted door.",
+			"canonOutcome": "She refuses to take more than her due, then leaves with only what she has counted when a whistle sounds.",
+			"whatIf": "What if Jim’s mother took the whole money-bag as soon as Pew came to the door?",
+			"stakes": "A quicker escape could change what the pirates find and whether Jim takes the packet."
+		},
+		{
+			"id": "apple_discovery",
+			"chapterId": "c12",
+			"label": "An Apple for Silver",
+			"moment": "Silver sends Dick to fetch an apple while Jim is concealed in the barrel.",
+			"canonOutcome": "Hands calls for rum instead, and Dick leaves the barrel undisturbed.",
+			"whatIf": "What if Dick fetched Silver’s apple and found Jim hiding in the barrel?",
+			"stakes": "Jim’s life and the loyal party’s only warning of the plot are at risk."
+		},
+		{
+			"id": "tom_spared",
+			"chapterId": "c15",
+			"label": "Tom Walks Away",
+			"moment": "Tom rejects the mutiny and turns his back on Silver beside the marsh.",
+			"canonOutcome": "Silver knocks him down with his crutch and stabs him twice.",
+			"whatIf": "What if Silver let Tom walk away after Tom refused to join the mutiny?",
+			"stakes": "A loyal sailor might survive with dangerous knowledge of Silver’s plans."
+		},
+		{
+			"id": "gray_stays",
+			"chapterId": "c17",
+			"label": "Gray’s Thirty Seconds",
+			"moment": "Smollett calls Gray out of the forecastle and gives him thirty seconds to join the departing boat.",
+			"canonOutcome": "Gray fights free of the mutineers, receives a cut on his cheek and joins his captain.",
+			"whatIf": "What if Gray failed to break away before Smollett’s thirty seconds ran out?",
+			"stakes": "The loyal party would lose an able fighter, and Gray would remain among the mutineers."
+		},
+		{
+			"id": "flag_terms",
+			"chapterId": "c21",
+			"label": "A Bargain at the Stockade",
+			"moment": "Silver offers provisions or passage in exchange for the treasure chart.",
+			"canonOutcome": "Smollett rejects the offer and demands unconditional surrender for trial.",
+			"whatIf": "What if Smollett accepted Silver’s proposed bargain for the chart?",
+			"stakes": "The defenders’ lives would depend on a pirate’s promises and the fate of the treasure."
+		},
+		{
+			"id": "jim_keeps_cable",
+			"chapterId": "c24",
+			"label": "The Hawser Holds",
+			"moment": "Jim waits in the coracle for the schooner’s hawser to slacken enough to cut its last strands.",
+			"canonOutcome": "A breeze slackens the rope, and Jim cuts the schooner adrift.",
+			"whatIf": "What if the breeze never slackened the hawser and Jim had to abandon the cut?",
+			"stakes": "The pirates could retain their ship while Jim remains alone in a dangerous coracle."
+		},
+		{
+			"id": "silver_refuses_jim",
+			"chapterId": "c29",
+			"label": "Silver’s Last Card",
+			"moment": "Morgan draws his knife after Jim boasts of thwarting the pirates and offers to speak for them at trial.",
+			"canonOutcome": "Silver stops Morgan and defends Jim, then privately makes a bargain with him.",
+			"whatIf": "What if Silver let Morgan seize Jim instead of standing between the boy and the crew?",
+			"stakes": "Jim’s life and Silver’s chance of a witness against the gallows hang together."
+		},
+		{
+			"id": "parole_broken",
+			"chapterId": "c31",
+			"label": "Over the Palisade",
+			"moment": "Livesey urges Jim to climb over the stockade and escape while Silver waits out of earshot.",
+			"canonOutcome": "Jim refuses because he has given Silver his word not to escape.",
+			"whatIf": "What if Jim took the doctor’s offer and jumped the palisade despite his promise to Silver?",
+			"stakes": "Jim could escape immediately, but Silver would face his suspicious crew without his hostage."
+		},
+		{
+			"id": "silver_caught",
+			"chapterId": "c35",
+			"label": "No Shore Boat for Silver",
+			"moment": "In the Spanish American port, Ben Gunn connives at Silver’s escape from the schooner.",
+			"canonOutcome": "Silver leaves in a shore boat with a sack of coins taken through a bulkhead.",
+			"whatIf": "What if Ben Gunn refused to help Silver escape at the Spanish American port?",
+			"stakes": "Silver’s freedom, his stolen money and the survivors’ homeward passage remain unsettled."
+		}
+	],
+	"visual": {
+		"era": "Eighteenth-century English coastal dress and powdered wigs; wooden sailing schooners, hand-worked rigging, flintlock weapons, coaching roads and pirate stockades.",
+		"palette": "Frost-grey cove and candle yellow give way to Bristol tar-browns, blue sea, bleached sand, poisonous marsh greens and dark pine shadows; moonlight and firelight punctuate night scenes.",
+		"motifs": [
+			"A black spot on paper",
+			"A brass telescope",
+			"Red crosses on the chart",
+			"The green parrot",
+			"A crutch and one missing leg",
+			"Gold coins and bars",
+			"Surf, pines and drifting sand"
+		],
+		"comicStyle": "Use a nineteenth-century adventure-engraving tradition: fine ink contours, cross-hatched shadows and restrained watercolour washes. Alternate broad establishing panels of ship or island with close, crowded faces and sharp, sudden action; preserve the practical layout of rigging, palisade and terrain."
+	},
+	"glossary": [
+		{
+			"term": "Admiral Benbow",
+			"kind": "place",
+			"note": "The Hawkins family’s coastal inn.",
+			"locales": {
+				"en": "Admiral Benbow"
+			}
+		},
+		{
+			"term": "Black Hill Cove",
+			"kind": "place",
+			"note": "The cove beside the inn.",
+			"locales": {
+				"en": "Black Hill Cove"
+			}
+		},
+		{
+			"term": "HISPANIOLA",
+			"kind": "name",
+			"note": "The schooner fitted out by Trelawney.",
+			"locales": {
+				"en": "HISPANIOLA"
+			}
+		},
+		{
+			"term": "Spy-glass",
+			"kind": "place",
+			"note": "The island’s tallest hill; also the name of Silver’s Bristol tavern.",
+			"locales": {
+				"en": "Spy-glass"
+			}
+		},
+		{
+			"term": "Skeleton Island",
+			"kind": "place",
+			"note": "The islet sheltering the southern anchorage.",
+			"locales": {
+				"en": "Skeleton Island"
+			}
+		},
+		{
+			"term": "Captain Kidd’s Anchorage",
+			"kind": "place",
+			"note": "The sheltered southern harbour.",
+			"locales": {
+				"en": "Captain Kidd’s Anchorage"
+			}
+		},
+		{
+			"term": "North Inlet",
+			"kind": "place",
+			"note": "The northern estuary where Jim beaches the schooner.",
+			"locales": {
+				"en": "North Inlet"
+			}
+		},
+		{
+			"term": "Captain Flint",
+			"kind": "name",
+			"note": "The dead pirate; Silver also gives this name to his parrot.",
+			"locales": {
+				"en": "Captain Flint"
+			}
+		},
+		{
+			"term": "black spot",
+			"kind": "object",
+			"note": "A pirate’s paper summons or notice of deposition.",
+			"locales": {
+				"en": "black spot"
+			}
+		},
+		{
+			"term": "coracle",
+			"kind": "object",
+			"note": "Ben Gunn’s small, portable goatskin boat.",
+			"locales": {
+				"en": "coracle"
+			}
+		},
+		{
+			"term": "Jolly Roger",
+			"kind": "object",
+			"note": "The black flag flown by the mutineers.",
+			"locales": {
+				"en": "Jolly Roger"
+			}
+		},
+		{
+			"term": "gentleman of fortune",
+			"kind": "term",
+			"note": "A pirate’s flattering name for a pirate.",
+			"locales": {
+				"en": "gentleman of fortune"
+			}
+		},
+		{
+			"term": "WALRUS",
+			"kind": "name",
+			"note": "Flint’s former ship, named on boards at the empty cache.",
+			"locales": {
+				"en": "WALRUS"
+			}
+		},
+		{
+			"term": "pieces of eight",
+			"kind": "term",
+			"note": "Spanish coins and the parrot’s repeated cry.",
+			"locales": {
+				"en": "pieces of eight"
+			}
+		}
+	]
+}

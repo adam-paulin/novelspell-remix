@@ -1,0 +1,25 @@
+---
+// The revise dock under the chapter pane: quick ideas, the change field (or the thinking line in its place) and Revise.
+// Its slot holds the dock's closed height on desktop, where the dock grows upward over the pane instead of pushing it.
+import { en } from "../content/en";
+import Icon from "./ui/Icon.astro";
+import Dots from "./ui/Dots.astro";
+import ModelSettings from "./ModelSettings.astro";
+
+const steer = en.studio.steer;
+---
+<div data-classlist="remix-dock-slot"><form data-classlist="remix-dock" data-steer data-dock>
+	<div class="flex flex-wrap gap-2" data-classlist="remix-ideas" role="group" aria-label={steer.ideasLabel}>
+		{steer.ideas.map((idea) => <button type="button" data-classlist="remix-idea" data-idea data-text={idea.text} aria-pressed="false">{idea.label}</button>)}
+	</div>
+	<p class="m-0" data-classlist="remix-dock-note" role="status">{en.studio.progress.demoNoteRevise}</p>
+	<p class="m-0" data-classlist="remix-dock-failed" data-messages="dock-failed" role="status"><span data-message="failed">{steer.failed}</span><span data-message="no_more_versions" hidden>{steer.failedNoMore}</span>{Object.entries(en.studio.unavailable).map(([id, copy]) => <span data-message={`unavailable-${id}`} hidden>{copy.dock}</span>)}</p>
+	<div class="grid items-center" data-classlist="remix-dock-row">
+		<label class="sr-only" for="SteerInstruction">{steer.label}</label>
+		<textarea id="SteerInstruction" class="block min-w-0" data-classlist="remix-dock-input" name="instruction" data-instruction rows="1" maxlength="600" autocomplete="off" enterkeyhint="send" placeholder={steer.placeholder} required></textarea>
+		<p class="m-0 min-w-0" data-classlist="remix-dock-busy" aria-hidden="true">{steer.busy}<Dots /></p>
+		<ModelSettings where="dock" />
+		<button type="submit" data-control="secondary" data-classlist="remix-dock-send" data-needs-ready aria-label={steer.submit}><Icon name="lucide-wand-sparkles" /><span data-classlist="remix-dock-send-label">{steer.submit}</span></button>
+		<button type="button" data-control="secondary" data-classlist="remix-dock-latest" data-version-latest>{en.studio.result.versionLatest}</button>
+	</div>
+</form></div>

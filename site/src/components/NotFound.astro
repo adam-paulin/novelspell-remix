@@ -1,0 +1,15 @@
+---
+// The 404 section (port of sections/NotFoundSection.js): one raised sheet on the warm canvas with a book mark, a heading, one line and
+// the way home (a site-layer primary control). CSS: src/styles/not-found.css.
+import Icon from "./ui/Icon.astro";
+import { en } from "../content/en";
+const copy = en.notFound;
+---
+<section id="NotFound" class="mb-[clamp(2.5rem,4.5vw,3.75rem)] last:mb-0">
+	<div class="mx-auto flex flex-col items-center gap-5 px-6" data-classlist="remix-notfound">
+		<span data-classlist="remix-notfound-mark" aria-hidden="true"><Icon name="lucide-book-open" /></span>
+		<h1 class="m-0">{copy.heading}</h1>
+		<p class="m-0" data-classlist="remix-notfound-body">{copy.body}</p>
+		<a class="mt-3" data-control="primary" href="/">{copy.cta}</a>
+	</div>
+</section>

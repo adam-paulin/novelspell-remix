@@ -1,0 +1,1369 @@
+{
+	"schema": "remix.bookMap/1",
+	"slug": "the-wonderful-wizard-of-oz",
+	"title": "The Wonderful Wizard of Oz",
+	"author": "L. Frank Baum",
+	"premise": "A cyclone carries Dorothy and her little dog Toto from the gray Kansas prairie to the marvelous Land of Oz. Seeking a way home, she follows a yellow brick road with three companions who hope the Great Wizard can grant their own wishes.",
+	"hook": "A girl seeking home must cross a land where scarecrows talk, witches rule, and a famous wizard demands a terrible favor.",
+	"logline": "Dorothy and her unlikely friends face witches, monsters, and a deceptive wizard as they pursue the gifts they believe will make them whole.",
+	"world": {
+		"setting": "A one-room Kansas farmhouse and the isolated Land of Oz: blue Munchkin farms in the East, green country and the Emerald City at its center, the yellow Winkie West, and the red Quadling South, all surrounded by desert.",
+		"period": "American turn of the twentieth century, in a fairy-tale country",
+		"rules": [
+			"The desert surrounds Oz; ordinary travelers cannot survive crossing it. The Winged Monkeys belong to Oz and cannot cross it.",
+			"Magic is real, but Oz himself is a ventriloquist and showman without magical powers; his spectacles make the city appear greener than it is.",
+			"The Witch of the North's kiss protects Dorothy from injury by the Witch of the West and her Monkeys; Dorothy does not initially know its full effect.",
+			"The Silver Shoes can carry their wearer anywhere in three steps when their heels are knocked together three times and a destination commanded.",
+			"The Golden Cap summons the Winged Monkeys three times for each owner through a spoken charm; they obey within the limits of their power.",
+			"The Scarecrow and Tin Woodman need neither food nor sleep. Straw burns, tin joints rust, and both bodies can be repaired or restuffed.",
+			"A dense field of poppies puts flesh creatures to sleep, fatally if they remain in its scent; straw and tin are unaffected.",
+			"Many animals and other unlikely beings speak; Toto, unusually, does not. China people can move and speak at home but stiffen when taken away.",
+			"Travel is chiefly on foot, with simple carts, rafts, axes, hand tools, and occasional magical flight. Hosts offer food and lodging to travelers."
+		],
+		"tone": "Bright, matter-of-fact wonder mingles with danger, dry humor, tenderness, and confidence in practical help.",
+		"themes": [
+			"Home and belonging",
+			"Friendship and mutual aid",
+			"The difference between appearance and reality",
+			"Courage, kindness, and intelligence in action",
+			"Freedom from domination"
+		],
+		"sensitivities": [
+			"The narrative treats killing wolves, crows, a wildcat, and monsters briskly, even while valuing kindness toward living creatures.",
+			"The Winkies are enslaved and beaten; their fear and liberation are part of the story, not merely decorative background.",
+			"The china characters' fear of being damaged or taken away deserves the same seriousness the Princess gives it."
+		]
+	},
+	"voice": {
+		"narration": "A third-person, past-tense storyteller follows Dorothy and her companions closely, occasionally entering their thoughts or addressing the reader with a knowing aside. The narrator treats marvels as plain facts and meets danger with warmth and composure.",
+		"style": [
+			"Use clear, familiar American diction and mostly straightforward sentences, with longer chains joined by 'and' or 'but.'",
+			"Introduce a wonder in concrete visual detail, then explain its peculiar working as calmly as an ordinary household fact.",
+			"Repeat phrases and parallel responses for comic rhythm, especially when the companions state their separate wishes.",
+			"Balance earnest feeling with gentle literal jokes and the gap between what a character believes and what their conduct shows.",
+			"Describe color, food, clothing, tools, and practical obstacles precisely; move quickly from description to action.",
+			"Use direct authorial asides and simple comparisons, such as a house rocking like a baby in a cradle."
+		],
+		"dialogue": "Dialogue uses quotation marks and simple tags such as 'said,' 'asked,' and 'answered.' Speakers are courteous and direct, with short questions, exclamations, and matter-of-fact replies. Their misunderstandings often turn on taking a wish or a physical condition literally.",
+		"samplePassages": [
+			"It was Toto that made Dorothy laugh, and saved her from growing as gray as her other surroundings. Toto was not gray; he was a little black dog, with long silky hair and small black eyes that twinkled merrily on either side of his funny, wee nose. Toto played all day long, and Dorothy played with him, and loved him dearly.\n\nToday, however, they were not playing. Uncle Henry sat upon the doorstep and looked anxiously at the sky, which was even grayer than usual. Dorothy stood in the door with Toto in her arms, and looked at the sky too. Aunt Em was washing the dishes.",
+			"“Tell me something about yourself and the country you came from,” said the Scarecrow, when she had finished her dinner. So she told him all about Kansas, and how gray everything was there, and how the cyclone had carried her to this queer Land of Oz.\n\nThe Scarecrow listened carefully, and said, “I cannot understand why you should wish to leave this beautiful country and go back to the dry, gray place you call Kansas.”\n\n“That is because you have no brains” answered the girl. “No matter how dreary and gray our homes are, we people of flesh and blood would rather live there than in any other country, be it ever so beautiful. There is no place like home.”",
+			"“Making believe!” cried Dorothy. “Are you not a Great Wizard?”\n\n“Hush, my dear,” he said. “Don’t speak so loud, or you will be overheard—and I should be ruined. I’m supposed to be a Great Wizard.”\n\n“And aren’t you?” she asked.\n\n“Not a bit of it, my dear; I’m just a common man.”\n\n“You’re more than that,” said the Scarecrow, in a grieved tone; “you’re a humbug.”\n\n“Exactly so!” declared the little man, rubbing his hands together as if it pleased him. “I am a humbug.”\n\n“But this is terrible,” said the Tin Woodman. “How shall I ever get my heart?”"
+		]
+	},
+	"cast": [
+		{
+			"key": "dorothy",
+			"name": "Dorothy",
+			"aliases": [
+				"Dorothy the Small and Meek"
+			],
+			"role": "An orphaned Kansas girl seeking her aunt and uncle after the cyclone.",
+			"age": "A well-grown little girl",
+			"appearance": "A well-grown child with a round young face, light skin, brown hair and brown eyes. She wears a faded blue-and-white checked gingham frock, a pink sunbonnet, and pointed Silver Shoes; a small basket hangs from her arm. A round shining mark lies on her forehead.",
+			"personality": "Loving, direct, practical, and quick to sympathize; she can also be frightened, angry, and determined.",
+			"motivation": "She wants to return to Aunt Em and Uncle Henry, who she fears will grieve and worry about her.",
+			"fears": "She fears losing Toto, harm to her friends, and never reaching home.",
+			"speech": "She asks frank, practical questions, thanks helpers warmly, and says 'Oh' and 'gracious' in surprise. She rebukes cruelty plainly and speaks tenderly to Toto and her friends.",
+			"arc": "Her longing for home persists through friendship, captivity, disappointment, and discovery; she leaves Oz grateful for the friends she helped.",
+			"relationships": [
+				{
+					"key": "toto",
+					"nature": "Her beloved dog and constant companion."
+				},
+				{
+					"key": "scarecrow",
+					"nature": "She frees him from his pole and becomes his loyal friend."
+				},
+				{
+					"key": "tin_woodman",
+					"nature": "She oils and rescues him; he helps protect her."
+				},
+				{
+					"key": "lion",
+					"nature": "She defends Toto from him, then welcomes him as a friend."
+				},
+				{
+					"key": "witch_west",
+					"nature": "Her captor steals a shoe; Dorothy accidentally melts her."
+				},
+				{
+					"key": "oz",
+					"nature": "She seeks his help and learns he is a humbug."
+				}
+			],
+			"firstChapterId": "c02"
+		},
+		{
+			"key": "toto",
+			"name": "Toto",
+			"aliases": [],
+			"role": "Dorothy's little dog, carried with her to Oz.",
+			"age": "A little dog",
+			"appearance": "A small black dog with long silky hair, small twinkling black eyes, and a funny wee nose. He moves on short legs and often wears a collar or ribbon; later a little bell hangs at his neck.",
+			"personality": "Playful, devoted, alert, and ready to bark or chase small creatures.",
+			"motivation": "He stays close to Dorothy and responds to the creatures and dangers around her.",
+			"fears": "He is frightened by strange dangers and distressed when Dorothy is unhappy.",
+			"speech": "He cannot speak; he barks, growls, whines, and wags his tail.",
+			"arc": "Initially suspicious of the Scarecrow and Lion, he comes to travel happily with them and returns home with Dorothy.",
+			"relationships": [
+				{
+					"key": "dorothy",
+					"nature": "Her devoted dog, whom she will not leave behind."
+				},
+				{
+					"key": "lion",
+					"nature": "Nearly bitten by him, Toto later becomes his friend."
+				}
+			],
+			"firstChapterId": "c02"
+		},
+		{
+			"key": "witch_north",
+			"name": "the Witch of the North",
+			"aliases": [
+				"the Good Witch of the North"
+			],
+			"role": "The Munchkins' friend, who directs and protects Dorothy.",
+			"age": "A very old woman",
+			"appearance": "A little woman about Dorothy's height, with a deeply wrinkled face, nearly white hair, and a stiff walk. She wears a white pleated gown sprinkled with glittering stars and a tall pointed white hat with bells round its brim.",
+			"personality": "Sweet-voiced, compassionate, ceremonious, and candid about the limits of her knowledge.",
+			"motivation": "She wants to help Dorothy after the house frees the Munchkins from the eastern Witch.",
+			"fears": "She recognizes the dangers on Dorothy's long journey.",
+			"speech": "She bows and speaks sweetly and formally, calling Dorothy 'my dear'; she explains what she knows and admits what she cannot tell.",
+			"arc": "She welcomes Dorothy, consults her magic slate, and sends her toward Oz with a protective kiss.",
+			"relationships": [
+				{
+					"key": "dorothy",
+					"nature": "She advises Dorothy and kisses her forehead for protection."
+				}
+			],
+			"firstChapterId": "c03"
+		},
+		{
+			"key": "scarecrow",
+			"name": "the Scarecrow",
+			"aliases": [
+				"the Wise Scarecrow"
+			],
+			"role": "Dorothy's straw-stuffed companion, seeking brains.",
+			"age": "Made only two days before telling his story",
+			"appearance": "A light, floppy figure with a straw-stuffed sack for a head, painted mouth and nose, and mismatched painted blue eyes. He wears a worn blue suit, an old pointed blue hat, and old boots with blue tops. Later pins and needles project from his bulging head.",
+			"personality": "Courteous, curious, inventive, self-deprecating, and devoted to his friends.",
+			"motivation": "He wants brains so that he will not be called a fool and can know things like other men.",
+			"fears": "He especially fears a lighted match and being thought a fool.",
+			"speech": "He reasons aloud in neat, literal steps, then modestly attributes his conclusions to lack of brains. He thanks helpers generously and asks many questions.",
+			"arc": "His practical plans repeatedly save the party; after Oz fills his head, he believes himself wise and becomes ruler of the Emerald City.",
+			"relationships": [
+				{
+					"key": "dorothy",
+					"nature": "She lifts him off his pole; he stays with her until she can go home."
+				},
+				{
+					"key": "tin_woodman",
+					"nature": "A close friend with whom he debates brains and a heart."
+				},
+				{
+					"key": "lion",
+					"nature": "A fellow traveler whose strength carries out several of his plans."
+				},
+				{
+					"key": "oz",
+					"nature": "Oz gives him bran mixed with pins and needles as brains."
+				}
+			],
+			"firstChapterId": "c04"
+		},
+		{
+			"key": "tin_woodman",
+			"name": "the Tin Woodman",
+			"aliases": [
+				"the Woodman",
+				"the tin man"
+			],
+			"role": "A former flesh-and-blood wood-chopper seeking a heart.",
+			"age": "An adult man",
+			"appearance": "A man made entirely of shining tin, with a jointed tin head, torso, arms, and legs. He carries a sharp axe; later its handle is solid gold. His repaired body bears patches, including a square patch on the left breast, and he keeps an oil-can close.",
+			"personality": "Polite, grateful, tender toward small creatures, and capable of fierce defense.",
+			"motivation": "He wants a heart so he can love again and believes he will then return to marry the Munchkin maiden.",
+			"fears": "He dreads rusting helplessly and unintentionally hurting living things.",
+			"speech": "He speaks courteously and earnestly, often thanking others. He explains his care for creatures by saying he has no heart and must therefore be careful.",
+			"arc": "Rescued from rust, he protects and serves the party, receives a silk heart, and chooses to rule the grateful Winkies.",
+			"relationships": [
+				{
+					"key": "dorothy",
+					"nature": "She oils and later rescues him; he helps her reach home."
+				},
+				{
+					"key": "scarecrow",
+					"nature": "His affectionate friend and partner in practical rescues."
+				},
+				{
+					"key": "mouse_queen",
+					"nature": "He saves her from a wildcat; her people save the Lion."
+				},
+				{
+					"key": "oz",
+					"nature": "Oz places a silk heart stuffed with sawdust in his breast."
+				}
+			],
+			"firstChapterId": "c06"
+		},
+		{
+			"key": "lion",
+			"name": "the Cowardly Lion",
+			"aliases": [
+				"the Lion",
+				"King of Beasts"
+			],
+			"role": "A great lion who joins Dorothy to seek courage.",
+			"age": "A grown lion",
+			"appearance": "A lion as large as a small horse, with a shaggy mane, powerful paws, sharp claws, and a long tufted tail. He moves with stately strides and later wears a golden collar from the Winkies.",
+			"personality": "Anxious and ashamed of fear, yet protective, affectionate, and capable of decisive action.",
+			"motivation": "He wants courage worthy of the King of Beasts and wishes to protect his companions.",
+			"fears": "He fears danger and falling, and is ashamed that other beasts expect him to be brave.",
+			"speech": "He admits fear frankly, speaks grandly of being King of Beasts, and often measures danger before offering to act. With friends he is warm and candid.",
+			"arc": "He acts bravely despite fear, accepts Oz's drink as courage, kills a monstrous spider, and is chosen King of the Forest.",
+			"relationships": [
+				{
+					"key": "dorothy",
+					"nature": "She rebukes him for threatening Toto and becomes his friend."
+				},
+				{
+					"key": "toto",
+					"nature": "He nearly bites the dog, then befriends him."
+				},
+				{
+					"key": "mouse_queen",
+					"nature": "Her subjects pull him out of the deadly poppies."
+				},
+				{
+					"key": "oz",
+					"nature": "Oz gives him a drink he believes is courage."
+				}
+			],
+			"firstChapterId": "c07"
+		},
+		{
+			"key": "mouse_queen",
+			"name": "the Queen of the Field Mice",
+			"aliases": [
+				"the Queen of the Mice"
+			],
+			"role": "The mouse ruler whose subjects rescue the Lion and later guide Dorothy.",
+			"age": "Adult",
+			"appearance": "A little gray field mouse with a pointed muzzle, small dark eyes, rounded ears, and a long thin tail. She stands upright to address the travelers and makes a formal curtsy.",
+			"personality": "Dignified, grateful, cautious, and willing to trust a friend's promise.",
+			"motivation": "She repays the Woodman for saving her and protects her subjects from danger.",
+			"fears": "She fears the wildcat, Toto, and the poppies' scent; her mice also fear the Monkeys' mischief.",
+			"speech": "Her voice is squeaky; she asserts her rank, gives brisk orders, and addresses the travelers as friends once reassured.",
+			"arc": "Saved from a wildcat, she commands thousands of mice to rescue the Lion and later reveals the Golden Cap's charm.",
+			"relationships": [
+				{
+					"key": "tin_woodman",
+					"nature": "He saves her life from the wildcat."
+				},
+				{
+					"key": "scarecrow",
+					"nature": "He proposes the mouse-drawn truck and promises the Lion will be kind."
+				},
+				{
+					"key": "dorothy",
+					"nature": "She helps Dorothy find the way back to the Emerald City."
+				}
+			],
+			"firstChapterId": "c10"
+		},
+		{
+			"key": "oz",
+			"name": "Oz",
+			"aliases": [
+				"the Great Oz",
+				"Oz the Great and Terrible",
+				"the Great Humbug"
+			],
+			"role": "The Emerald City's ruler, an Omaha showman mistaken for a powerful wizard.",
+			"age": "A very old man",
+			"appearance": "A little old man with a bald head and a wrinkled face. He wears a neat dark coat, trousers, and waistcoat; behind a screen he manipulates theatrical figures, masks, and threads.",
+			"personality": "Ingenious, anxious, evasive, sociable when exposed, and capable of generosity.",
+			"motivation": "He wants to preserve his authority and escape the wicked witches; later he wishes to leave his confinement and return to a circus.",
+			"fears": "He fears the witches, the Winged Monkeys, and his subjects discovering his deception.",
+			"speech": "His public voice is solemn and commanding. In person he calls Dorothy 'my dear,' pleads and qualifies his promises, and explains his tricks with cheerful practicality.",
+			"arc": "He bargains for the Witch's death, is exposed, supplies symbolic gifts, and departs alone in a balloon intended to carry Dorothy too.",
+			"relationships": [
+				{
+					"key": "dorothy",
+					"nature": "He makes her help him before he will help her, then tries to take her home."
+				},
+				{
+					"key": "scarecrow",
+					"nature": "He supplies his supposed brains and appoints him ruler."
+				},
+				{
+					"key": "witch_west",
+					"nature": "He fears her and asks the travelers to destroy her."
+				}
+			],
+			"firstChapterId": "c12"
+		},
+		{
+			"key": "witch_west",
+			"name": "the Wicked Witch of the West",
+			"aliases": [
+				"the Wicked Witch"
+			],
+			"role": "The cruel ruler of the Winkies and Dorothy's captor.",
+			"age": "An old woman",
+			"appearance": "A skinny old woman with one eye, a face lined by age, and dry bloodless skin. She wears a dark long dress and carries an old umbrella; a silver whistle hangs around her neck. Her single eye sees as far as a telescope.",
+			"personality": "Fierce, cunning, cruel, and fearful when confronted by powers she recognizes.",
+			"motivation": "She wants to destroy intruders, dominate the Lion, and possess Dorothy's Silver Shoes for their power.",
+			"fears": "She fears water, darkness, Dorothy's protective mark, and the shoes' power.",
+			"speech": "She gives harsh commands and threats, mocks Dorothy when she steals a shoe, and wails in fear when she melts.",
+			"arc": "After exhausting her animal forces and final command of the Monkeys, she enslaves Dorothy, steals one shoe, and melts under a bucket of water.",
+			"relationships": [
+				{
+					"key": "dorothy",
+					"nature": "She makes Dorothy work and tricks her out of one Silver Shoe."
+				},
+				{
+					"key": "lion",
+					"nature": "She imprisons and tries to starve him into harness."
+				},
+				{
+					"key": "oz",
+					"nature": "She previously drove him out of the West with the Monkeys."
+				}
+			],
+			"firstChapterId": "c13"
+		},
+		{
+			"key": "glinda",
+			"name": "Glinda",
+			"aliases": [
+				"the Good Witch of the South",
+				"Glinda the Good"
+			],
+			"role": "The powerful ruler of the Quadlings who reveals the Silver Shoes' secret.",
+			"age": "Many years old, though she appears young",
+			"appearance": "A beautiful young-looking woman with blue eyes and rich red hair falling in flowing ringlets over her shoulders. She wears a pure white dress and sits on a throne of rubies.",
+			"personality": "Kind, composed, perceptive, and gently humorous.",
+			"motivation": "She helps Dorothy and her companions reach their homes and uses the Golden Cap to free the Monkeys.",
+			"fears": "No particular fear is stated.",
+			"speech": "She speaks kindly and directly, calls Dorothy 'my child,' and answers the Scarecrow's vanity with the tactful word 'unusual.'",
+			"arc": "She accepts the Golden Cap, plans three flights for Dorothy's friends and freedom for the Monkeys, then tells Dorothy how to use her shoes.",
+			"relationships": [
+				{
+					"key": "dorothy",
+					"nature": "She tells Dorothy how to return to Kansas."
+				},
+				{
+					"key": "scarecrow",
+					"nature": "She promises him a flight back to the Emerald City."
+				},
+				{
+					"key": "tin_woodman",
+					"nature": "She promises him a flight to the Winkies."
+				},
+				{
+					"key": "lion",
+					"nature": "She promises him a flight to his forest."
+				}
+			],
+			"firstChapterId": "c24"
+		}
+	],
+	"places": [
+		{
+			"key": "kansas_farm",
+			"name": "the Kansas prairie",
+			"description": "Dorothy's home with Aunt Em and Uncle Henry, made harsh and gray by sun and wind.",
+			"visual": "Flat gray prairie runs unbroken to the sky. The small one-room house holds a rusty cookstove, cupboard, table, chairs, two beds, and a trapdoor to a dark cyclone cellar."
+		},
+		{
+			"key": "munchkin_country",
+			"name": "the land of the Munchkins",
+			"description": "The fertile eastern country where Dorothy's house lands and kills the Wicked Witch.",
+			"visual": "Fruit trees, flowers, streams, grain fields, blue fences, and round blue houses with domed roofs surround the yellow brick road."
+		},
+		{
+			"key": "forest_road",
+			"name": "the forest road",
+			"description": "The increasingly dangerous route toward the Emerald City, where Dorothy gathers companions.",
+			"visual": "Broken yellow bricks disappear beneath dead leaves and branches; great trees meet overhead, near a log cottage, deep gullies, and a swift river."
+		},
+		{
+			"key": "poppy_field",
+			"name": "the deadly poppy field",
+			"description": "A meadow whose concentrated perfume puts flesh creatures into potentially fatal sleep.",
+			"visual": "Scarlet poppies spread thickly along a river, ending near green grass where fresh air can revive their victims."
+		},
+		{
+			"key": "emerald_city",
+			"name": "the Emerald City",
+			"description": "Oz's prosperous central city, where locked green spectacles sustain the illusion of universal greenness.",
+			"visual": "A high green wall and jeweled gate enclose marble streets, shops, towers, and a central palace; through spectacles everything, even sunlight, looks green."
+		},
+		{
+			"key": "yellow_castle",
+			"name": "the Yellow Castle",
+			"description": "The Witch of the West's castle, later a place of celebration and repair for the freed Winkies.",
+			"visual": "Beautiful rooms and a working kitchen open onto a courtyard with a high iron-fenced yard; broad yellow rooms accommodate the Winkie tinsmiths."
+		},
+		{
+			"key": "china_country",
+			"name": "the dainty china country",
+			"description": "A walled country of fragile living china people and animals.",
+			"visual": "A smooth white floor like a platter carries brightly painted little houses, barns, fences, and figures no taller than Dorothy's knee."
+		},
+		{
+			"key": "southern_forest",
+			"name": "the forest of the beasts",
+			"description": "An ancient forest whose animals promise the Lion their allegiance if he kills their enemy.",
+			"visual": "Huge old trees rise over soft dried leaves and rich green moss; an opening holds the assembled beasts, and oaks shelter the great spider."
+		},
+		{
+			"key": "quadling_country",
+			"name": "the country of the Quadlings",
+			"description": "The rich southern country ruled by Glinda, beyond the Hammer-Heads' hill.",
+			"visual": "Ripening grain and green grass frame red houses, fences, and bridges. At Glinda's beautiful castle, red-and-gold uniformed girls guard the gates."
+		}
+	],
+	"timeline": [
+		{
+			"chapterId": "c02",
+			"title": "Chapter 1: The Cyclone",
+			"summary": "A cyclone lifts Dorothy's Kansas house while she and Toto are still inside.",
+			"events": [
+				"Henry spots the storm and runs to the stock; Em descends into the cyclone cellar.",
+				"Dorothy catches Toto, but the house rises before she reaches the trapdoor.",
+				"Air pressure holds Toto in the open trapdoor; Dorothy pulls him back and shuts it.",
+				"After hours in the rocking house, Dorothy and Toto fall asleep."
+			],
+			"present": [
+				"dorothy",
+				"toto"
+			],
+			"knowledge": [
+				{
+					"key": "dorothy",
+					"learns": "The house is being carried through the air; after hours she resolves to wait calmly."
+				}
+			],
+			"mood": "Gray, frightening, then strangely calm"
+		},
+		{
+			"chapterId": "c03",
+			"title": "Chapter 2: The Council with the Munchkins",
+			"summary": "Dorothy lands in Oz, learns her house killed a witch, and receives directions toward the Emerald City.",
+			"events": [
+				"Dorothy wakes to a beautiful country and meets three Munchkins and the Witch of the North.",
+				"The Witch shows her the eastern Witch's feet beneath the house; the body dries away, leaving Silver Shoes.",
+				"Dorothy learns that desert surrounds Oz and that the Munchkins do not know a way to Kansas.",
+				"The Witch's magic slate directs Dorothy to the Emerald City; she kisses Dorothy's forehead and points out the yellow brick road."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"witch_north"
+			],
+			"knowledge": [
+				{
+					"key": "dorothy",
+					"learns": "Her house killed the eastern Witch; Oz may help her get home, and the Witch of the North's kiss offers protection."
+				},
+				{
+					"key": "witch_north",
+					"learns": "The child is named Dorothy and comes from a place called Kansas."
+				}
+			],
+			"mood": "Wonder, homesickness, and hope"
+		},
+		{
+			"chapterId": "c04",
+			"title": "Chapter 3: How Dorothy Saved the Scarecrow",
+			"summary": "Dorothy begins the yellow brick journey and frees a Scarecrow who wants brains.",
+			"events": [
+				"Dorothy breakfasts, dresses in checked gingham, puts on the Silver Shoes, and locks the house.",
+				"Boq and other Munchkins celebrate their freedom and give her supper and a bed.",
+				"Despite Boq's warning of dangers, Dorothy continues and sees a Scarecrow wink.",
+				"She lifts him off his pole and invites him to seek brains from Oz with her."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow"
+			],
+			"knowledge": [
+				{
+					"key": "dorothy",
+					"learns": "Boq and the Munchkins believe her white clothing and shoes mark her as a friendly witch."
+				},
+				{
+					"key": "scarecrow",
+					"learns": "Dorothy is going to Oz for help and agrees that he may come to ask for brains."
+				}
+			],
+			"mood": "Welcoming and adventurous"
+		},
+		{
+			"chapterId": "c05",
+			"title": "Chapter 4: The Road Through the Forest",
+			"summary": "On a roughening road, Dorothy and the Scarecrow exchange accounts of home and his short life.",
+			"events": [
+				"Dorothy helps the Scarecrow up when he falls on broken bricks.",
+				"Over bread by a brook, she describes Kansas and explains why she wants to go home.",
+				"The Scarecrow recounts his making, loneliness on the pole, and an old crow's praise of brains.",
+				"They enter the dark forest and find a log cottage where Dorothy and Toto sleep."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow"
+			],
+			"knowledge": [
+				{
+					"key": "scarecrow",
+					"learns": "Dorothy loves her gray home despite the beauty of Oz."
+				},
+				{
+					"key": "dorothy",
+					"learns": "An old crow persuaded the newly made Scarecrow that brains are worth seeking."
+				}
+			],
+			"mood": "Companionable, then dark and lonely"
+		},
+		{
+			"chapterId": "c06",
+			"title": "Chapter 5: The Rescue of the Tin Woodman",
+			"summary": "Dorothy oils a rusted Tin Woodman, who joins the travelers and explains his longing for a heart.",
+			"events": [
+				"Dorothy and the Scarecrow hear groans and find a tin man rusted beside a partly chopped tree.",
+				"Dorothy fetches his oil-can; together they free his neck, arms, and legs.",
+				"He joins them and chops a passage through the obstructed road.",
+				"He tells how an enchanted axe and a tinsmith replaced his flesh with tin, leaving him unable, he believes, to love his promised bride.",
+				"Dorothy worries that her bread for herself and Toto is nearly gone."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow",
+				"tin_woodman"
+			],
+			"knowledge": [
+				{
+					"key": "dorothy",
+					"learns": "The Woodman wants a heart because he believes losing his original heart ended his love."
+				},
+				{
+					"key": "tin_woodman",
+					"learns": "Dorothy and the Scarecrow are going to Oz, who may be able to give him a heart."
+				}
+			],
+			"mood": "Compassionate and thoughtful"
+		},
+		{
+			"chapterId": "c07",
+			"title": "Chapter 6: The Cowardly Lion",
+			"summary": "Dorothy defends Toto from a Lion, who confesses his cowardice and joins the party.",
+			"events": [
+				"A Lion knocks over the Scarecrow and Tin Woodman and opens his mouth to bite Toto.",
+				"Dorothy slaps his nose and calls him a coward; he admits she is right.",
+				"The Lion asks to accompany them to Oz for courage, and Dorothy welcomes him.",
+				"The Woodman kills a beetle by accident and weeps until his jaw rusts; the Scarecrow oils it."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow",
+				"tin_woodman",
+				"lion"
+			],
+			"knowledge": [
+				{
+					"key": "lion",
+					"learns": "Oz may be able to give him courage, and Dorothy welcomes him on the journey."
+				},
+				{
+					"key": "tin_woodman",
+					"learns": "His tears can rust his jaw shut, so he resolves to watch where he steps."
+				}
+			],
+			"mood": "Alarm giving way to friendship"
+		},
+		{
+			"chapterId": "c08",
+			"title": "Chapter 7: The Journey to the Great Oz",
+			"summary": "The travelers cross two gulfs and escape pursuing Kalidahs before reaching a broad river.",
+			"events": [
+				"The Scarecrow gathers nuts for Dorothy while keeping clear of the campfire.",
+				"The Lion leaps a deep ditch with each companion on his back.",
+				"At a wider gulf, the Woodman fells a tree to make a bridge.",
+				"Two Kalidahs pursue them; on the Scarecrow's advice the Woodman chops the bridge down beneath the beasts.",
+				"At the river the Woodman begins a raft while Dorothy eats fruit; the work lasts into the night."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow",
+				"tin_woodman",
+				"lion"
+			],
+			"knowledge": [
+				{
+					"key": "dorothy",
+					"learns": "Kalidahs are fearsome beasts with bear-like bodies and tiger-like heads."
+				}
+			],
+			"mood": "Perilous, resourceful, relieved"
+		},
+		{
+			"chapterId": "c09",
+			"title": "Chapter 8: The Deadly Poppy Field",
+			"summary": "A river separates the Scarecrow from the party; after a stork rescues him, poppies overwhelm Dorothy and the Lion.",
+			"events": [
+				"The current sweeps the raft downstream, leaving the Scarecrow clinging to a pole stuck in the riverbed.",
+				"The Lion swims and pulls the raft toward shore while Dorothy helps push with a pole.",
+				"A Stork carries the stranded Scarecrow back to his friends.",
+				"Dorothy and Toto fall asleep among poppies; the Scarecrow and Woodman carry them out.",
+				"The Lion also falls asleep near the edge, too heavy for his companions to lift."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow",
+				"tin_woodman",
+				"lion"
+			],
+			"knowledge": [
+				{
+					"key": "scarecrow",
+					"learns": "The Stork is willing and able to carry him from the river; he resolves to repay her kindness."
+				},
+				{
+					"key": "tin_woodman",
+					"learns": "He and the Scarecrow cannot lift the sleeping Lion out of the poppies by themselves."
+				}
+			],
+			"mood": "Separation, reunion, and danger"
+		},
+		{
+			"chapterId": "c10",
+			"title": "Chapter 9: The Queen of the Field Mice",
+			"summary": "The Woodman saves the Mouse Queen, whose subjects pull the sleeping Lion to safety.",
+			"events": [
+				"The Woodman beheads a wildcat pursuing a gray field mouse, who identifies herself as a queen.",
+				"He holds Toto while the mice return, and the Scarecrow asks them to help the Lion.",
+				"The Queen summons thousands of mice with strings while the Woodman builds a four-wheeled truck.",
+				"Dorothy wakes and meets the Queen; the mice haul the truck to the Lion.",
+				"The mice pull and the Scarecrow and Woodman push the Lion into fresh air; the Queen offers future help."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow",
+				"tin_woodman",
+				"mouse_queen",
+				"lion"
+			],
+			"knowledge": [
+				{
+					"key": "mouse_queen",
+					"learns": "The Scarecrow promises that the Lion will treat the mice kindly."
+				},
+				{
+					"key": "dorothy",
+					"learns": "The Scarecrow tells her what happened while she slept, including the rescue of the Mouse Queen."
+				}
+			],
+			"mood": "Grateful, ingenious, hopeful"
+		},
+		{
+			"chapterId": "c11",
+			"title": "Chapter 10: The Guardian of the Gate",
+			"summary": "The Lion wakes, and the travelers reach the Emerald City and receive locked green spectacles.",
+			"events": [
+				"The Lion wakes and hears how the field mice saved him.",
+				"The party regains the yellow brick road and enters green farmland.",
+				"A farmer's family gives them supper and lodging and repeats stories of Oz's power and changing forms.",
+				"At the city gate, the Guardian locks green spectacles on every traveler, including Toto, before admitting them."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow",
+				"tin_woodman",
+				"lion"
+			],
+			"knowledge": [
+				{
+					"key": "lion",
+					"learns": "Tiny field mice saved him from the poppies."
+				},
+				{
+					"key": "dorothy",
+					"learns": "The farmer says Oz is rarely seen and is reputed to take many forms."
+				}
+			],
+			"mood": "Restored and expectant"
+		},
+		{
+			"chapterId": "c12",
+			"title": "Chapter 11: The Wonderful City of Oz",
+			"summary": "Oz receives each traveler separately in a different form and demands the western Witch's death before granting their wishes.",
+			"events": [
+				"The travelers see the green city and are lodged separately in the palace.",
+				"Dorothy sees Oz as a great Head, which demands that she kill the Wicked Witch of the West.",
+				"The Scarecrow sees a lovely Lady, the Woodman a terrible Beast, and the Lion a Ball of Fire; each receives the same condition.",
+				"The friends decide to try together, though Dorothy does not want to kill anyone.",
+				"They prepare for the westward journey with fresh straw, oil, sharpened axe, food, and a bell for Toto."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow",
+				"tin_woodman",
+				"lion",
+				"oz"
+			],
+			"knowledge": [
+				{
+					"key": "dorothy",
+					"learns": "Oz will not send her home until the western Witch is dead; he says the shoes bear a powerful charm."
+				},
+				{
+					"key": "scarecrow",
+					"learns": "Oz promises him brains only after the Witch is killed."
+				},
+				{
+					"key": "tin_woodman",
+					"learns": "Oz promises him a heart only after the Witch is killed."
+				},
+				{
+					"key": "lion",
+					"learns": "Oz demands proof of the Witch's death before giving him courage."
+				}
+			],
+			"mood": "Splendor, disappointment, resolve"
+		},
+		{
+			"chapterId": "c13",
+			"title": "Chapter 12: The Search for the Wicked Witch",
+			"summary": "The Witch captures Dorothy and the Lion after destroying their companions' bodies; Dorothy accidentally melts her.",
+			"events": [
+				"The travelers leave the city and repel the Witch's wolves, crows, bees, and armed Winkies.",
+				"Using her final Golden Cap command, the Witch sends the Monkeys to destroy the party; they spare protected Dorothy and Toto but carry them to her castle.",
+				"The Witch makes Dorothy work and imprisons the Lion; Dorothy secretly feeds him each night.",
+				"An invisible iron bar trips Dorothy, and the Witch seizes one Silver Shoe.",
+				"Angry at the theft, Dorothy throws water over the Witch, who melts; Dorothy retrieves the shoe and runs to tell the Lion."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow",
+				"tin_woodman",
+				"lion",
+				"witch_west"
+			],
+			"knowledge": [
+				{
+					"key": "witch_west",
+					"learns": "Dorothy bears the protective kiss and does not know how to use the shoes' power."
+				},
+				{
+					"key": "dorothy",
+					"learns": "The Witch can be melted by water, though Dorothy did not know it when she threw the bucket."
+				},
+				{
+					"key": "lion",
+					"learns": "Dorothy tells him that the Witch has melted and they are no longer prisoners."
+				}
+			],
+			"mood": "Violent, captive, suddenly liberated"
+		},
+		{
+			"chapterId": "c14",
+			"title": "Chapter 13: The Rescue",
+			"summary": "The freed Winkies mend the Tin Woodman and restore the Scarecrow; Dorothy finds the Golden Cap.",
+			"events": [
+				"Dorothy frees the Lion and announces the Winkies' freedom; they feast and dance.",
+				"Dorothy, the Lion, and Winkies find the battered Woodman and bring him back for three days and four nights of repair.",
+				"The repaired Woodman chops down the tree holding the Scarecrow's clothes, which the Winkies restuff.",
+				"The Winkies offer the Woodman their rule and give the travelers farewell gifts.",
+				"Dorothy takes the pretty Golden Cap from the cupboard without knowing its charm, and the party departs."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow",
+				"tin_woodman",
+				"lion"
+			],
+			"knowledge": [
+				{
+					"key": "tin_woodman",
+					"learns": "Dorothy tells him what happened after the Monkeys destroyed his body; the Winkies ask him to rule them."
+				},
+				{
+					"key": "dorothy",
+					"learns": "Winkie tinsmiths can repair the Woodman, and fresh straw can restore the Scarecrow."
+				}
+			],
+			"mood": "Joyful, industrious, affectionate"
+		},
+		{
+			"chapterId": "c15",
+			"title": "Chapter 14: The Winged Monkeys",
+			"summary": "Lost on the roadless return, Dorothy learns the Golden Cap's charm and has the Monkeys fly the party to the city.",
+			"events": [
+				"The travelers lose their direction in the western fields and grow exhausted.",
+				"Dorothy calls the field mice; their Queen says the city is behind them and points out the Cap's charm.",
+				"Dorothy reads the words inside the Cap and summons the Winged Monkeys for the first time.",
+				"The Monkeys carry the party toward the city while their King tells Dorothy how Gayelette bound them to the Cap.",
+				"The Monkeys set the travelers safely outside the city gate."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow",
+				"tin_woodman",
+				"lion",
+				"mouse_queen"
+			],
+			"knowledge": [
+				{
+					"key": "dorothy",
+					"learns": "The Golden Cap summons the Monkeys; their King explains their binding and her right to three commands."
+				},
+				{
+					"key": "scarecrow",
+					"learns": "The Queen says the travelers have been walking with the Emerald City behind them."
+				}
+			],
+			"mood": "Weariness turning to wonder"
+		},
+		{
+			"chapterId": "c16",
+			"title": "Chapter 15: The Discovery of Oz, the Terrible",
+			"summary": "Toto exposes Oz behind a screen, and the travelers discover that the supposed wizard is a showman.",
+			"events": [
+				"The travelers return to the palace, but Oz delays seeing them for days.",
+				"The Scarecrow threatens to summon the Monkeys, and Oz grants an audience.",
+				"The Lion roars; startled Toto overturns a screen, revealing a little old man.",
+				"Oz shows them his theatrical devices and tells how his balloon brought him from Omaha and how he founded the city.",
+				"He admits he has no magic, promises the companions their gifts, and asks them to keep his secret while he considers Dorothy's return."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow",
+				"tin_woodman",
+				"lion",
+				"oz"
+			],
+			"knowledge": [
+				{
+					"key": "dorothy",
+					"learns": "Oz is a humbug from Omaha; his forms and the city's pervasive greenness are tricks."
+				},
+				{
+					"key": "scarecrow",
+					"learns": "Oz has no magic but promises to put brains in his head."
+				},
+				{
+					"key": "tin_woodman",
+					"learns": "Oz is a humbug but promises him a heart."
+				},
+				{
+					"key": "lion",
+					"learns": "Oz says he already has courage but promises him the kind he wants."
+				},
+				{
+					"key": "oz",
+					"learns": "The travelers have destroyed the Witch and insist that he honor his promises."
+				}
+			],
+			"mood": "Impatience, shock, guarded hope"
+		},
+		{
+			"chapterId": "c17",
+			"title": "Chapter 16: The Magic Art of the Great Humbug",
+			"summary": "Oz gives the three companions tangible substitutes for the qualities they seek, but cannot yet help Dorothy.",
+			"events": [
+				"Oz removes the Scarecrow's head and fills it with bran, pins, needles, and straw.",
+				"He cuts the Woodman's breast and inserts a silk heart stuffed with sawdust.",
+				"He gives the Lion a drink, explaining that it will be courage once inside him.",
+				"The three return delighted; Oz privately worries that Dorothy's journey needs more than imagination."
+			],
+			"present": [
+				"dorothy",
+				"scarecrow",
+				"tin_woodman",
+				"lion",
+				"oz"
+			],
+			"knowledge": [
+				{
+					"key": "scarecrow",
+					"learns": "He believes Oz has given him brains and expects to become wise."
+				},
+				{
+					"key": "tin_woodman",
+					"learns": "Oz has put a heart in his breast and assures him it is kind."
+				},
+				{
+					"key": "lion",
+					"learns": "He believes the drink has filled him with courage."
+				}
+			],
+			"mood": "Comic, satisfied, uncertain"
+		},
+		{
+			"chapterId": "c18",
+			"title": "Chapter 17: How the Balloon Was Launched",
+			"summary": "Oz builds a balloon for himself and Dorothy, but its ropes break while she retrieves Toto.",
+			"events": [
+				"After three sad days Dorothy hears Oz's plan to cross the desert by hot-air balloon.",
+				"Dorothy sews green silk strips while Oz cuts and glues them; he attaches a clothes basket.",
+				"Oz announces the Scarecrow as ruler and climbs into the inflated balloon.",
+				"Toto chases a kitten; Dorothy retrieves him, but the ropes break before she can board.",
+				"Oz rises away alone and cannot return."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow",
+				"tin_woodman",
+				"lion",
+				"oz"
+			],
+			"knowledge": [
+				{
+					"key": "dorothy",
+					"learns": "Oz hopes a balloon can cross the desert, though he does not know where Kansas lies."
+				},
+				{
+					"key": "scarecrow",
+					"learns": "Oz publicly appoints him ruler of the Emerald City."
+				}
+			],
+			"mood": "Hopeful, hurried, disappointed"
+		},
+		{
+			"chapterId": "c19",
+			"title": "Chapter 18: Away to the South",
+			"summary": "Dorothy's second Monkey command fails to take her across the desert; the party decides to seek Glinda.",
+			"events": [
+				"Dorothy mourns her lost chance; she wipes the Woodman's tears as he mourns Oz.",
+				"The Scarecrow proposes calling the Monkeys to carry Dorothy to Kansas.",
+				"The Monkey King says they cannot leave Oz or cross the desert and departs.",
+				"The green-whiskered soldier suggests Glinda in the South and warns of dangers on the road.",
+				"All three companions decide to accompany Dorothy."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow",
+				"tin_woodman",
+				"lion"
+			],
+			"knowledge": [
+				{
+					"key": "dorothy",
+					"learns": "The Winged Monkeys cannot cross the desert; Glinda may know a way home."
+				},
+				{
+					"key": "scarecrow",
+					"learns": "The soldier knows of Glinda and a dangerous southward route to her castle."
+				}
+			],
+			"mood": "Disappointed but loyal"
+		},
+		{
+			"chapterId": "c20",
+			"title": "Chapter 19: Attacked by the Fighting Trees",
+			"summary": "The travelers leave the city, force their way past fighting trees, and reach a china wall.",
+			"events": [
+				"The Guardian unlocks their spectacles and bids them farewell.",
+				"The party travels south and camps under the stars.",
+				"Two trees seize and throw the Scarecrow back when he tries to enter a wood.",
+				"The Woodman chops attacking branches, freeing the way and rescuing Toto.",
+				"At the far edge they find a high white china wall, and the Woodman offers to make a ladder."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow",
+				"tin_woodman",
+				"lion"
+			],
+			"knowledge": [
+				{
+					"key": "dorothy",
+					"learns": "Only the first row of trees appears to attack; the party supposes it guards the forest."
+				}
+			],
+			"mood": "Cheerful, then strange and combative"
+		},
+		{
+			"chapterId": "c21",
+			"title": "Chapter 20: The Dainty China Country",
+			"summary": "The travelers cross a fragile china country, where Dorothy respects a princess's wish to remain at home.",
+			"events": [
+				"The Woodman makes a ladder, and the party climbs the first china wall.",
+				"They jump down onto the Scarecrow; their arrival frightens a cow, which breaks a leg.",
+				"A china Princess explains that her people become motionless if taken out of their country.",
+				"Dorothy gives up her wish to take the Princess to Kansas.",
+				"The party climbs the far wall; the Lion accidentally smashes a china church with his tail."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow",
+				"tin_woodman",
+				"lion"
+			],
+			"knowledge": [
+				{
+					"key": "dorothy",
+					"learns": "China people stiffen when taken away from their country and can be visibly damaged even after mending."
+				}
+			],
+			"mood": "Delicate, comic, chastened"
+		},
+		{
+			"chapterId": "c22",
+			"title": "Chapter 21: The Lion Becomes the King of Beasts",
+			"summary": "In an ancient forest, the Lion kills a giant spider and wins the beasts' allegiance.",
+			"events": [
+				"The travelers cross marshy ground and enter a forest of immense old trees.",
+				"They find assembled beasts troubled by a spider that eats them.",
+				"The Lion bargains for their obedience as king if he kills the monster.",
+				"Finding the spider asleep, he springs on its back and knocks off its head.",
+				"The beasts bow to him, and he promises to return after Dorothy is safely on her way."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow",
+				"tin_woodman",
+				"lion"
+			],
+			"knowledge": [
+				{
+					"key": "lion",
+					"learns": "The beasts will accept him as king if he destroys the spider; after its death they do so."
+				}
+			],
+			"mood": "Wild, resolute, triumphant"
+		},
+		{
+			"chapterId": "c23",
+			"title": "Chapter 22: The Country of the Quadlings",
+			"summary": "The Hammer-Heads block the travelers, so Dorothy spends her last Monkey command to reach the Quadlings.",
+			"events": [
+				"The party approaches a rocky hill whose armless Hammer-Heads forbid passage.",
+				"A stretching head knocks the Scarecrow down; another sends the charging Lion rolling down the hill.",
+				"At the Woodman's suggestion Dorothy summons the Monkeys for the third time and asks to be carried over.",
+				"The Monkeys set the party in Quadling country and take their final leave.",
+				"A farmer's wife feeds them and directs them to Glinda's castle, where a soldier obtains their admission."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow",
+				"tin_woodman",
+				"lion"
+			],
+			"knowledge": [
+				{
+					"key": "dorothy",
+					"learns": "The Hammer-Heads can shoot their heads outward, and her third command exhausts her right to summon the Monkeys."
+				}
+			],
+			"mood": "Obstructed, then hospitable"
+		},
+		{
+			"chapterId": "c24",
+			"title": "Chapter 23: Glinda The Good Witch Grants Dorothy’s Wish",
+			"summary": "Glinda reveals the Silver Shoes' power, and Dorothy leaves her friends and reaches Kansas.",
+			"events": [
+				"The travelers make themselves presentable and tell Glinda their story.",
+				"Dorothy gives Glinda the Golden Cap in return for help finding her way home.",
+				"Glinda promises three Monkey flights for the companions and then freedom for the Monkeys.",
+				"Glinda explains how to command the Silver Shoes; Dorothy bids her friends farewell.",
+				"Holding Toto, Dorothy clicks her heels and reaches the Kansas prairie; the shoes fall off and are lost in the desert."
+			],
+			"present": [
+				"dorothy",
+				"toto",
+				"scarecrow",
+				"tin_woodman",
+				"lion",
+				"glinda"
+			],
+			"knowledge": [
+				{
+					"key": "dorothy",
+					"learns": "The Silver Shoes could have taken her home from the first day; three heel clicks and a command carry her anywhere in three steps."
+				},
+				{
+					"key": "glinda",
+					"learns": "Dorothy's story and each companion's desired destination."
+				},
+				{
+					"key": "scarecrow",
+					"learns": "Glinda will send him back to the Emerald City by Winged Monkey."
+				},
+				{
+					"key": "tin_woodman",
+					"learns": "Glinda will send him to the Winkies by Winged Monkey."
+				},
+				{
+					"key": "lion",
+					"learns": "Glinda will send him to his forest by Winged Monkey."
+				}
+			],
+			"mood": "Tender, revealing, joyful"
+		},
+		{
+			"chapterId": "c25",
+			"title": "Chapter 24: Home Again",
+			"summary": "Aunt Em embraces Dorothy, who joyfully announces that she and Toto are home.",
+			"events": [
+				"Aunt Em comes out to water the cabbages.",
+				"She sees Dorothy running toward her and folds her in her arms.",
+				"Dorothy says she has come from Oz and is glad to be home with Toto."
+			],
+			"present": [
+				"dorothy",
+				"toto"
+			],
+			"knowledge": [
+				{
+					"key": "dorothy",
+					"learns": "Aunt Em is there to welcome her home."
+				}
+			],
+			"mood": "Brief and jubilant"
+		}
+	],
+	"divergencePoints": [
+		{
+			"id": "cellar_or_toto",
+			"chapterId": "c02",
+			"label": "The Dash for the Cellar",
+			"moment": "Toto hides under the bed as Aunt Em calls Dorothy to the cyclone cellar.",
+			"canonOutcome": "Dorothy retrieves Toto, but the house rises before she can follow Aunt Em down.",
+			"whatIf": "What if Dorothy reached the cyclone cellar with Toto before the house rose?",
+			"stakes": "Dorothy's separation from home and the fate of the house hang on a few moments."
+		},
+		{
+			"id": "lion_and_toto",
+			"chapterId": "c07",
+			"label": "The Lion's Open Jaws",
+			"moment": "The Lion opens his mouth to bite Toto, and Dorothy rushes forward.",
+			"canonOutcome": "Dorothy slaps the Lion's nose before he bites; his confession leads to his joining the party.",
+			"whatIf": "What if Dorothy could not reach the Lion before he bit Toto?",
+			"stakes": "Toto's safety and the friendship that follows the confrontation are at risk."
+		},
+		{
+			"id": "queen_refuses",
+			"chapterId": "c10",
+			"label": "The Queen's Bargain",
+			"moment": "The Scarecrow asks the Mouse Queen to help the sleeping Lion and promises he will be kind.",
+			"canonOutcome": "The Queen trusts him and summons her subjects, who help haul the Lion out.",
+			"whatIf": "What if the Mouse Queen refused to send her people near the Lion?",
+			"stakes": "The Lion remains in the deadly poppies, and the companions need another rescue."
+		},
+		{
+			"id": "witch_demand",
+			"chapterId": "c12",
+			"label": "Oz's Impossible Price",
+			"moment": "Oz tells Dorothy he will send her home only after she kills the Wicked Witch of the West.",
+			"canonOutcome": "Dorothy is distraught, but she and her companions eventually decide to try.",
+			"whatIf": "What if Dorothy refused Oz's bargain and left the palace without agreeing to seek the Witch?",
+			"stakes": "Her apparent route home and the companions' promised gifts depend on Oz's demand."
+		},
+		{
+			"id": "stolen_shoe",
+			"chapterId": "c13",
+			"label": "The Stolen Silver Shoe",
+			"moment": "The Witch snatches Dorothy's shoe after tripping her over an invisible iron bar.",
+			"canonOutcome": "Dorothy throws a bucket of water over the Witch in anger, melting her.",
+			"whatIf": "What if Dorothy's Silver Shoe stayed on when she stumbled over the invisible bar?",
+			"stakes": "The Witch's hold over Dorothy and the fate of the enslaved Winkies remain unresolved."
+		},
+		{
+			"id": "screen_stands",
+			"chapterId": "c16",
+			"label": "The Screen Stays Up",
+			"moment": "The Lion roars during the audience and Toto jumps in alarm beside Oz's screen.",
+			"canonOutcome": "Toto overturns the screen, exposing the little man who has posed as Oz.",
+			"whatIf": "What if Toto jumped clear without knocking over the screen?",
+			"stakes": "Oz's deception and the travelers' ability to press him for his promises are at stake."
+		},
+		{
+			"id": "balloon_boarding",
+			"chapterId": "c18",
+			"label": "A Place in the Basket",
+			"moment": "Dorothy runs toward the balloon with Toto as Oz reaches out to help her aboard.",
+			"canonOutcome": "The ropes break before Dorothy reaches the basket, and Oz flies away alone.",
+			"whatIf": "What if the ropes held long enough for Dorothy and Toto to climb into Oz's balloon?",
+			"stakes": "Dorothy's chance to leave Oz and the uncertain flight over the desert depend on the launch."
+		},
+		{
+			"id": "china_princess",
+			"chapterId": "c21",
+			"label": "The Princess in the Basket",
+			"moment": "Dorothy asks the china Princess to come to Kansas and stand on Aunt Em's mantel.",
+			"canonOutcome": "The Princess explains that she would stiffen outside her country, and Dorothy leaves her free.",
+			"whatIf": "What if the china Princess agreed to travel in Dorothy's basket?",
+			"stakes": "The Princess's freedom of movement and Dorothy's affection for her would be tested by departure."
+		},
+		{
+			"id": "last_monkey_command",
+			"chapterId": "c23",
+			"label": "The Last Command",
+			"moment": "The Hammer-Heads block the hill, and the Woodman suggests Dorothy call the Monkeys once more.",
+			"canonOutcome": "Dorothy uses her third command to have the Monkeys carry the party into Quadling country.",
+			"whatIf": "What if Dorothy kept her last Monkey command and the travelers sought another way past the Hammer-Heads?",
+			"stakes": "The party risks the dangerous hill while preserving its remaining magical flight."
+		}
+	],
+	"visual": {
+		"era": "Turn-of-the-twentieth-century American farm clothing and tools meet fairy-tale peaked hats, domed cottages, castles, and a hand-sewn silk balloon.",
+		"palette": "Dusty gray and sun-faded brown in Kansas; clear blue in the East, jewel green at the center, yellow in the West, and bright red in the South.",
+		"motifs": [
+			"Yellow bricks winding through changing country",
+			"Pointed Silver Shoes and a shining forehead mark",
+			"Straw, painted eyes, and a battered blue hat",
+			"Tin joints, an axe, and an oil-can",
+			"Green spectacles and concealed theatrical machinery",
+			"Scarlet poppies and tiny gray field mice",
+			"A jeweled Golden Cap and great feathered wings"
+		],
+		"comicStyle": "Use ink linework and flat, carefully registered color in the spirit of early twentieth-century illustrated children's books. Give figures clear silhouettes and expressive gestures; alternate spacious landscape panels with close, orderly views of ingenious rescues and transformations. Keep the marvels bright even when the action is dangerous."
+	},
+	"glossary": [
+		{
+			"term": "Land of Oz",
+			"kind": "place",
+			"note": "The isolated fairy country surrounded by desert.",
+			"locales": {
+				"en": "Land of Oz"
+			}
+		},
+		{
+			"term": "Kansas",
+			"kind": "place",
+			"note": "Dorothy's prairie home with Aunt Em and Uncle Henry.",
+			"locales": {
+				"en": "Kansas"
+			}
+		},
+		{
+			"term": "Munchkins",
+			"kind": "name",
+			"note": "The people of the eastern country, where blue is favored.",
+			"locales": {
+				"en": "Munchkins"
+			}
+		},
+		{
+			"term": "Emerald City",
+			"kind": "place",
+			"note": "The central city founded and ruled by Oz.",
+			"locales": {
+				"en": "Emerald City"
+			}
+		},
+		{
+			"term": "Silver Shoes",
+			"kind": "object",
+			"note": "The eastern Witch's shoes, which can carry their wearer anywhere.",
+			"locales": {
+				"en": "Silver Shoes"
+			}
+		},
+		{
+			"term": "Golden Cap",
+			"kind": "object",
+			"note": "A jeweled cap that gives each owner three commands over the Winged Monkeys.",
+			"locales": {
+				"en": "Golden Cap"
+			}
+		},
+		{
+			"term": "Winged Monkeys",
+			"kind": "name",
+			"note": "Flying creatures bound to obey the Golden Cap's owner.",
+			"locales": {
+				"en": "Winged Monkeys"
+			}
+		},
+		{
+			"term": "Winkies",
+			"kind": "name",
+			"note": "The yellow-clad people formerly enslaved by the western Witch.",
+			"locales": {
+				"en": "Winkies"
+			}
+		},
+		{
+			"term": "Quadlings",
+			"kind": "name",
+			"note": "The red-clad people of Glinda's southern country.",
+			"locales": {
+				"en": "Quadlings"
+			}
+		},
+		{
+			"term": "Kalidahs",
+			"kind": "name",
+			"note": "Fierce beasts with bear-like bodies and tiger-like heads.",
+			"locales": {
+				"en": "Kalidahs"
+			}
+		},
+		{
+			"term": "Hammer-Heads",
+			"kind": "name",
+			"note": "Armless hill dwellers who strike with heads on stretching necks.",
+			"locales": {
+				"en": "Hammer-Heads"
+			}
+		},
+		{
+			"term": "Guardian of the Gates",
+			"kind": "title",
+			"note": "The officer who locks and unlocks the city's green spectacles.",
+			"locales": {
+				"en": "Guardian of the Gates"
+			}
+		},
+		{
+			"term": "Boq",
+			"kind": "name",
+			"note": "A wealthy Munchkin who hosts Dorothy at a celebration.",
+			"locales": {
+				"en": "Boq"
+			}
+		},
+		{
+			"term": "Gayelette",
+			"kind": "name",
+			"note": "The sorceress who bound the Winged Monkeys to the Golden Cap.",
+			"locales": {
+				"en": "Gayelette"
+			}
+		},
+		{
+			"term": "Quelala",
+			"kind": "name",
+			"note": "Gayelette's husband and the Golden Cap's first owner.",
+			"locales": {
+				"en": "Quelala"
+			}
+		}
+	]
+}

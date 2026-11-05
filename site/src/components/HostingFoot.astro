@@ -1,0 +1,11 @@
+---
+// The hosted demo's credit gate, the composer's part: compiled in and hidden; the deferred script
+// picks the variant when a refused action reports the gate state. The foot takes no space until <html data-hosting> is set.
+import { en } from "../content/en";
+
+const copy = en.studio.hosting;
+---
+<div data-classlist="remix-hosting-foot" data-hosting-foot>
+		<p class="m-0" data-classlist="remix-hosting-line" data-hosting-line data-messages="hosting-line">{Object.entries(copy.line).map(([name, line]) => <span data-message={name} hidden>{line}</span>)}</p>
+		<p class="m-0" data-classlist="remix-hosting-legal">{copy.legal}</p>
+	</div>

@@ -1,0 +1,1054 @@
+{
+	"schema": "remix.bookMap/1",
+	"slug": "the-picture-of-dorian-gray",
+	"title": "The Picture of Dorian Gray",
+	"author": "Oscar Wilde",
+	"premise": "A painter’s portrait awakens Dorian Gray to his own beauty just as Lord Henry Wotton persuades him that youth is life’s greatest possession. Dorian’s wish to remain young while the picture ages becomes entangled with his pursuit of sensation and the harm he does to others.",
+	"hook": "A beautiful young man keeps his face while his portrait records the life behind it.",
+	"logline": "As his hidden portrait bears the marks of age and wrongdoing, Dorian Gray pursues pleasure while struggling to conceal the corruption it reveals.",
+	"world": {
+		"setting": "Fashionable London drawing-rooms, studios and clubs stand within reach of shabby theatres and riverside opium dens; Dorian also entertains at Selby Royal, his Nottinghamshire country house.",
+		"period": "Late nineteenth-century England, chiefly London society",
+		"rules": [
+			"Dorian’s portrait changes as his life and character change, while his own face retains its youthful beauty; the cause and precise mechanism remain unexplained.",
+			"The portrait’s altered surface still bears Basil’s brushwork and signature. Its changes can be seen by someone other than Dorian.",
+			"Dorian’s youth does not make him safe from ordinary violence: James Vane can threaten him with a revolver, and a knife can kill him.",
+			"Rank, wealth and respectable appearances protect reputations, while scandal can exclude people from houses, clubs and society.",
+			"Servants answer bells, carry notes and prepare carriages; hansoms, broughams, trains and telegrams connect the characters.",
+			"Marriage across class boundaries invites social objection, and a young man under age has guardians with a say in his affairs.",
+			"Murder risks arrest and hanging; an inquest examines a suspicious death, though its public verdict may differ from private belief.",
+			"Opium offers Dorian temporary oblivion, not an escape from memory or danger."
+		],
+		"tone": "Sensuous, witty and often languid, with satire giving way to dread, remorse and sudden violence.",
+		"themes": [
+			"Beauty, age and mortality",
+			"Influence and responsibility",
+			"Art, life and imitation",
+			"Conscience and self-deception",
+			"Secrecy, reputation and hypocrisy",
+			"Pleasure and its human costs"
+		],
+		"sensitivities": [
+			"The narration and characters use antisemitic caricature, notably in descriptions of the theatre manager.",
+			"Racist and colonial language depicts non-European people as exotic or inferior, especially in accounts of Dorian’s collections.",
+			"Lord Henry’s sweeping claims about women and class are provocative prejudices, not reliable accounts of their subjects.",
+			"Suicide, coercive blackmail, drug dependence and violence are central to the story."
+		]
+	},
+	"voice": {
+		"narration": "A third-person past-tense narrator moves close to Dorian, Basil and Lord Henry, entering their thoughts while also making urbane generalizations and occasionally addressing shared human experience.",
+		"style": [
+			"Lush descriptions accumulate colour, scent, texture and sound before a pointed observation or interruption changes the scene.",
+			"Long, balanced sentences and repeated clauses alternate with abrupt questions, exclamations and short verdicts.",
+			"Flowers, jewels, music, mirrors, theatre and classical myth supply recurring comparisons for faces, feelings and rooms.",
+			"Aphorisms turn familiar moral claims inside out; the narrator can echo a character’s reasoning without making it trustworthy.",
+			"Interiority moves through questions, reversals and imagined explanations, often leaving a motive or mystery unsettled.",
+			"British spelling and period French phrases sit naturally beside references to painting, poetry, music and antiquity."
+		],
+		"dialogue": "Speech uses quotation marks and frequent descriptive tags, with interruptions, dashes, exclamations and pauses. Society exchanges are polished contests of paradox; intimate conversations become repetitive, pleading or brutally direct.",
+		"samplePassages": [
+			"The studio was filled with the rich odour of roses, and when the light summer wind stirred amidst the trees of the garden, there came through the open door the heavy scent of the lilac, or the more delicate perfume of the pink-flowering thorn. From the corner of the divan of Persian saddle-bags on which he was lying, smoking, as was his custom, innumerable cigarettes, Lord Henry Wotton could just catch the gleam of the honey-sweet and honey-coloured blossoms of a laburnum, whose tremulous branches seemed hardly able to bear the burden of a beauty so flamelike as theirs",
+			"“Mother, Mother,” she cried, “why does he love me so much? I know why I love him. I love him because he is like what love himself should be. But what does he see in me? I am not worthy of him. And yet—why, I cannot tell—though I feel so much beneath him, I don’t feel humble. I feel proud, terribly proud. Mother, did you love my father as I love Prince Charming?”",
+			"He got up and locked both doors. At least he would be alone when he looked upon the mask of his shame. Then he drew the screen aside and saw himself face to face. It was perfectly true. The portrait had altered. As he often remembered afterwards, and always with no small wonder, he found himself at first gazing at the portrait with a feeling of almost scientific interest. That such a change should have taken place was incredible to him. And yet it was a fact."
+		]
+	},
+	"cast": [
+		{
+			"key": "dorian_gray",
+			"name": "Dorian Gray",
+			"aliases": [
+				"Dorian",
+				"Prince Charming",
+				"Mr. Gray"
+			],
+			"role": "Beautiful, wealthy young man whose portrait bears the visible marks of his life.",
+			"age": "Under twenty-one at the portrait sitting; thirty-eight by the later events",
+			"appearance": "A gracefully built, youthful-looking man with fair skin, finely curved scarlet lips, frank blue eyes and crisp gold curls. His beauty and apparent youth persist for years. He dresses with exquisite care in fashionable coats, evening clothes, rings and a carefully chosen necktie.",
+			"personality": "Initially affectionate, impulsive and impressionable; later charming, curious, secretive and capable of calculated cruelty.",
+			"motivation": "He wants beauty and youth to last, seeks new sensations, and later longs to escape his past and recover innocence.",
+			"fears": "Age, ugliness, exposure of the portrait, punishment and the approach of death.",
+			"speech": "He begins with eager questions and boyish exclamations, adopts Harry’s polished paradoxes, and becomes petulant or commanding when thwarted. Fear breaks his composure into urgent questions and pleas.",
+			"arc": "His wish seems fulfilled; after rejecting Sibyl he hides the changing portrait, pursues pleasure, murders Basil and tries to destroy the evidence of his conscience.",
+			"relationships": [
+				{
+					"key": "basil_hallward",
+					"nature": "Painter and devoted friend whose portrait becomes Dorian’s secret; Dorian murders him."
+				},
+				{
+					"key": "lord_henry",
+					"nature": "Fascinating friend whose theories shape Dorian’s pursuit of sensation."
+				},
+				{
+					"key": "sibyl_vane",
+					"nature": "Actress he loves and becomes engaged to, then cruelly rejects."
+				},
+				{
+					"key": "james_vane",
+					"nature": "Sibyl’s brother, who hunts him to avenge her death."
+				},
+				{
+					"key": "alan_campbell",
+					"nature": "Estranged former intimate whom he blackmails into disposing of Basil’s body."
+				}
+			],
+			"firstChapterId": "c03"
+		},
+		{
+			"key": "lord_henry",
+			"name": "Lord Henry Wotton",
+			"aliases": [
+				"Harry",
+				"Lord Henry",
+				"Prince Paradox"
+			],
+			"role": "Dorian’s aristocratic friend and influential apostle of pleasure.",
+			"age": "A young man at the opening; about ten years older than Dorian",
+			"appearance": "Tall and graceful, with an olive-coloured, worn face, dark crescent-shaped eyebrows, brown agate eyes and a pointed brown beard. His pale, fine hands move expressively. He wears fashionable dark tailoring, gloves and a buttonhole, and often carries cigarettes and an ebony cane.",
+			"personality": "Brilliant, languid, curious and cynical, with flashes of tenderness beneath his polished detachment.",
+			"motivation": "He enjoys studying people, exercising influence and turning experience into stimulating conversation.",
+			"fears": "He explicitly fears death and dislikes vulgarity, boredom and the prospect of growing old.",
+			"speech": "His low musical voice delivers elegant paradoxes, reversals and teasing generalizations. He calls friends by their familiar names and treats even grave subjects as material for wit.",
+			"arc": "He makes Dorian a fascinating study and remains his friend, never accepting that Dorian could have murdered Basil.",
+			"relationships": [
+				{
+					"key": "dorian_gray",
+					"nature": "Friend and object of his intellectual influence and curiosity."
+				},
+				{
+					"key": "basil_hallward",
+					"nature": "Old Oxford friend who distrusts his influence on Dorian."
+				},
+				{
+					"key": "sibyl_vane",
+					"nature": "Dorian’s fiancée, whose death he recasts as an artistic tragedy."
+				}
+			],
+			"firstChapterId": "c02"
+		},
+		{
+			"key": "basil_hallward",
+			"name": "Basil Hallward",
+			"aliases": [
+				"Basil",
+				"Hallward"
+			],
+			"role": "Painter of Dorian’s portrait and his devoted, increasingly alarmed friend.",
+			"age": "A young man at the opening; older than Dorian",
+			"appearance": "A solidly built man with a rugged, strong face, coal-black hair and a thoughtful expression. He wears a dark nineteenth-century suit or painter’s working clothes and sometimes tosses his head back in a distinctive gesture.",
+			"personality": "Earnest, loyal and conscientious, with a guarded intensity about his art and affections.",
+			"motivation": "He wants to protect Dorian, preserve their friendship and make art inspired by Dorian’s beauty.",
+			"fears": "Exposure of his idolatry, Dorian’s corruption and the loss of his friendship.",
+			"speech": "He speaks gravely and plainly, often addressing Harry or Dorian by name. Emotion draws out repetitions, protests and direct appeals; he challenges Harry’s paradoxes.",
+			"arc": "He hides his devotion, confesses it, then confronts Dorian over rumours and sees the portrait before Dorian kills him.",
+			"relationships": [
+				{
+					"key": "dorian_gray",
+					"nature": "His artistic inspiration and beloved friend, who eventually murders him."
+				},
+				{
+					"key": "lord_henry",
+					"nature": "Oxford friend whose influence on Dorian he fears."
+				},
+				{
+					"key": "sibyl_vane",
+					"nature": "He comes to support her engagement to Dorian and mourns her death."
+				}
+			],
+			"firstChapterId": "c02"
+		},
+		{
+			"key": "sibyl_vane",
+			"name": "Sibyl Vane",
+			"aliases": [
+				"Sibyl",
+				"Juliet",
+				"Rosalind"
+			],
+			"role": "A young Shakespearean actress and Dorian’s fiancée.",
+			"age": "Seventeen",
+			"appearance": "Small and graceful, with a flowerlike pale face, a small Greek-shaped head, dark-brown hair in plaited coils, violet eyes and rose-petal lips. She wears modest everyday dresses and, onstage, the costumes of Shakespeare’s heroines.",
+			"personality": "Imaginative, affectionate and trusting, with an intense capacity for delight and despair.",
+			"motivation": "She loves Dorian as her Prince Charming and wants a real life with him beyond the theatre.",
+			"fears": "She cannot bear the thought of Dorian leaving her and fears the loss of his love.",
+			"speech": "Her low, musical voice rises into rapturous repetitions and theatrical images. With Jim she is playful and fanciful; with Dorian she speaks in ardent declarations and, when rejected, desperate pleas.",
+			"arc": "Love makes her see acting as hollow; after a failed performance Dorian rejects her, and she dies from swallowing a theatrical substance.",
+			"relationships": [
+				{
+					"key": "dorian_gray",
+					"nature": "Her Prince Charming and fiancé, who abandons her."
+				},
+				{
+					"key": "james_vane",
+					"nature": "Her protective younger brother."
+				},
+				{
+					"key": "mrs_vane",
+					"nature": "Her mother, who depends on her acting income and hopes for a rich marriage."
+				}
+			],
+			"firstChapterId": "c06"
+		},
+		{
+			"key": "james_vane",
+			"name": "James Vane",
+			"aliases": [
+				"Jim",
+				"Jim Vane"
+			],
+			"role": "Sibyl’s sailor brother, who vows to kill the man who wrongs her.",
+			"age": "Sixteen when he leaves for Australia; about thirty-four when he returns",
+			"appearance": "Short and thick-set, with rough brown hair, large hands and feet and a heavy, stern face. He wears coarse, ill-fitting clothes; as a sailor he has tattoos on both arms and later wears a coarse shirt and blue trousers.",
+			"personality": "Protective, blunt and suspicious, but tender towards Sibyl.",
+			"motivation": "He wants to protect his sister and mother, make money, and after Sibyl’s death avenge her.",
+			"fears": "Sibyl being deceived or harmed by a gentleman while he is away.",
+			"speech": "He speaks slowly and directly, with terse questions, warnings and forceful promises. His roughness softens when he says goodbye to Sibyl.",
+			"arc": "Unable to see Dorian clearly before sailing, he hunts the man known as Prince Charming, briefly mistakes his youthful face for proof of innocence, and is accidentally shot at Selby.",
+			"relationships": [
+				{
+					"key": "sibyl_vane",
+					"nature": "Beloved sister whose death he vows to avenge."
+				},
+				{
+					"key": "mrs_vane",
+					"nature": "Mother whose protection of Sibyl he distrusts."
+				},
+				{
+					"key": "dorian_gray",
+					"nature": "The man he seeks to kill for ruining Sibyl."
+				}
+			],
+			"firstChapterId": "c06"
+		},
+		{
+			"key": "mrs_vane",
+			"name": "Mrs. Vane",
+			"aliases": [
+				"Mother"
+			],
+			"role": "Sibyl and James’s mother, a faded actress dependent on the theatre.",
+			"age": "A middle-aged woman",
+			"appearance": "A faded, tired-looking woman with a thin face, dry thin lips and hands whitened with bismuth powder. She wears worn theatrical clothing and false jewels, and often arranges herself with elaborate gestures.",
+			"personality": "Anxious, vain and theatrical, yet capable of feeling shame and affection for her children.",
+			"motivation": "She wants financial security and hopes Sibyl’s wealthy admirer will offer a respectable marriage.",
+			"fears": "Poverty, exposure of her past and her son’s judgment.",
+			"speech": "She uses stately stage gestures and repeated phrases, speaks querulously about money and propriety, and turns private distress into a scene.",
+			"arc": "She urges prudence and considers Dorian’s apparent wealth, admits to James that she never married his father, and later gives evidence at Sibyl’s inquest.",
+			"relationships": [
+				{
+					"key": "sibyl_vane",
+					"nature": "Daughter whose acting supports them and whose romance she regards with mixed concern and ambition."
+				},
+				{
+					"key": "james_vane",
+					"nature": "Son whose direct questions unsettle her."
+				}
+			],
+			"firstChapterId": "c06"
+		},
+		{
+			"key": "alan_campbell",
+			"name": "Alan Campbell",
+			"aliases": [
+				"Alan",
+				"Campbell"
+			],
+			"role": "Chemist and estranged former intimate whom Dorian coerces into destroying Basil’s body.",
+			"age": "A young man",
+			"appearance": "A pale, lean-looking young man with coal-black hair, dark eyebrows and a steady gaze. He wears sober fashionable clothes and an Astrakhan coat, keeping his hands in its pockets when he first confronts Dorian.",
+			"personality": "Intelligent, reserved and resolute, with a deep aversion to Dorian after their estrangement.",
+			"motivation": "He wants to keep clear of Dorian and protect himself from the disgrace threatened in Dorian’s letter.",
+			"fears": "The exposure threatened by Dorian’s blackmail and involvement in his crime.",
+			"speech": "He speaks slowly, coldly and with deliberate, repeated refusals; under pressure his sentences become short and mechanical.",
+			"arc": "He refuses to help conceal the murder until Dorian blackmails him; he destroys the body and later shoots himself.",
+			"relationships": [
+				{
+					"key": "dorian_gray",
+					"nature": "Former close friend who forces him to dispose of Basil’s body."
+				},
+				{
+					"key": "basil_hallward",
+					"nature": "The murdered man whose body he is compelled to destroy."
+				}
+			],
+			"firstChapterId": "c15"
+		}
+	],
+	"places": [
+		{
+			"key": "basil_studio",
+			"name": "Basil Hallward’s studio",
+			"description": "The painter’s London studio, where Dorian sits for the portrait and meets Lord Henry.",
+			"visual": "A huge window with long tussore-silk curtains, an upright easel and a divan of Persian saddle-bags; an open door leads to a rose- and lilac-scented garden."
+		},
+		{
+			"key": "dorian_house",
+			"name": "Dorian’s London house",
+			"description": "His fashionable house near Grosvenor Square, a setting for hospitality and concealment.",
+			"visual": "An oak-panelled entrance hall with a gilt Venetian lantern leads to a richly furnished library, a great hearth, a secret press and an octagonal bedroom hung with Renaissance tapestries."
+		},
+		{
+			"key": "schoolroom",
+			"name": "The old schoolroom",
+			"description": "Dorian’s locked childhood room at the top of the house, where he hides the portrait.",
+			"visual": "Dust, worn carpet and mildew surround a painted Italian cassone, a nearly empty bookcase and faded Flemish tapestry; the portrait hangs behind a purple-and-gold curtain."
+		},
+		{
+			"key": "royal_theatre",
+			"name": "Royal Theatre, Holborn",
+			"description": "The shabby theatre where Dorian discovers Sibyl and later rejects her.",
+			"visual": "Flaming gas-jets and gaudy bills outside; within are dingy stalls, a crowded pit and gallery, tawdry Cupids, a vulgar drop-scene and a dusty greenroom."
+		},
+		{
+			"key": "vane_home",
+			"name": "The Vanes’ lodgings",
+			"description": "The modest Euston Road home shared by Sibyl, James and their mother.",
+			"visual": "A dingy sitting-room with one armchair, a stained tablecloth and worn theatrical clothing; omnibuses and cabs rumble outside."
+		},
+		{
+			"key": "lord_henry_library",
+			"name": "Lord Henry’s library",
+			"description": "His Mayfair room, where Dorian describes his love for Sibyl.",
+			"visual": "Olive-stained oak panelling, cream raised plaster, a brickdust carpet and fringed Persian rugs; blue china jars and tulips stand by a Louis Quatorze clock."
+		},
+		{
+			"key": "opium_den",
+			"name": "The riverside opium den",
+			"description": "A shabby house near the quay where Dorian seeks oblivion and James hears his nickname.",
+			"visual": "Wedged between factories, it has a tattered green curtain, flaring gas-jets reflected in fly-blown mirrors, muddy sawdust, a painted bar and a dark room of ragged mattresses."
+		},
+		{
+			"key": "selby_royal",
+			"name": "Selby Royal",
+			"description": "Dorian’s luxurious Nottinghamshire country house and the scene of James’s death.",
+			"visual": "A glass conservatory with palms and tiled floor opens towards terraces and gardens; beyond lie an avenue, pine-wood, alder thicket and the stables of the Home Farm."
+		}
+	],
+	"timeline": [
+		{
+			"chapterId": "c02",
+			"title": "Chapter 1",
+			"summary": "Basil explains his devotion to Dorian and his refusal to exhibit the portrait; Lord Henry is determined to meet the sitter.",
+			"events": [
+				"Lord Henry praises the portrait, but Basil refuses to exhibit it.",
+				"In the garden Basil describes meeting Dorian and the new artistic vision he inspires.",
+				"Basil says the portrait might expose his private idolatry.",
+				"Parker announces Dorian, and Basil asks Harry not to influence him."
+			],
+			"present": [
+				"basil_hallward",
+				"lord_henry"
+			],
+			"knowledge": [
+				{
+					"key": "lord_henry",
+					"learns": "Basil’s sitter is Dorian Gray, whose personality has transformed his art and whom he fears to expose in the portrait."
+				},
+				{
+					"key": "basil_hallward",
+					"learns": "Harry knows Dorian’s name from Lady Agatha and is about to meet him."
+				}
+			],
+			"mood": "Languid, intimate, ominous"
+		},
+		{
+			"chapterId": "c03",
+			"title": "Chapter 2",
+			"summary": "Dorian meets Lord Henry, wishes the finished portrait could age in his place, and chooses Harry’s company.",
+			"events": [
+				"Dorian persuades Basil to let Lord Henry remain during the sitting.",
+				"Harry speaks of temptation and youth, unsettling and fascinating Dorian.",
+				"Basil finishes the portrait; Dorian wishes it would age while he remained young.",
+				"Dorian stops Basil from slashing the canvas with a palette-knife.",
+				"Dorian goes to the theatre with Harry despite Basil’s plea to stay."
+			],
+			"present": [
+				"dorian_gray",
+				"basil_hallward",
+				"lord_henry"
+			],
+			"knowledge": [
+				{
+					"key": "dorian_gray",
+					"learns": "The portrait and Harry’s warning make him conscious of his beauty and its eventual loss."
+				},
+				{
+					"key": "basil_hallward",
+					"learns": "Dorian is deeply disturbed by the portrait and resists its destruction."
+				}
+			],
+			"mood": "Seductive, exalted, anxious"
+		},
+		{
+			"chapterId": "c04",
+			"title": "Chapter 3",
+			"summary": "Lord Henry learns Dorian’s family history and tightens his hold on him at Lady Agatha’s luncheon.",
+			"events": [
+				"Lord Fermor tells Harry of Dorian’s beautiful mother and the suspected arranged killing of her husband.",
+				"Harry decides to dominate Dorian’s personality.",
+				"At Lady Agatha’s luncheon Harry entertains the guests with paradoxes while Dorian watches.",
+				"Dorian chooses to accompany Harry to the park instead of visiting Basil."
+			],
+			"present": [
+				"lord_henry",
+				"dorian_gray"
+			],
+			"knowledge": [
+				{
+					"key": "lord_henry",
+					"learns": "Dorian’s mother married a poor soldier who died in a duel under suspicious circumstances; she died within a year."
+				},
+				{
+					"key": "dorian_gray",
+					"learns": "He decides he would rather follow Harry than keep his appointment with Basil."
+				}
+			],
+			"mood": "Witty, fascinated, predatory"
+		},
+		{
+			"chapterId": "c05",
+			"title": "Chapter 4",
+			"summary": "Dorian tells Harry about discovering and loving Sibyl Vane; later he telegraphs news of their engagement.",
+			"events": [
+				"Waiting for Harry, Dorian meets Lady Henry in the Mayfair library.",
+				"He describes finding Sibyl at a shabby theatre and being enchanted by her Shakespearean roles.",
+				"He plans to free her from her contract and present her in a West End theatre.",
+				"Harry and Dorian arrange to see her as Juliet with Basil.",
+				"That night Harry receives Dorian’s telegram announcing the engagement."
+			],
+			"present": [
+				"dorian_gray",
+				"lord_henry"
+			],
+			"knowledge": [
+				{
+					"key": "lord_henry",
+					"learns": "Dorian loves the actress Sibyl Vane and, by telegram that night, is engaged to her."
+				},
+				{
+					"key": "dorian_gray",
+					"learns": "He recognizes Harry’s influence on his appetite for experience and expects to tell him everything."
+				}
+			],
+			"mood": "Rapturous, amused, expectant"
+		},
+		{
+			"chapterId": "c06",
+			"title": "Chapter 5",
+			"summary": "Sibyl celebrates her love while James, leaving for Australia, fears for her and vows revenge on her unknown admirer.",
+			"events": [
+				"Sibyl tells her mother of her happiness; Mrs. Vane worries about debts and considers the admirer’s wealth.",
+				"James asks his mother to protect Sibyl and takes his sister for a walk.",
+				"Dorian passes in a carriage, but another vehicle prevents James from seeing him.",
+				"James vows to kill Prince Charming if he wrongs Sibyl.",
+				"Mrs. Vane admits she was not married to their father; James repeats his threat and departs."
+			],
+			"present": [
+				"sibyl_vane",
+				"james_vane",
+				"mrs_vane",
+				"dorian_gray"
+			],
+			"knowledge": [
+				{
+					"key": "james_vane",
+					"learns": "His mother was not married to his father, and Sibyl calls her unnamed admirer Prince Charming."
+				},
+				{
+					"key": "mrs_vane",
+					"learns": "James threatens to find and kill Sibyl’s admirer if he wrongs her."
+				}
+			],
+			"mood": "Joyful, protective, foreboding"
+		},
+		{
+			"chapterId": "c07",
+			"title": "Chapter 6",
+			"summary": "At dinner before the theatre, Dorian describes his engagement and defends love against Harry’s theories.",
+			"events": [
+				"Harry tells Basil that Dorian is engaged to an actress.",
+				"Dorian arrives and recounts kissing Sibyl after her performance as Rosalind.",
+				"He says their engagement is secret and explains that she spoke of being unworthy to be his wife.",
+				"Basil and Harry dispute pleasure and morality with Dorian.",
+				"They leave for the theatre, Basil following alone and feeling his loss."
+			],
+			"present": [
+				"dorian_gray",
+				"lord_henry",
+				"basil_hallward"
+			],
+			"knowledge": [
+				{
+					"key": "basil_hallward",
+					"learns": "Dorian is secretly engaged to Sibyl and intends an irrevocable marriage."
+				},
+				{
+					"key": "lord_henry",
+					"learns": "Dorian and Sibyl became engaged without a formal proposal after exchanging a kiss."
+				}
+			],
+			"mood": "Exuberant, argumentative, wistful"
+		},
+		{
+			"chapterId": "c08",
+			"title": "Chapter 7",
+			"summary": "Sibyl acts badly because real love has displaced the stage for her; Dorian rejects her and discovers a cruel change in the portrait.",
+			"events": [
+				"Basil blesses the proposed marriage before Sibyl appears as Juliet.",
+				"Her performance fails, and Harry and Basil leave after the second act.",
+				"In the greenroom Sibyl says love has made theatrical passion unreal to her.",
+				"Dorian rejects her despite her pleas and wanders London until dawn.",
+				"At home he sees cruelty in the portrait’s mouth and resolves to make amends to Sibyl."
+			],
+			"present": [
+				"dorian_gray",
+				"sibyl_vane",
+				"basil_hallward",
+				"lord_henry"
+			],
+			"knowledge": [
+				{
+					"key": "dorian_gray",
+					"learns": "Sibyl believes love has destroyed her ability to act; he sees the portrait’s altered expression and suspects his wish has come true."
+				},
+				{
+					"key": "sibyl_vane",
+					"learns": "Dorian values her acting so highly that he says he no longer loves her."
+				}
+			],
+			"mood": "Humiliation, cruelty, dawning horror"
+		},
+		{
+			"chapterId": "c09",
+			"title": "Chapter 8",
+			"summary": "Dorian confirms the portrait has changed, learns Sibyl is dead, and embraces the prospect of youth without visible shame.",
+			"events": [
+				"Dorian uncovers the portrait and confirms the cruel expression remains.",
+				"He writes Sibyl a passionate letter asking forgiveness.",
+				"Lord Henry arrives and tells him she was found dead after swallowing a theatrical substance.",
+				"Harry frames her death as a beautiful tragedy and persuades Dorian towards detachment.",
+				"Dorian chooses to let the portrait bear his shame and goes to the opera."
+			],
+			"present": [
+				"dorian_gray",
+				"lord_henry"
+			],
+			"knowledge": [
+				{
+					"key": "dorian_gray",
+					"learns": "Sibyl is dead; Harry believes she deliberately poisoned herself. Dorian confirms that the portrait has changed."
+				},
+				{
+					"key": "lord_henry",
+					"learns": "Dorian had not read his letter and did not know of Sibyl’s death; he does not learn the portrait’s secret."
+				}
+			],
+			"mood": "Shock, persuasion, cold resolve"
+		},
+		{
+			"chapterId": "c10",
+			"title": "Chapter 9",
+			"summary": "Basil is shocked by Dorian’s response to Sibyl’s death and confesses his former artistic idolatry without seeing the portrait.",
+			"events": [
+				"Basil visits to console Dorian and learns he went to the opera.",
+				"Dorian tells Basil he believes Sibyl killed herself and demands that he help him forget.",
+				"Basil tries to see the screened portrait and mentions his plan to exhibit it in Paris.",
+				"Dorian forbids him to look and demands his reason for originally concealing it.",
+				"Basil confesses his worship; Dorian keeps the portrait’s true change secret."
+			],
+			"present": [
+				"dorian_gray",
+				"basil_hallward"
+			],
+			"knowledge": [
+				{
+					"key": "basil_hallward",
+					"learns": "Dorian believes Sibyl’s death was suicide and refuses to let him see or exhibit the portrait."
+				},
+				{
+					"key": "dorian_gray",
+					"learns": "Basil had feared the portrait revealed his intense devotion, not the supernatural change Dorian hides."
+				}
+			],
+			"mood": "Grief, alarm, strained intimacy"
+		},
+		{
+			"chapterId": "c11",
+			"title": "Chapter 10",
+			"summary": "Dorian hides the portrait in his old schoolroom and becomes absorbed in a yellow book sent by Harry.",
+			"events": [
+				"Dorian obtains the schoolroom key from Mrs. Leaf and covers the portrait with a purple-and-gold textile.",
+				"He sends Victor away and has Mr. Hubbard and an assistant carry the covered picture upstairs.",
+				"He locks the portrait in the dusty room of his childhood.",
+				"A newspaper reports the inquest’s verdict of death by misadventure.",
+				"Dorian reads Harry’s yellow book until he is late for their dinner."
+			],
+			"present": [
+				"dorian_gray"
+			],
+			"knowledge": [
+				{
+					"key": "dorian_gray",
+					"learns": "The inquest has returned a verdict of death by misadventure; the yellow book fascinates him."
+				}
+			],
+			"mood": "Secretive, fearful, entranced"
+		},
+		{
+			"chapterId": "c12",
+			"title": "Chapter 11",
+			"summary": "Over years Dorian cultivates sensation and luxury while the portrait ages and rumours of his conduct spread.",
+			"events": [
+				"Dorian acquires nine differently bound copies of the yellow book.",
+				"He compares his unchanged face with the increasingly corrupt and aged portrait.",
+				"He pursues religion, perfumes, music, jewels, textiles and historical fantasies.",
+				"He visits disreputable places and fears discovery of the locked picture.",
+				"Scandals gather around him, though his beauty and wealth continue to protect him."
+			],
+			"present": [
+				"dorian_gray"
+			],
+			"knowledge": [
+				{
+					"key": "dorian_gray",
+					"learns": "Across the years his own appearance remains youthful while the portrait shows both age and degradation."
+				}
+			],
+			"mood": "Sumptuous, obsessive, decaying"
+		},
+		{
+			"chapterId": "c13",
+			"title": "Chapter 12",
+			"summary": "On the eve of Dorian’s thirty-eighth birthday, Basil confronts him with damaging rumours and Dorian offers to show him his soul.",
+			"events": [
+				"Basil stops Dorian in the fog before leaving for Paris.",
+				"In Dorian’s library Basil recounts rumours about ruined friends and women.",
+				"Dorian deflects blame and attacks society’s hypocrisy.",
+				"Basil says he would need to see Dorian’s soul to know the truth.",
+				"Dorian takes a lamp and invites Basil upstairs to see his secret."
+			],
+			"present": [
+				"dorian_gray",
+				"basil_hallward"
+			],
+			"knowledge": [
+				{
+					"key": "dorian_gray",
+					"learns": "Basil has heard detailed accusations about the harm associated with Dorian’s friendships."
+				},
+				{
+					"key": "basil_hallward",
+					"learns": "Dorian refuses a plain denial and promises to show him a private record upstairs."
+				}
+			],
+			"mood": "Fogbound, accusatory, tense"
+		},
+		{
+			"chapterId": "c14",
+			"title": "Chapter 13",
+			"summary": "Dorian shows Basil the corrupted portrait, kills him, and begins to construct an alibi.",
+			"events": [
+				"Dorian uncovers the portrait and Basil recognizes his signature and altered work.",
+				"Basil urges Dorian to pray and repent.",
+				"Dorian seizes a knife from the chest and repeatedly stabs Basil.",
+				"He hides Basil’s coat and bag, then leaves and rings his own bell to create an apparent return home.",
+				"He finds Alan Campbell’s address in the Blue Book."
+			],
+			"present": [
+				"dorian_gray",
+				"basil_hallward"
+			],
+			"knowledge": [
+				{
+					"key": "basil_hallward",
+					"learns": "His portrait has become a hideous image that Dorian claims is his soul."
+				},
+				{
+					"key": "dorian_gray",
+					"learns": "Basil recognizes the picture and believes repentance might still be possible."
+				}
+			],
+			"mood": "Revelation, horror, murderous calm"
+		},
+		{
+			"chapterId": "c15",
+			"title": "Chapter 14",
+			"summary": "Dorian blackmails Alan Campbell into destroying Basil’s body and sees a bloodlike stain on the portrait’s hand.",
+			"events": [
+				"Dorian sends for Alan and waits in mounting terror.",
+				"Alan refuses to help even after Dorian admits the death was murder.",
+				"Dorian writes a threat and shows him an already addressed letter; Alan yields.",
+				"Alan’s chemicals arrive, and Dorian sends the servant away.",
+				"Dorian covers the portrait after seeing red dew on its hand; Alan works upstairs and the body disappears."
+			],
+			"present": [
+				"dorian_gray",
+				"alan_campbell"
+			],
+			"knowledge": [
+				{
+					"key": "alan_campbell",
+					"learns": "Dorian has murdered a man upstairs and will send a damaging letter unless Alan destroys the body."
+				},
+				{
+					"key": "dorian_gray",
+					"learns": "The portrait has developed a wet-looking red stain on one hand after the murder."
+				}
+			],
+			"mood": "Coercive, claustrophobic, dreadful"
+		},
+		{
+			"chapterId": "c16",
+			"title": "Chapter 15",
+			"summary": "Dorian conceals his nerves at dinner, burns Basil’s belongings, and sets out seeking oblivion.",
+			"events": [
+				"At Lady Narborough’s dinner Dorian struggles to eat while maintaining his polished manner.",
+				"Harry questions him about the previous night, and Dorian gives a confused account.",
+				"Dorian leaves early and burns Basil’s coat and bag in his library fire.",
+				"He examines a hidden box containing green paste, then puts it away.",
+				"In common dress and a muffler he hires a hansom towards the river."
+			],
+			"present": [
+				"dorian_gray",
+				"lord_henry"
+			],
+			"knowledge": [
+				{
+					"key": "lord_henry",
+					"learns": "Dorian is unusually nervous and gives an inconsistent account of his movements, though Harry does not know why."
+				}
+			],
+			"mood": "Brittle, nervous, craving"
+		},
+		{
+			"chapterId": "c17",
+			"title": "Chapter 16",
+			"summary": "At an opium den Dorian encounters Adrian Singleton; James Vane tracks him by his nickname but lets him go.",
+			"events": [
+				"Dorian rides through rain and fog to a riverside den seeking forgetfulness.",
+				"He meets Adrian Singleton and decides to seek another den.",
+				"A woman calls Dorian Prince Charming as he leaves; a sailor follows.",
+				"James Vane threatens him with a revolver for Sibyl’s death.",
+				"Dorian points to his youthful face under a lamp, and James releases him.",
+				"The woman tells James Dorian has looked young for eighteen years; James pursues him too late."
+			],
+			"present": [
+				"dorian_gray",
+				"james_vane"
+			],
+			"knowledge": [
+				{
+					"key": "james_vane",
+					"learns": "The man called Prince Charming appears too young, but a woman swears he has remained youthful for eighteen years."
+				},
+				{
+					"key": "dorian_gray",
+					"learns": "Sibyl’s brother James has sought him for years and intends to kill him."
+				}
+			],
+			"mood": "Sordid, hunted, narrowly reprieved"
+		},
+		{
+			"chapterId": "c18",
+			"title": "Chapter 17",
+			"summary": "At Selby Royal, society banter is broken when Dorian sees James Vane at the conservatory window.",
+			"events": [
+				"Dorian takes tea with the Duchess of Monmouth and other house guests.",
+				"Harry and the duchess exchange rapid paradoxes about beauty, England and love.",
+				"Dorian goes to fetch orchids for the duchess.",
+				"He sees James’s face at the window and faints.",
+				"After recovering, he insists on coming down to dinner rather than being alone."
+			],
+			"present": [
+				"dorian_gray",
+				"lord_henry"
+			],
+			"knowledge": [
+				{
+					"key": "dorian_gray",
+					"learns": "He sees James Vane watching him at Selby and believes his pursuer has found him."
+				}
+			],
+			"mood": "Sparkling, flirtatious, abruptly terrified"
+		},
+		{
+			"chapterId": "c19",
+			"title": "Chapter 18",
+			"summary": "Dorian fears pursuit, then discovers that the stranger accidentally shot during a hunt was James Vane.",
+			"events": [
+				"Dorian remains indoors in terror, then persuades himself the face at the window was imaginary.",
+				"On the third day he joins the shooting-party and asks Geoffrey not to shoot a hare.",
+				"Geoffrey fires and fatally wounds a man hidden in the thicket.",
+				"Dorian calls the death a bad omen and plans to return to town.",
+				"The keeper says the dead stranger was a tattooed sailor carrying a revolver.",
+				"Dorian rides to the Home Farm and recognizes James’s body."
+			],
+			"present": [
+				"dorian_gray",
+				"lord_henry",
+				"james_vane"
+			],
+			"knowledge": [
+				{
+					"key": "dorian_gray",
+					"learns": "The man killed in the thicket was James Vane, so his immediate pursuer is dead."
+				},
+				{
+					"key": "lord_henry",
+					"learns": "A man has been accidentally shot during the hunt; Dorian is badly shaken."
+				}
+			],
+			"mood": "Paranoid, violent, relieved"
+		},
+		{
+			"chapterId": "c20",
+			"title": "Chapter 19",
+			"summary": "Dorian tells Harry he has spared Hetty and intends to reform; Harry dismisses his hints about Basil’s murder.",
+			"events": [
+				"Dorian tells Harry he left the village girl Hetty rather than take her away.",
+				"Harry questions the value and consequences of this renunciation.",
+				"Harry reports discussion of Basil’s disappearance, his own divorce and Alan Campbell’s suicide.",
+				"Dorian asks what Harry would think if he had murdered Basil; Harry refuses to believe him capable of it.",
+				"Dorian speaks of the soul and asks Harry never to lend the poisonous book again."
+			],
+			"present": [
+				"dorian_gray",
+				"lord_henry"
+			],
+			"knowledge": [
+				{
+					"key": "lord_henry",
+					"learns": "Dorian says he left Hetty and wants to change; Harry treats his suggestion that he killed Basil as a pose."
+				},
+				{
+					"key": "dorian_gray",
+					"learns": "Alan Campbell has killed himself, and the police disagree about Basil’s journey to Paris."
+				}
+			],
+			"mood": "Reflective, evasive, uneasy"
+		},
+		{
+			"chapterId": "c21",
+			"title": "Chapter 20",
+			"summary": "Dorian seeks evidence of reform in the portrait, sees hypocrisy instead, and stabs the canvas; servants find him dead and aged.",
+			"events": [
+				"Dorian returns home longing for the purity of his boyhood and smashes his mirror.",
+				"He considers confession but dwells chiefly on escaping his past.",
+				"He uncovers the portrait and finds a look of cunning and hypocrisy and more bloodlike staining.",
+				"Rejecting confession, he stabs the picture with the knife that killed Basil.",
+				"Servants enter by the balcony and find the restored portrait and an old, disfigured dead man identifiable by his rings."
+			],
+			"present": [
+				"dorian_gray"
+			],
+			"knowledge": [
+				{
+					"key": "dorian_gray",
+					"learns": "The portrait shows no visible cleansing after his treatment of Hetty; he recognizes vanity, hypocrisy and curiosity in his supposed good deed."
+				}
+			],
+			"mood": "Remorseful, desperate, fatal"
+		}
+	],
+	"divergencePoints": [
+		{
+			"id": "portrait_wish",
+			"chapterId": "c03",
+			"label": "The Wish Unspoken",
+			"moment": "Confronted with his finished portrait and Harry’s warning about age, Dorian wishes that the picture could grow old in his place.",
+			"canonOutcome": "He declares that he would give everything, even his soul, to remain young while the portrait ages.",
+			"whatIf": "What if Dorian held back his wish and told Basil instead how frightened he was of growing old?",
+			"stakes": "His bond with Basil and the fate of his beauty hang on the response."
+		},
+		{
+			"id": "knife_at_easel",
+			"chapterId": "c03",
+			"label": "Basil’s Palette-Knife",
+			"moment": "Basil takes up a palette-knife, intending to destroy the portrait that has caused such distress.",
+			"canonOutcome": "Dorian tears the knife from Basil’s hand and saves the canvas.",
+			"whatIf": "What if Dorian reached Basil a moment too late to stop him cutting the portrait?",
+			"stakes": "The masterpiece and Dorian’s attachment to his painted image are at risk."
+		},
+		{
+			"id": "sibyl_mercy",
+			"chapterId": "c08",
+			"label": "After Juliet’s Failure",
+			"moment": "In the greenroom Sibyl explains that real love has made acting seem hollow and begs Dorian not to leave her.",
+			"canonOutcome": "Dorian tells her she has killed his love and leaves her sobbing on the floor.",
+			"whatIf": "What if Dorian stayed with Sibyl after her failed performance and listened to what love has changed for her?",
+			"stakes": "Their engagement and Sibyl’s life may turn on his response."
+		},
+		{
+			"id": "basil_sees",
+			"chapterId": "c10",
+			"label": "Behind the Screen",
+			"moment": "Basil approaches the screened portrait and asks to see his work before exhibiting it.",
+			"canonOutcome": "Dorian threatens to end their friendship, and Basil agrees not to look.",
+			"whatIf": "What if Basil pulled the screen aside before Dorian could stop him?",
+			"stakes": "Dorian’s secret and Basil’s chance to intervene would be exposed years earlier."
+		},
+		{
+			"id": "basil_prayer",
+			"chapterId": "c14",
+			"label": "A Prayer Upstairs",
+			"moment": "Basil urges Dorian to kneel and pray after seeing the corrupted portrait; a knife lies on the painted chest.",
+			"canonOutcome": "Dorian’s hatred surges, and he seizes the knife and murders Basil.",
+			"whatIf": "What if Dorian knelt with Basil instead of reaching for the knife?",
+			"stakes": "Basil’s life and the possibility of Dorian’s repentance are at stake."
+		},
+		{
+			"id": "alan_refuses",
+			"chapterId": "c15",
+			"label": "Alan’s Refusal",
+			"moment": "Dorian threatens Alan with an already addressed letter unless he destroys the body upstairs.",
+			"canonOutcome": "Alan yields to the blackmail, obtains his chemicals and removes the body.",
+			"whatIf": "What if Alan refused even after reading Dorian’s threat and walked out of the house?",
+			"stakes": "Alan risks exposure while Dorian risks discovery of the murder."
+		},
+		{
+			"id": "james_lamp",
+			"chapterId": "c17",
+			"label": "Under the Gas-Lamp",
+			"moment": "James holds Dorian at gunpoint, and Dorian asks him to judge his age by his face in the light.",
+			"canonOutcome": "James thinks Dorian too young to be Sibyl’s lover and releases him.",
+			"whatIf": "What if James refused to trust Dorian’s youthful face under the lamp?",
+			"stakes": "Dorian’s life and James’s long-sought revenge hang on a moment’s judgment."
+		},
+		{
+			"id": "spare_the_hare",
+			"chapterId": "c19",
+			"label": "Let the Hare Live",
+			"moment": "Dorian asks Geoffrey not to shoot the hare running towards the alder thicket.",
+			"canonOutcome": "Geoffrey fires anyway and accidentally kills James Vane, who is hidden in the thicket.",
+			"whatIf": "What if Geoffrey listened to Dorian and lowered his gun before the hare reached the alders?",
+			"stakes": "James’s life and Dorian’s safety remain in direct conflict."
+		},
+		{
+			"id": "confession_or_knife",
+			"chapterId": "c21",
+			"label": "The Last Confession",
+			"moment": "Dorian studies the portrait’s bloodstained hands and considers whether he must confess Basil’s murder.",
+			"canonOutcome": "He rejects confession and stabs the picture, after which he is found dead and aged.",
+			"whatIf": "What if Dorian left the knife untouched and went downstairs to confess Basil’s murder?",
+			"stakes": "Public disgrace and punishment would replace the secrecy on which his life depends."
+		}
+	],
+	"visual": {
+		"era": "Late Victorian London and country-house society: dark tailored suits, evening dress, gaslight, horse-drawn cabs, trains and richly furnished interiors.",
+		"palette": "Rose, lilac, gold and peacock blue in luxurious rooms; fog-grey, muddy ochre and gas-yellow by the river; cold winter greens at Selby.",
+		"motifs": [
+			"The portrait behind purple and gold",
+			"Mirrors and reflected faces",
+			"Roses, lilacs and orchids",
+			"Cigarette smoke and gaslight",
+			"Jewels, brocades and lacquer",
+			"Knives and stains of red"
+		],
+		"comicStyle": "Use a late Victorian illustrated-book manner: precise ink contours and cross-hatching with restrained watercolour washes. Give rooms decorative borders and lingering panels of fabrics and flowers; tighten panels around faces, hands and objects as dread interrupts the polished surface."
+	},
+	"glossary": [
+		{
+			"term": "Dorian Gray",
+			"kind": "name",
+			"note": "The portrait’s sitter and its owner.",
+			"locales": {
+				"en": "Dorian Gray"
+			}
+		},
+		{
+			"term": "Lord Henry Wotton",
+			"kind": "name",
+			"note": "Dorian’s witty aristocratic friend.",
+			"locales": {
+				"en": "Lord Henry Wotton"
+			}
+		},
+		{
+			"term": "Basil Hallward",
+			"kind": "name",
+			"note": "The painter of Dorian’s portrait.",
+			"locales": {
+				"en": "Basil Hallward"
+			}
+		},
+		{
+			"term": "Sibyl Vane",
+			"kind": "name",
+			"note": "The young actress engaged to Dorian.",
+			"locales": {
+				"en": "Sibyl Vane"
+			}
+		},
+		{
+			"term": "James Vane",
+			"kind": "name",
+			"note": "Sibyl’s sailor brother.",
+			"locales": {
+				"en": "James Vane"
+			}
+		},
+		{
+			"term": "Prince Charming",
+			"kind": "name",
+			"note": "Sibyl’s name for Dorian, later heard by James.",
+			"locales": {
+				"en": "Prince Charming"
+			}
+		},
+		{
+			"term": "Alan Campbell",
+			"kind": "name",
+			"note": "The chemist blackmailed by Dorian.",
+			"locales": {
+				"en": "Alan Campbell"
+			}
+		},
+		{
+			"term": "Selby Royal",
+			"kind": "place",
+			"note": "Dorian’s Nottinghamshire country house.",
+			"locales": {
+				"en": "Selby Royal"
+			}
+		},
+		{
+			"term": "Royal Theatre, Holborn",
+			"kind": "place",
+			"note": "The theatre where Sibyl acts.",
+			"locales": {
+				"en": "Royal Theatre, Holborn"
+			}
+		},
+		{
+			"term": "hansom",
+			"kind": "object",
+			"note": "A horse-drawn cab used for journeys in London.",
+			"locales": {
+				"en": "hansom"
+			}
+		},
+		{
+			"term": "brougham",
+			"kind": "object",
+			"note": "An enclosed horse-drawn carriage.",
+			"locales": {
+				"en": "brougham"
+			}
+		},
+		{
+			"term": "cassone",
+			"kind": "object",
+			"note": "The painted Italian chest in the old schoolroom.",
+			"locales": {
+				"en": "cassone"
+			}
+		},
+		{
+			"term": "Hetty Merton",
+			"kind": "name",
+			"note": "The village girl Dorian says he spared.",
+			"locales": {
+				"en": "Hetty Merton"
+			}
+		}
+	]
+}

@@ -1,0 +1,29 @@
+/* The one stylesheet, in the shipped cascade order: the framework layer, the studio, the 404, the site layer, the fonts, then
+   Tailwind (tailwind.css: theme, preflight and the utilities the markup and scripts use). Everything but Tailwind is unlayered, as shipped. */
+@import "./tokens.css";
+@import "./brand.css";
+@import "./layout.css";
+@import "./studio/01-studio.css";
+@import "./studio/02-workspace.css";
+@import "./studio/03-composer.css";
+@import "./studio/04-masthead.css";
+@import "./studio/05-chapterPane.css";
+@import "./studio/06-reviseDock.css";
+@import "./studio/07-coverCard.css";
+@import "./studio/08-comic.css";
+@import "./studio/09-showcase.css";
+@import "./studio/10-workspace-phases.css";
+@import "./studio/11-composer-title-fit.css";
+@import "./studio/12-shelf.css";
+@import "./studio/13-dialog-shell.css";
+@import "./studio/14-reader-dialog.css";
+@import "./studio/15-build-dialog.css";
+@import "./studio/16-lightbox.css";
+@import "./studio/17-legal-dialog.css";
+@import "./studio/18-hosting.css";
+@import "./studio/19-model-settings.css";
+@import "./not-found.css";
+@import "./site.css";
+@import "./fonts.css";
+/* Tailwind follows in its own entry (tailwind.css, imported right after this one by Page.astro), so Tailwind compiles only its
+   own layers and never rewrites the site CSS (its color-mix() polyfill would otherwise split every color-mix declaration). */

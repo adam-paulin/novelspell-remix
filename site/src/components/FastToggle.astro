@@ -1,0 +1,24 @@
+---
+// The Fast mode switch: the writer for new chapters and revisions (Muse Spark Open, open weights, served by Baseten, instead of
+// Muse Wonder). One stored choice (localStorage `remix:fast`); every copy (the composer's and the revise dock's settings capsule,
+// a failed create's card) is bound to it, and each paints the stored state before first paint (src/lib/firstPaint.ts fastStart).
+// A real checkbox with role="switch". In the capsule (compact) it is a bolt and the switch, its name "Fast mode" read to screen
+// readers and shown as the tooltip; on a refused create's card the name is written beside it.
+import { en } from "../content/en";
+import Icon from "./ui/Icon.astro";
+import { inlineScript } from "../lib/inlineScript";
+import { fastStart } from "../lib/firstPaint";
+
+interface Props { where: "compose" | "dock" | "fail" }
+const { where } = Astro.props;
+const copy = en.studio.fast;
+const compact = where !== "fail";
+const firstPaint = inlineScript(fastStart);
+---
+<label data-classlist="remix-fast" data-fast-where={where} title={compact ? copy.tip : undefined}>
+	<input type="checkbox" role="switch" data-classlist="remix-fast-input" data-fast autocomplete="off" />
+	<span data-classlist="remix-fast-bolt" aria-hidden="true"><Icon name="tabler-outline-bolt" /></span>
+	<span data-classlist="remix-fast-track" aria-hidden="true"><span data-classlist="remix-fast-thumb"></span></span>
+	<span class:list={[compact && "sr-only"]} data-classlist="remix-fast-label">{copy.label}</span>
+	<script is:inline set:html={firstPaint}></script>
+</label>

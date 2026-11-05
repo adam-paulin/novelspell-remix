@@ -1,0 +1,8 @@
+---
+// A published book cover (the prepared <slug>-cover picture). Decorative: its button carries the label.
+import Picture from "./Picture.astro";
+
+interface Props { book: { slug: string } }
+const { book } = Astro.props;
+---
+<Picture name={`${book.slug}-cover`} alt="" class="block size-full object-cover" />

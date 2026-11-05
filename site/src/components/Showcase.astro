@@ -1,0 +1,23 @@
+---
+// Compose's comic column: one finished example per book (shown by <html data-book>), as the same card as a finished remix (its
+// cover, the book, the what-if, the opening line, Read this example and Share) over its comic. The images are lazy, so only the
+// selected book's download.
+import { en } from "../content/en";
+import books from "../data/books.json";
+import featuredBySlug from "../data/featured.json";
+import CoverCard from "./CoverCard.astro";
+import Picture from "./ui/Picture.astro";
+
+const copy = en.studio.featured;
+const featuredOf = featuredBySlug as Record<string, { id: string; book: string; request: string; images: { comic: string; cover: string; coverFull: string } }>;
+---
+{books.map((book) => {
+	const featured = featuredOf[book.slug];
+	if (!featured) throw new Error(`No featured example for ${book.slug} (src/data/featured.json)`);
+	return <figure class="m-0" data-classlist="remix-showcase" data-book-panel={book.slug}>
+	<CoverCard where="showcase" fixed={{ state: "example", id: featured.id, book: featured.book, request: featured.request, cover: featured.images.cover, coverFull: featured.images.coverFull }} />
+	<button type="button" class="block p-0" data-classlist="remix-showcase-comic" data-read-featured={featured.id} tabindex="-1" aria-hidden="true" aria-label={`${copy.read}: ${featured.request}`}>
+		<Picture name={featured.images.comic} alt={en.studio.result.comicAlt} class="block size-full" />
+	</button>
+</figure>;
+})}

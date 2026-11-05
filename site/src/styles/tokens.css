@@ -1,0 +1,91 @@
+/* Framework tokens (the Lander's brand theme): the locale list counter, the font stacks and every colour token, per theme on [data-theme]. */
+
+@counter-style locale-decimal-latn {
+  system: numeric;
+  symbols: "0" "1" "2" "3" "4" "5" "6" "7" "8" "9";
+  suffix: ". ";
+}
+
+html#SiteDocument[lang="en-US"] :is(ol.list-decimal, ol[type="1"], .legal-agreement ol:not([type]), [data-reader-prose] ol:not([type])) {
+  list-style-type: locale-decimal-latn;
+}
+
+:root {
+  color-scheme: light;
+  --font-body: "Wix Madefor Display", "Wix Madefor Display Fallback", "Wix Madefor Display Fallback Android", system-ui, sans-serif;
+  --font-heading: "Playfair Display", "Playfair Display Fallback", "Playfair Display Fallback Android";
+  --color-background-page: #fdfdfd;
+  --color-background-subtle: #f8f7f1;
+  --color-surface-default: #fefefd;
+  --color-surface-sunken: #ecebe6;
+  --color-surface-overlay: #fbfaf8;
+  --color-surface-primary: #656e43;
+  --color-on-surface: #343432;
+  --color-on-surface-muted: #575550;
+  --color-on-primary: #fff;
+  --color-border-muted: #dad9d3;
+  --color-border-primary: #656e43;
+  --color-focus-ring: #656e43;
+  --color-text-default: #343432;
+  --color-text-muted: #575550;
+  --color-text-subtle: #62605b;
+  --color-text-brand: #5c653a;
+  --color-text-accent: #785d39;
+  --color-icon-brand: #5c653a;
+  --color-action-primary-bg: #656e43;
+  --color-action-primary-text: #fff;
+  --color-action-primary-bg-hover: #59613a;
+  --color-border-accent: #997d59;
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --color-background-page: #fdfdfd;
+  --color-background-subtle: #f8f7f1;
+  --color-surface-default: #fefefd;
+  --color-surface-sunken: #ecebe6;
+  --color-surface-overlay: #fbfaf8;
+  --color-surface-primary: #656e43;
+  --color-on-surface: #343432;
+  --color-on-surface-muted: #575550;
+  --color-on-primary: #fff;
+  --color-border-muted: #dad9d3;
+  --color-border-primary: #656e43;
+  --color-focus-ring: #656e43;
+  --color-text-default: #343432;
+  --color-text-muted: #575550;
+  --color-text-subtle: #62605b;
+  --color-text-brand: #5c653a;
+  --color-text-accent: #785d39;
+  --color-icon-brand: #5c653a;
+  --color-action-primary-bg: #656e43;
+  --color-action-primary-text: #fff;
+  --color-action-primary-bg-hover: #59613a;
+  --color-border-accent: #997d59;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --color-background-page: #191a16;
+  --color-background-subtle: #1c1b16;
+  --color-surface-default: #2a2924;
+  --color-surface-sunken: #0c0b08;
+  --color-surface-overlay: #2f2e29;
+  --color-surface-primary: #919b6f;
+  --color-on-surface: #f7f5f0;
+  --color-on-surface-muted: #bfbeb8;
+  --color-on-primary: #000;
+  --color-border-muted: #494843;
+  --color-border-primary: #7f885d;
+  --color-focus-ring: #6d774b;
+  --color-text-default: #f7f5f0;
+  --color-text-muted: #bfbeb8;
+  --color-text-subtle: #a9a7a2;
+  --color-text-brand: #a3ad82;
+  --color-text-accent: #c1a581;
+  --color-icon-brand: #a3ad82;
+  --color-action-primary-bg: #919b6f;
+  --color-action-primary-text: #000;
+  --color-action-primary-bg-hover: #a6b184;
+  --color-border-accent: #9c805c;
+}

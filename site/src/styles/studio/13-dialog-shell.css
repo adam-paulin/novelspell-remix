@@ -1,0 +1,244 @@
+#SiteDocument:has(dialog[open]) {
+  overflow: hidden;
+}
+
+#SiteDocument #SiteBody [data-modal] {
+  --remix-dialog-ink-light: #1e1b1266;
+  --remix-dialog-ink-dark: #000000bf;
+  --remix-sheet-grab-light: #26221838;
+  --remix-sheet-grab-dark: #ffffff3d;
+  --remix-scroll-light: #26221847;
+  --remix-scroll-dark: #ffffff42;
+  --remix-scroll: light-dark(var(--remix-scroll-light), var(--remix-scroll-dark));
+  border-radius: var(--remix-radius-sheet);
+  background: var(--remix-sheet);
+  max-width: calc(100vw - 2rem);
+  max-height: min(92svh, 52rem);
+  color: var(--color-text-default);
+  box-shadow: var(--remix-shadow-sheet), 0 24px 48px -20px light-dark(var(--remix-dialog-ink-light), var(--remix-dialog-ink-dark)), 0 56px 110px -36px light-dark(var(--remix-dialog-ink-light), var(--remix-dialog-ink-dark));
+  opacity: 0;
+  transition: opacity var(--site-duration-fast) ease-in, translate var(--site-duration-fast) ease-in, scale var(--site-duration-fast) ease-in, display var(--site-duration-fast) allow-discrete, overlay var(--site-duration-fast) allow-discrete;
+  border: 0;
+  margin: auto;
+  padding: 0;
+  translate: 0 .75rem;
+  scale: .98;
+}
+
+#SiteDocument #SiteBody [data-modal][open] {
+  opacity: 1;
+  transition-duration: .2s;
+  transition-timing-function: var(--site-ease-out);
+  translate: 0;
+  scale: 1;
+}
+
+#SiteDocument #SiteBody [data-modal]::backdrop {
+  transition: background-color .2s, backdrop-filter .2s, display .2s allow-discrete, overlay .2s allow-discrete;
+  background: none;
+}
+
+#SiteDocument #SiteBody [data-modal][open]::backdrop {
+  background: var(--remix-backdrop);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+
+@starting-style {
+  #SiteDocument #SiteBody [data-modal][open] {
+    opacity: 0;
+    translate: 0 .75rem;
+    scale: .98;
+  }
+
+  #SiteDocument #SiteBody [data-modal][open]::backdrop {
+    -webkit-backdrop-filter: blur();
+    backdrop-filter: blur();
+    background: none;
+  }
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-sheet-grab"] {
+  display: none;
+}
+
+#SiteDocument #SiteBody [data-control][data-classlist~="remix-dialog-close"] {
+  z-index: 6;
+  width: 2.5rem;
+  min-height: 2.5rem;
+  color: var(--remix-ink-soft);
+  top: .875rem;
+  border-radius: .625rem;
+  position: absolute;
+  inset-inline-end: .875rem;
+}
+
+#SiteDocument #SiteBody [data-control][data-classlist~="remix-dialog-close"]:hover {
+  background: var(--remix-brand-tint);
+  color: var(--color-text-default);
+}
+
+@media (pointer: coarse) {
+  #SiteDocument #SiteBody [data-control][data-classlist~="remix-dialog-close"] {
+    width: 2.75rem;
+    min-height: 2.75rem;
+  }
+}
+
+#SiteDocument #SiteBody [data-modal] [autofocus]:focus {
+  outline: none;
+}
+
+#SiteDocument #SiteBody [data-modal] [data-classlist~="remix-measure"] {
+  max-width: 38rem;
+  margin-inline: auto;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-reader-bar"] {
+  border-bottom: 1px solid var(--remix-line);
+  min-height: 4.25rem;
+  padding: .75rem 4.25rem .75rem 1.75rem;
+}
+
+@media (width <= 63.999rem) {
+  #SiteDocument #SiteBody [data-classlist~="remix-reader-bar"] {
+    padding-inline-start: 1.25rem;
+  }
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-dialog-rule"] {
+  border-top: 2px solid var(--color-border-accent);
+  border-radius: 1px;
+  width: 2.5rem;
+  display: block;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-dialog-title"] {
+  font-family: var(--font-heading);
+  letter-spacing: -.015em;
+  text-wrap: balance;
+  font-size: clamp(1.75rem, 1.4rem + 1vw, 2.125rem);
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-dialog-lede"] {
+  color: var(--remix-ink-soft);
+  text-wrap: pretty;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-dialog-label"] {
+  color: var(--remix-ink-soft);
+  font-family: var(--font-body);
+  font-size: .8125rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-review"] {
+  gap: .75rem;
+  display: grid;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-review-row"] {
+  background: var(--remix-sheet-2);
+  border-radius: .75rem;
+  flex-direction: column;
+  gap: .25rem;
+  min-width: 0;
+  padding: .875rem 1.125rem;
+  display: flex;
+}
+
+#SiteDocument #SiteBody [data-classlist~="remix-review-value"] {
+  text-wrap: pretty;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+#SiteDocument #SiteBody dialog[data-modal][open][data-dragging] {
+  translate: 0 var(--sheet-drag, 0px);
+  transition: none;
+}
+
+@media (width <= 47.999rem) {
+  #SiteDocument #SiteBody [data-modal]:not([data-modal="comic"]) {
+    border-radius: var(--remix-radius-sheet) var(--remix-radius-sheet) 0 0;
+    width: 100%;
+    max-width: 100%;
+    max-height: 92svh;
+    box-shadow: var(--remix-shadow-sheet), 0 -18px 50px -20px light-dark(var(--remix-dialog-ink-light), var(--remix-dialog-ink-dark));
+    margin: auto 0 0;
+    padding-top: 1.25rem;
+    transition-duration: .2s;
+    translate: 0 100%;
+    scale: 1;
+  }
+
+  #SiteDocument #SiteBody [data-modal]:not([data-modal="comic"])[open] {
+    translate: 0;
+  }
+
+  #SiteDocument #SiteBody [data-modal]:not([data-modal="comic"]) [data-control]:not([data-control="icon"]) {
+    min-height: 3rem;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-review"] {
+    grid-column: 1 / -1;
+    margin: 0;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-sheet-grab"] {
+    z-index: 5;
+    cursor: grab;
+    touch-action: none;
+    width: 6rem;
+    height: 2rem;
+    margin-left: -3rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-sheet-grab"]:after {
+    content: "";
+    background: light-dark(var(--remix-sheet-grab-light), var(--remix-sheet-grab-dark));
+    border-radius: 3px;
+    width: 2.5rem;
+    height: 5px;
+    margin-left: -1.25rem;
+    position: absolute;
+    top: .5rem;
+    left: 50%;
+  }
+
+  #SiteDocument #SiteBody [data-control][data-classlist~="remix-dialog-close"] {
+    top: 1.125rem;
+  }
+
+  @starting-style {
+    #SiteDocument #SiteBody [data-modal][open]:not([data-modal="comic"]) {
+      translate: 0 100%;
+      scale: 1;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #SiteDocument #SiteBody [data-modal], #SiteDocument #SiteBody [data-modal][open] {
+    transition-property: opacity, display, overlay;
+    translate: none;
+    scale: none;
+  }
+
+  @starting-style {
+    #SiteDocument #SiteBody [data-modal][open] {
+      translate: none;
+      scale: none;
+    }
+  }
+}

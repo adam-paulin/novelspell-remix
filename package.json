@@ -1,0 +1,21 @@
+{
+  "name": "novelspell-remix",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NovelSpell Remix: a fork button for the classics. The Worker (server/) and the static site (site/) are separate npm packages; these scripts run them from the repo root.",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "type": "module",
+  "packageManager": "npm@11.21.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "setup": "npm --prefix site ci && npm --prefix server ci",
+    "dev:mock": "npm --prefix server run dev:mock",
+    "dev": "npm --prefix server run dev",
+    "build": "npm --prefix server run build:site",
+    "typecheck": "npm --prefix server run typecheck && npm --prefix site run check",
+    "test": "npm --prefix server test",
+    "smoke": "npm run typecheck && npm test && npm run build"
+  }
+}

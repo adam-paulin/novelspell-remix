@@ -1,0 +1,195 @@
+#SiteDocument #SiteBody #Studio {
+  background: var(--remix-canvas);
+  padding: 0;
+}
+
+#SiteDocument #SiteBody [data-studio] {
+  --remix-gap: clamp(1.5rem, 2vw, 2.5rem);
+  --remix-app-pad: 1.5rem;
+  --remix-title-size: var(--site-heading-section);
+  --remix-cover-h: clamp(11rem, 18dvh, 12.5rem);
+  --remix-art-chrome: calc(var(--remix-cover-h) + 2rem + .875rem);
+  --remix-side-w: clamp(15rem, min((100dvh - var(--remix-top, 0px) - 2 * var(--remix-app-pad) - var(--remix-art-chrome)) * 2 / 3, (100vw - 34rem - 3 * var(--remix-gap)) / 2), 46rem);
+  --remix-shelf-w: var(--remix-side-w);
+  --remix-art-w: var(--remix-side-w);
+}
+
+@media (width >= 64rem) {
+  #SiteDocument[data-page-name="Home"] {
+    --layout-header-height: 0px;
+    overflow: hidden;
+  }
+
+  #SiteDocument[data-page-name="Home"] #SiteBody :is(header[data-classlist~="Header"], footer[data-classlist~="Footer"]) {
+    display: none;
+  }
+
+  #SiteDocument #SiteBody [data-studio] {
+    --remix-top: 0px;
+    --remix-title-size: clamp(1.875rem, 2.5vw, 2.5rem);
+    /* The desktop frame. The art column drives it: --remix-side-w (above) is the width at which the cover card and the 2:3 comic fill the
+       column top to bottom (capped by the width the workspace needs). The shelf matches the art column plus its edge gutter, so the
+       workspace, which takes the rest, sits centred. One edge gutter (--remix-edge-pad) sits left of the logo and the first column of
+       covers, right of the second column inside the shelf, and right of the art column. The covers fill the shelf's width between
+       those gutters (the rows scroll under the fade); the tile padding (the selected plate around a cover) hangs into the gutter, so
+       the covers themselves line up with the logo. The workspace's top and bottom padding (--remix-app-pad) equals that gutter, so the
+       art column runs 1rem from the top and bottom edges and the composer's or dock's bottom lines up with the comic's. */
+    --remix-edge-pad: 1rem;
+    --remix-app-pad: 1rem;
+    --remix-gap: clamp(1.25rem, 1.5vw, 2rem);
+    --remix-tile-pad: .4375rem;
+    --remix-shelf-gap: .375rem;
+    --remix-shelf-pad: .75rem;
+    --remix-shelf-w: calc(var(--remix-side-w) + var(--remix-edge-pad));
+    --remix-shelf-cover-w: calc((var(--remix-shelf-w) - 1px - 2 * var(--remix-edge-pad) - var(--remix-shelf-gap) - 2 * var(--remix-tile-pad)) / 2);
+    grid-template-columns: var(--remix-shelf-w) minmax(0, 1fr);
+    max-width: none;
+    height: 100dvh;
+    display: grid;
+  }
+
+  #SiteDocument #SiteBody [data-studio] > [data-workspace] {
+    padding: var(--remix-app-pad) var(--remix-edge-pad) var(--remix-app-pad) var(--remix-gap);
+    grid-area: 1 / 2;
+  }
+
+  #SiteDocument #SiteBody [data-studio] > [data-rail] {
+    grid-area: 1 / 1;
+  }
+}
+
+@media (width >= 64rem) and (height <= 50rem) {
+  #SiteDocument #SiteBody [data-studio] {
+    --remix-title-size: clamp(1.625rem, 2.2vw, 2.125rem);
+  }
+}
+
+/* Phones and tablets: the shelf is the book picker bar (12-shelf.css), sticky under the page header, above the workspace. Its row
+   has a fixed height (the bar plus its 1px rule): the workspace's markup comes first, so an auto row would paint empty, then grow
+   when the shelf arrives and push the workspace down (CLS 0.059 at 412px). */
+@media (width <= 63.999rem) {
+  #SiteDocument #SiteBody [data-studio] {
+    --remix-picker-h: 3.25rem;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: calc(var(--remix-picker-h) + 1px) auto;
+    min-height: var(--layout-fold-height);
+    align-content: start;
+    padding-bottom: clamp(3rem, 6vw, 5rem);
+    display: grid;
+  }
+
+  #SiteDocument #SiteBody [data-studio] > [data-rail] {
+    z-index: 40;
+    height: calc(var(--remix-picker-h) + 1px);
+    top: var(--layout-sticky-header-offset, 0px);
+    grid-row: 1;
+    position: sticky;
+  }
+
+  #SiteDocument #SiteBody [data-studio] > [data-workspace] {
+    grid-row: 2;
+  }
+}
+
+#SiteDocument #SiteBody [data-book-panel] {
+  display: none;
+}
+
+#SiteDocument[data-book="frankenstein"] #SiteBody [data-book-panel="frankenstein"] {
+  display: var(--panel-display, block);
+}
+
+#SiteDocument[data-book="frankenstein"] #SiteBody [data-rail-book="frankenstein"] {
+  background-color: var(--remix-pick);
+  box-shadow: inset 0 0 0 1.5px var(--remix-pick-ring);
+}
+
+#SiteDocument[data-book="alices-adventures-in-wonderland"] #SiteBody [data-book-panel="alices-adventures-in-wonderland"] {
+  display: var(--panel-display, block);
+}
+
+#SiteDocument[data-book="alices-adventures-in-wonderland"] #SiteBody [data-rail-book="alices-adventures-in-wonderland"] {
+  background-color: var(--remix-pick);
+  box-shadow: inset 0 0 0 1.5px var(--remix-pick-ring);
+}
+
+#SiteDocument[data-book="a-christmas-carol"] #SiteBody [data-book-panel="a-christmas-carol"] {
+  display: var(--panel-display, block);
+}
+
+#SiteDocument[data-book="a-christmas-carol"] #SiteBody [data-rail-book="a-christmas-carol"] {
+  background-color: var(--remix-pick);
+  box-shadow: inset 0 0 0 1.5px var(--remix-pick-ring);
+}
+
+#SiteDocument[data-book="treasure-island"] #SiteBody [data-book-panel="treasure-island"] {
+  display: var(--panel-display, block);
+}
+
+#SiteDocument[data-book="treasure-island"] #SiteBody [data-rail-book="treasure-island"] {
+  background-color: var(--remix-pick);
+  box-shadow: inset 0 0 0 1.5px var(--remix-pick-ring);
+}
+
+#SiteDocument[data-book="the-picture-of-dorian-gray"] #SiteBody [data-book-panel="the-picture-of-dorian-gray"] {
+  display: var(--panel-display, block);
+}
+
+#SiteDocument[data-book="the-picture-of-dorian-gray"] #SiteBody [data-rail-book="the-picture-of-dorian-gray"] {
+  background-color: var(--remix-pick);
+  box-shadow: inset 0 0 0 1.5px var(--remix-pick-ring);
+}
+
+#SiteDocument[data-book="strange-case-of-dr-jekyll-and-mr-hyde"] #SiteBody [data-book-panel="strange-case-of-dr-jekyll-and-mr-hyde"] {
+  display: var(--panel-display, block);
+}
+
+#SiteDocument[data-book="strange-case-of-dr-jekyll-and-mr-hyde"] #SiteBody [data-rail-book="strange-case-of-dr-jekyll-and-mr-hyde"] {
+  background-color: var(--remix-pick);
+  box-shadow: inset 0 0 0 1.5px var(--remix-pick-ring);
+}
+
+#SiteDocument[data-book="the-wonderful-wizard-of-oz"] #SiteBody [data-book-panel="the-wonderful-wizard-of-oz"] {
+  display: var(--panel-display, block);
+}
+
+#SiteDocument[data-book="the-wonderful-wizard-of-oz"] #SiteBody [data-rail-book="the-wonderful-wizard-of-oz"] {
+  background-color: var(--remix-pick);
+  box-shadow: inset 0 0 0 1.5px var(--remix-pick-ring);
+}
+
+#SiteDocument[data-book="the-time-machine"] #SiteBody [data-book-panel="the-time-machine"] {
+  display: var(--panel-display, block);
+}
+
+#SiteDocument[data-book="the-time-machine"] #SiteBody [data-rail-book="the-time-machine"] {
+  background-color: var(--remix-pick);
+  box-shadow: inset 0 0 0 1.5px var(--remix-pick-ring);
+}
+
+#SiteDocument[data-book="the-hound-of-the-baskervilles"] #SiteBody [data-book-panel="the-hound-of-the-baskervilles"] {
+  display: var(--panel-display, block);
+}
+
+#SiteDocument[data-book="the-hound-of-the-baskervilles"] #SiteBody [data-rail-book="the-hound-of-the-baskervilles"] {
+  background-color: var(--remix-pick);
+  box-shadow: inset 0 0 0 1.5px var(--remix-pick-ring);
+}
+
+#SiteDocument[data-book="persuasion"] #SiteBody [data-book-panel="persuasion"] {
+  display: var(--panel-display, block);
+}
+
+#SiteDocument[data-book="persuasion"] #SiteBody [data-rail-book="persuasion"] {
+  background-color: var(--remix-pick);
+  box-shadow: inset 0 0 0 1.5px var(--remix-pick-ring);
+}
+
+#SiteDocument:not([data-book]) #SiteBody [data-book-panel="frankenstein"] {
+  display: var(--panel-display, block);
+}
+
+#SiteDocument:not([data-book]) #SiteBody [data-rail-book="frankenstein"] {
+  background-color: var(--remix-pick);
+  box-shadow: inset 0 0 0 1.5px var(--remix-pick-ring);
+}

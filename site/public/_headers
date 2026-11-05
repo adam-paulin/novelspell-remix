@@ -1,0 +1,49 @@
+/*
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; img-src 'self' data: blob: https:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; form-action 'self'; upgrade-insecure-requests
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), usb=(), xr-spatial-tracking=()
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
+  Link: </fonts/playfair-display/003-latin-e0c764a8e9e1.woff2>; rel=preload; as=font; type=font/woff2; crossorigin
+  Link: </fonts/wix-madefor-display/004-latin-19bf2f2f1eaa.woff2>; rel=preload; as=font; type=font/woff2; crossorigin
+
+/fonts/*
+  ! Link
+
+/images/*
+  ! Link
+
+/library/*
+  ! Link
+
+/maps/*
+  ! Link
+
+/*.ico
+  ! Link
+
+/*.txt
+  ! Link
+
+/*.webmanifest
+  ! Link
+
+/*.xml
+  ! Link
+
+/assets/*
+  ! Link
+  Cache-Control: public, max-age=31536000, immutable
+
+/__assets/*
+  ! Link
+  Cache-Control: public, max-age=31536000, immutable
+
+/fonts/playfair-display/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/fonts/wix-madefor-display/*
+  Cache-Control: public, max-age=31536000, immutable

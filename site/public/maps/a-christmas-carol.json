@@ -1,0 +1,765 @@
+{
+	"schema": "remix.bookMap/1",
+	"slug": "a-christmas-carol",
+	"title": "A Christmas Carol",
+	"author": "Charles Dickens",
+	"premise": "On Christmas Eve, Ebenezer Scrooge dismisses charity, family and the holiday itself while his clerk shivers over his work. That night his dead partner returns in chains, promising three spirits who will show him his own life and the lives around him.",
+	"hook": "A miser is given one haunted night to discover what his life has cost.",
+	"logline": "Warned by his condemned partner, Scrooge must face the past, present and possible future of his selfish life before his chance to change is lost.",
+	"world": {
+		"setting": "London counting-houses, crowded streets and modest homes at Christmas, with spectral journeys to Scrooge's childhood, other parts of Britain and the sea.",
+		"period": "Early Victorian Britain, around 1843",
+		"rules": [
+			"Business runs on ledgers, bills, cash and credit; clerks copy letters by hand and depend on their employers for wages and working conditions.",
+			"Coaches, carts, cabs and walking carry people through the city; gas lamps, candles and coal fires light and warm its rooms.",
+			"Poverty is managed through institutions including prisons and Union workhouses; private charity seeks food, drink and warmth for those in need.",
+			"Spirits can pass through walls and transport Scrooge across great distances and times; their visits take place within a single Christmas Eve night.",
+			"Past scenes are shadows that do not perceive Scrooge. During the present tour he and the Spirit are invisible, and his voice is inaudible to the company at Fred's.",
+			"Marley says spirits who neglected their fellow humans in life wander after death, fettered by chains they forged themselves and unable to help those they see.",
+			"The future shown to Scrooge follows from existing courses of conduct; the book presents its feared outcomes as alterable through a changed life.",
+			"Christmas is marked by churchgoing, family meals, games, gifts and greetings; some people take their dinners to bakers' ovens."
+		],
+		"tone": "Gothic dread and social indignation yield repeatedly to exuberant comedy, tenderness and Christmas warmth.",
+		"themes": [
+			"Responsibility for other people",
+			"The human cost of avarice",
+			"Memory and the possibility of change",
+			"Poverty, ignorance and social neglect",
+			"Family, fellowship and shared celebration"
+		],
+		"sensitivities": [
+			"The narrative uses period language about disability and portrays Tiny Tim's condition through sentiment and moral example.",
+			"Descriptions of poverty sometimes present poor people's bodies and neighbourhoods as grotesque or threatening."
+		]
+	},
+	"voice": {
+		"narration": "An intrusive, companionable narrator tells the story chiefly in past-tense third person, staying close to Scrooge while addressing the reader directly, offering opinions and entering other households with confident sympathy.",
+		"style": [
+			"Abrupt declarations and fragments alternate with long, rolling sentences joined by semicolons, colons and repeated conjunctions.",
+			"Exclamations, questions, capitals and dashes make the narration sound spoken; the narrator interrupts to argue a joke or insist on a detail.",
+			"Objects and weather acquire temper and purpose: fog brews, a bell shivers and food seems eager to be eaten.",
+			"Comic catalogues accumulate precise goods, gestures and people before turning toward generosity, loneliness or grief.",
+			"The grotesque and the homely stand together, with spiritual terror grounded in bed-curtains, gruel, chains and coal.",
+			"Victorian British diction and spellings include 'labour', 'colour', 'shew' where used, and contractions such as 'em and an't."
+		],
+		"dialogue": "Speech is enclosed in double quotation marks, with expressive tags and interruptions. Scrooge's clipped repetitions and growls give way to breathless exclamations; Fred argues expansively, Bob speaks deferentially, and the spirits range from gentle correction to solemn rebuke.",
+		"samplePassages": [
+			"Oh! But he was a tight-fisted hand at the grind-stone, Scrooge! a squeezing, wrenching, grasping, scraping, clutching, covetous, old sinner! Hard and sharp as flint, from which no steel had ever struck out generous fire; secret, and self-contained, and solitary as an oyster. The cold within him froze his old features, nipped his pointed nose, shrivelled his cheek, stiffened his gait; made his eyes red, his thin lips blue; and spoke out shrewdly in his grating voice. A frosty rime was on his head, and on his eyebrows, and his wiry chin.",
+			"There never was such a goose. Bob said he didn't believe there ever was such a goose cooked. Its tenderness and flavour, size and cheapness, were the themes of universal admiration. Eked out by apple-sauce and mashed potatoes, it was a sufficient dinner for the whole family; indeed, as Mrs. Cratchit said with great delight (surveying one small atom of a bone upon the dish), they hadn't ate it all at last! Yet every one had had enough, and the youngest Cratchits in particular, were steeped in sage and onion to the eyebrows!"
+		]
+	},
+	"cast": [
+		{
+			"key": "scrooge",
+			"name": "Scrooge",
+			"aliases": [
+				"Ebenezer Scrooge",
+				"Uncle Scrooge"
+			],
+			"role": "A solitary London businessman whose supernatural visitors confront him with his life.",
+			"age": "Old man; also seen as a boy and young man in past shadows",
+			"appearance": "Lean, stiff-gaited old man with a pointed nose, shrivelled cheeks, red eyes and thin blue lips. Frosty white hair, eyebrows and wiry chin frame his face. He wears a dark business coat, waistcoat and cravat; at home he has a dressing-gown, slippers and nightcap.",
+			"personality": "Initially hard, suspicious and coldly witty; underneath are strong feelings, a sharp mind and a capacity for delighted play.",
+			"motivation": "He pursues money and security, then seeks to make amends and use his remaining time generously.",
+			"fears": "Poverty and worldly reproach; later, a lonely death and the irreversible loss of Tiny Tim.",
+			"speech": "At first he snaps 'Bah! Humbug!' and dismisses people with repeated 'Good afternoon.' Fear brings jokes and faltering pleas; repentance releases warm greetings, thanks and breathless cries of delight.",
+			"arc": "The spirits awaken his memories and pity; he vows to change, reconciles with Fred and becomes a generous employer and friend.",
+			"relationships": [
+				{
+					"key": "marley",
+					"nature": "Dead business partner who procures his chance of rescue."
+				},
+				{
+					"key": "bob",
+					"nature": "Underpaid clerk; Scrooge later raises his salary and helps his family."
+				},
+				{
+					"key": "fred",
+					"nature": "Nephew whose invitations he rejects before joining his Christmas dinner."
+				},
+				{
+					"key": "belle",
+					"nature": "Former fiancée who releases him when gain becomes his ruling passion."
+				},
+				{
+					"key": "tim",
+					"nature": "His clerk's sick child, whom he comes to cherish as a second father."
+				}
+			],
+			"firstChapterId": "c02"
+		},
+		{
+			"key": "marley",
+			"name": "Jacob Marley",
+			"aliases": [
+				"Marley's Ghost",
+				"Old Jacob Marley"
+			],
+			"role": "Scrooge's dead partner, who returns to warn him and arrange the spirits' visits.",
+			"age": "Dead seven years; formerly an older businessman",
+			"appearance": "A transparent male ghost with a livid face, fixed death-cold eyes, hair and pigtail bristling as if in hot air, and spectacles on his forehead. He wears a waistcoat, coat, tights and tasselled boots, with a kerchief binding his head and jaw. A long chain of cash-boxes, keys, padlocks, ledgers, deeds and steel purses encircles him.",
+			"personality": "Remorseful, urgent and severe, yet concerned enough for Scrooge to procure him hope.",
+			"motivation": "He warns Scrooge against the fate he earned by neglecting mankind for business.",
+			"fears": "Unending remorse and the knowledge that missed opportunities cannot be recovered.",
+			"speech": "He speaks in emphatic declarations and cries of grief, correcting Scrooge sharply: 'Mankind was my business.' His speech rises into biblical and moral appeals.",
+			"arc": "His single visit turns an old partner's apparent business success into a warning about wasted human obligations.",
+			"relationships": [
+				{
+					"key": "scrooge",
+					"nature": "Former partner and sole mourner, whom he warns."
+				}
+			],
+			"firstChapterId": "c02"
+		},
+		{
+			"key": "bob",
+			"name": "Bob Cratchit",
+			"aliases": [
+				"Bob",
+				"Robert",
+				"the clerk"
+			],
+			"role": "Scrooge's poorly paid clerk and the affectionate father of a large family.",
+			"age": "Adult father",
+			"appearance": "A small man in threadbare, carefully darned and brushed clothes, with a long white comforter whose ends hang below his waist. He has no great-coat in the counting-house winter; he wears a modest dark coat and trousers and carries himself briskly.",
+			"personality": "Gentle, playful and appreciative, with deep tenderness for his family and tact even toward Scrooge.",
+			"motivation": "He supports his family on fifteen shillings a week and treasures their happiness and companionship.",
+			"fears": "Losing his employment and, more deeply, losing Tiny Tim.",
+			"speech": "He addresses Scrooge respectfully as 'sir', softening requests with 'if quite convenient.' At home he proposes blessings, praises his family and speaks feelingly, sometimes with a trembling voice.",
+			"arc": "He is first seen enduring Scrooge's meanness; a possible future shows him mourning Tim, while the changed Scrooge raises his salary and helps the family.",
+			"relationships": [
+				{
+					"key": "scrooge",
+					"nature": "Employer who threatens his place, then becomes his generous friend."
+				},
+				{
+					"key": "mrs_cratchit",
+					"nature": "His wife and partner in raising their children."
+				},
+				{
+					"key": "tim",
+					"nature": "His beloved youngest son, whom he carries on his shoulder."
+				},
+				{
+					"key": "fred",
+					"nature": "Scrooge's nephew, who kindly offers help in the future vision."
+				}
+			],
+			"firstChapterId": "c02"
+		},
+		{
+			"key": "fred",
+			"name": "Scrooge's nephew",
+			"aliases": [
+				"Fred"
+			],
+			"role": "Scrooge's cheerful nephew, who persists in offering family fellowship.",
+			"age": "Young married man",
+			"appearance": "A young man with a ruddy, handsome face and sparkling eyes. He wears a respectable dark coat, waistcoat and cravat; after walking in the frost his face glows and his breath steams. His easy posture often gives way to laughter.",
+			"personality": "Merry, persistent and compassionate, able to laugh at his uncle while feeling sorry for him.",
+			"motivation": "He wants friendship with Scrooge and believes Christmas opens people's hearts across social divisions.",
+			"fears": "He regrets his uncle's isolation and the pleasant company Scrooge denies himself.",
+			"speech": "He greets people heartily, laughs 'Ha, ha!' and answers Scrooge's objections with lively questions and generous, fluent arguments. He keeps his temper even when rebuffed.",
+			"arc": "He continues to invite and toast Scrooge despite rejection, then welcomes him wholeheartedly to dinner.",
+			"relationships": [
+				{
+					"key": "scrooge",
+					"nature": "Nephew who seeks his uncle's friendship."
+				},
+				{
+					"key": "bob",
+					"nature": "Treats the clerk kindly and offers help after Tim's death in the future vision."
+				}
+			],
+			"firstChapterId": "c02"
+		},
+		{
+			"key": "past",
+			"name": "Ghost of Christmas Past",
+			"aliases": [
+				"the first Spirit"
+			],
+			"role": "The first spirit, who shows Scrooge scenes from his own past.",
+			"age": "Child-sized, with the appearance of both a child and an old man",
+			"appearance": "A child-sized figure with long white hair, an unwrinkled blooming face, unusually long muscular bare arms and delicate bare legs and feet. A white tunic with summer flowers and a shining belt accompanies a holly branch. A clear jet of light rises from its head; it carries a great extinguisher-cap.",
+			"personality": "Gentle in manner but firm and searching, refusing to spare Scrooge painful memories.",
+			"motivation": "It comes for Scrooge's welfare and reclamation, exposing memories his passions have suppressed.",
+			"fears": "It resists Scrooge's attempt to put out the light it gives.",
+			"speech": "Its voice is soft, low and seemingly distant. It asks precise questions, gives brief corrections and calls the scenes 'shadows of the things that have been.'",
+			"arc": "It leads Scrooge from remembered childhood pleasures to the loss of Belle, then disappears beneath its cap as its light streams out.",
+			"relationships": [
+				{
+					"key": "scrooge",
+					"nature": "Guides him through his own past to awaken regret and sympathy."
+				}
+			],
+			"firstChapterId": "c03"
+		},
+		{
+			"key": "belle",
+			"name": "Belle",
+			"aliases": [],
+			"role": "Scrooge's former fiancée, who releases him when she sees his devotion to gain.",
+			"age": "Young woman in the parting scene; later a mother",
+			"appearance": "A fair young woman with a gentle face and tearful eyes, wearing a plain mourning-dress. In the later family scene she is a comely matron in a modest dress, seated by the winter fire.",
+			"personality": "Steady, perceptive and affectionate, though firm in the face of pain.",
+			"motivation": "She wants a marriage founded on shared affection rather than Scrooge's fear of poverty and pursuit of gain.",
+			"fears": "A marriage made miserable by his changed priorities and his likely regret at choosing a dowerless wife.",
+			"speech": "She speaks softly and with measured, closely reasoned sentences, asking Scrooge to examine his feelings before releasing him with a blessing.",
+			"arc": "She ends their engagement and is later seen in a lively, loving household with her husband and children.",
+			"relationships": [
+				{
+					"key": "scrooge",
+					"nature": "Former fiancée who releases him from their old engagement."
+				}
+			],
+			"firstChapterId": "c03"
+		},
+		{
+			"key": "present_spirit",
+			"name": "Ghost of Christmas Present",
+			"aliases": [
+				"the second Spirit"
+			],
+			"role": "A genial spirit who shows Scrooge Christmas celebrations and the suffering hidden among them.",
+			"age": "Very young at first; ages rapidly and dies at midnight",
+			"appearance": "A great giant with a genial face, sparkling eyes and long dark-brown curls that turn grey. He wears a loose green robe edged in white fur, open at his broad breast, with bare feet and a holly wreath set with icicles. At his waist hangs a rusty, empty antique scabbard; he carries a glowing horn-shaped torch.",
+			"personality": "Open-handed and exuberant, with fierce moral seriousness beneath his merriment.",
+			"motivation": "He spreads Christmas fellowship and teaches Scrooge to see and care for people in need.",
+			"fears": "He warns of the doom threatened by human Ignorance and Want, especially Ignorance.",
+			"speech": "He calls Scrooge in heartily, asks pointed questions and turns Scrooge's own cruel words back on him. His warnings become solemn and accusatory.",
+			"arc": "He leads Scrooge through homes and distant workplaces, ages during the journey and reveals Ignorance and Want before vanishing.",
+			"relationships": [
+				{
+					"key": "scrooge",
+					"nature": "His pupil and companion on the Christmas journey."
+				},
+				{
+					"key": "tim",
+					"nature": "Shows Scrooge the child and warns that he will die if the shadows remain unchanged."
+				}
+			],
+			"firstChapterId": "c04"
+		},
+		{
+			"key": "mrs_cratchit",
+			"name": "Mrs. Cratchit",
+			"aliases": [
+				"Cratchit's wife"
+			],
+			"role": "Bob's wife, who manages the family meal and fiercely defends her household.",
+			"age": "Adult mother",
+			"appearance": "A modestly dressed woman in a twice-turned gown, made festive with inexpensive ribbons. She wears a plain apron for the meal, with her hair arranged neatly beneath a simple cap.",
+			"personality": "Busy, loving and proud of her family; outspoken about the injustice of Scrooge's treatment of Bob.",
+			"motivation": "She makes their limited resources serve a cheerful Christmas and cares for her husband and children.",
+			"fears": "Her Christmas pudding failing; in the future vision, she struggles to contain grief for Tim.",
+			"speech": "She uses brisk domestic exclamations and affectionate blessings, but calls Scrooge an 'odious, stingy, hard, unfeeling man' when Bob toasts him.",
+			"arc": "She presides over the family's festive meal; in the possible future she and the household mourn Tim together.",
+			"relationships": [
+				{
+					"key": "bob",
+					"nature": "His wife, protective of him and affectionate toward him."
+				},
+				{
+					"key": "tim",
+					"nature": "His mother, who mourns him in the future vision."
+				},
+				{
+					"key": "scrooge",
+					"nature": "Resents her husband's stingy employer."
+				}
+			],
+			"firstChapterId": "c04"
+		},
+		{
+			"key": "tim",
+			"name": "Tiny Tim",
+			"aliases": [
+				"Tim"
+			],
+			"role": "Bob and Mrs. Cratchit's disabled son, whose threatened death moves Scrooge.",
+			"age": "A little child",
+			"appearance": "A very small boy with a withered little hand and slight limbs supported by an iron frame. He uses a little crutch and sits on a low stool. His modest clothes are worn and scanty, like his family's.",
+			"personality": "Patient, mild and thoughtful, with a cheerful share in family celebrations.",
+			"motivation": "He shares his family's affection and hopes his presence in church will remind people of Christ's healing.",
+			"fears": "The manuscript does not state a particular fear of his.",
+			"speech": "He speaks simply and devoutly, blessing the company with 'God bless us every one!' and sings in a plaintive little voice.",
+			"arc": "The spirits show his endangered life and a possible death; after Scrooge changes, Tim lives and gains a second father in him.",
+			"relationships": [
+				{
+					"key": "bob",
+					"nature": "His loving father, who carries him to and from church."
+				},
+				{
+					"key": "mrs_cratchit",
+					"nature": "His mother."
+				},
+				{
+					"key": "scrooge",
+					"nature": "His father's employer, who becomes like a second father."
+				}
+			],
+			"firstChapterId": "c04"
+		},
+		{
+			"key": "future",
+			"name": "Ghost of Christmas Yet To Come",
+			"aliases": [
+				"Ghost of the Future",
+				"the Phantom"
+			],
+			"role": "The silent final spirit, who shows Scrooge the consequences of an unchanged life.",
+			"age": "Unspecified",
+			"appearance": "A tall, stately figure entirely shrouded in a deep black hooded garment. Its face and form are concealed; only one outstretched hand is visible, pointing from the folds.",
+			"personality": "Grave, silent and implacable, though its hand appears to tremble at Scrooge's plea.",
+			"motivation": "It guides Scrooge through future shadows toward recognition of his own death and a chance to change.",
+			"fears": "The manuscript gives no fear for the Phantom.",
+			"speech": "It does not speak. It communicates by pointing, an apparent inclination of its hood and the movements of its hand.",
+			"arc": "It leads Scrooge from anonymous talk of a death to his own grave, then shrinks into his bedpost as he begs for a changed fate.",
+			"relationships": [
+				{
+					"key": "scrooge",
+					"nature": "His terrifying guide through shadows of the future."
+				}
+			],
+			"firstChapterId": "c05"
+		}
+	],
+	"places": [
+		{
+			"key": "counting_house",
+			"name": "Scrooge and Marley's counting-house",
+			"description": "Scrooge's place of business, where he watches Bob work and keeps the coal under his own control.",
+			"visual": "A warehouse door bears both partners' names. Inside, Scrooge's office has a small fire and an open door onto the clerk's dismal little cell, the Tank, with its stool, writing materials and nearly coal-less fire."
+		},
+		{
+			"key": "chambers",
+			"name": "Scrooge's chambers",
+			"description": "Marley's former rooms in an old building up a dark yard, where Scrooge lives alone and receives the spirits.",
+			"visual": "A black gateway opens onto a yard so dark its stones must be felt for. A large knocker marks the door; a broad staircase leads to sitting-room, bedroom and lumber-room. The old fireplace has Dutch Scripture tiles, a small grate and a saucepan of gruel."
+		},
+		{
+			"key": "school",
+			"name": "Scrooge's old school",
+			"description": "The decaying boarding-school where the young Scrooge is left alone at Christmas and later fetched home by Fan.",
+			"visual": "A dull red-brick mansion with a cupola, weathercock and bell; broken windows, mossy walls and grass-grown coach-houses surround cold, bare rooms. The schoolroom has deal forms and desks and a feeble fire."
+		},
+		{
+			"key": "fezziwigs",
+			"name": "Fezziwig's warehouse",
+			"description": "The workplace of Scrooge's apprenticeship, transformed into a Christmas ballroom by his generous employer.",
+			"visual": "A high desk nearly reaches the ceiling. Shutters are put up, movable goods cleared away, the floor swept and watered, lamps trimmed and the fire piled high; a fiddler plays from the desk."
+		},
+		{
+			"key": "cratchit_home",
+			"name": "The Cratchits' house",
+			"description": "Bob's four-roomed home in Camden Town, where a small income sustains a close and festive family.",
+			"visual": "A modest hearth and table hold the family circle, with a stool for Tim. A saucepan of potatoes, a goose from the baker, a pudding from the copper and two tumblers with a handleless custard-cup make up the Christmas feast."
+		},
+		{
+			"key": "fred_home",
+			"name": "Fred's house",
+			"description": "The cheerful home where Fred and his wife host Christmas dinner, music and games.",
+			"visual": "A bright, dry room with a fire, lamplight and dessert on the table; a harp, piano, chairs, curtains and footstool furnish the gathering."
+		},
+		{
+			"key": "joes_shop",
+			"name": "Old Joe's shop",
+			"description": "A dealer's den in a disreputable quarter, where stolen belongings from the dead man's room are sold in the future vision.",
+			"visual": "A low shop under a pent-house roof is heaped with rusty iron, rags, fat and bones. Behind a rag curtain, old Joe sits by a brick charcoal stove and smoky lamp, chalking prices on the wall."
+		},
+		{
+			"key": "churchyard",
+			"name": "The churchyard",
+			"description": "The burial ground where the final spirit reveals the name on the neglected grave.",
+			"visual": "An iron gate opens onto a churchyard hemmed in by houses, overgrown with grass and weeds and crowded with burials; a gravestone bears Scrooge's name."
+		}
+	],
+	"timeline": [
+		{
+			"chapterId": "c02",
+			"title": "Chapter 1: Marley's Ghost",
+			"summary": "On Christmas Eve Scrooge rejects fellowship and charity, then receives a terrifying warning from the ghost of his partner Marley.",
+			"events": [
+				"Scrooge rebuffs Fred's invitation and threatens Bob after the clerk applauds Fred's defence of Christmas.",
+				"He refuses the charity collectors, invoking prisons and workhouses and saying the poor should decrease the surplus population.",
+				"He grudgingly gives Bob Christmas Day off; Bob goes home while Scrooge dines alone and returns to his chambers.",
+				"Marley's face appears in the door knocker; later the bells ring and his chained ghost enters the locked room.",
+				"Marley reveals his remorse and warns that Scrooge bears a heavier chain; he announces three spirits as Scrooge's chance of escape.",
+				"Scrooge sees other chained ghosts unable to help the living, then goes to bed."
+			],
+			"present": [
+				"scrooge",
+				"fred",
+				"bob",
+				"marley"
+			],
+			"knowledge": [
+				{
+					"key": "scrooge",
+					"learns": "Marley says his chain was forged by his own conduct, Scrooge's is heavier, and three spirits will offer a chance to escape his fate."
+				},
+				{
+					"key": "scrooge",
+					"learns": "He sees wandering spirits who wish to help the living but can no longer do so."
+				},
+				{
+					"key": "bob",
+					"learns": "Scrooge permits him Christmas Day off but orders him to come earlier the following morning."
+				}
+			],
+			"mood": "Biting, comic and increasingly dreadful"
+		},
+		{
+			"chapterId": "c03",
+			"title": "Chapter 2: The First of the Three Spirits",
+			"summary": "The Ghost of Christmas Past leads Scrooge through lonely childhood, remembered kindness and the loss of Belle, until he tries to extinguish its light.",
+			"events": [
+				"Scrooge wakes to find the clocks at twelve and waits anxiously until the first spirit draws his bed-curtain at one.",
+				"The spirit takes him to his old school, where he sees his lonely younger self and remembers the carol singer he frightened away.",
+				"He sees Fan fetch him home, then watches Fezziwig turn his warehouse into a Christmas ball and regrets his treatment of Bob.",
+				"He witnesses Belle release his younger self from their engagement because gain has displaced her.",
+				"He sees Belle's happy family and hears her husband describe Scrooge sitting alone while Marley lies near death.",
+				"Unable to bear more, he presses the extinguisher over the spirit, whose light still streams out; he finds himself in bed and sleeps."
+			],
+			"present": [
+				"scrooge",
+				"past",
+				"belle"
+			],
+			"knowledge": [
+				{
+					"key": "scrooge",
+					"learns": "He recognizes how his lonely childhood makes him wish he had given the carol singer something."
+				},
+				{
+					"key": "scrooge",
+					"learns": "Remembering Fezziwig's power to make work happy or burdensome, he wishes he could speak kindly to Bob."
+				},
+				{
+					"key": "scrooge",
+					"learns": "He sees Belle's later family life and hears that her husband regarded him as alone in the world."
+				}
+			],
+			"mood": "Nostalgic, joyful and painfully regretful"
+		},
+		{
+			"chapterId": "c04",
+			"title": "Chapter 3: The Second of the Three Spirits",
+			"summary": "The Ghost of Christmas Present shows Scrooge festive generosity among rich and poor, warns him about Tiny Tim, and reveals Ignorance and Want.",
+			"events": [
+				"Scrooge finds the second spirit in his transformed, greenery-filled room and willingly takes hold of its robe.",
+				"They visit Christmas streets and a baker's; the spirit denies responsibility for people who restrict poor people's pleasures in its name.",
+				"At the Cratchits' dinner Scrooge sees Tim, hears the family's toast to him, and learns that Tim will die if the shadows remain unchanged.",
+				"They visit miners, lighthouse keepers and a ship, finding Christmas fellowship even in isolation.",
+				"At Fred's party Scrooge joins in games inaudibly, hears Fred defend and toast him, and begs to stay longer.",
+				"The aging spirit shows him the children Ignorance and Want, warns of Doom and repeats Scrooge's words about prisons and workhouses; at midnight it vanishes and the last phantom approaches."
+			],
+			"present": [
+				"scrooge",
+				"present_spirit",
+				"bob",
+				"mrs_cratchit",
+				"tim",
+				"fred"
+			],
+			"knowledge": [
+				{
+					"key": "scrooge",
+					"learns": "The spirit says acts of bigotry and selfishness done in its family's name belong to their human authors."
+				},
+				{
+					"key": "scrooge",
+					"learns": "Tiny Tim will die if the present shadows are not altered; he hears his own 'surplus population' words turned against him."
+				},
+				{
+					"key": "scrooge",
+					"learns": "Fred pities him, intends to renew his invitation yearly and drinks his health despite his refusal."
+				},
+				{
+					"key": "scrooge",
+					"learns": "The two children beneath the spirit's robe are Man's Ignorance and Want; the spirit warns especially against Ignorance."
+				}
+			],
+			"mood": "Generous and exuberant, darkening into alarm"
+		},
+		{
+			"chapterId": "c05",
+			"title": "Chapter 4: The Last of the Spirits",
+			"summary": "The silent Phantom shows Scrooge an unmourned death and the Cratchits' grief, then points him to his own grave.",
+			"events": [
+				"Scrooge follows the silent Phantom and hears businessmen speak indifferently of an unnamed man's death.",
+				"At old Joe's shop he watches three people sell possessions taken from the dead man's room, including his bed-curtains and burial shirt.",
+				"He sees the covered body but cannot bring himself to uncover its face; at his request, the spirit shows a debtor's family relieved by the death.",
+				"He asks to see tenderness associated with death and witnesses the Cratchits mourning Tiny Tim, including Bob's account of Fred's kindness.",
+				"He finds another man in his future office and follows the Phantom into a churchyard.",
+				"Reading his own name on the grave, he vows to honour Christmas and live by the lessons of all three spirits; the Phantom becomes his bedpost."
+			],
+			"present": [
+				"scrooge",
+				"future",
+				"bob",
+				"mrs_cratchit"
+			],
+			"knowledge": [
+				{
+					"key": "scrooge",
+					"learns": "The dead man's servants and associates have stripped his room, and a debtor's family is relieved by his death."
+				},
+				{
+					"key": "scrooge",
+					"learns": "In the future shown, Tiny Tim has died and the Cratchits mourn him; Fred has offered Bob help."
+				},
+				{
+					"key": "scrooge",
+					"learns": "The grave bears his own name; he recognizes himself as the man on the bed and believes an altered life may change the shadows."
+				}
+			],
+			"mood": "Sombre, terrifying and desperately hopeful"
+		},
+		{
+			"chapterId": "c06",
+			"title": "Chapter 5: The End of It",
+			"summary": "Scrooge wakes on Christmas morning, acts on his new generosity, joins Fred's dinner and raises Bob's salary; Tiny Tim lives.",
+			"events": [
+				"Scrooge wakes in his own bed, rejoices that his curtains remain and learns from a boy that it is Christmas Day.",
+				"He pays the boy and a poulterer to send the enormous prize turkey anonymously to Bob's family by cab.",
+				"He apologizes to a charity collector and promises a substantial donation, then goes to church and walks happily through the streets.",
+				"After passing Fred's door repeatedly, he knocks and is welcomed to Christmas dinner.",
+				"The next morning he pretends to scold Bob for lateness, then raises his salary, promises help for his family and orders more coal.",
+				"Scrooge keeps his promises and becomes a second father to Tiny Tim, who does not die."
+			],
+			"present": [
+				"scrooge",
+				"fred",
+				"bob",
+				"tim"
+			],
+			"knowledge": [
+				{
+					"key": "scrooge",
+					"learns": "A boy tells him it is Christmas Day; Scrooge realizes the spirits have accomplished their visits in one night."
+				},
+				{
+					"key": "fred",
+					"learns": "Scrooge has come to accept his invitation to dinner."
+				},
+				{
+					"key": "bob",
+					"learns": "Scrooge is raising his salary and intends to help his struggling family."
+				}
+			],
+			"mood": "Jubilant, affectionate and hopeful"
+		}
+	],
+	"divergencePoints": [
+		{
+			"id": "freds_invitation",
+			"chapterId": "c02",
+			"label": "Dinner with Fred",
+			"moment": "Fred asks his uncle to dine with him on Christmas Day, despite Scrooge's attacks on the holiday.",
+			"canonOutcome": "Scrooge refuses, repeating 'Good afternoon' until Fred leaves with a cheerful greeting.",
+			"whatIf": "What if Scrooge accepted Fred's invitation to Christmas dinner when Fred first offered it?",
+			"stakes": "A family bond might reopen before the haunting begins."
+		},
+		{
+			"id": "marleys_warning",
+			"chapterId": "c02",
+			"label": "A Warning Refused",
+			"moment": "Marley tells Scrooge that three spirits are his chance to escape the fate of a wandering, chained ghost.",
+			"canonOutcome": "Scrooge reluctantly hears the appointed visits and watches Marley depart.",
+			"whatIf": "What if Scrooge refused to listen to Marley's warning and drove the conversation to an end before Marley named the spirits?",
+			"stakes": "Scrooge's chance of understanding the visits would be at risk."
+		},
+		{
+			"id": "belle_stays",
+			"chapterId": "c03",
+			"label": "Belle's Release",
+			"moment": "Belle tells the younger Scrooge that gain has displaced her and releases him from their engagement.",
+			"canonOutcome": "She leaves him, and they part.",
+			"whatIf": "What if young Scrooge asked Belle to stay and persuaded her to reconsider their engagement?",
+			"stakes": "Their shared future and his devotion to gain could take a different course."
+		},
+		{
+			"id": "spirit_extinguished",
+			"chapterId": "c03",
+			"label": "Put Out the Light",
+			"moment": "Scrooge wrestles with the Ghost of Christmas Past and presses its extinguisher-cap over its head.",
+			"canonOutcome": "The spirit drops beneath the cap, but its light pours out from underneath; Scrooge falls asleep.",
+			"whatIf": "What if the extinguisher truly put out the Ghost of Christmas Past's light when Scrooge pressed it down?",
+			"stakes": "The spirit's hold on Scrooge and the force of its lesson would be altered."
+		},
+		{
+			"id": "freds_toast",
+			"chapterId": "c04",
+			"label": "The Unheard Toast",
+			"moment": "At Fred's party the guests drink Scrooge's health, and Scrooge wants to return their greeting.",
+			"canonOutcome": "His voice is inaudible to the company, and the scene vanishes before he can finish.",
+			"whatIf": "What if Fred heard Scrooge return the Christmas toast from beside the Ghost of Christmas Present?",
+			"stakes": "The nephew's affection could meet an answer before Scrooge wakes."
+		},
+		{
+			"id": "uncovered_face",
+			"chapterId": "c05",
+			"label": "The Face Beneath the Sheet",
+			"moment": "The Phantom points to the covered head of the dead man, and Scrooge longs to lift the sheet.",
+			"canonOutcome": "Scrooge cannot bring himself to uncover the face and asks to see someone affected by the death.",
+			"whatIf": "What if Scrooge found the courage to lift the sheet and look at the dead man's face?",
+			"stakes": "He could discover the identity of the corpse before reaching the grave."
+		},
+		{
+			"id": "grave_pledge",
+			"chapterId": "c05",
+			"label": "At His Own Grave",
+			"moment": "Scrooge reads his own name on the neglected gravestone and begs the silent Phantom to say the future can change.",
+			"canonOutcome": "He vows to honour Christmas and live by the lessons of all three spirits; the Phantom becomes his bedpost.",
+			"whatIf": "What if, at his own grave, Scrooge refused to promise a changed life and demanded a different answer from the Phantom?",
+			"stakes": "His defining commitment to change, and the hope attached to it, would be in doubt."
+		},
+		{
+			"id": "freds_door",
+			"chapterId": "c06",
+			"label": "The Door He Passed",
+			"moment": "On Christmas afternoon Scrooge passes Fred's door a dozen times before gathering courage to knock.",
+			"canonOutcome": "He knocks, asks to come to dinner and is welcomed into the family party.",
+			"whatIf": "What if Scrooge lost his nerve at Fred's door and walked away without knocking?",
+			"stakes": "Their reconciliation would remain uncertain despite Scrooge's change of heart."
+		},
+		{
+			"id": "bob_late",
+			"chapterId": "c06",
+			"label": "Eighteen Minutes Late",
+			"moment": "Bob arrives late at the counting-house, and Scrooge summons him while pretending to be angry.",
+			"canonOutcome": "Scrooge surprises Bob with a salary increase and promises to help his family.",
+			"whatIf": "What if Bob, fearing dismissal, spoke up for himself before Scrooge could reveal the salary increase?",
+			"stakes": "The first encounter between the changed master and his clerk could take an unexpected turn."
+		}
+	],
+	"visual": {
+		"era": "Early Victorian London: dark business coats and cravats, shawls and bonnets, horses and cabs, counting-house desks, gas lamps, candles and coal fires.",
+		"palette": "Sooty brown fog, blue-black frost and grey stone give way to firelit red and gold, holly green and snowy morning light.",
+		"motifs": [
+			"Chains of cash-boxes and keys",
+			"Bed-curtains and candlelight",
+			"Holly, ivy and red berries",
+			"Coal fires and scant fuel",
+			"A little crutch by the hearth",
+			"The pointing hand and neglected grave"
+		],
+		"comicStyle": "Victorian engraved-book illustration in ink and wash, with lively cross-hatching, expressive faces and dense street detail. Use deep shadows for the apparitions, crowded rhythmic panels for feasts and games, and quiet held panels for grief and recognition."
+	},
+	"glossary": [
+		{
+			"term": "Scrooge and Marley",
+			"kind": "name",
+			"note": "The firm's name remains above the warehouse door after Marley's death.",
+			"locales": {
+				"en": "Scrooge and Marley"
+			}
+		},
+		{
+			"term": "the Tank",
+			"kind": "place",
+			"note": "The dismal little cell where Bob copies letters.",
+			"locales": {
+				"en": "the Tank"
+			}
+		},
+		{
+			"term": "Union workhouses",
+			"kind": "term",
+			"note": "Institutions Scrooge cites when refusing charity.",
+			"locales": {
+				"en": "Union workhouses"
+			}
+		},
+		{
+			"term": "comforter",
+			"kind": "object",
+			"note": "Bob's long white scarf, worn against the cold.",
+			"locales": {
+				"en": "comforter"
+			}
+		},
+		{
+			"term": "Ghost of Christmas Past",
+			"kind": "name",
+			"note": "The first spirit, who shows Scrooge his own past.",
+			"locales": {
+				"en": "Ghost of Christmas Past"
+			}
+		},
+		{
+			"term": "Fezziwig",
+			"kind": "name",
+			"note": "Scrooge's former employer, celebrated for his Christmas ball.",
+			"locales": {
+				"en": "Fezziwig"
+			}
+		},
+		{
+			"term": "Belle",
+			"kind": "name",
+			"note": "The young woman who releases Scrooge from their engagement.",
+			"locales": {
+				"en": "Belle"
+			}
+		},
+		{
+			"term": "Ghost of Christmas Present",
+			"kind": "name",
+			"note": "The giant spirit of the current Christmas.",
+			"locales": {
+				"en": "Ghost of Christmas Present"
+			}
+		},
+		{
+			"term": "Tiny Tim",
+			"kind": "name",
+			"note": "Bob Cratchit's little son, who uses a crutch.",
+			"locales": {
+				"en": "Tiny Tim"
+			}
+		},
+		{
+			"term": "Ignorance",
+			"kind": "name",
+			"note": "The boy revealed beneath the second spirit's robe.",
+			"locales": {
+				"en": "Ignorance"
+			}
+		},
+		{
+			"term": "Want",
+			"kind": "name",
+			"note": "The girl revealed beneath the second spirit's robe.",
+			"locales": {
+				"en": "Want"
+			}
+		},
+		{
+			"term": "Ghost of Christmas Yet To Come",
+			"kind": "name",
+			"note": "The silent, black-shrouded final spirit.",
+			"locales": {
+				"en": "Ghost of Christmas Yet To Come"
+			}
+		},
+		{
+			"term": "old Joe",
+			"kind": "name",
+			"note": "The dealer who buys goods taken from the dead man's room.",
+			"locales": {
+				"en": "old Joe"
+			}
+		},
+		{
+			"term": "smoking bishop",
+			"kind": "term",
+			"note": "The hot Christmas drink Scrooge proposes sharing with Bob.",
+			"locales": {
+				"en": "smoking bishop"
+			}
+		}
+	]
+}

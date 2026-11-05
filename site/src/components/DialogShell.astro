@@ -1,0 +1,16 @@
+---
+// The shell every studio dialog shares (port of DialogShell.js): a native <dialog data-modal> with the phone sheet's drag handle
+// and the corner Close button. Props: close (the Close label) and the <dialog>'s own attributes, passed through in order.
+// Slots: "head" renders between the handle and Close (the reader and legal bars), the default slot after Close (the body).
+import Icon from "./ui/Icon.astro";
+interface Props { close: string; [attr: string]: unknown }
+const { close, ...rest } = Astro.props;
+// A bare attribute (data-build-dialog) arrives as true, which Astro would print as ="true"; an empty string prints it bare.
+const attrs = Object.fromEntries(Object.entries(rest).map(([key, value]) => [key, value === true ? "" : value]));
+---
+<dialog {...attrs}>
+	<span data-classlist="remix-sheet-grab" aria-hidden="true"></span>
+	<slot name="head" />
+	<button type="button" data-control="icon" data-classlist="remix-dialog-close" data-close-dialog aria-label={close}><Icon name="lucide-x" /></button>
+	<slot />
+</dialog>

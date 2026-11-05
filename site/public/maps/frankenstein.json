@@ -1,0 +1,1432 @@
+{
+	"schema": "remix.bookMap/1",
+	"slug": "frankenstein",
+	"title": "Frankenstein",
+	"author": "Mary Wollstonecraft Shelley",
+	"premise": "Genevese student Victor Frankenstein discovers how to animate lifeless matter and creates a gigantic human being. His horror at the living result sends creator and creature along paths of isolation, injury, and vengeance, recounted to an Arctic explorer.",
+	"hook": "A maker flees his living creation, and the abandoned being comes looking for an answer.",
+	"logline": "A scientist must confront the articulate, powerful creature he abandoned as its demand for companionship threatens everyone he loves.",
+	"world": {
+		"setting": "Eighteenth-century Geneva and the Swiss Alps, Ingolstadt, Germany, Britain and Ireland, framed by a ship trapped in Arctic ice; travel passes through villages, universities, lakes, mountains, and remote coasts.",
+		"period": "The eighteenth century, in an unspecified year of the 17—s",
+		"rules": [
+			"Victor discovers how to animate lifeless matter, but withholds the method; the narrative supplies no reproducible procedure.",
+			"The creature is a living, feeling being, roughly eight feet tall, stronger and more agile than a man, and unusually resistant to cold; wounds and hunger still afflict him.",
+			"The creature learns language and reading through observation and study; he has no innate knowledge of his origin or human society.",
+			"Ghosts, divine guidance, and destiny are matters of characters' belief or metaphor, not established supernatural interventions.",
+			"Journeys depend on boats, sailing vessels, horses, mules, carriages, sledges, and foot travel; weather, distance, and closed city gates constrain movement.",
+			"Letters travel by post or available ships; illness and delayed correspondence leave families dependent on incomplete reports.",
+			"Geneva has magistrates, trials, and capital punishment; circumstantial evidence and a coerced confession help condemn an innocent servant.",
+			"Family duty, reputation, inheritance, class, religion, and paternal authority shape marriage, education, and access to security."
+		],
+		"tone": "Sublime and intimate, by turns rapturous, mournful, accusatory, and horrified.",
+		"themes": [
+			"Creation and responsibility",
+			"Ambition and its human cost",
+			"Isolation and the need for sympathy",
+			"Appearance and prejudice",
+			"Revenge and remorse",
+			"Nature as consolation",
+			"Justice and innocent suffering"
+		],
+		"sensitivities": [
+			"The narration repeatedly equates physical deformity with horror, even as the creature challenges that judgment.",
+			"Safie's story uses broad stereotypes about Muslims, Asian societies, and women's lives; its claims belong to the narrators' perspective.",
+			"Clerval's plans assume the value of European colonization and trade.",
+			"The novel treats suicide, child murder, wrongful execution, bereavement, and coercive religious threats in intimate detail."
+		]
+	},
+	"voice": {
+		"narration": "Walton writes first-person letters and a journal to his sister; within them he records Victor's retrospective first-person narrative, which contains the creature's own extended first-person account. Past-tense recollection repeatedly breaks into present grief, direct address, and moral reflection.",
+		"style": [
+			"Long, balanced sentences accumulate clauses and contrasts, then break into short exclamations or questions.",
+			"Elevated diction names anguish, benevolence, virtue, deformity, and wretchedness without concealing the speaker's emotional judgment.",
+			"Mountains, storms, ice, light, fire, and darkness mirror or challenge inward states; exact geography anchors the sublime.",
+			"Narrators address absent loved ones, their listeners, and nature directly, interrupting events with apostrophe and hindsight.",
+			"Biblical and literary allusions, especially Adam, Satan, and the Ancient Mariner, give private experience a larger imaginative frame.",
+			"British spellings and period forms include 'labour', 'endeavour', 'shew' where present in other texts only, and this manuscript's 'dæmon'."
+		],
+		"dialogue": "Speech appears in quotation marks, often in long, formally argued turns punctuated by exclamations and appeals. Intimates use affectionate addresses; Victor and the creature alternate reasoned moral claims with curses, imperatives, and pleas.",
+		"samplePassages": [
+			"It was on a dreary night of November that I beheld the accomplishment of my toils. With an anxiety that almost amounted to agony, I collected the instruments of life around me, that I might infuse a spark of being into the lifeless thing that lay at my feet. It was already one in the morning; the rain pattered dismally against the panes, and my candle was nearly burnt out, when, by the glimmer of the half-extinguished light, I saw the dull yellow eye of the creature open; it breathed hard, and a convulsive motion agitated its limbs.",
+			"One day, when I was oppressed by cold, I found a fire which had been left by some wandering beggars, and was overcome with delight at the warmth I experienced from it. In my joy I thrust my hand into the live embers, but quickly drew it out again with a cry of pain. How strange, I thought, that the same cause should produce such opposite effects! I examined the materials of the fire, and to my joy found it to be composed of wood.",
+			"The old man paused and then continued, ‘If you will unreservedly confide to me the particulars of your tale, I perhaps may be of use in undeceiving them. I am blind and cannot judge of your countenance, but there is something in your words which persuades me that you are sincere. I am poor and an exile, but it will afford me true pleasure to be in any way serviceable to a human creature.’"
+		]
+	},
+	"cast": [
+		{
+			"key": "victor",
+			"name": "Victor Frankenstein",
+			"aliases": [
+				"Frankenstein",
+				"Victor",
+				"the stranger"
+			],
+			"role": "Genevese natural philosopher, creator of the creature, and principal narrator.",
+			"age": "Seventeen on leaving for Ingolstadt; a young man during the central events.",
+			"appearance": "A slender, European man with fine, lustrous eyes, dark hair and a narrow face; he wears a dark eighteenth-century coat, waistcoat, breeches, and linen shirt. Prolonged labour and illness leave him pale and emaciated, with thin hands and a haunted, sometimes wild gaze.",
+			"personality": "Ardent, affectionate, secretive, proud of his powers, and prone to violent swings between hope and despair.",
+			"motivation": "He seeks the deepest secrets of life and later tries to protect his family, destroy his creature, and justify his choices.",
+			"fears": "He dreads exposure as mad, further deaths among his loved ones, and the creature's revenge.",
+			"speech": "He speaks polished, rapid English with a foreign accent, alternating elaborate analysis and moral appeals with cries of 'fiend' and 'wretch'; tenderness softens his addresses to friends.",
+			"arc": "His ambitious creation becomes the focus of horror and concealment; after repeated losses he pursues it to the Arctic and dies still defending his refusal to make a mate.",
+			"relationships": [
+				{
+					"key": "creature",
+					"nature": "Creator who abandons him, bargains with him, and pursues him in revenge."
+				},
+				{
+					"key": "elizabeth",
+					"nature": "Childhood companion and wife, whom he loves but keeps ignorant of the danger."
+				},
+				{
+					"key": "henry",
+					"nature": "Closest childhood friend and devoted nurse."
+				},
+				{
+					"key": "alphonse",
+					"nature": "Beloved father whose concern he meets with partial confidences."
+				},
+				{
+					"key": "walton",
+					"nature": "Rescued guest who tells him his history and warns him against ambition."
+				},
+				{
+					"key": "justine",
+					"nature": "Family servant whose innocence he believes but fails to establish."
+				}
+			],
+			"firstChapterId": "c04"
+		},
+		{
+			"key": "creature",
+			"name": "the creature",
+			"aliases": [
+				"the monster",
+				"the dæmon",
+				"the wretch",
+				"the fiend"
+			],
+			"role": "Victor's abandoned creation, his antagonist, and narrator of his own early life.",
+			"age": "Newly animated in Ingolstadt; only a few years old at the end.",
+			"appearance": "About eight feet tall and proportionately large, with yellow skin scarcely covering muscles and arteries, flowing lustrous black hair, pearly teeth, watery eyes in dun-white sockets, a shrivelled complexion, and straight black lips. He wears scavenged clothes and a huge cloak; his immense hands and agile limbs distinguish his silhouette.",
+			"personality": "Observant and intensely responsive to kindness, he is also proud, vengeful, persuasive, and capable of remorse.",
+			"motivation": "He longs for love and an equal companion; rejected, he seeks redress from his maker and revenge for his isolation.",
+			"fears": "He fears perpetual solitude, rejection, and death, though at last he seeks death as release.",
+			"speech": "After learning French through the De Laceys, he speaks in sustained, eloquent arguments and impassioned questions, invoking rights, duty, Adam, Satan, and his creator; rage breaks into threats and curses.",
+			"arc": "He grows from an ignorant, helpful observer into a murderer after repeated rejection; denied a mate, he destroys Victor's happiness and finally mourns his own crimes.",
+			"relationships": [
+				{
+					"key": "victor",
+					"nature": "Abandoned creature who demands a companion and then persecutes his maker."
+				},
+				{
+					"key": "de_lacey",
+					"nature": "Secret admirer who seeks the blind old man's mediation."
+				},
+				{
+					"key": "felix",
+					"nature": "Unseen helper and student whom Felix drives from the cottage."
+				},
+				{
+					"key": "safie",
+					"nature": "Hidden fellow student who learns language from her lessons."
+				},
+				{
+					"key": "justine",
+					"nature": "Frames her for William's murder by concealing the portrait in her dress."
+				},
+				{
+					"key": "walton",
+					"nature": "Confesses remorse to him over Victor's body."
+				}
+			],
+			"firstChapterId": "c04"
+		},
+		{
+			"key": "walton",
+			"name": "Robert Walton",
+			"aliases": [
+				"R. Walton",
+				"Captain Walton",
+				"R.W."
+			],
+			"role": "English Arctic expedition leader and letter-writing frame narrator.",
+			"age": "Twenty-eight at Archangel.",
+			"appearance": "A young Englishman of average height and sturdy seafaring build, with a weathered fair face, brown hair, and clear eyes. He wears a practical dark coat, waistcoat, breeches, and boots, adding thick furs against the northern cold.",
+			"personality": "Imaginative, ambitious, lonely, affectionate, and attentive to the suffering of others.",
+			"motivation": "He seeks discovery and glory at the pole, a benefit to humanity, and a cultivated friend who can share and steady his feelings.",
+			"fears": "He fears failure, the loss of his crew, and leaving his sister in prolonged uncertainty.",
+			"speech": "His letters address 'dear Margaret' with intimate questions and exclamations; he mixes poetic enthusiasm and literary allusion with practical accounts of ships and weather.",
+			"arc": "He finds a friend in Victor, hears his warning, and reluctantly turns south at his crew's insistence; he listens to the creature rather than killing him.",
+			"relationships": [
+				{
+					"key": "victor",
+					"nature": "Rescues and loves him as a friend, recording his history."
+				},
+				{
+					"key": "creature",
+					"nature": "Sees him at a distance and later hears his remorse over Victor's body."
+				}
+			],
+			"firstChapterId": "c01"
+		},
+		{
+			"key": "elizabeth",
+			"name": "Elizabeth Lavenza",
+			"aliases": [
+				"Elizabeth",
+				"cousin",
+				"my love"
+			],
+			"role": "Victor's adopted childhood companion, confidante of the family, and wife.",
+			"age": "Almost Victor's age, less than a year apart.",
+			"appearance": "A slender, very fair woman with bright golden hair, a clear broad brow, cloudless blue eyes, and delicate, expressive features. She wears a modest high-waisted gown and shawl; grief and anxiety later make her thinner and diminish her earlier vivacity.",
+			"personality": "Gentle, affectionate, courageous in care, and outspoken when defending an innocent friend.",
+			"motivation": "She seeks the happiness of her household, defends Justine, and wants Victor's marriage to her to be freely chosen.",
+			"fears": "She fears Victor's hidden misery, a loveless marriage, and the loss of those she loves.",
+			"speech": "She writes and speaks warmly as 'dear cousin' or 'my friend', asking direct, anxious questions; in court she gives a plain, forceful account of Justine's character.",
+			"arc": "A hopeful domestic companion, she loses faith in easy assurances after William and Justine die, marries Victor, and is murdered on their wedding night.",
+			"relationships": [
+				{
+					"key": "victor",
+					"nature": "Adopted cousin, childhood companion, and wife."
+				},
+				{
+					"key": "alphonse",
+					"nature": "His adopted niece and cherished member of his household."
+				},
+				{
+					"key": "justine",
+					"nature": "Loves her as a sister and publicly defends her."
+				},
+				{
+					"key": "henry",
+					"nature": "Family friend whose care of Victor she gratefully acknowledges."
+				}
+			],
+			"firstChapterId": "c05"
+		},
+		{
+			"key": "henry",
+			"name": "Henry Clerval",
+			"aliases": [
+				"Clerval",
+				"Henry"
+			],
+			"role": "Victor's closest friend, nurse, and travelling companion.",
+			"age": "A young man, about twenty-five when his body is found.",
+			"appearance": "A graceful young man with a handsome, expressive face, dark eyes, and long black eyelashes. He wears a neat dark travelling coat and waistcoat with a linen shirt and cravat; his animated gaze and easy upright bearing suit long walks.",
+			"personality": "Imaginative, adventurous, humane, quick to notice distress, and devoted in friendship.",
+			"motivation": "He wants learning, useful enterprise, and adventure, and hopes to pursue a career connected with India.",
+			"fears": "He dislikes confinement to commerce and is distressed by Victor's illness and isolation.",
+			"speech": "He speaks warmly and readily, calling Victor 'my dear Frankenstein'; he quotes books, invents fanciful tales, praises scenery, and gently changes a painful subject.",
+			"arc": "He wins permission to study, nurses Victor through fever, travels with him, and is murdered after they separate in Scotland.",
+			"relationships": [
+				{
+					"key": "victor",
+					"nature": "Childhood friend whom he nurses and accompanies abroad."
+				},
+				{
+					"key": "elizabeth",
+					"nature": "Family friend who writes to her during Victor's illness."
+				}
+			],
+			"firstChapterId": "c06"
+		},
+		{
+			"key": "alphonse",
+			"name": "Alphonse Frankenstein",
+			"aliases": [
+				"Victor's father",
+				"my father"
+			],
+			"role": "Victor's father and the head of the Frankenstein household.",
+			"age": "An older man, already past his younger years when he marries.",
+			"appearance": "A dignified, grey-haired Genevese gentleman of average height, with an aged face and a composed bearing. He wears a dark formal coat, waistcoat, breeches, and white linen; later grief and illness visibly weaken him.",
+			"personality": "Upright, affectionate, practical, and inclined to meet grief with arguments about duty.",
+			"motivation": "He wants his children secure and useful, and hopes Victor's marriage to Elizabeth will preserve domestic happiness.",
+			"fears": "He fears for his family's health and happiness, especially Victor's prolonged mental distress.",
+			"speech": "He addresses Victor with paternal affection and measured reasoning, asking for confidence and urging him to remember his duties to survivors.",
+			"arc": "His benevolent household is broken by successive deaths; he nurses and defends Victor, then dies after hearing of Elizabeth's murder.",
+			"relationships": [
+				{
+					"key": "victor",
+					"nature": "Loving father who mistakes the source of his son's anguish."
+				},
+				{
+					"key": "elizabeth",
+					"nature": "Guardian and uncle by household affection; he hopes she will marry Victor."
+				},
+				{
+					"key": "justine",
+					"nature": "Employer who hopes the accused servant will be acquitted."
+				}
+			],
+			"firstChapterId": "c05"
+		},
+		{
+			"key": "justine",
+			"name": "Justine Moritz",
+			"aliases": [
+				"Justine",
+				"poor Justine"
+			],
+			"role": "Frankenstein family servant falsely convicted of William's murder.",
+			"age": "A young woman; she entered the household at twelve.",
+			"appearance": "A pretty young woman with a blooming complexion, dark eyes, and an engaging, frank face. She wears a modest servant's dress and, at her trial, mourning; in prison her hands are manacled.",
+			"personality": "Affectionate, grateful, gentle, and capable of composure under public hostility.",
+			"motivation": "She wants those she loves to believe her innocent and seeks spiritual comfort when condemned.",
+			"fears": "She fears damnation and the loss of Elizabeth's belief in her goodness.",
+			"speech": "She speaks respectfully and plainly, calling Elizabeth 'dear lady'; she explains facts carefully, then confesses her fear and falsehood through tears.",
+			"arc": "Cherished in the household after a difficult childhood, she is framed, coerced into a false confession, and executed despite her innocence.",
+			"relationships": [
+				{
+					"key": "elizabeth",
+					"nature": "Beloved companion who defends her and visits her in prison."
+				},
+				{
+					"key": "victor",
+					"nature": "Family friend who knows she is innocent but withholds his full account."
+				},
+				{
+					"key": "creature",
+					"nature": "Unknowingly framed by him with the stolen portrait."
+				},
+				{
+					"key": "alphonse",
+					"nature": "Member of his household and accused in his son's murder."
+				}
+			],
+			"firstChapterId": "c10"
+		},
+		{
+			"key": "de_lacey",
+			"name": "De Lacey",
+			"aliases": [
+				"the old man",
+				"father"
+			],
+			"role": "Blind French exile whose cottage shelters the creature's hopes of acceptance.",
+			"age": "An old man.",
+			"appearance": "A blind, silver-haired old man with a benevolent face and stooped, frail frame. He wears plain, worn eighteenth-century country clothes and sits near the cottage fire with a guitar, or walks supported by his son.",
+			"personality": "Gentle, charitable, and attentive to the sorrows of others despite his poverty.",
+			"motivation": "He wishes to comfort his children and help a stranger whose account sounds sincere.",
+			"fears": "He grieves for his family's suffering and the loss of their former home.",
+			"speech": "His measured, courteous speech offers encouragement and practical help; he asks the stranger for particulars before judging him.",
+			"arc": "Exiled after his son's rescue of Safie's father, he welcomes the creature by voice alone, but his family leaves the cottage after the encounter.",
+			"relationships": [
+				{
+					"key": "felix",
+					"nature": "Blind father whom Felix supports and protects."
+				},
+				{
+					"key": "safie",
+					"nature": "Welcomes his son's beloved into the household."
+				},
+				{
+					"key": "creature",
+					"nature": "Offers a hearing without seeing his appearance."
+				}
+			],
+			"firstChapterId": "c15"
+		},
+		{
+			"key": "felix",
+			"name": "Felix",
+			"aliases": [
+				"Felix De Lacey",
+				"brother",
+				"son"
+			],
+			"role": "De Lacey's son, Safie's lover, and the creature's unwitting teacher.",
+			"age": "A young man.",
+			"appearance": "A slight, graceful young man with finely symmetrical features and expressive eyes. He wears plain working clothes suited to a poor German cottage, carries tools or firewood, and often bears a downcast expression until Safie arrives.",
+			"personality": "Generous and dutiful, deeply affectionate, but capable of violent fear when confronted by the creature.",
+			"motivation": "He rescues an unjustly condemned prisoner, cares for his father and sister, and longs to reunite with Safie.",
+			"fears": "He fears for his family's safety and suffers at the apparent loss of Safie.",
+			"speech": "He reads aloud and explains history patiently to Safie; with his father he adopts a cheerful tone, and after the creature's visit he speaks urgently of flight.",
+			"arc": "His rescue of Safie's father costs his family its fortune and home; Safie finds him again, but he attacks the creature and abandons the cottage.",
+			"relationships": [
+				{
+					"key": "de_lacey",
+					"nature": "Devoted son who works for and supports his blind father."
+				},
+				{
+					"key": "safie",
+					"nature": "Lover and later husband who teaches her French."
+				},
+				{
+					"key": "creature",
+					"nature": "Unwitting teacher and beneficiary who drives him away with a stick."
+				}
+			],
+			"firstChapterId": "c15"
+		},
+		{
+			"key": "safie",
+			"name": "Safie",
+			"aliases": [
+				"the Arabian",
+				"the stranger"
+			],
+			"role": "Felix's beloved, whose arrival and language lessons transform the cottage.",
+			"age": "A young woman.",
+			"appearance": "A very fair young woman with regular features, pink cheeks, gentle dark eyes, and shining raven-black hair arranged in intricate braids. On arrival she wears a dark riding suit and thick black veil; she later appears in modest domestic dress.",
+			"personality": "Affectionate, spirited, musical, and determined to choose her own life.",
+			"motivation": "She wants to remain with Felix and live with the intellectual and personal independence her mother valued.",
+			"fears": "She dreads return to Turkey and confinement under her father's authority.",
+			"speech": "Her voice is musical; at first she knows little French and speaks in broken accents, using gestures and repeating new words.",
+			"arc": "She defies her father's plans, travels to the exiled De Laceys, and joins their household; she flees at the sight of the creature.",
+			"relationships": [
+				{
+					"key": "felix",
+					"nature": "Beloved whom she travels to find and later marries."
+				},
+				{
+					"key": "de_lacey",
+					"nature": "Welcomed affectionately by Felix's blind father."
+				},
+				{
+					"key": "creature",
+					"nature": "Unaware that he learns alongside her; she flees when she sees him."
+				}
+			],
+			"firstChapterId": "c17"
+		}
+	],
+	"places": [
+		{
+			"key": "arctic_ship",
+			"name": "Walton's ship",
+			"description": "The expedition vessel where Walton rescues Victor, records his story, and faces the crew's demand to return.",
+			"visual": "A sailing ship hemmed in by irregular mountains and plains of ice, with a stove-warmed kitchen, a captain's cabin, and a deck exposed to raw polar air."
+		},
+		{
+			"key": "geneva",
+			"name": "Geneva and Belrive",
+			"description": "The Frankenstein family's home region, a place of childhood happiness and successive losses.",
+			"visual": "A walled city beside a blue lake, its gates shut at night; beyond it stands the family's country house on Belrive's eastern shore, with mountains across the water."
+		},
+		{
+			"key": "ingolstadt",
+			"name": "Ingolstadt",
+			"description": "The university town where Victor studies natural philosophy and animates his creature.",
+			"visual": "A town with a high white church steeple, professors' lecture rooms, and Victor's solitary upper chamber, separated from other rooms by a gallery and staircase."
+		},
+		{
+			"key": "plainpalais",
+			"name": "Plainpalais",
+			"description": "The outskirts of Geneva where William is murdered and Victor sees the creature during a storm.",
+			"visual": "Open ground and clumps of trees near the lake, overlooked by the steep rocks of Mont Salêve; lightning reveals figures against the dark."
+		},
+		{
+			"key": "montanvert",
+			"name": "Montanvert and the sea of ice",
+			"description": "The Alpine glacier where creator and creature meet and withdraw to a hut for the creature's story.",
+			"visual": "A precipitous winding ascent above sombre pines leads to a vast uneven glacier, split by deep crevices and enclosed by bare rock and glittering peaks."
+		},
+		{
+			"key": "cottage",
+			"name": "The De Lacey cottage",
+			"description": "The exiled family's German dwelling, secretly observed and helped by the creature.",
+			"visual": "A neat but poor cottage with a whitewashed room, small fire and guitar; behind it a low wooden hovel, pigsty, pool, and tiny chink in a boarded window."
+		},
+		{
+			"key": "orkney",
+			"name": "The Orkney island",
+			"description": "Victor's remote workshop for the proposed female creature.",
+			"visual": "A barren rock lashed by the sea, with three poor huts, scant pasture and a stony beach; Victor repairs a two-room hut with fallen thatch and unplastered walls."
+		},
+		{
+			"key": "irish_town",
+			"name": "The Irish town",
+			"description": "The unnamed port where Victor lands, is accused of murder, and sees Henry's corpse.",
+			"visual": "A small neat harbour town with a steeple, a nearby sandy creek, an inn, and a prison room with barred windows and a wretched bed."
+		},
+		{
+			"key": "evian",
+			"name": "Evian",
+			"description": "The lakeside stopping place where Elizabeth is killed on her wedding night.",
+			"visual": "A spire beneath woods and rising mountains, a lakeside inn, and a bridal room whose open window looks out toward the storm-dark water."
+		}
+	],
+	"timeline": [
+		{
+			"chapterId": "c01",
+			"title": "Letter I",
+			"summary": "From St. Petersburgh, Walton tells his sister of his polar ambitions and preparations.",
+			"events": [
+				"Walton arrives in St. Petersburgh and writes to Margaret.",
+				"He imagines discoveries at the pole and recalls his reading and failed poetic ambition.",
+				"He recounts his training on whalers and plans to hire a ship at Archangel."
+			],
+			"present": [
+				"walton"
+			],
+			"knowledge": [
+				{
+					"key": "walton",
+					"learns": "He has reached St. Petersburgh safely and plans a June departure from Archangel."
+				}
+			],
+			"mood": "Hopeful, ardent, anxious"
+		},
+		{
+			"chapterId": "c02",
+			"title": "Letter II",
+			"summary": "At Archangel, Walton assembles his expedition and confesses his longing for a friend.",
+			"events": [
+				"Walton hires a vessel and begins collecting sailors.",
+				"He describes his loneliness and the gaps in his education.",
+				"He recounts the ship master's generous renunciation of a marriage and awaits sailing weather."
+			],
+			"present": [
+				"walton"
+			],
+			"knowledge": [
+				{
+					"key": "walton",
+					"learns": "An early spring may allow him to sail sooner than expected."
+				}
+			],
+			"mood": "Lonely, expectant"
+		},
+		{
+			"chapterId": "c03",
+			"title": "Letter III",
+			"summary": "Walton reports a safe advance into high latitudes and renews his confidence in the voyage.",
+			"events": [
+				"Walton sends a letter home by an Archangel merchantman.",
+				"He reports floating ice, southern gales, and a crew apparently firm in purpose.",
+				"He dismisses a leak and stiff gales as minor accidents and vows to persevere."
+			],
+			"present": [
+				"walton"
+			],
+			"knowledge": [
+				{
+					"key": "walton",
+					"learns": "His men remain apparently undismayed by the floating ice."
+				}
+			],
+			"mood": "Confident, exhilarated"
+		},
+		{
+			"chapterId": "c04",
+			"title": "Letter IV",
+			"summary": "Walton's icebound crew sights a gigantic traveller and rescues a dying pursuer, who becomes Walton's friend and promises his history.",
+			"events": [
+				"The crew sees a gigantic figure driving a dog sledge north across the ice.",
+				"After the ice breaks, sailors find another sledge; its European passenger boards only after learning the ship is bound north.",
+				"Walton and the crew revive the frozen stranger, who learns that his quarry was seen.",
+				"Walton confides his ambition and longing for friendship; the stranger responds with grief and sympathy.",
+				"The stranger offers his cautionary history, and Walton resolves to record it."
+			],
+			"present": [
+				"walton",
+				"victor",
+				"creature"
+			],
+			"knowledge": [
+				{
+					"key": "victor",
+					"learns": "His quarry has passed the ship but may have survived the breaking ice."
+				},
+				{
+					"key": "walton",
+					"learns": "The stranger pursues someone he calls a dæmon and has suffered disasters connected with ambition."
+				}
+			],
+			"mood": "Mysterious, compassionate"
+		},
+		{
+			"chapterId": "c05",
+			"title": "Chapter 1",
+			"summary": "Victor recounts his parents' marriage, his privileged infancy, and Elizabeth's adoption.",
+			"events": [
+				"Alphonse finds his friend Beaufort dead and shelters Beaufort's daughter Caroline.",
+				"Alphonse marries Caroline; Victor is born at Naples during their travels.",
+				"Near Lake Como, Caroline finds the fair orphan Elizabeth with a poor foster family.",
+				"With the guardians' consent, Elizabeth joins the household and becomes Victor's cherished companion."
+			],
+			"present": [
+				"victor",
+				"alphonse",
+				"elizabeth"
+			],
+			"knowledge": [
+				{
+					"key": "victor",
+					"learns": "As a child he takes his mother's description of Elizabeth as his present literally and regards her as his to cherish."
+				},
+				{
+					"key": "alphonse",
+					"learns": "Elizabeth is the child of a dispossessed Milanese nobleman and needs protection."
+				}
+			],
+			"mood": "Tender, idyllic"
+		},
+		{
+			"chapterId": "c06",
+			"title": "Chapter 2",
+			"summary": "Victor contrasts his childhood companions with his own thirst for nature's secrets and traces the changes in his studies.",
+			"events": [
+				"The family settles near Geneva, and Victor forms a close friendship with Henry Clerval.",
+				"At thirteen Victor discovers Agrippa; his father's dismissive warning fails to stop his reading.",
+				"He studies alchemy and unsuccessfully attempts incantations.",
+				"A lightning strike destroys an oak, and an explanation of electricity and galvanism helps turn him toward mathematics."
+			],
+			"present": [
+				"victor",
+				"elizabeth",
+				"henry",
+				"alphonse"
+			],
+			"knowledge": [
+				{
+					"key": "victor",
+					"learns": "A natural philosopher's account of electricity discredits his old authorities in his eyes and turns him temporarily from natural history."
+				}
+			],
+			"mood": "Nostalgic, ominous"
+		},
+		{
+			"chapterId": "c07",
+			"title": "Chapter 3",
+			"summary": "Caroline dies after nursing Elizabeth, and Victor leaves for Ingolstadt, where Waldman's teaching renews his ambition.",
+			"events": [
+				"Caroline nurses Elizabeth through scarlet fever, catches it, and dies after expressing hope for Victor and Elizabeth's union.",
+				"Clerval is refused permission to accompany Victor to university.",
+				"At Ingolstadt Krempe ridicules Victor's old alchemical studies.",
+				"Waldman's lecture inspires Victor to pursue modern science; the professor advises him and shows him his laboratory."
+			],
+			"present": [
+				"victor",
+				"elizabeth",
+				"henry",
+				"alphonse"
+			],
+			"knowledge": [
+				{
+					"key": "victor",
+					"learns": "Waldman's account convinces him that modern science offers powers worthy of his ambition."
+				}
+			],
+			"mood": "Grief giving way to ambition"
+		},
+		{
+			"chapterId": "c08",
+			"title": "Chapter 4",
+			"summary": "Victor discovers the principle of animation and secretly constructs a gigantic human frame, sacrificing health and correspondence.",
+			"events": [
+				"Victor studies chemistry intensively for two years and gains academic esteem.",
+				"Anatomy and the observation of decay lead him to discover how to animate lifeless matter.",
+				"He chooses a human form about eight feet tall and gathers materials from places including charnel-houses and slaughterhouses.",
+				"He works in an isolated upper chamber, neglecting family, nature, sleep, and health."
+			],
+			"present": [
+				"victor"
+			],
+			"knowledge": [
+				{
+					"key": "victor",
+					"learns": "He believes he has discovered the cause of life and can bestow animation, though constructing a suitable frame remains difficult."
+				}
+			],
+			"mood": "Exultant, obsessive, feverish"
+		},
+		{
+			"chapterId": "c09",
+			"title": "Chapter 5",
+			"summary": "Victor animates the creature, recoils from him, and falls into a long fever that Clerval nurses.",
+			"events": [
+				"On a rainy November night the creature opens his dull yellow eye and breathes.",
+				"Victor flees, dreams of Elizabeth changing into his dead mother, and escapes again when the creature approaches his bed.",
+				"He meets Clerval arriving by coach and finds the creature gone from his rooms.",
+				"Victor collapses into nervous fever; Henry nurses him through the winter.",
+				"In spring Victor recovers enough for Henry to offer him Elizabeth's letter."
+			],
+			"present": [
+				"victor",
+				"creature",
+				"henry"
+			],
+			"knowledge": [
+				{
+					"key": "victor",
+					"learns": "His creation lives, and by morning has left his apartment."
+				},
+				{
+					"key": "henry",
+					"learns": "Victor's persistent feverish ravings suggest some unusual terrible event, though he does not know its nature."
+				}
+			],
+			"mood": "Horror, collapse, tentative relief"
+		},
+		{
+			"chapterId": "c10",
+			"title": "Chapter 6",
+			"summary": "Elizabeth's letter recalls the family and Justine; Victor recovers, avoids his secret, and enjoys a walking tour with Henry.",
+			"events": [
+				"Elizabeth writes about the household, Justine's history, and little William.",
+				"Victor answers and introduces Henry to the professors, whose praise of his science distresses him.",
+				"Henry diverts conversation and studies Oriental languages with Victor.",
+				"Snow delays Victor's return home; in May the friends take a restorative fortnight's walk."
+			],
+			"present": [
+				"victor",
+				"henry",
+				"elizabeth",
+				"justine"
+			],
+			"knowledge": [
+				{
+					"key": "victor",
+					"learns": "Justine has returned to the household after her mother's death, and his family anxiously awaits a letter."
+				},
+				{
+					"key": "henry",
+					"learns": "Scientific instruments and conversation distress Victor, though Victor does not explain why."
+				}
+			],
+			"mood": "Affectionate, recovering"
+		},
+		{
+			"chapterId": "c11",
+			"title": "Chapter 7",
+			"summary": "News of William's murder brings Victor home, where a glimpse of the creature convinces him of the killer's identity and Justine is accused.",
+			"events": [
+				"Alphonse's letter reports William strangled and Caroline's miniature missing.",
+				"Victor leaves Henry, travels toward Geneva, and pauses two days at Lausanne.",
+				"At Plainpalais lightning reveals the creature, and Victor becomes convinced he killed William.",
+				"Victor decides not to disclose his story, fearing disbelief and futile pursuit.",
+				"At home Ernest reports Justine's arrest after the miniature was found in her pocket; Elizabeth insists on her innocence."
+			],
+			"present": [
+				"victor",
+				"henry",
+				"creature",
+				"alphonse",
+				"elizabeth"
+			],
+			"knowledge": [
+				{
+					"key": "victor",
+					"learns": "William is dead; seeing the creature near the scene, he becomes certain it is the murderer and learns Justine is accused."
+				},
+				{
+					"key": "henry",
+					"learns": "Alphonse's letter reports William's murder."
+				},
+				{
+					"key": "alphonse",
+					"learns": "Victor claims to know the murderer and insists Justine is innocent, without identifying the culprit."
+				}
+			],
+			"mood": "Grief, dread, suspicion"
+		},
+		{
+			"chapterId": "c12",
+			"title": "Chapter 8",
+			"summary": "Justine is tried and condemned; she reveals that her confession was coerced, but appeals fail and she is executed.",
+			"events": [
+				"Witnesses describe Justine's movements and the portrait found in her pocket; she explains her search and night in a barn.",
+				"Elizabeth testifies to Justine's character, but the public remains hostile.",
+				"The judges condemn Justine; Victor and Elizabeth hear that she has confessed.",
+				"In prison Justine tells them her confessor threatened her into a false confession.",
+				"Elizabeth and Victor appeal to the judges; Victor's intended full avowal dies on his lips, and Justine is executed."
+			],
+			"present": [
+				"victor",
+				"elizabeth",
+				"justine",
+				"alphonse"
+			],
+			"knowledge": [
+				{
+					"key": "victor",
+					"learns": "Justine's confession was false and extracted under threats of excommunication and hell."
+				},
+				{
+					"key": "elizabeth",
+					"learns": "Justine confessed falsely under religious pressure and is innocent."
+				},
+				{
+					"key": "justine",
+					"learns": "Elizabeth and Victor believe her innocent, giving her comfort before death."
+				}
+			],
+			"mood": "Judicial horror and remorse"
+		},
+		{
+			"chapterId": "c13",
+			"title": "Chapter 9",
+			"summary": "Remorse isolates Victor; Elizabeth grieves for Justine, and he journeys to Chamounix seeking relief.",
+			"events": [
+				"Alphonse urges Victor to moderate his grief for the sake of the living.",
+				"At Belrive Victor rows alone and resists thoughts of drowning because his family needs protection.",
+				"Elizabeth speaks of her lost confidence in justice and tries to comfort him.",
+				"Victor travels through the Alpine valleys to Chamounix and finds intermittent consolation in the scenery."
+			],
+			"present": [
+				"victor",
+				"alphonse",
+				"elizabeth"
+			],
+			"knowledge": [
+				{
+					"key": "elizabeth",
+					"learns": "Victor's visible despair and revenge disturb her, though she does not know their cause."
+				},
+				{
+					"key": "victor",
+					"learns": "He recognizes that his remaining family restrains him from suicide and believes the creature may strike again."
+				}
+			],
+			"mood": "Remorseful, intermittently soothed"
+		},
+		{
+			"chapterId": "c14",
+			"title": "Chapter 10",
+			"summary": "On Montanvert Victor meets the creature, attacks him, and reluctantly agrees to hear his account.",
+			"events": [
+				"Victor visits the Arveiron glacier and next day climbs Montanvert alone.",
+				"The creature crosses the ice swiftly and confronts his maker.",
+				"Victor curses and attacks him; the creature evades him and demands a hearing.",
+				"Moved by curiosity and a sense of a creator's duty, Victor follows him to a mountain hut."
+			],
+			"present": [
+				"victor",
+				"creature"
+			],
+			"knowledge": [
+				{
+					"key": "victor",
+					"learns": "The creature can speak eloquently, claims he was made vicious by misery, and demands that Victor hear him."
+				},
+				{
+					"key": "creature",
+					"learns": "Victor will listen to his history before deciding how to treat him."
+				}
+			],
+			"mood": "Sublime, hostile, expectant"
+		},
+		{
+			"chapterId": "c15",
+			"title": "Chapter 11",
+			"summary": "The creature recalls his confused awakening, early discoveries, violent rejection, and refuge beside a cottage.",
+			"events": [
+				"The creature wanders into a forest, learns hunger and cold, and finds clothing and a cloak.",
+				"He discovers fire's warmth and power to burn, and experiments with cooking.",
+				"A shepherd flees him, and villagers attack him with missiles.",
+				"He hides in a low hovel adjoining a cottage and watches its three inhabitants through a chink."
+			],
+			"present": [
+				"creature",
+				"de_lacey",
+				"felix"
+			],
+			"knowledge": [
+				{
+					"key": "creature",
+					"learns": "Fire warms and burns; human beings may flee or attack him, while the cottagers show one another affection."
+				}
+			],
+			"mood": "Wonder, pain, cautious hope"
+		},
+		{
+			"chapterId": "c16",
+			"title": "Chapter 12",
+			"summary": "Watching the De Laceys through winter, the creature learns their poverty, helps them secretly, and begins acquiring language.",
+			"events": [
+				"The creature realizes the old cottager is blind and the family is hungry.",
+				"He stops stealing their food and secretly brings firewood and clears paths.",
+				"He learns basic words and the names Agatha and Felix.",
+				"Seeing his reflection in a pool, he recognizes his deformity and hopes language will help him win acceptance.",
+				"Spring and the family's improving circumstances renew his hopes."
+			],
+			"present": [
+				"creature",
+				"de_lacey",
+				"felix"
+			],
+			"knowledge": [
+				{
+					"key": "creature",
+					"learns": "The family is poor; the old man is blind; his own appearance differs painfully from theirs; words and written signs communicate meaning."
+				}
+			],
+			"mood": "Tender, lonely, hopeful"
+		},
+		{
+			"chapterId": "c17",
+			"title": "Chapter 13",
+			"summary": "Safie's arrival restores Felix's joy, and the creature learns language and human history alongside her.",
+			"events": [
+				"A veiled Safie arrives on horseback and is welcomed by Felix and his family.",
+				"Felix teaches Safie their language, and the hidden creature follows the lessons.",
+				"Using Volney's history, Felix explains societies, religion, and government.",
+				"The creature compares human family ties, wealth, and rank with his own nameless isolation."
+			],
+			"present": [
+				"creature",
+				"felix",
+				"de_lacey",
+				"safie"
+			],
+			"knowledge": [
+				{
+					"key": "creature",
+					"learns": "He learns much of human language, history, inequality, family, and reproduction, and recognizes that he has no known kin or property."
+				}
+			],
+			"mood": "Joyful at the cottage, anguished in hiding"
+		},
+		{
+			"chapterId": "c18",
+			"title": "Chapter 14",
+			"summary": "The creature recounts the De Laceys' exile and Safie's journey to Felix.",
+			"events": [
+				"Felix resolves to free Safie's father after his unjust condemnation in Paris.",
+				"Felix helps the merchant escape; his father and sister are imprisoned, and Felix returns to surrender himself.",
+				"The family loses its fortune and is exiled to Germany.",
+				"Safie's father breaks his promise of marriage and plans to take her away.",
+				"Safie takes her jewels and money, leaves Italy, and reaches Felix's cottage after her attendant dies."
+			],
+			"present": [
+				"creature",
+				"felix",
+				"de_lacey",
+				"safie"
+			],
+			"knowledge": [
+				{
+					"key": "creature",
+					"learns": "Felix's rescue caused the family's exile, and Safie defied her father's plans to rejoin him."
+				},
+				{
+					"key": "safie",
+					"learns": "Papers belonging to her father reveal Felix's exile and where he lives."
+				},
+				{
+					"key": "felix",
+					"learns": "Safie's father has departed with her and sent him a derisory pittance."
+				}
+			],
+			"mood": "Indignant, romantic, admiring"
+		},
+		{
+			"chapterId": "c19",
+			"title": "Chapter 15",
+			"summary": "Books and Victor's journal deepen the creature's self-knowledge; his attempt to win the De Laceys' friendship ends in violence.",
+			"events": [
+				"The creature finds a portmanteau containing books and reads Werter, Plutarch, and Paradise Lost.",
+				"He deciphers Victor's journal and learns the circumstances of his creation and his maker's disgust.",
+				"He chooses to approach blind De Lacey alone and receives a sympathetic hearing.",
+				"As he reveals that the family are the friends he seeks, Felix, Safie, and Agatha return.",
+				"Felix beats him with a stick; the creature refrains from retaliation and flees."
+			],
+			"present": [
+				"creature",
+				"de_lacey",
+				"felix",
+				"safie"
+			],
+			"knowledge": [
+				{
+					"key": "creature",
+					"learns": "Victor made him and recorded horror at his appearance; De Lacey initially offers help without seeing him."
+				},
+				{
+					"key": "de_lacey",
+					"learns": "The stranger says that De Lacey's own family are the friends whose protection he seeks."
+				},
+				{
+					"key": "felix",
+					"learns": "A frightening stranger is holding his father when the family returns."
+				}
+			],
+			"mood": "Longing, suspense, rejection"
+		},
+		{
+			"chapterId": "c20",
+			"title": "Chapter 16",
+			"summary": "Abandoned by the De Laceys and shot after a rescue, the creature murders William, frames Justine, and demands a companion.",
+			"events": [
+				"The creature first vows revenge, then resolves to try De Lacey again, but overhears Felix abandoning the cottage.",
+				"He burns the empty cottage and travels toward Geneva using Victor's papers and lessons in geography.",
+				"He rescues a girl from a river and is shot by a man who takes her away.",
+				"Near Geneva he seizes William, learns he is a Frankenstein, and strangles him.",
+				"He takes William's portrait and hides it in a sleeping woman's dress.",
+				"He concludes his account by demanding that Victor create a female companion."
+			],
+			"present": [
+				"creature",
+				"felix",
+				"justine",
+				"victor"
+			],
+			"knowledge": [
+				{
+					"key": "creature",
+					"learns": "The De Laceys have left permanently; the child he seizes belongs to the Frankenstein family."
+				},
+				{
+					"key": "victor",
+					"learns": "The creature admits killing William and planting the portrait on the sleeping woman."
+				}
+			],
+			"mood": "Betrayal, violence, demand"
+		},
+		{
+			"chapterId": "c21",
+			"title": "Chapter 17",
+			"summary": "After argument and threats, Victor promises to make a female if the creature will leave human society.",
+			"events": [
+				"Victor refuses to create a second being and fears their combined violence.",
+				"The creature argues that isolation made him malicious and offers exile in South America's wilds.",
+				"Victor weighs compassion, duty, danger, and the creature's power.",
+				"Victor consents on condition of permanent departure; the creature swears and leaves.",
+				"Victor returns home resolved to undertake the work in secret."
+			],
+			"present": [
+				"victor",
+				"creature"
+			],
+			"knowledge": [
+				{
+					"key": "victor",
+					"learns": "The creature promises to leave human settlements forever if given a female companion."
+				},
+				{
+					"key": "creature",
+					"learns": "Victor has conditionally agreed to make the companion."
+				}
+			],
+			"mood": "Contentious, uneasy"
+		},
+		{
+			"chapterId": "c22",
+			"title": "Chapter 18",
+			"summary": "Victor delays his task, obtains permission to travel to England, and journeys with Henry down the Rhine.",
+			"events": [
+				"Victor postpones the female's creation and considers seeking English scientific knowledge.",
+				"Alphonse asks about Elizabeth; Victor affirms his love but requests a journey before marriage.",
+				"Alphonse and Elizabeth arrange for Henry to accompany him from Strasburgh.",
+				"The friends travel down the Rhine and onward to Britain, Henry delighting in scenery that Victor can scarcely enjoy."
+			],
+			"present": [
+				"victor",
+				"alphonse",
+				"elizabeth",
+				"henry"
+			],
+			"knowledge": [
+				{
+					"key": "alphonse",
+					"learns": "Victor says he loves Elizabeth and wishes to visit England before their marriage."
+				},
+				{
+					"key": "victor",
+					"learns": "His father and Elizabeth have arranged Henry's company for the journey."
+				}
+			],
+			"mood": "Concealed dread amid beauty"
+		},
+		{
+			"chapterId": "c23",
+			"title": "Chapter 19",
+			"summary": "Victor gathers information and materials in Britain, separates from Henry, and begins work on a remote Orkney island.",
+			"events": [
+				"In London Victor consults natural philosophers and collects materials while Henry pursues his Indian plans.",
+				"The friends travel through English and Scottish scenery toward Perth.",
+				"Victor asks to tour Scotland alone; Henry reluctantly agrees.",
+				"Victor rents and repairs a hut on a remote Orkney island and advances the female's construction in isolation."
+			],
+			"present": [
+				"victor",
+				"henry"
+			],
+			"knowledge": [
+				{
+					"key": "victor",
+					"learns": "He obtains information needed for his work and believes the creature will follow him to claim its result."
+				},
+				{
+					"key": "henry",
+					"learns": "Victor insists on travelling alone for a month or two and asks not to be followed."
+				}
+			],
+			"mood": "Restless, isolated, apprehensive"
+		},
+		{
+			"chapterId": "c24",
+			"title": "Chapter 20",
+			"summary": "Victor destroys the unfinished female before the creature, receives a wedding-night threat, and drifts to Ireland.",
+			"events": [
+				"Victor fears the female might reject the bargain or produce a dangerous race.",
+				"Seeing the creature at the window, he tears the unfinished body apart.",
+				"The creature confronts him and threatens to be with him on his wedding night; Victor assumes his own death is intended.",
+				"After receiving Henry's letter, Victor weights the remains with stones and drops them into the sea.",
+				"He falls asleep in the skiff, is driven far from shore, and lands in an Irish town, where he is taken to a magistrate."
+			],
+			"present": [
+				"victor",
+				"creature",
+				"henry"
+			],
+			"knowledge": [
+				{
+					"key": "creature",
+					"learns": "Victor has destroyed the unfinished companion and refuses to resume the work."
+				},
+				{
+					"key": "victor",
+					"learns": "The creature followed him to Orkney and threatens his wedding night; Victor believes the threat is against his own life."
+				}
+			],
+			"mood": "Defiant, threatened, disoriented"
+		},
+		{
+			"chapterId": "c25",
+			"title": "Chapter 21",
+			"summary": "Victor discovers Henry murdered, falls ill under suspicion, and is cleared before leaving Ireland with his father.",
+			"events": [
+				"Witnesses describe a strangled young man and a boat near the Irish shore.",
+				"Taken to the corpse, Victor recognizes Henry and collapses in convulsions.",
+				"During two months of fever he raves about murders; Kirwin arranges care and writes to his family.",
+				"Alphonse arrives; the grand jury rejects the charge when Victor's Orkney alibi is established.",
+				"Victor and his father sail for France, Victor determined to protect his remaining family."
+			],
+			"present": [
+				"victor",
+				"henry",
+				"alphonse"
+			],
+			"knowledge": [
+				{
+					"key": "victor",
+					"learns": "Henry has been strangled; Kirwin has contacted his family, and his father, Elizabeth, and Ernest are safe when Alphonse arrives."
+				},
+				{
+					"key": "alphonse",
+					"learns": "Victor is imprisoned and ill in Ireland, and travels there to support him."
+				}
+			],
+			"mood": "Shock, sickness, desolation"
+		},
+		{
+			"chapterId": "c26",
+			"title": "Chapter 22",
+			"summary": "Victor returns to Geneva, reassures Elizabeth of his love, and marries her while misreading the creature's threat.",
+			"events": [
+				"In Paris Victor calls himself responsible for the deaths; Alphonse takes his statements as signs of derangement.",
+				"Elizabeth writes asking whether Victor loves another and affirming her wish for a freely chosen marriage.",
+				"Victor promises to disclose his dreadful secret after their wedding and agrees to an early ceremony.",
+				"He arms himself against an attack he expects to fall on him.",
+				"After the wedding, Victor and Elizabeth cross the lake and land at Evian."
+			],
+			"present": [
+				"victor",
+				"alphonse",
+				"elizabeth"
+			],
+			"knowledge": [
+				{
+					"key": "alphonse",
+					"learns": "Victor repeats that he caused the deaths and speaks of saving the human race; Alphonse concludes his ideas are deranged."
+				},
+				{
+					"key": "elizabeth",
+					"learns": "Victor declares his love and says he has a dreadful secret he will reveal after marriage."
+				},
+				{
+					"key": "victor",
+					"learns": "Elizabeth fears he may love another but wants him to choose freely; he decides the wedding-night threat must mean his own death."
+				}
+			],
+			"mood": "Tender, ominous, tragically hopeful"
+		},
+		{
+			"chapterId": "c27",
+			"title": "Chapter 23",
+			"summary": "The creature murders Elizabeth; Alphonse dies of grief, and Victor resolves to pursue the killer after a magistrate hesitates.",
+			"events": [
+				"At the Evian inn Victor sends Elizabeth to her room while he searches for the creature.",
+				"Her screams draw him back; he finds her strangled and sees the creature at the window.",
+				"Victor fires, but the creature escapes into the lake despite a search.",
+				"Victor returns to Geneva; Alphonse dies after hearing the news, and Victor spends months confined as mad.",
+				"After release Victor tells a magistrate his story, but receives no effective help and leaves to pursue revenge."
+			],
+			"present": [
+				"victor",
+				"elizabeth",
+				"creature",
+				"alphonse"
+			],
+			"knowledge": [
+				{
+					"key": "victor",
+					"learns": "The wedding-night threat was directed at Elizabeth; his father and Ernest survived until his return, but his father dies soon afterward."
+				},
+				{
+					"key": "alphonse",
+					"learns": "Elizabeth has been murdered, news that overwhelms him."
+				}
+			],
+			"mood": "Devastation and vengeful resolve"
+		},
+		{
+			"chapterId": "c28",
+			"title": "Chapter 24",
+			"summary": "Victor pursues the creature to the polar ice, dies aboard Walton's ship, and the creature mourns him before departing into darkness.",
+			"events": [
+				"Victor swears revenge at his family's graves; the creature answers and draws him into a long pursuit.",
+				"Across Russia and onto polar ice, the creature leaves taunts and food; breaking ice separates them before Walton rescues Victor.",
+				"Walton records Victor's account and, when his icebound crew insists, agrees to return south.",
+				"Victor dies after defending his refusal to make a mate and warning Walton against ambition.",
+				"Walton finds the creature grieving over Victor; after confessing remorse and declaring his intention to burn himself, he departs on an ice raft."
+			],
+			"present": [
+				"victor",
+				"creature",
+				"walton"
+			],
+			"knowledge": [
+				{
+					"key": "walton",
+					"learns": "Victor's account is supported to him by letters and the creature's appearance; he hears the creature's remorse and intended suicide."
+				},
+				{
+					"key": "victor",
+					"learns": "Walton has agreed to turn south; Victor accepts that he is dying without completing his pursuit."
+				},
+				{
+					"key": "creature",
+					"learns": "Victor is dead, and he declares his crimes complete and his intention to die."
+				}
+			],
+			"mood": "Exhaustion, grief, remorse"
+		}
+	],
+	"divergencePoints": [
+		{
+			"id": "agrippas_warning",
+			"chapterId": "c06",
+			"label": "A Father Explains Agrippa",
+			"moment": "Young Victor shows his father Agrippa's book, and Alphonse dismisses it as trash without explaining why.",
+			"canonOutcome": "Victor finds the warning unconvincing and eagerly continues his alchemical reading.",
+			"whatIf": "What if Alphonse explained the failures of Agrippa's theories, and Victor put the book aside?",
+			"stakes": "Victor's earliest path toward forbidden knowledge could change."
+		},
+		{
+			"id": "stay_with_creation",
+			"chapterId": "c09",
+			"label": "The Maker Stays",
+			"moment": "The newly animated creature reaches toward Victor's bed, making inarticulate sounds.",
+			"canonOutcome": "Victor escapes downstairs and spends the night in the courtyard; the creature later leaves.",
+			"whatIf": "What if Victor stayed when the creature reached toward him and tried to care for him?",
+			"stakes": "The first bond between maker and creation might begin in care instead of abandonment."
+		},
+		{
+			"id": "justines_defence",
+			"chapterId": "c12",
+			"label": "The Secret in Court",
+			"moment": "Justine faces condemnation while Victor believes his creature killed William and considers an avowal.",
+			"canonOutcome": "Victor does not disclose the full story; appeals fail and Justine is executed.",
+			"whatIf": "What if Victor told the judges about his living creation while Justine could still be saved?",
+			"stakes": "Justine's life, Victor's credibility, and the family's knowledge hang on his testimony."
+		},
+		{
+			"id": "delacey_welcome",
+			"chapterId": "c19",
+			"label": "A Moment Longer",
+			"moment": "The creature tells blind De Lacey that his family are the friends whose protection he seeks, just as the others return.",
+			"canonOutcome": "The returning family recoils; Felix beats the creature, who flees without striking back.",
+			"whatIf": "What if the family returned a little later, giving De Lacey time to understand and promise the creature his help?",
+			"stakes": "The creature's hope of belonging to the household could survive its first test."
+		},
+		{
+			"id": "william_spared",
+			"chapterId": "c20",
+			"label": "The Child in the Wood",
+			"moment": "The creature seizes William, hoping for a companion, and learns that the frightened boy is a Frankenstein.",
+			"canonOutcome": "He grasps William's throat and kills him, then takes the portrait and frames Justine.",
+			"whatIf": "What if the creature released William after hearing his name instead of strangling him?",
+			"stakes": "William and Justine could escape the deaths that begin Victor's family tragedy."
+		},
+		{
+			"id": "female_completed",
+			"chapterId": "c24",
+			"label": "The Unbroken Promise",
+			"moment": "Victor sees the creature at the Orkney window while considering the dangers of the unfinished female.",
+			"canonOutcome": "Victor tears the work to pieces before the creature and vows never to resume it.",
+			"whatIf": "What if Victor kept his promise and continued making the creature's companion?",
+			"stakes": "A new being's life, the creature's promised exile, and Victor's family are at risk."
+		},
+		{
+			"id": "wedding_warning",
+			"chapterId": "c27",
+			"label": "Keep Elizabeth Close",
+			"moment": "At the Evian inn Victor asks Elizabeth to retire while he searches for the enemy he expects to attack him.",
+			"canonOutcome": "Elizabeth goes alone to her room and is murdered by the creature.",
+			"whatIf": "What if Victor told Elizabeth about the threat and kept her beside him at the inn?",
+			"stakes": "Elizabeth's life and the creature's chance to fulfil his threat depend on that separation."
+		},
+		{
+			"id": "walton_north",
+			"chapterId": "c28",
+			"label": "Beyond the Ice",
+			"moment": "Walton's sailors demand a promise to turn south if their icebound ship is freed.",
+			"canonOutcome": "Walton agrees to return, and the ship heads toward England when a passage opens.",
+			"whatIf": "What if Walton refused the crew's demand and insisted on continuing north when the ice opened?",
+			"stakes": "The expedition's hopes of discovery and the lives and loyalty of its crew are at stake."
+		},
+		{
+			"id": "coffin_encounter",
+			"chapterId": "c28",
+			"label": "At Victor's Coffin",
+			"moment": "Walton finds the creature mourning over Victor's body and recalls Victor's request that he destroy him.",
+			"canonOutcome": "Walton calls him to stay and hears his remorse; the creature leaves on an ice raft.",
+			"whatIf": "What if Walton acted on Victor's dying request when he found the creature beside the coffin?",
+			"stakes": "The creature's life and Walton's response to his friend's last appeal would be decided aboard the ship."
+		}
+	],
+	"visual": {
+		"era": "Eighteenth-century European coats, waistcoats, breeches, gowns and shawls; sailing ships, horse-drawn carriages, sledges, university laboratories, and Alpine cottages.",
+		"palette": "Cold blue-white ice, black water and storm clouds against candle yellow, hearth red, Alpine greens, and the gold of Elizabeth's hair.",
+		"motifs": [
+			"A half-burnt candle",
+			"Lightning over mountains",
+			"A miniature portrait",
+			"Firewood and a cottage hearth",
+			"Footprints and sledges on ice",
+			"Windows, shutters, and watching eyes",
+			"Letters and a concealed journal"
+		],
+		"comicStyle": "Romantic-era engraved illustration adapted to sequential panels: fine ink outlines, cross-hatched shadows, dramatic contrasts of candlelight and darkness, and wide Alpine or Arctic vistas enclosing small figures. Reserve close panels for hands, eyes, letters, and the shifts between tenderness and terror."
+	},
+	"glossary": [
+		{
+			"term": "Frankenstein",
+			"kind": "name",
+			"note": "Victor's family name, not a name given to his creature.",
+			"locales": {
+				"en": "Frankenstein"
+			}
+		},
+		{
+			"term": "Elizabeth Lavenza",
+			"kind": "name",
+			"note": "Victor's adopted companion and eventual wife.",
+			"locales": {
+				"en": "Elizabeth Lavenza"
+			}
+		},
+		{
+			"term": "Henry Clerval",
+			"kind": "name",
+			"note": "Victor's childhood friend and nurse.",
+			"locales": {
+				"en": "Henry Clerval"
+			}
+		},
+		{
+			"term": "Justine Moritz",
+			"kind": "name",
+			"note": "The household servant falsely convicted of William's murder.",
+			"locales": {
+				"en": "Justine Moritz"
+			}
+		},
+		{
+			"term": "De Lacey",
+			"kind": "name",
+			"note": "The blind French exile observed by the creature.",
+			"locales": {
+				"en": "De Lacey"
+			}
+		},
+		{
+			"term": "Safie",
+			"kind": "name",
+			"note": "Felix's beloved, called the Arabian by the creature.",
+			"locales": {
+				"en": "Safie"
+			}
+		},
+		{
+			"term": "Mrs. Saville",
+			"kind": "name",
+			"note": "Margaret, Walton's sister and the recipient of his letters.",
+			"locales": {
+				"en": "Mrs. Saville"
+			}
+		},
+		{
+			"term": "Belrive",
+			"kind": "place",
+			"note": "The eastern lakeshore where the Frankensteins' country house stands.",
+			"locales": {
+				"en": "Belrive"
+			}
+		},
+		{
+			"term": "Plainpalais",
+			"kind": "place",
+			"note": "The Geneva outskirts where William's body is found.",
+			"locales": {
+				"en": "Plainpalais"
+			}
+		},
+		{
+			"term": "Montanvert",
+			"kind": "place",
+			"note": "The mountain beside the glacier where Victor meets the creature.",
+			"locales": {
+				"en": "Montanvert"
+			}
+		},
+		{
+			"term": "Chamounix",
+			"kind": "place",
+			"note": "The Alpine valley and village Victor visits after Justine's death.",
+			"locales": {
+				"en": "Chamounix"
+			}
+		},
+		{
+			"term": "dæmon",
+			"kind": "term",
+			"note": "A recurring name Victor gives his creature.",
+			"locales": {
+				"en": "dæmon"
+			}
+		},
+		{
+			"term": "natural philosophy",
+			"kind": "term",
+			"note": "The study of nature that encompasses Victor's scientific pursuits.",
+			"locales": {
+				"en": "natural philosophy"
+			}
+		},
+		{
+			"term": "Paradise Lost",
+			"kind": "title",
+			"note": "One of the books the creature finds and reads as history.",
+			"locales": {
+				"en": "Paradise Lost"
+			}
+		},
+		{
+			"term": "Ruins of Empires",
+			"kind": "title",
+			"note": "Volney's work from which Felix teaches Safie.",
+			"locales": {
+				"en": "Ruins of Empires"
+			}
+		}
+	]
+}

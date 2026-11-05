@@ -1,0 +1,57 @@
+/* The 404 sheet (sections/NotFoundSection.js). */
+
+#SiteDocument #SiteBody #NotFound {
+  background: var(--remix-canvas);
+  place-items: center;
+  min-height: calc(100svh - 11rem);
+  padding: 3rem 1.25rem;
+  display: grid;
+}
+
+#SiteDocument #SiteBody #NotFound [data-classlist~="remix-notfound"] {
+  border-radius: var(--remix-radius-sheet);
+  background: var(--remix-sheet);
+  width: min(100%, 37rem);
+  box-shadow: var(--remix-shadow-sheet), 0 30px 60px -34px light-dark(#2622184d, #000000b3);
+  text-align: center;
+  padding: clamp(2.5rem, 6vw, 4rem) clamp(1.5rem, 6vw, 3.5rem);
+}
+
+#SiteDocument #SiteBody #NotFound [data-classlist~="remix-notfound-mark"] {
+  background: var(--remix-pick);
+  width: 4rem;
+  height: 4rem;
+  color: var(--color-text-brand);
+  border-radius: 1rem;
+  place-items: center;
+  margin-bottom: .5rem;
+  display: grid;
+}
+
+#SiteDocument #SiteBody #NotFound [data-classlist~="remix-notfound-mark"] svg {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+#SiteDocument #SiteBody #NotFound h1 {
+  font-family: var(--font-heading);
+  letter-spacing: -.02em;
+  text-wrap: balance;
+  font-size: clamp(2rem, 1.4rem + 2.4vw, 3rem);
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+#SiteDocument #SiteBody #NotFound [data-classlist~="remix-notfound-body"] {
+  max-width: 28rem;
+  color: var(--remix-ink-soft);
+  text-wrap: pretty;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+@media (width <= 47.999rem) {
+  #SiteDocument #SiteBody #NotFound {
+    min-height: calc(100svh - 14rem);
+  }
+}

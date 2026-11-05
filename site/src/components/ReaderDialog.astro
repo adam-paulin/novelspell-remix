@@ -1,0 +1,93 @@
+---
+// The book reader (port of ReaderDialog.js): About (the book plate) and Read (the chapter text, fetched on open from
+// library/<slug>/chapters.json) panes, a table of contents, text size and previous/next. Every book's plate, bar thumb and contents
+// are compiled in as hidden variants.
+import DialogShell from "./DialogShell.astro";
+import Icon from "./ui/Icon.astro";
+import Cover from "./ui/Cover.astro";
+import { en } from "../content/en";
+import books from "../data/books.json";
+
+const copy = en.studio.preview;
+type Book = (typeof books)[number];
+type Chapter = Book["toc"][number];
+
+// Contents rows, with a group heading wherever the chapter kind changes (front matter, then chapters).
+const tocRows = (book: Book) => {
+	let lastKind: string | null = null;
+	return book.toc.map((chapter: Chapter) => {
+		const group = chapter.kind !== lastKind ? (chapter.kind === "front" ? copy.tocFront : copy.tocChapters) : null;
+		lastKind = chapter.kind;
+		const label = (book.chapterLabels as Record<string, string | undefined> | undefined)?.[chapter.id];
+		const number = (book.chapterNumbers as Record<string, number | undefined> | undefined)?.[chapter.id];
+		return { chapter, group, label: label || undefined, number: number == null ? undefined : String(number) };
+	});
+};
+const ghosts = Array.from({ length: 12 });
+---
+<DialogShell close={copy.close} class="flex-col" data-classlist="remix-dialog remix-dialog-reader" data-modal="preview" data-preview-dialog aria-labelledby="PreviewHeading" data-tab="about">
+	<Fragment slot="head">
+		<h2 class="sr-only" id="PreviewHeading" tabindex="-1" autofocus>{copy.heading}</h2>
+		<header class="flex flex-none items-center gap-3" data-classlist="remix-reader-bar">
+			<div class="flex min-w-0 flex-1 items-center gap-3">
+				<div class="min-w-0" data-classlist="remix-reader-books">{books.map((book) => (
+					<span class="flex min-w-0 items-center gap-3" data-preview-variant={book.slug} hidden>
+						<span class="flex-none" data-classlist="remix-reader-thumb"><Cover book={book} /></span>
+						<span class="min-w-0" data-classlist="remix-reader-book">{book.title}</span>
+					</span>
+				))}</div>
+			</div>
+			<div class="flex flex-none items-center gap-1" data-classlist="remix-reader-tools">
+				<button data-control="quiet" data-classlist="remix-reader-contents" type="button" data-toc-toggle aria-expanded="false" aria-controls="TocPanel"><Icon name="lucide-list" /><span data-classlist="remix-reader-contents-label">{copy.tocOpen}</span></button>
+				<span class="mx-1" data-classlist="remix-reader-divider" aria-hidden="true"></span>
+				<button data-control="icon" type="button" data-size="down" aria-label={copy.zoomOut}><Icon name="lucide-zoom-out" /></button>
+				<button data-control="icon" type="button" data-size="up" aria-label={copy.zoomIn}><Icon name="lucide-zoom-in" /></button>
+				<span class="mx-1" data-classlist="remix-reader-divider" aria-hidden="true"></span>
+				<button data-control="icon" type="button" data-prev aria-label={copy.previous}><Icon name="lucide-chevron-left" /></button>
+				<button data-control="icon" type="button" data-next aria-label={copy.next}><Icon name="lucide-chevron-right" /></button>
+			</div>
+			<div class="basis-full gap-6" data-classlist="remix-reader-tabs">
+				<button data-classlist="remix-reader-tab" type="button" data-tab-btn="about" aria-pressed="true">{copy.tabAbout}</button>
+				<button data-classlist="remix-reader-tab" type="button" data-tab-btn="read" aria-pressed="false">{copy.tabRead}</button>
+			</div>
+		</header>
+	</Fragment>
+	<div class="grid min-h-0 flex-1 grid-cols-[22rem_minmax(0,1fr)]" data-classlist="remix-reader-panes">
+		<aside class="flex min-h-0 flex-col" data-classlist="remix-reader-about" data-pane="about">
+			<div class="min-h-0 flex-1" data-classlist="remix-reader-about-scroll">{books.map((book) => (
+				<div data-preview-variant={book.slug} hidden>
+					<div data-classlist="remix-identity">
+						<div data-classlist="remix-identity-cover"><Cover book={book} /></div>
+						<div data-classlist="remix-identity-text">
+							<p class="m-0" data-classlist="remix-identity-genre">{book.genre}</p>
+							<h3 class="m-0" data-classlist="remix-identity-title" data-preview-title>{book.title}</h3>
+							<p class="m-0" data-classlist="remix-identity-author">{book.author}</p>
+						</div>
+					</div>
+					<span data-classlist="remix-dialog-rule remix-identity-rule" aria-hidden="true"></span>
+					<p class="m-0" data-classlist="remix-identity-premise" data-preview-premise>{book.premise}</p>
+					<button data-control="primary" data-classlist="remix-identity-start" type="button" data-tab-go="read">{copy.start}</button>
+				</div>
+			))}</div>
+		</aside>
+		<section class="flex min-h-0 min-w-0 flex-col" data-classlist="remix-reader-pane" data-pane="read" aria-label={copy.readerLabel}>
+			<div class="min-h-0 flex-1" data-classlist="remix-reader-body" data-reader-body tabindex="0">
+				<div data-classlist="remix-measure remix-reader-status">
+					<p class="m-0" data-classlist="remix-reader-message" data-messages="reader-status" role="status"><span data-message="loading" hidden>{copy.loading}</span><span data-message="failed" hidden>{copy.failed}</span></p>
+					<div class="flex-col" data-classlist="remix-reader-ghost" aria-hidden="true">{ghosts.map(() => <span data-classlist="remix-reader-ghost-line"></span>)}</div>
+					<button class="mt-5" data-control="secondary" data-classlist="remix-reader-retry" type="button" data-reader-retry><Icon name="lucide-refresh-cw" /><span>{copy.retry}</span></button>
+				</div>
+				<div class="mb-6" data-classlist="remix-measure" data-split-marker hidden><p class="m-0 flex items-center gap-3" data-classlist="remix-split-marker"><span>{copy.splitMarker}</span><span data-classlist="remix-dialog-rule" aria-hidden="true"></span></p><p class="mb-0 mt-3" data-classlist="remix-split-moment" data-slot="splitMoment"></p></div>
+				<article data-classlist="remix-measure remix-prose remix-reader-text" data-reader-text></article>
+			</div>
+			<nav class="flex-col" data-classlist="remix-toc" id="TocPanel" data-toc aria-label={copy.tocTitle} hidden>
+				<div class="flex-none" data-classlist="remix-toc-head"><div class="flex items-center justify-between" data-classlist="remix-measure remix-toc-head-row"><h3 class="m-0" data-classlist="remix-toc-title">{copy.tocTitle}</h3><button data-control="icon" type="button" data-toc-toggle aria-label={copy.tocClose}><Icon name="lucide-x" /></button></div></div>
+				{books.map((book) => (
+					<div class="min-h-0 flex-1" data-classlist="remix-toc-book" data-toc-book={book.slug} hidden><ol data-classlist="remix-measure">{tocRows(book).map(({ chapter, group, label, number }) => (
+						<Fragment>{group && <li data-classlist="remix-toc-group" role="presentation">{group}</li>}<li><button class="flex items-baseline" data-classlist="remix-toc-item" type="button" data-chapter={chapter.id} data-chapter-label={label} data-chapter-number={number}><span data-classlist="remix-toc-name">{chapter.title}</span></button></li></Fragment>
+					))}</ol></div>
+				))}
+			</nav>
+		</section>
+	</div>
+</DialogShell>

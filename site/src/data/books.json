@@ -1,0 +1,2952 @@
+[
+	{
+		"slug": "frankenstein",
+		"title": "Frankenstein",
+		"shortTitle": "Frankenstein",
+		"author": "Mary Wollstonecraft Shelley",
+		"railLabel": "Remix Frankenstein by Mary Wollstonecraft Shelley",
+		"buildKicker": "A novel from Frankenstein",
+		"lightboxCaption": "Frankenstein, remixed: “{lightboxTitle}”",
+		"kicker": "Frankenstein, remixed",
+		"openingTitle": "Opening Frankenstein at {openChapter}",
+		"findingTitle": "Finding where Frankenstein turns",
+		"voiceBy": "— Mary Wollstonecraft Shelley, Frankenstein",
+		"demoNote": "Live writing is off in this demo, so this is the closest chapter already written for Frankenstein.",
+		"genre": "Gothic horror",
+		"subgenres": [
+			"Science fiction",
+			"Psychological horror",
+			"Philosophical fiction",
+			"Epistolary fiction"
+		],
+		"tone": "Sublime and intimate, by turns rapturous, mournful, accusatory, and horrified.",
+		"hook": "A maker flees his living creation, and the abandoned being comes looking for an answer.",
+		"premise": "Genevese student Victor Frankenstein discovers how to animate lifeless matter and creates a gigantic human being. His horror at the living result sends creator and creature along paths of isolation, injury, and vengeance, recounted to an Arctic explorer.",
+		"nsGenre": "horror",
+		"nsArc": "icarus",
+		"chips": [
+			{
+				"id": "stay_with_creation",
+				"chapterId": "c09",
+				"chapterNumber": 5,
+				"chapterLabel": "Chapter 5",
+				"chapterTag": "Chapter 5",
+				"label": "The Maker Stays",
+				"whatIf": "What if Victor stayed when the creature reached toward him and tried to care for him?",
+				"gist": "Victor stayed when the creature reached toward him and tried to care for him.",
+				"order": 1
+			},
+			{
+				"id": "justines_defence",
+				"chapterId": "c12",
+				"chapterNumber": 8,
+				"chapterLabel": "Chapter 8",
+				"chapterTag": "Chapter 8",
+				"label": "The Secret in Court",
+				"whatIf": "What if Victor told the judges about his living creation while Justine could still be saved?",
+				"gist": "Victor told the judges about his living creation while Justine could still be saved.",
+				"order": 2
+			},
+			{
+				"id": "delacey_welcome",
+				"chapterId": "c19",
+				"chapterNumber": 15,
+				"chapterLabel": "Chapter 15",
+				"chapterTag": "Chapter 15",
+				"label": "A Moment Longer",
+				"whatIf": "What if the family returned a little later, giving De Lacey time to understand and promise the creature his help?",
+				"gist": "The family returned a little later, giving De Lacey time to understand and promise the creature his help.",
+				"order": 3
+			},
+			{
+				"id": "female_completed",
+				"chapterId": "c24",
+				"chapterNumber": 20,
+				"chapterLabel": "Chapter 20",
+				"chapterTag": "Chapter 20",
+				"label": "The Unbroken Promise",
+				"whatIf": "What if Victor kept his promise and continued making the creature's companion?",
+				"gist": "Victor kept his promise and continued making the creature's companion.",
+				"order": 5
+			},
+			{
+				"id": "wedding_warning",
+				"chapterId": "c27",
+				"chapterNumber": 23,
+				"chapterLabel": "Chapter 23",
+				"chapterTag": "Chapter 23",
+				"label": "Keep Elizabeth Close",
+				"whatIf": "What if Victor told Elizabeth about the threat and kept her beside him at the inn?",
+				"gist": "Victor told Elizabeth about the threat and kept her beside him at the inn.",
+				"order": 6
+			},
+			{
+				"id": "coffin_encounter",
+				"chapterId": "c28",
+				"chapterNumber": 24,
+				"chapterLabel": "Chapter 24",
+				"chapterTag": "Chapter 24",
+				"label": "At Victor’s Coffin",
+				"whatIf": "What if Walton acted on Victor's dying request when he found the creature beside the coffin?",
+				"gist": "Walton acted on Victor's dying request when he found the creature beside the coffin.",
+				"order": 8
+			}
+		],
+		"example": {
+			"id": "stay_with_creation",
+			"chapterId": "c09",
+			"label": "The Maker Stays",
+			"whatIf": "What if Victor stayed when the creature reached toward him and tried to care for him?"
+		},
+		"voice": [
+			"The old man paused and then continued, ‘If you will unreservedly confide to me the particulars of your tale, I perhaps may be of use in undeceiving them. I am blind and cannot judge of your countenance, but there is something in your words which persuades me that you are sincere. I am poor and an exile, but it will afford me true pleasure to be in any way serviceable to a human creature.’",
+			"One day, when I was oppressed by cold, I found a fire which had been left by some wandering beggars, and was overcome with delight at the warmth I experienced from it. In my joy I thrust my hand into the live embers, but quickly drew it out again with a cry of pain. How strange, I thought, that the same cause should produce such opposite effects! I examined the materials of the fire, and to my joy found it to be composed of wood."
+		],
+		"chapterNumbers": {
+			"c05": 1,
+			"c06": 2,
+			"c07": 3,
+			"c08": 4,
+			"c09": 5,
+			"c10": 6,
+			"c11": 7,
+			"c12": 8,
+			"c13": 9,
+			"c14": 10,
+			"c15": 11,
+			"c16": 12,
+			"c17": 13,
+			"c18": 14,
+			"c19": 15,
+			"c20": 16,
+			"c21": 17,
+			"c22": 18,
+			"c23": 19,
+			"c24": 20,
+			"c25": 21,
+			"c26": 22,
+			"c27": 23,
+			"c28": 24
+		},
+		"chapterLabels": {
+			"c01": "Letter I",
+			"c02": "Letter II",
+			"c03": "Letter III",
+			"c04": "Letter IV",
+			"c05": "Chapter 1",
+			"c06": "Chapter 2",
+			"c07": "Chapter 3",
+			"c08": "Chapter 4",
+			"c09": "Chapter 5",
+			"c10": "Chapter 6",
+			"c11": "Chapter 7",
+			"c12": "Chapter 8",
+			"c13": "Chapter 9",
+			"c14": "Chapter 10",
+			"c15": "Chapter 11",
+			"c16": "Chapter 12",
+			"c17": "Chapter 13",
+			"c18": "Chapter 14",
+			"c19": "Chapter 15",
+			"c20": "Chapter 16",
+			"c21": "Chapter 17",
+			"c22": "Chapter 18",
+			"c23": "Chapter 19",
+			"c24": "Chapter 20",
+			"c25": "Chapter 21",
+			"c26": "Chapter 22",
+			"c27": "Chapter 23",
+			"c28": "Chapter 24"
+		},
+		"cast": [
+			{
+				"key": "victor",
+				"name": "Victor Frankenstein",
+				"role": "Genevese natural philosopher, creator of the creature, and principal narrator."
+			},
+			{
+				"key": "creature",
+				"name": "the creature",
+				"role": "Victor's abandoned creation, his antagonist, and narrator of his own early life."
+			},
+			{
+				"key": "walton",
+				"name": "Robert Walton",
+				"role": "English Arctic expedition leader and letter-writing frame narrator."
+			},
+			{
+				"key": "elizabeth",
+				"name": "Elizabeth Lavenza",
+				"role": "Victor's adopted childhood companion, confidante of the family, and wife."
+			},
+			{
+				"key": "henry",
+				"name": "Henry Clerval",
+				"role": "Victor's closest friend, nurse, and travelling companion."
+			},
+			{
+				"key": "alphonse",
+				"name": "Alphonse Frankenstein",
+				"role": "Victor's father and the head of the Frankenstein household."
+			},
+			{
+				"key": "justine",
+				"name": "Justine Moritz",
+				"role": "Frankenstein family servant falsely convicted of William's murder."
+			},
+			{
+				"key": "de_lacey",
+				"name": "De Lacey",
+				"role": "Blind French exile whose cottage shelters the creature's hopes of acceptance."
+			},
+			{
+				"key": "felix",
+				"name": "Felix",
+				"role": "De Lacey's son, Safie's lover, and the creature's unwitting teacher."
+			},
+			{
+				"key": "safie",
+				"name": "Safie",
+				"role": "Felix's beloved, whose arrival and language lessons transform the cottage."
+			}
+		],
+		"toc": [
+			{
+				"id": "c01",
+				"kind": "chapter",
+				"title": "Letter I"
+			},
+			{
+				"id": "c02",
+				"kind": "chapter",
+				"title": "Letter II"
+			},
+			{
+				"id": "c03",
+				"kind": "chapter",
+				"title": "Letter III"
+			},
+			{
+				"id": "c04",
+				"kind": "chapter",
+				"title": "Letter IV"
+			},
+			{
+				"id": "c05",
+				"kind": "chapter",
+				"title": "Chapter 1"
+			},
+			{
+				"id": "c06",
+				"kind": "chapter",
+				"title": "Chapter 2"
+			},
+			{
+				"id": "c07",
+				"kind": "chapter",
+				"title": "Chapter 3"
+			},
+			{
+				"id": "c08",
+				"kind": "chapter",
+				"title": "Chapter 4"
+			},
+			{
+				"id": "c09",
+				"kind": "chapter",
+				"title": "Chapter 5"
+			},
+			{
+				"id": "c10",
+				"kind": "chapter",
+				"title": "Chapter 6"
+			},
+			{
+				"id": "c11",
+				"kind": "chapter",
+				"title": "Chapter 7"
+			},
+			{
+				"id": "c12",
+				"kind": "chapter",
+				"title": "Chapter 8"
+			},
+			{
+				"id": "c13",
+				"kind": "chapter",
+				"title": "Chapter 9"
+			},
+			{
+				"id": "c14",
+				"kind": "chapter",
+				"title": "Chapter 10"
+			},
+			{
+				"id": "c15",
+				"kind": "chapter",
+				"title": "Chapter 11"
+			},
+			{
+				"id": "c16",
+				"kind": "chapter",
+				"title": "Chapter 12"
+			},
+			{
+				"id": "c17",
+				"kind": "chapter",
+				"title": "Chapter 13"
+			},
+			{
+				"id": "c18",
+				"kind": "chapter",
+				"title": "Chapter 14"
+			},
+			{
+				"id": "c19",
+				"kind": "chapter",
+				"title": "Chapter 15"
+			},
+			{
+				"id": "c20",
+				"kind": "chapter",
+				"title": "Chapter 16"
+			},
+			{
+				"id": "c21",
+				"kind": "chapter",
+				"title": "Chapter 17"
+			},
+			{
+				"id": "c22",
+				"kind": "chapter",
+				"title": "Chapter 18"
+			},
+			{
+				"id": "c23",
+				"kind": "chapter",
+				"title": "Chapter 19"
+			},
+			{
+				"id": "c24",
+				"kind": "chapter",
+				"title": "Chapter 20"
+			},
+			{
+				"id": "c25",
+				"kind": "chapter",
+				"title": "Chapter 21"
+			},
+			{
+				"id": "c26",
+				"kind": "chapter",
+				"title": "Chapter 22"
+			},
+			{
+				"id": "c27",
+				"kind": "chapter",
+				"title": "Chapter 23"
+			},
+			{
+				"id": "c28",
+				"kind": "chapter",
+				"title": "Chapter 24"
+			}
+		]
+	},
+	{
+		"slug": "alices-adventures-in-wonderland",
+		"title": "Alice’s Adventures in Wonderland",
+		"shortTitle": "Alice in Wonderland",
+		"author": "Lewis Carroll",
+		"railLabel": "Remix Alice’s Adventures in Wonderland by Lewis Carroll",
+		"buildKicker": "A novel from Alice’s Adventures in Wonderland",
+		"lightboxCaption": "Alice in Wonderland, remixed: “{lightboxTitle}”",
+		"kicker": "Alice in Wonderland, remixed",
+		"openingTitle": "Opening Alice in Wonderland at {openChapter}",
+		"findingTitle": "Finding where Alice in Wonderland turns",
+		"voiceBy": "— Lewis Carroll, Alice in Wonderland",
+		"demoNote": "Live writing is off in this demo, so this is the closest chapter already written for Alice in Wonderland.",
+		"genre": "Children’s fantasy",
+		"subgenres": [
+			"Nonsense fiction",
+			"Comic fantasy",
+			"Dream fantasy"
+		],
+		"tone": "Playful, curious, and disconcerting, with sudden threats softened by absurdity and a tender close.",
+		"hook": "A golden key and a door fifteen inches high lead Alice toward a garden ruled by a furious Queen.",
+		"premise": "A curious little girl follows a waistcoated White Rabbit down a hole into a world of talking animals, abrupt changes of size, and baffling manners. Hoping to reach a beautiful garden, she encounters creatures who turn familiar lessons, games, and rules inside out.",
+		"nsGenre": "fantasy",
+		"nsArc": "wavering",
+		"chips": [
+			{
+				"id": "rabbit_hole",
+				"chapterId": "c01",
+				"chapterNumber": 1,
+				"chapterLabel": "Chapter 1",
+				"chapterTag": "Chapter 1",
+				"label": "After the White Rabbit",
+				"whatIf": "What if Alice stopped at the edge of the rabbit-hole and called after the White Rabbit instead of following him down?",
+				"gist": "Alice stopped at the edge of the rabbit-hole and called after the White Rabbit instead of following him down.",
+				"order": 0
+			},
+			{
+				"id": "house_fire",
+				"chapterId": "c04",
+				"chapterNumber": 4,
+				"chapterLabel": "Chapter 4",
+				"chapterTag": "Chapter 4",
+				"label": "Burn Down the House",
+				"whatIf": "What if the Rabbit's threat to burn the house down were acted on before Alice could frighten the crowd with Dinah?",
+				"gist": "The Rabbit's threat to burn the house down was acted on before Alice could frighten the crowd with Dinah.",
+				"order": 2
+			},
+			{
+				"id": "pig_baby",
+				"chapterId": "c06",
+				"chapterNumber": 6,
+				"chapterLabel": "Chapter 6",
+				"chapterTag": "Chapter 6",
+				"label": "Keep the Baby",
+				"whatIf": "What if Alice kept carrying the baby after it turned into a pig?",
+				"gist": "Alice kept carrying the baby after it turned into a pig.",
+				"order": 3
+			},
+			{
+				"id": "gardeners_saved",
+				"chapterId": "c08",
+				"chapterNumber": 8,
+				"chapterLabel": "Chapter 8",
+				"chapterTag": "Chapter 8",
+				"label": "The Rose Gardeners",
+				"whatIf": "What if Alice openly defended the gardeners to the Queen instead of hiding them in the flower-pot?",
+				"gist": "Alice openly defended the gardeners to the Queen instead of hiding them in the flower-pot.",
+				"order": 5
+			},
+			{
+				"id": "king_pardons",
+				"chapterId": "c09",
+				"chapterNumber": 9,
+				"chapterLabel": "Chapter 9",
+				"chapterTag": "Chapter 9",
+				"label": "No Royal Pardon",
+				"whatIf": "What if the King kept silent instead of pardoning the croquet players?",
+				"gist": "The King kept silent instead of pardoning the croquet players.",
+				"order": 6
+			},
+			{
+				"id": "sentence_first",
+				"chapterId": "c12",
+				"chapterNumber": 12,
+				"chapterLabel": "Chapter 12",
+				"chapterTag": "Chapter 12",
+				"label": "Sentence First",
+				"whatIf": "What if Alice held her tongue when the Queen demanded sentence before verdict?",
+				"gist": "Alice held her tongue when the Queen demanded sentence before verdict.",
+				"order": 8
+			}
+		],
+		"example": {
+			"id": "rabbit_hole",
+			"chapterId": "c01",
+			"label": "After the White Rabbit",
+			"whatIf": "What if Alice stopped at the edge of the rabbit-hole and called after the White Rabbit instead of following him down?"
+		},
+		"voice": [
+			"Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next. First, she tried to look down and make out what she was coming to, but it was too dark to see anything; then she looked at the sides of the well, and noticed that they were filled with cupboards and book-shelves; here and there she saw maps and pictures hung upon pegs.",
+			"First it marked out a race-course, in a sort of circle, (“the exact shape doesn’t matter,” it said,) and then all the party were placed along the course, here and there. There was no “One, two, three, and away,” but they began running when they liked, and left off when they liked, so that it was not easy to know when the race was over. However, when they had been running half an hour or so, and were quite dry again, the Dodo suddenly called out “The race is over!” and they all crowded round it, panting, and asking, “But who has won?”"
+		],
+		"chapterNumbers": {
+			"c01": 1,
+			"c02": 2,
+			"c03": 3,
+			"c04": 4,
+			"c05": 5,
+			"c06": 6,
+			"c07": 7,
+			"c08": 8,
+			"c09": 9,
+			"c10": 10,
+			"c11": 11,
+			"c12": 12
+		},
+		"chapterLabels": {
+			"c01": "Chapter 1",
+			"c02": "Chapter 2",
+			"c03": "Chapter 3",
+			"c04": "Chapter 4",
+			"c05": "Chapter 5",
+			"c06": "Chapter 6",
+			"c07": "Chapter 7",
+			"c08": "Chapter 8",
+			"c09": "Chapter 9",
+			"c10": "Chapter 10",
+			"c11": "Chapter 11",
+			"c12": "Chapter 12"
+		},
+		"cast": [
+			{
+				"key": "alice",
+				"name": "Alice",
+				"role": "The curious child whose dream and changing perspective carry the story."
+			},
+			{
+				"key": "white_rabbit",
+				"name": "White Rabbit",
+				"role": "Alice's quarry, a nervous royal attendant and herald at the trial."
+			},
+			{
+				"key": "mouse",
+				"name": "Mouse",
+				"role": "A fellow swimmer and touchy authority among the animals on the bank."
+			},
+			{
+				"key": "caterpillar",
+				"name": "Caterpillar",
+				"role": "The blue mushroom-dweller who tells Alice how its sides affect her size."
+			},
+			{
+				"key": "duchess",
+				"name": "Duchess",
+				"role": "The peppery kitchen's mistress, mother of the pig-baby, and later Alice's intrusive companion."
+			},
+			{
+				"key": "cheshire_cat",
+				"name": "Cheshire Cat",
+				"role": "The Duchess's grinning cat, Alice's conversational guide and friend."
+			},
+			{
+				"key": "hatter",
+				"name": "Hatter",
+				"role": "A tea-party host and frightened first witness at the Knave's trial."
+			},
+			{
+				"key": "march_hare",
+				"name": "March Hare",
+				"role": "The Hatter's tea companion, whose house Alice chooses to visit."
+			},
+			{
+				"key": "queen",
+				"name": "Queen of Hearts",
+				"role": "The furious royal authority who dominates croquet and the trial."
+			},
+			{
+				"key": "king",
+				"name": "King of Hearts",
+				"role": "The Queen's husband, who pardons croquet players and judges the Knave's trial."
+			},
+			{
+				"key": "gryphon",
+				"name": "Gryphon",
+				"role": "The Queen's guide for Alice and the Mock Turtle's brisk companion."
+			},
+			{
+				"key": "mock_turtle",
+				"name": "Mock Turtle",
+				"role": "The melancholy creature who recounts his sea-school and sings to Alice."
+			},
+			{
+				"key": "sister",
+				"name": "Alice's sister",
+				"role": "Alice's companion on the bank and the listener who dreams over her adventures."
+			}
+		],
+		"toc": [
+			{
+				"id": "c01",
+				"kind": "chapter",
+				"title": "Chapter 1: Down the Rabbit-Hole"
+			},
+			{
+				"id": "c02",
+				"kind": "chapter",
+				"title": "Chapter 2: The Pool of Tears"
+			},
+			{
+				"id": "c03",
+				"kind": "chapter",
+				"title": "Chapter 3: A Caucus-Race and a Long Tale"
+			},
+			{
+				"id": "c04",
+				"kind": "chapter",
+				"title": "Chapter 4: The Rabbit Sends in a Little Bill"
+			},
+			{
+				"id": "c05",
+				"kind": "chapter",
+				"title": "Chapter 5: Advice from a Caterpillar"
+			},
+			{
+				"id": "c06",
+				"kind": "chapter",
+				"title": "Chapter 6: Pig and Pepper"
+			},
+			{
+				"id": "c07",
+				"kind": "chapter",
+				"title": "Chapter 7: A Mad Tea-Party"
+			},
+			{
+				"id": "c08",
+				"kind": "chapter",
+				"title": "Chapter 8: The Queen’s Croquet-Ground"
+			},
+			{
+				"id": "c09",
+				"kind": "chapter",
+				"title": "Chapter 9: The Mock Turtle’s Story"
+			},
+			{
+				"id": "c10",
+				"kind": "chapter",
+				"title": "Chapter 10: The Lobster Quadrille"
+			},
+			{
+				"id": "c11",
+				"kind": "chapter",
+				"title": "Chapter 11: Who Stole the Tarts?"
+			},
+			{
+				"id": "c12",
+				"kind": "chapter",
+				"title": "Chapter 12: Alice’s Evidence"
+			}
+		]
+	},
+	{
+		"slug": "a-christmas-carol",
+		"title": "A Christmas Carol",
+		"shortTitle": "A Christmas Carol",
+		"author": "Charles Dickens",
+		"railLabel": "Remix A Christmas Carol by Charles Dickens",
+		"buildKicker": "A novel from A Christmas Carol",
+		"lightboxCaption": "A Christmas Carol, remixed: “{lightboxTitle}”",
+		"kicker": "A Christmas Carol, remixed",
+		"openingTitle": "Opening A Christmas Carol at {openChapter}",
+		"findingTitle": "Finding where A Christmas Carol turns",
+		"voiceBy": "— Charles Dickens, A Christmas Carol",
+		"demoNote": "Live writing is off in this demo, so this is the closest chapter already written for A Christmas Carol.",
+		"genre": "Literary fiction",
+		"subgenres": [
+			"Christmas fiction",
+			"Ghost story",
+			"Moral fable"
+		],
+		"tone": "Gothic dread and social indignation yield repeatedly to exuberant comedy, tenderness and Christmas warmth.",
+		"hook": "A miser is given one haunted night to discover what his life has cost.",
+		"premise": "On Christmas Eve, Ebenezer Scrooge dismisses charity, family and the holiday itself while his clerk shivers over his work. That night his dead partner returns in chains, promising three spirits who will show him his own life and the lives around him.",
+		"nsGenre": "literary",
+		"nsArc": "man_in_hole",
+		"chips": [
+			{
+				"id": "freds_invitation",
+				"chapterId": "c02",
+				"chapterNumber": 1,
+				"chapterLabel": "Chapter 1",
+				"chapterTag": "Chapter 1",
+				"label": "Dinner with Fred",
+				"whatIf": "What if Scrooge accepted Fred's invitation to Christmas dinner when Fred first offered it?",
+				"gist": "Scrooge accepted Fred's invitation to Christmas dinner when Fred first offered it.",
+				"order": 0
+			},
+			{
+				"id": "belle_stays",
+				"chapterId": "c03",
+				"chapterNumber": 2,
+				"chapterLabel": "Chapter 2",
+				"chapterTag": "Chapter 2",
+				"label": "Belle’s Release",
+				"whatIf": "What if young Scrooge asked Belle to stay and persuaded her to reconsider their engagement?",
+				"gist": "Young Scrooge asked Belle to stay and persuaded her to reconsider their engagement.",
+				"order": 2
+			},
+			{
+				"id": "spirit_extinguished",
+				"chapterId": "c03",
+				"chapterNumber": 2,
+				"chapterLabel": "Chapter 2",
+				"chapterTag": "Chapter 2",
+				"label": "Put Out the Light",
+				"whatIf": "What if the extinguisher truly put out the Ghost of Christmas Past's light when Scrooge pressed it down?",
+				"gist": "The extinguisher truly put out the Ghost of Christmas Past's light when Scrooge pressed it down.",
+				"order": 3
+			},
+			{
+				"id": "uncovered_face",
+				"chapterId": "c05",
+				"chapterNumber": 4,
+				"chapterLabel": "Chapter 4",
+				"chapterTag": "Chapter 4",
+				"label": "The Face Beneath the Sheet",
+				"whatIf": "What if Scrooge found the courage to lift the sheet and look at the dead man's face?",
+				"gist": "Scrooge found the courage to lift the sheet and look at the dead man's face.",
+				"order": 5
+			},
+			{
+				"id": "grave_pledge",
+				"chapterId": "c05",
+				"chapterNumber": 4,
+				"chapterLabel": "Chapter 4",
+				"chapterTag": "Chapter 4",
+				"label": "At His Own Grave",
+				"whatIf": "What if, at his own grave, Scrooge refused to promise a changed life and demanded a different answer from the Phantom?",
+				"gist": "At his own grave, Scrooge refused to promise a changed life and demanded a different answer from the Phantom.",
+				"order": 6
+			},
+			{
+				"id": "bob_late",
+				"chapterId": "c06",
+				"chapterNumber": 5,
+				"chapterLabel": "Chapter 5",
+				"chapterTag": "Chapter 5",
+				"label": "Eighteen Minutes Late",
+				"whatIf": "What if Bob, fearing dismissal, spoke up for himself before Scrooge could reveal the salary increase?",
+				"gist": "Bob, fearing dismissal, spoke up for himself before Scrooge could reveal the salary increase.",
+				"order": 8
+			}
+		],
+		"example": {
+			"id": "freds_invitation",
+			"chapterId": "c02",
+			"label": "Dinner with Fred",
+			"whatIf": "What if Scrooge accepted Fred's invitation to Christmas dinner when Fred first offered it?"
+		},
+		"voice": [
+			"There never was such a goose. Bob said he didn't believe there ever was such a goose cooked. Its tenderness and flavour, size and cheapness, were the themes of universal admiration. Eked out by apple-sauce and mashed potatoes, it was a sufficient dinner for the whole family; indeed, as Mrs. Cratchit said with great delight (surveying one small atom of a bone upon the dish), they hadn't ate it all at last! Yet every one had had enough, and the youngest Cratchits in particular, were steeped in sage and onion to the eyebrows!",
+			"Oh! But he was a tight-fisted hand at the grind-stone, Scrooge! a squeezing, wrenching, grasping, scraping, clutching, covetous, old sinner! Hard and sharp as flint, from which no steel had ever struck out generous fire; secret, and self-contained, and solitary as an oyster. The cold within him froze his old features, nipped his pointed nose, shrivelled his cheek, stiffened his gait; made his eyes red, his thin lips blue; and spoke out shrewdly in his grating voice. A frosty rime was on his head, and on his eyebrows, and his wiry chin."
+		],
+		"chapterNumbers": {
+			"c02": 1,
+			"c03": 2,
+			"c04": 3,
+			"c05": 4,
+			"c06": 5
+		},
+		"chapterLabels": {
+			"c02": "Chapter 1",
+			"c03": "Chapter 2",
+			"c04": "Chapter 3",
+			"c05": "Chapter 4",
+			"c06": "Chapter 5"
+		},
+		"cast": [
+			{
+				"key": "scrooge",
+				"name": "Scrooge",
+				"role": "A solitary London businessman whose supernatural visitors confront him with his life."
+			},
+			{
+				"key": "marley",
+				"name": "Jacob Marley",
+				"role": "Scrooge's dead partner, who returns to warn him and arrange the spirits' visits."
+			},
+			{
+				"key": "bob",
+				"name": "Bob Cratchit",
+				"role": "Scrooge's poorly paid clerk and the affectionate father of a large family."
+			},
+			{
+				"key": "fred",
+				"name": "Scrooge's nephew",
+				"role": "Scrooge's cheerful nephew, who persists in offering family fellowship."
+			},
+			{
+				"key": "past",
+				"name": "Ghost of Christmas Past",
+				"role": "The first spirit, who shows Scrooge scenes from his own past."
+			},
+			{
+				"key": "belle",
+				"name": "Belle",
+				"role": "Scrooge's former fiancée, who releases him when she sees his devotion to gain."
+			},
+			{
+				"key": "present_spirit",
+				"name": "Ghost of Christmas Present",
+				"role": "A genial spirit who shows Scrooge Christmas celebrations and the suffering hidden among them."
+			},
+			{
+				"key": "mrs_cratchit",
+				"name": "Mrs. Cratchit",
+				"role": "Bob's wife, who manages the family meal and fiercely defends her household."
+			},
+			{
+				"key": "tim",
+				"name": "Tiny Tim",
+				"role": "Bob and Mrs. Cratchit's disabled son, whose threatened death moves Scrooge."
+			},
+			{
+				"key": "future",
+				"name": "Ghost of Christmas Yet To Come",
+				"role": "The silent final spirit, who shows Scrooge the consequences of an unchanged life."
+			}
+		],
+		"toc": [
+			{
+				"id": "c01",
+				"kind": "front",
+				"title": "Preface"
+			},
+			{
+				"id": "c02",
+				"kind": "chapter",
+				"title": "Chapter 1: Marley's Ghost"
+			},
+			{
+				"id": "c03",
+				"kind": "chapter",
+				"title": "Chapter 2: The First of the Three Spirits"
+			},
+			{
+				"id": "c04",
+				"kind": "chapter",
+				"title": "Chapter 3: The Second of the Three Spirits"
+			},
+			{
+				"id": "c05",
+				"kind": "chapter",
+				"title": "Chapter 4: The Last of the Spirits"
+			},
+			{
+				"id": "c06",
+				"kind": "chapter",
+				"title": "Chapter 5: The End of It"
+			}
+		]
+	},
+	{
+		"slug": "treasure-island",
+		"title": "Treasure Island",
+		"shortTitle": "Treasure Island",
+		"author": "Robert Louis Stevenson",
+		"railLabel": "Remix Treasure Island by Robert Louis Stevenson",
+		"buildKicker": "A novel from Treasure Island",
+		"lightboxCaption": "Treasure Island, remixed: “{lightboxTitle}”",
+		"kicker": "Treasure Island, remixed",
+		"openingTitle": "Opening Treasure Island at {openChapter}",
+		"findingTitle": "Finding where Treasure Island turns",
+		"voiceBy": "— Robert Louis Stevenson, Treasure Island",
+		"demoNote": "Live writing is off in this demo, so this is the closest chapter already written for Treasure Island.",
+		"genre": "Adventure",
+		"subgenres": [
+			"Pirate adventure",
+			"Sea story",
+			"Coming-of-age fiction"
+		],
+		"tone": "Eager, companionable adventure darkens into suspense, violence and remorse, with humour persisting among peril and hardship.",
+		"hook": "A cabin-boy seeking buried gold discovers that the pirates are already aboard.",
+		"premise": "Jim Hawkins finds a dead seaman’s papers and joins an expedition to an island marked with Captain Flint’s buried treasure. The schooner’s crew includes men who know more about Flint than their employers suspect.",
+		"nsGenre": "adventure",
+		"nsArc": "cinderella",
+		"chips": [
+			{
+				"id": "billy_survives",
+				"chapterId": "c04",
+				"chapterNumber": 3,
+				"chapterLabel": "Chapter 3",
+				"chapterTag": "Chapter 3",
+				"label": "Billy Beats the Clock",
+				"whatIf": "What if Billy survived the black spot and had six hours to get away with his chest?",
+				"gist": "Billy survived the black spot and had six hours to get away with his chest.",
+				"order": 0
+			},
+			{
+				"id": "apple_discovery",
+				"chapterId": "c12",
+				"chapterNumber": 11,
+				"chapterLabel": "Chapter 11",
+				"chapterTag": "Chapter 11",
+				"label": "An Apple for Silver",
+				"whatIf": "What if Dick fetched Silver’s apple and found Jim hiding in the barrel?",
+				"gist": "Dick fetched Silver’s apple and found Jim hiding in the barrel.",
+				"order": 2
+			},
+			{
+				"id": "gray_stays",
+				"chapterId": "c17",
+				"chapterNumber": 16,
+				"chapterLabel": "Chapter 16",
+				"chapterTag": "Chapter 16",
+				"label": "Gray’s Thirty Seconds",
+				"whatIf": "What if Gray failed to break away before Smollett’s thirty seconds ran out?",
+				"gist": "Gray failed to break away before Smollett’s thirty seconds ran out.",
+				"order": 4
+			},
+			{
+				"id": "flag_terms",
+				"chapterId": "c21",
+				"chapterNumber": 20,
+				"chapterLabel": "Chapter 20",
+				"chapterTag": "Chapter 20",
+				"label": "A Bargain at the Stockade",
+				"whatIf": "What if Smollett accepted Silver’s proposed bargain for the chart?",
+				"gist": "Smollett accepted Silver’s proposed bargain for the chart.",
+				"order": 5
+			},
+			{
+				"id": "silver_refuses_jim",
+				"chapterId": "c29",
+				"chapterNumber": 28,
+				"chapterLabel": "Chapter 28",
+				"chapterTag": "Chapter 28",
+				"label": "Silver’s Last Card",
+				"whatIf": "What if Silver let Morgan seize Jim instead of standing between the boy and the crew?",
+				"gist": "Silver let Morgan seize Jim instead of standing between the boy and the crew.",
+				"order": 7
+			},
+			{
+				"id": "silver_caught",
+				"chapterId": "c35",
+				"chapterNumber": 34,
+				"chapterLabel": "Chapter 34",
+				"chapterTag": "Chapter 34",
+				"label": "No Shore Boat for Silver",
+				"whatIf": "What if Ben Gunn refused to help Silver escape at the Spanish American port?",
+				"gist": "Ben Gunn refused to help Silver escape at the Spanish American port.",
+				"order": 9
+			}
+		],
+		"example": {
+			"id": "apple_discovery",
+			"chapterId": "c12",
+			"label": "An Apple for Silver",
+			"whatIf": "What if Dick fetched Silver’s apple and found Jim hiding in the barrel?"
+		},
+		"voice": [
+			"“Well, gentlemen,” continued the captain, “I don’t know who has this map; but I make it a point, it shall be kept secret even from me and Mr. Arrow. Otherwise I would ask you to let me resign.”\n\n“I see,” said the doctor. “You wish us to keep this matter dark and to make a garrison of the stern part of the ship, manned with my friend’s own people, and provided with all the arms and powder on board. In other words, you fear a mutiny.”",
+			"I remember him as if it were yesterday, as he came plodding to the inn door, his sea-chest following behind him in a hand-barrow--a tall, strong, heavy, nut-brown man, his tarry pigtail falling over the shoulder of his soiled blue coat, his hands ragged and scarred, with black, broken nails, and the sabre cut across one cheek, a dirty, livid white. I remember him looking round the cove and whistling to himself as he did so, and then breaking out in that old sea-song that he sang so often afterwards:"
+		],
+		"chapterNumbers": {
+			"c02": 1,
+			"c03": 2,
+			"c04": 3,
+			"c05": 4,
+			"c06": 5,
+			"c07": 6,
+			"c08": 7,
+			"c09": 8,
+			"c10": 9,
+			"c11": 10,
+			"c12": 11,
+			"c13": 12,
+			"c14": 13,
+			"c15": 14,
+			"c16": 15,
+			"c17": 16,
+			"c18": 17,
+			"c19": 18,
+			"c20": 19,
+			"c21": 20,
+			"c22": 21,
+			"c23": 22,
+			"c24": 23,
+			"c25": 24,
+			"c26": 25,
+			"c27": 26,
+			"c28": 27,
+			"c29": 28,
+			"c30": 29,
+			"c31": 30,
+			"c32": 31,
+			"c33": 32,
+			"c34": 33,
+			"c35": 34
+		},
+		"chapterLabels": {
+			"c02": "Chapter 1",
+			"c03": "Chapter 2",
+			"c04": "Chapter 3",
+			"c05": "Chapter 4",
+			"c06": "Chapter 5",
+			"c07": "Chapter 6",
+			"c08": "Chapter 7",
+			"c09": "Chapter 8",
+			"c10": "Chapter 9",
+			"c11": "Chapter 10",
+			"c12": "Chapter 11",
+			"c13": "Chapter 12",
+			"c14": "Chapter 13",
+			"c15": "Chapter 14",
+			"c16": "Chapter 15",
+			"c17": "Chapter 16",
+			"c18": "Chapter 17",
+			"c19": "Chapter 18",
+			"c20": "Chapter 19",
+			"c21": "Chapter 20",
+			"c22": "Chapter 21",
+			"c23": "Chapter 22",
+			"c24": "Chapter 23",
+			"c25": "Chapter 24",
+			"c26": "Chapter 25",
+			"c27": "Chapter 26",
+			"c28": "Chapter 27",
+			"c29": "Chapter 28",
+			"c30": "Chapter 29",
+			"c31": "Chapter 30",
+			"c32": "Chapter 31",
+			"c33": "Chapter 32",
+			"c34": "Chapter 33",
+			"c35": "Chapter 34"
+		},
+		"cast": [
+			{
+				"key": "jim",
+				"name": "Jim Hawkins",
+				"role": "Innkeeper’s son, cabin-boy and principal narrator."
+			},
+			{
+				"key": "billy",
+				"name": "the captain",
+				"role": "Flint’s former first mate, whose sea-chest contains the treasure map."
+			},
+			{
+				"key": "mother",
+				"name": "Jim’s mother",
+				"role": "Widowed keeper of the Admiral Benbow."
+			},
+			{
+				"key": "livesey",
+				"name": "Dr. Livesey",
+				"role": "Physician, magistrate and loyal leader; narrator of three chapters."
+			},
+			{
+				"key": "trelawney",
+				"name": "Squire Trelawney",
+				"role": "Wealthy owner and enthusiastic outfitter of the treasure expedition."
+			},
+			{
+				"key": "silver",
+				"name": "Long John Silver",
+				"role": "Ship’s cook, pirate leader and Jim’s shifting ally."
+			},
+			{
+				"key": "smollett",
+				"name": "Captain Smollett",
+				"role": "Master of the Hispaniola and commander of the loyal party."
+			},
+			{
+				"key": "ben_gunn",
+				"name": "Ben Gunn",
+				"role": "Marooned former pirate who has already recovered Flint’s treasure."
+			},
+			{
+				"key": "hands",
+				"name": "Israel Hands",
+				"role": "Silver’s confidant, former gunner and Jim’s adversary aboard the schooner."
+			},
+			{
+				"key": "pew",
+				"name": "Pew",
+				"role": "Blind pirate who delivers Billy’s summons and directs the raid on the inn."
+			},
+			{
+				"key": "redruth",
+				"name": "Tom Redruth",
+				"role": "Trelawney’s gamekeeper and loyal servant."
+			},
+			{
+				"key": "gray",
+				"name": "Abraham Gray",
+				"role": "Carpenter’s mate who leaves the mutineers to follow his captain."
+			}
+		],
+		"toc": [
+			{
+				"id": "c01",
+				"kind": "front",
+				"title": "To the Hesitating Purchaser"
+			},
+			{
+				"id": "c02",
+				"kind": "chapter",
+				"title": "Chapter 1: The Old Sea-dog at the Admiral Benbow"
+			},
+			{
+				"id": "c03",
+				"kind": "chapter",
+				"title": "Chapter 2: Black Dog Appears and Disappears"
+			},
+			{
+				"id": "c04",
+				"kind": "chapter",
+				"title": "Chapter 3: The Black Spot"
+			},
+			{
+				"id": "c05",
+				"kind": "chapter",
+				"title": "Chapter 4: The Sea-chest"
+			},
+			{
+				"id": "c06",
+				"kind": "chapter",
+				"title": "Chapter 5: The Last of the Blind Man"
+			},
+			{
+				"id": "c07",
+				"kind": "chapter",
+				"title": "Chapter 6: The Captain’s Papers"
+			},
+			{
+				"id": "c08",
+				"kind": "chapter",
+				"title": "Chapter 7: I Go to Bristol"
+			},
+			{
+				"id": "c09",
+				"kind": "chapter",
+				"title": "Chapter 8: At the Sign of the Spy-glass"
+			},
+			{
+				"id": "c10",
+				"kind": "chapter",
+				"title": "Chapter 9: Powder and Arms"
+			},
+			{
+				"id": "c11",
+				"kind": "chapter",
+				"title": "Chapter 10: The Voyage"
+			},
+			{
+				"id": "c12",
+				"kind": "chapter",
+				"title": "Chapter 11: What I Heard in the Apple-Barrel"
+			},
+			{
+				"id": "c13",
+				"kind": "chapter",
+				"title": "Chapter 12: Council of War"
+			},
+			{
+				"id": "c14",
+				"kind": "chapter",
+				"title": "Chapter 13: How I Began My Shore Adventure"
+			},
+			{
+				"id": "c15",
+				"kind": "chapter",
+				"title": "Chapter 14: The First Blow"
+			},
+			{
+				"id": "c16",
+				"kind": "chapter",
+				"title": "Chapter 15: The Man of the Island"
+			},
+			{
+				"id": "c17",
+				"kind": "chapter",
+				"title": "Chapter 16: Narrative Continued by the Doctor: How the Ship Was Abandoned"
+			},
+			{
+				"id": "c18",
+				"kind": "chapter",
+				"title": "Chapter 17: Narrative Continued by the Doctor: The Jolly-boat’s Last Trip"
+			},
+			{
+				"id": "c19",
+				"kind": "chapter",
+				"title": "Chapter 18: Narrative Continued by the Doctor: End of the First Day’s Fighting"
+			},
+			{
+				"id": "c20",
+				"kind": "chapter",
+				"title": "Chapter 19: Narrative Resumed by Jim Hawkins: The Garrison in the Stockade"
+			},
+			{
+				"id": "c21",
+				"kind": "chapter",
+				"title": "Chapter 20: Silver’s Embassy"
+			},
+			{
+				"id": "c22",
+				"kind": "chapter",
+				"title": "Chapter 21: The Attack"
+			},
+			{
+				"id": "c23",
+				"kind": "chapter",
+				"title": "Chapter 22: How I Began My Sea Adventure"
+			},
+			{
+				"id": "c24",
+				"kind": "chapter",
+				"title": "Chapter 23: The Ebb-tide Runs"
+			},
+			{
+				"id": "c25",
+				"kind": "chapter",
+				"title": "Chapter 24: The Cruise of the Coracle"
+			},
+			{
+				"id": "c26",
+				"kind": "chapter",
+				"title": "Chapter 25: I Strike the Jolly Roger"
+			},
+			{
+				"id": "c27",
+				"kind": "chapter",
+				"title": "Chapter 26: Israel Hands"
+			},
+			{
+				"id": "c28",
+				"kind": "chapter",
+				"title": "Chapter 27: “Pieces of Eight”"
+			},
+			{
+				"id": "c29",
+				"kind": "chapter",
+				"title": "Chapter 28: In the Enemy’s Camp"
+			},
+			{
+				"id": "c30",
+				"kind": "chapter",
+				"title": "Chapter 29: The Black Spot Again"
+			},
+			{
+				"id": "c31",
+				"kind": "chapter",
+				"title": "Chapter 30: On Parole"
+			},
+			{
+				"id": "c32",
+				"kind": "chapter",
+				"title": "Chapter 31: The Treasure-hunt--Flint’s Pointer"
+			},
+			{
+				"id": "c33",
+				"kind": "chapter",
+				"title": "Chapter 32: The Treasure-hunt--The Voice Among the Trees"
+			},
+			{
+				"id": "c34",
+				"kind": "chapter",
+				"title": "Chapter 33: The Fall of a Chieftain"
+			},
+			{
+				"id": "c35",
+				"kind": "chapter",
+				"title": "Chapter 34: And Last"
+			}
+		]
+	},
+	{
+		"slug": "the-picture-of-dorian-gray",
+		"title": "The Picture of Dorian Gray",
+		"shortTitle": "Dorian Gray",
+		"author": "Oscar Wilde",
+		"railLabel": "Remix The Picture of Dorian Gray by Oscar Wilde",
+		"buildKicker": "A novel from The Picture of Dorian Gray",
+		"lightboxCaption": "Dorian Gray, remixed: “{lightboxTitle}”",
+		"kicker": "Dorian Gray, remixed",
+		"openingTitle": "Opening Dorian Gray at {openChapter}",
+		"findingTitle": "Finding where Dorian Gray turns",
+		"voiceBy": "— Oscar Wilde, Dorian Gray",
+		"demoNote": "Live writing is off in this demo, so this is the closest chapter already written for Dorian Gray.",
+		"genre": "Gothic fiction",
+		"subgenres": [
+			"Supernatural horror",
+			"Psychological fiction",
+			"Philosophical fiction",
+			"Social satire"
+		],
+		"tone": "Sensuous, witty and often languid, with satire giving way to dread, remorse and sudden violence.",
+		"hook": "A beautiful young man keeps his face while his portrait records the life behind it.",
+		"premise": "A painter’s portrait awakens Dorian Gray to his own beauty just as Lord Henry Wotton persuades him that youth is life’s greatest possession. Dorian’s wish to remain young while the picture ages becomes entangled with his pursuit of sensation and the harm he does to others.",
+		"nsGenre": "horror",
+		"nsArc": "icarus",
+		"chips": [
+			{
+				"id": "portrait_wish",
+				"chapterId": "c03",
+				"chapterNumber": 2,
+				"chapterLabel": "Chapter 2",
+				"chapterTag": "Chapter 2",
+				"label": "The Wish Unspoken",
+				"whatIf": "What if Dorian held back his wish and told Basil instead how frightened he was of growing old?",
+				"gist": "Dorian held back his wish and told Basil instead how frightened he was of growing old.",
+				"order": 0
+			},
+			{
+				"id": "sibyl_mercy",
+				"chapterId": "c08",
+				"chapterNumber": 7,
+				"chapterLabel": "Chapter 7",
+				"chapterTag": "Chapter 7",
+				"label": "After Juliet’s Failure",
+				"whatIf": "What if Dorian stayed with Sibyl after her failed performance and listened to what love has changed for her?",
+				"gist": "Dorian stayed with Sibyl after her failed performance and listened to what love has changed for her.",
+				"order": 2
+			},
+			{
+				"id": "basil_sees",
+				"chapterId": "c10",
+				"chapterNumber": 9,
+				"chapterLabel": "Chapter 9",
+				"chapterTag": "Chapter 9",
+				"label": "Behind the Screen",
+				"whatIf": "What if Basil pulled the screen aside before Dorian could stop him?",
+				"gist": "Basil pulled the screen aside before Dorian could stop him.",
+				"order": 3
+			},
+			{
+				"id": "alan_refuses",
+				"chapterId": "c15",
+				"chapterNumber": 14,
+				"chapterLabel": "Chapter 14",
+				"chapterTag": "Chapter 14",
+				"label": "Alan’s Refusal",
+				"whatIf": "What if Alan refused even after reading Dorian’s threat and walked out of the house?",
+				"gist": "Alan refused even after reading Dorian’s threat and walked out of the house.",
+				"order": 5
+			},
+			{
+				"id": "james_lamp",
+				"chapterId": "c17",
+				"chapterNumber": 16,
+				"chapterLabel": "Chapter 16",
+				"chapterTag": "Chapter 16",
+				"label": "Under the Gas-Lamp",
+				"whatIf": "What if James refused to trust Dorian’s youthful face under the lamp?",
+				"gist": "James refused to trust Dorian’s youthful face under the lamp.",
+				"order": 6
+			},
+			{
+				"id": "confession_or_knife",
+				"chapterId": "c21",
+				"chapterNumber": 20,
+				"chapterLabel": "Chapter 20",
+				"chapterTag": "Chapter 20",
+				"label": "The Last Confession",
+				"whatIf": "What if Dorian left the knife untouched and went downstairs to confess Basil’s murder?",
+				"gist": "Dorian left the knife untouched and went downstairs to confess Basil’s murder.",
+				"order": 8
+			}
+		],
+		"example": {
+			"id": "basil_sees",
+			"chapterId": "c10",
+			"label": "Behind the Screen",
+			"whatIf": "What if Basil pulled the screen aside before Dorian could stop him?"
+		},
+		"voice": [
+			"“Mother, Mother,” she cried, “why does he love me so much? I know why I love him. I love him because he is like what love himself should be. But what does he see in me? I am not worthy of him. And yet—why, I cannot tell—though I feel so much beneath him, I don’t feel humble. I feel proud, terribly proud. Mother, did you love my father as I love Prince Charming?”",
+			"He got up and locked both doors. At least he would be alone when he looked upon the mask of his shame. Then he drew the screen aside and saw himself face to face. It was perfectly true. The portrait had altered. As he often remembered afterwards, and always with no small wonder, he found himself at first gazing at the portrait with a feeling of almost scientific interest. That such a change should have taken place was incredible to him. And yet it was a fact."
+		],
+		"chapterNumbers": {
+			"c02": 1,
+			"c03": 2,
+			"c04": 3,
+			"c05": 4,
+			"c06": 5,
+			"c07": 6,
+			"c08": 7,
+			"c09": 8,
+			"c10": 9,
+			"c11": 10,
+			"c12": 11,
+			"c13": 12,
+			"c14": 13,
+			"c15": 14,
+			"c16": 15,
+			"c17": 16,
+			"c18": 17,
+			"c19": 18,
+			"c20": 19,
+			"c21": 20
+		},
+		"chapterLabels": {
+			"c02": "Chapter 1",
+			"c03": "Chapter 2",
+			"c04": "Chapter 3",
+			"c05": "Chapter 4",
+			"c06": "Chapter 5",
+			"c07": "Chapter 6",
+			"c08": "Chapter 7",
+			"c09": "Chapter 8",
+			"c10": "Chapter 9",
+			"c11": "Chapter 10",
+			"c12": "Chapter 11",
+			"c13": "Chapter 12",
+			"c14": "Chapter 13",
+			"c15": "Chapter 14",
+			"c16": "Chapter 15",
+			"c17": "Chapter 16",
+			"c18": "Chapter 17",
+			"c19": "Chapter 18",
+			"c20": "Chapter 19",
+			"c21": "Chapter 20"
+		},
+		"cast": [
+			{
+				"key": "dorian_gray",
+				"name": "Dorian Gray",
+				"role": "Beautiful, wealthy young man whose portrait bears the visible marks of his life."
+			},
+			{
+				"key": "lord_henry",
+				"name": "Lord Henry Wotton",
+				"role": "Dorian’s aristocratic friend and influential apostle of pleasure."
+			},
+			{
+				"key": "basil_hallward",
+				"name": "Basil Hallward",
+				"role": "Painter of Dorian’s portrait and his devoted, increasingly alarmed friend."
+			},
+			{
+				"key": "sibyl_vane",
+				"name": "Sibyl Vane",
+				"role": "A young Shakespearean actress and Dorian’s fiancée."
+			},
+			{
+				"key": "james_vane",
+				"name": "James Vane",
+				"role": "Sibyl’s sailor brother, who vows to kill the man who wrongs her."
+			},
+			{
+				"key": "mrs_vane",
+				"name": "Mrs. Vane",
+				"role": "Sibyl and James’s mother, a faded actress dependent on the theatre."
+			},
+			{
+				"key": "alan_campbell",
+				"name": "Alan Campbell",
+				"role": "Chemist and estranged former intimate whom Dorian coerces into destroying Basil’s body."
+			}
+		],
+		"toc": [
+			{
+				"id": "c01",
+				"kind": "front",
+				"title": "The Preface"
+			},
+			{
+				"id": "c02",
+				"kind": "chapter",
+				"title": "Chapter 1"
+			},
+			{
+				"id": "c03",
+				"kind": "chapter",
+				"title": "Chapter 2"
+			},
+			{
+				"id": "c04",
+				"kind": "chapter",
+				"title": "Chapter 3"
+			},
+			{
+				"id": "c05",
+				"kind": "chapter",
+				"title": "Chapter 4"
+			},
+			{
+				"id": "c06",
+				"kind": "chapter",
+				"title": "Chapter 5"
+			},
+			{
+				"id": "c07",
+				"kind": "chapter",
+				"title": "Chapter 6"
+			},
+			{
+				"id": "c08",
+				"kind": "chapter",
+				"title": "Chapter 7"
+			},
+			{
+				"id": "c09",
+				"kind": "chapter",
+				"title": "Chapter 8"
+			},
+			{
+				"id": "c10",
+				"kind": "chapter",
+				"title": "Chapter 9"
+			},
+			{
+				"id": "c11",
+				"kind": "chapter",
+				"title": "Chapter 10"
+			},
+			{
+				"id": "c12",
+				"kind": "chapter",
+				"title": "Chapter 11"
+			},
+			{
+				"id": "c13",
+				"kind": "chapter",
+				"title": "Chapter 12"
+			},
+			{
+				"id": "c14",
+				"kind": "chapter",
+				"title": "Chapter 13"
+			},
+			{
+				"id": "c15",
+				"kind": "chapter",
+				"title": "Chapter 14"
+			},
+			{
+				"id": "c16",
+				"kind": "chapter",
+				"title": "Chapter 15"
+			},
+			{
+				"id": "c17",
+				"kind": "chapter",
+				"title": "Chapter 16"
+			},
+			{
+				"id": "c18",
+				"kind": "chapter",
+				"title": "Chapter 17"
+			},
+			{
+				"id": "c19",
+				"kind": "chapter",
+				"title": "Chapter 18"
+			},
+			{
+				"id": "c20",
+				"kind": "chapter",
+				"title": "Chapter 19"
+			},
+			{
+				"id": "c21",
+				"kind": "chapter",
+				"title": "Chapter 20"
+			}
+		]
+	},
+	{
+		"slug": "strange-case-of-dr-jekyll-and-mr-hyde",
+		"title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+		"shortTitle": "Jekyll and Hyde",
+		"author": "Robert Louis Stevenson",
+		"railLabel": "Remix The Strange Case of Dr. Jekyll and Mr. Hyde by Robert Louis Stevenson",
+		"buildKicker": "A novel from The Strange Case of Dr. Jekyll and Mr. Hyde",
+		"lightboxCaption": "Jekyll and Hyde, remixed: “{lightboxTitle}”",
+		"kicker": "Jekyll and Hyde, remixed",
+		"openingTitle": "Opening Jekyll and Hyde at {openChapter}",
+		"findingTitle": "Finding where Jekyll and Hyde turns",
+		"voiceBy": "— Robert Louis Stevenson, Jekyll and Hyde",
+		"demoNote": "Live writing is off in this demo, so this is the closest chapter already written for Jekyll and Hyde.",
+		"genre": "Gothic horror",
+		"subgenres": [
+			"Psychological horror",
+			"Mystery",
+			"Science fiction"
+		],
+		"tone": "Sober, intimate and increasingly dreadful, with everyday comforts made uncanny by secrecy and sudden violence.",
+		"hook": "A respectable doctor’s back door opens onto a life his closest friends cannot imagine.",
+		"premise": "A London lawyer grows alarmed by his old friend Dr. Jekyll’s attachment to the repellent Edward Hyde, who has a key to the doctor’s laboratory and stands to inherit his fortune. A brutal crime and Jekyll’s increasing seclusion deepen a mystery guarded by friendship, professional honour and shame.",
+		"nsGenre": "horror",
+		"nsArc": "riches_to_rags",
+		"chips": [
+			{
+				"id": "child_and_cheque",
+				"chapterId": "c01",
+				"chapterNumber": 1,
+				"chapterLabel": "Chapter 1",
+				"chapterTag": "Chapter 1",
+				"label": "The Cheque Is Refused",
+				"whatIf": "What if Enfield refused Hyde's money and took him to the police over the trampled child?",
+				"gist": "Enfield refused Hyde's money and took him to the police over the trampled child.",
+				"order": 0
+			},
+			{
+				"id": "carew_spared",
+				"chapterId": "c04",
+				"chapterNumber": 4,
+				"chapterLabel": "Chapter 4",
+				"chapterTag": "Chapter 4",
+				"label": "The Cane Held Back",
+				"whatIf": "What if Hyde mastered his rage and let Sir Danvers Carew walk away from their meeting?",
+				"gist": "Hyde mastered his rage and let Sir Danvers Carew walk away from their meeting.",
+				"order": 2
+			},
+			{
+				"id": "sealed_narrative",
+				"chapterId": "c06",
+				"chapterNumber": 6,
+				"chapterLabel": "Chapter 6",
+				"chapterTag": "Chapter 6",
+				"label": "The Seal Broken",
+				"whatIf": "What if Utterson broke Lanyon's seal and read the narrative immediately after the funeral?",
+				"gist": "Utterson broke Lanyon's seal and read the narrative immediately after the funeral.",
+				"order": 3
+			},
+			{
+				"id": "mercy_at_door",
+				"chapterId": "c08",
+				"chapterNumber": 8,
+				"chapterLabel": "Chapter 8",
+				"chapterTag": "Chapter 8",
+				"label": "Hyde Begs For Mercy",
+				"whatIf": "What if Utterson answered Hyde's plea and tried to draw him out before Poole struck the door?",
+				"gist": "Utterson answered Hyde's plea and tried to draw him out before Poole struck the door.",
+				"order": 5
+			},
+			{
+				"id": "lanyon_turns_away",
+				"chapterId": "c09",
+				"chapterNumber": 9,
+				"chapterLabel": "Chapter 9",
+				"chapterTag": "Chapter 9",
+				"label": "Lanyon’s Choice",
+				"whatIf": "What if Lanyon let the stranger take the glass and leave without witnessing the transformation?",
+				"gist": "Lanyon let the stranger take the glass and leave without witnessing the transformation.",
+				"order": 6
+			},
+			{
+				"id": "old_salt",
+				"chapterId": "c10",
+				"chapterNumber": 10,
+				"chapterLabel": "Chapter 10",
+				"chapterTag": "Chapter 10",
+				"label": "The Missing Salt",
+				"whatIf": "What if Poole found a remaining quantity of the old salt among the chemists' supplies?",
+				"gist": "Poole found a remaining quantity of the old salt among the chemists' supplies.",
+				"order": 8
+			}
+		],
+		"example": {
+			"id": "mercy_at_door",
+			"chapterId": "c08",
+			"label": "Hyde Begs For Mercy",
+			"whatIf": "What if Utterson answered Hyde's plea and tried to draw him out before Poole struck the door?"
+		},
+		"voice": [
+			"Two doors from one corner, on the left hand going east the line was broken by the entry of a court; and just at that point a certain sinister block of building thrust forward its gable on the street. It was two storeys high; showed no window, nothing but a door on the lower storey and a blind forehead of discoloured wall on the upper; and bore in every feature, the marks of prolonged and sordid negligence. The door, which was equipped with neither bell nor knocker, was blistered and distained.",
+			"The besiegers, appalled by their own riot and the stillness that had succeeded, stood back a little and peered in. There lay the cabinet before their eyes in the quiet lamplight, a good fire glowing and chattering on the hearth, the kettle singing its thin strain, a drawer or two open, papers neatly set forth on the business table, and nearer the fire, the things laid out for tea; the quietest room, you would have said, and, but for the glazed presses full of chemicals, the most commonplace that night in London."
+		],
+		"chapterNumbers": {
+			"c01": 1,
+			"c02": 2,
+			"c03": 3,
+			"c04": 4,
+			"c05": 5,
+			"c06": 6,
+			"c07": 7,
+			"c08": 8,
+			"c09": 9,
+			"c10": 10
+		},
+		"chapterLabels": {
+			"c01": "Chapter 1",
+			"c02": "Chapter 2",
+			"c03": "Chapter 3",
+			"c04": "Chapter 4",
+			"c05": "Chapter 5",
+			"c06": "Chapter 6",
+			"c07": "Chapter 7",
+			"c08": "Chapter 8",
+			"c09": "Chapter 9",
+			"c10": "Chapter 10"
+		},
+		"cast": [
+			{
+				"key": "utterson",
+				"name": "Mr. Utterson",
+				"role": "Lawyer, Jekyll's old friend and the chief investigator of the mystery."
+			},
+			{
+				"key": "enfield",
+				"name": "Mr. Enfield",
+				"role": "Man about town whose account of Hyde first alarms Utterson."
+			},
+			{
+				"key": "hyde",
+				"name": "Mr. Hyde",
+				"role": "Jekyll's younger, violent second form and Carew's murderer."
+			},
+			{
+				"key": "lanyon",
+				"name": "Dr. Lanyon",
+				"role": "Established physician and Jekyll's estranged scientific colleague."
+			},
+			{
+				"key": "poole",
+				"name": "Poole",
+				"role": "Jekyll's long-serving butler who summons Utterson when the cabinet becomes terrifying."
+			},
+			{
+				"key": "jekyll",
+				"name": "Dr. Jekyll",
+				"role": "Respected physician and experimenter whose divided life produces Hyde."
+			}
+		],
+		"toc": [
+			{
+				"id": "c01",
+				"kind": "chapter",
+				"title": "Chapter 1: Story of the Door"
+			},
+			{
+				"id": "c02",
+				"kind": "chapter",
+				"title": "Chapter 2: Search for Mr. Hyde"
+			},
+			{
+				"id": "c03",
+				"kind": "chapter",
+				"title": "Chapter 3: Dr. Jekyll Was Quite at Ease"
+			},
+			{
+				"id": "c04",
+				"kind": "chapter",
+				"title": "Chapter 4: The Carew Murder Case"
+			},
+			{
+				"id": "c05",
+				"kind": "chapter",
+				"title": "Chapter 5: Incident of the Letter"
+			},
+			{
+				"id": "c06",
+				"kind": "chapter",
+				"title": "Chapter 6: Incident of Dr. Lanyon"
+			},
+			{
+				"id": "c07",
+				"kind": "chapter",
+				"title": "Chapter 7: Incident at the Window"
+			},
+			{
+				"id": "c08",
+				"kind": "chapter",
+				"title": "Chapter 8: The Last Night"
+			},
+			{
+				"id": "c09",
+				"kind": "chapter",
+				"title": "Chapter 9: Dr. Lanyon’s Narrative"
+			},
+			{
+				"id": "c10",
+				"kind": "chapter",
+				"title": "Chapter 10: Henry Jekyll’s Full Statement of the Case"
+			}
+		]
+	},
+	{
+		"slug": "the-wonderful-wizard-of-oz",
+		"title": "The Wonderful Wizard of Oz",
+		"shortTitle": "The Wizard of Oz",
+		"author": "L. Frank Baum",
+		"railLabel": "Remix The Wonderful Wizard of Oz by L. Frank Baum",
+		"buildKicker": "A novel from The Wonderful Wizard of Oz",
+		"lightboxCaption": "The Wizard of Oz, remixed: “{lightboxTitle}”",
+		"kicker": "The Wizard of Oz, remixed",
+		"openingTitle": "Opening The Wizard of Oz at {openChapter}",
+		"findingTitle": "Finding where The Wizard of Oz turns",
+		"voiceBy": "— L. Frank Baum, The Wizard of Oz",
+		"demoNote": "Live writing is off in this demo, so this is the closest chapter already written for The Wizard of Oz.",
+		"genre": "Children's fantasy",
+		"subgenres": [
+			"Fairy tale",
+			"Quest adventure",
+			"Portal fantasy"
+		],
+		"tone": "Bright, matter-of-fact wonder mingles with danger, dry humor, tenderness, and confidence in practical help.",
+		"hook": "A girl seeking home must cross a land where scarecrows talk, witches rule, and a famous wizard demands a terrible favor.",
+		"premise": "A cyclone carries Dorothy and her little dog Toto from the gray Kansas prairie to the marvelous Land of Oz. Seeking a way home, she follows a yellow brick road with three companions who hope the Great Wizard can grant their own wishes.",
+		"nsGenre": "fantasy",
+		"nsArc": "man_in_hole",
+		"chips": [
+			{
+				"id": "cellar_or_toto",
+				"chapterId": "c02",
+				"chapterNumber": 1,
+				"chapterLabel": "Chapter 1",
+				"chapterTag": "Chapter 1",
+				"label": "The Dash for the Cellar",
+				"whatIf": "What if Dorothy reached the cyclone cellar with Toto before the house rose?",
+				"gist": "Dorothy reached the cyclone cellar with Toto before the house rose.",
+				"order": 0
+			},
+			{
+				"id": "queen_refuses",
+				"chapterId": "c10",
+				"chapterNumber": 9,
+				"chapterLabel": "Chapter 9",
+				"chapterTag": "Chapter 9",
+				"label": "The Queen’s Bargain",
+				"whatIf": "What if the Mouse Queen refused to send her people near the Lion?",
+				"gist": "The Mouse Queen refused to send her people near the Lion.",
+				"order": 2
+			},
+			{
+				"id": "witch_demand",
+				"chapterId": "c12",
+				"chapterNumber": 11,
+				"chapterLabel": "Chapter 11",
+				"chapterTag": "Chapter 11",
+				"label": "Oz’s Impossible Price",
+				"whatIf": "What if Dorothy refused Oz's bargain and left the palace without agreeing to seek the Witch?",
+				"gist": "Dorothy refused Oz's bargain and left the palace without agreeing to seek the Witch.",
+				"order": 3
+			},
+			{
+				"id": "screen_stands",
+				"chapterId": "c16",
+				"chapterNumber": 15,
+				"chapterLabel": "Chapter 15",
+				"chapterTag": "Chapter 15",
+				"label": "The Screen Stays Up",
+				"whatIf": "What if Toto jumped clear without knocking over the screen?",
+				"gist": "Toto jumped clear without knocking over the screen.",
+				"order": 5
+			},
+			{
+				"id": "balloon_boarding",
+				"chapterId": "c18",
+				"chapterNumber": 17,
+				"chapterLabel": "Chapter 17",
+				"chapterTag": "Chapter 17",
+				"label": "A Place in the Basket",
+				"whatIf": "What if the ropes held long enough for Dorothy and Toto to climb into Oz's balloon?",
+				"gist": "The ropes held long enough for Dorothy and Toto to climb into Oz's balloon.",
+				"order": 6
+			},
+			{
+				"id": "last_monkey_command",
+				"chapterId": "c23",
+				"chapterNumber": 22,
+				"chapterLabel": "Chapter 22",
+				"chapterTag": "Chapter 22",
+				"label": "The Last Command",
+				"whatIf": "What if Dorothy kept her last Monkey command and the travelers sought another way past the Hammer-Heads?",
+				"gist": "Dorothy kept her last Monkey command and the travelers sought another way past the Hammer-Heads.",
+				"order": 8
+			}
+		],
+		"example": {
+			"id": "balloon_boarding",
+			"chapterId": "c18",
+			"label": "A Place in the Basket",
+			"whatIf": "What if the ropes held long enough for Dorothy and Toto to climb into Oz's balloon?"
+		},
+		"voice": [
+			"“Making believe!” cried Dorothy. “Are you not a Great Wizard?”\n\n“Hush, my dear,” he said. “Don’t speak so loud, or you will be overheard—and I should be ruined. I’m supposed to be a Great Wizard.”\n\n“And aren’t you?” she asked.\n\n“Not a bit of it, my dear; I’m just a common man.”\n\n“You’re more than that,” said the Scarecrow, in a grieved tone; “you’re a humbug.”\n\n“Exactly so!” declared the little man, rubbing his hands together as if it pleased him. “I am a humbug.”\n\n“But this is terrible,” said the Tin Woodman. “How shall I ever get my heart?”",
+			"It was Toto that made Dorothy laugh, and saved her from growing as gray as her other surroundings. Toto was not gray; he was a little black dog, with long silky hair and small black eyes that twinkled merrily on either side of his funny, wee nose. Toto played all day long, and Dorothy played with him, and loved him dearly.\n\nToday, however, they were not playing. Uncle Henry sat upon the doorstep and looked anxiously at the sky, which was even grayer than usual. Dorothy stood in the door with Toto in her arms, and looked at the sky too. Aunt Em was washing the dishes."
+		],
+		"chapterNumbers": {
+			"c02": 1,
+			"c03": 2,
+			"c04": 3,
+			"c05": 4,
+			"c06": 5,
+			"c07": 6,
+			"c08": 7,
+			"c09": 8,
+			"c10": 9,
+			"c11": 10,
+			"c12": 11,
+			"c13": 12,
+			"c14": 13,
+			"c15": 14,
+			"c16": 15,
+			"c17": 16,
+			"c18": 17,
+			"c19": 18,
+			"c20": 19,
+			"c21": 20,
+			"c22": 21,
+			"c23": 22,
+			"c24": 23,
+			"c25": 24
+		},
+		"chapterLabels": {
+			"c02": "Chapter 1",
+			"c03": "Chapter 2",
+			"c04": "Chapter 3",
+			"c05": "Chapter 4",
+			"c06": "Chapter 5",
+			"c07": "Chapter 6",
+			"c08": "Chapter 7",
+			"c09": "Chapter 8",
+			"c10": "Chapter 9",
+			"c11": "Chapter 10",
+			"c12": "Chapter 11",
+			"c13": "Chapter 12",
+			"c14": "Chapter 13",
+			"c15": "Chapter 14",
+			"c16": "Chapter 15",
+			"c17": "Chapter 16",
+			"c18": "Chapter 17",
+			"c19": "Chapter 18",
+			"c20": "Chapter 19",
+			"c21": "Chapter 20",
+			"c22": "Chapter 21",
+			"c23": "Chapter 22",
+			"c24": "Chapter 23",
+			"c25": "Chapter 24"
+		},
+		"cast": [
+			{
+				"key": "dorothy",
+				"name": "Dorothy",
+				"role": "An orphaned Kansas girl seeking her aunt and uncle after the cyclone."
+			},
+			{
+				"key": "toto",
+				"name": "Toto",
+				"role": "Dorothy's little dog, carried with her to Oz."
+			},
+			{
+				"key": "witch_north",
+				"name": "the Witch of the North",
+				"role": "The Munchkins' friend, who directs and protects Dorothy."
+			},
+			{
+				"key": "scarecrow",
+				"name": "the Scarecrow",
+				"role": "Dorothy's straw-stuffed companion, seeking brains."
+			},
+			{
+				"key": "tin_woodman",
+				"name": "the Tin Woodman",
+				"role": "A former flesh-and-blood wood-chopper seeking a heart."
+			},
+			{
+				"key": "lion",
+				"name": "the Cowardly Lion",
+				"role": "A great lion who joins Dorothy to seek courage."
+			},
+			{
+				"key": "mouse_queen",
+				"name": "the Queen of the Field Mice",
+				"role": "The mouse ruler whose subjects rescue the Lion and later guide Dorothy."
+			},
+			{
+				"key": "oz",
+				"name": "Oz",
+				"role": "The Emerald City's ruler, an Omaha showman mistaken for a powerful wizard."
+			},
+			{
+				"key": "witch_west",
+				"name": "the Wicked Witch of the West",
+				"role": "The cruel ruler of the Winkies and Dorothy's captor."
+			},
+			{
+				"key": "glinda",
+				"name": "Glinda",
+				"role": "The powerful ruler of the Quadlings who reveals the Silver Shoes' secret."
+			}
+		],
+		"toc": [
+			{
+				"id": "c01",
+				"kind": "front",
+				"title": "Introduction"
+			},
+			{
+				"id": "c02",
+				"kind": "chapter",
+				"title": "Chapter 1: The Cyclone"
+			},
+			{
+				"id": "c03",
+				"kind": "chapter",
+				"title": "Chapter 2: The Council with the Munchkins"
+			},
+			{
+				"id": "c04",
+				"kind": "chapter",
+				"title": "Chapter 3: How Dorothy Saved the Scarecrow"
+			},
+			{
+				"id": "c05",
+				"kind": "chapter",
+				"title": "Chapter 4: The Road Through the Forest"
+			},
+			{
+				"id": "c06",
+				"kind": "chapter",
+				"title": "Chapter 5: The Rescue of the Tin Woodman"
+			},
+			{
+				"id": "c07",
+				"kind": "chapter",
+				"title": "Chapter 6: The Cowardly Lion"
+			},
+			{
+				"id": "c08",
+				"kind": "chapter",
+				"title": "Chapter 7: The Journey to the Great Oz"
+			},
+			{
+				"id": "c09",
+				"kind": "chapter",
+				"title": "Chapter 8: The Deadly Poppy Field"
+			},
+			{
+				"id": "c10",
+				"kind": "chapter",
+				"title": "Chapter 9: The Queen of the Field Mice"
+			},
+			{
+				"id": "c11",
+				"kind": "chapter",
+				"title": "Chapter 10: The Guardian of the Gate"
+			},
+			{
+				"id": "c12",
+				"kind": "chapter",
+				"title": "Chapter 11: The Wonderful City of Oz"
+			},
+			{
+				"id": "c13",
+				"kind": "chapter",
+				"title": "Chapter 12: The Search for the Wicked Witch"
+			},
+			{
+				"id": "c14",
+				"kind": "chapter",
+				"title": "Chapter 13: The Rescue"
+			},
+			{
+				"id": "c15",
+				"kind": "chapter",
+				"title": "Chapter 14: The Winged Monkeys"
+			},
+			{
+				"id": "c16",
+				"kind": "chapter",
+				"title": "Chapter 15: The Discovery of Oz, the Terrible"
+			},
+			{
+				"id": "c17",
+				"kind": "chapter",
+				"title": "Chapter 16: The Magic Art of the Great Humbug"
+			},
+			{
+				"id": "c18",
+				"kind": "chapter",
+				"title": "Chapter 17: How the Balloon Was Launched"
+			},
+			{
+				"id": "c19",
+				"kind": "chapter",
+				"title": "Chapter 18: Away to the South"
+			},
+			{
+				"id": "c20",
+				"kind": "chapter",
+				"title": "Chapter 19: Attacked by the Fighting Trees"
+			},
+			{
+				"id": "c21",
+				"kind": "chapter",
+				"title": "Chapter 20: The Dainty China Country"
+			},
+			{
+				"id": "c22",
+				"kind": "chapter",
+				"title": "Chapter 21: The Lion Becomes the King of Beasts"
+			},
+			{
+				"id": "c23",
+				"kind": "chapter",
+				"title": "Chapter 22: The Country of the Quadlings"
+			},
+			{
+				"id": "c24",
+				"kind": "chapter",
+				"title": "Chapter 23: Glinda The Good Witch Grants Dorothy’s Wish"
+			},
+			{
+				"id": "c25",
+				"kind": "chapter",
+				"title": "Chapter 24: Home Again"
+			}
+		]
+	},
+	{
+		"slug": "the-time-machine",
+		"title": "The Time Machine",
+		"shortTitle": "The Time Machine",
+		"author": "H. G. Wells",
+		"railLabel": "Remix The Time Machine by H. G. Wells",
+		"buildKicker": "A novel from The Time Machine",
+		"lightboxCaption": "The Time Machine, remixed: “{lightboxTitle}”",
+		"kicker": "The Time Machine, remixed",
+		"openingTitle": "Opening The Time Machine at {openChapter}",
+		"findingTitle": "Finding where The Time Machine turns",
+		"voiceBy": "— H. G. Wells, The Time Machine",
+		"demoNote": "Live writing is off in this demo, so this is the closest chapter already written for The Time Machine.",
+		"genre": "Science fiction",
+		"subgenres": [
+			"Time travel",
+			"Dystopian fiction",
+			"Scientific adventure"
+		],
+		"tone": "Conversational scientific wonder darkens into panic, tenderness and cosmic desolation, with intermittent irony and self-reproach.",
+		"hook": "A stolen machine leaves its inventor stranded in humanity’s beautiful and terrifying future.",
+		"premise": "A Victorian inventor demonstrates a machine that travels through time, then returns to his dinner guests injured and hungry with a story of the remote future. In a beautiful, ruined Thames valley, he meets the gentle Eloi and discovers evidence of another people beneath the ground.",
+		"nsGenre": "science_fiction",
+		"nsArc": "man_in_hole",
+		"chips": [
+			{
+				"id": "model_remains",
+				"chapterId": "c02",
+				"chapterNumber": 2,
+				"chapterLabel": "Chapter 2",
+				"chapterTag": "Chapter 2",
+				"label": "The Model Stays",
+				"whatIf": "What if the model stayed visible after the Psychologist pressed the lever?",
+				"gist": "The model stayed visible after the Psychologist pressed the lever.",
+				"order": 0
+			},
+			{
+				"id": "leave_the_lawn",
+				"chapterId": "c05",
+				"chapterNumber": 5,
+				"chapterLabel": "Chapter 5",
+				"chapterTag": "Chapter 5",
+				"label": "Guard the Machine",
+				"whatIf": "What if the Traveller refused to leave the machine alone and stayed beside it?",
+				"gist": "The Traveller refused to leave the machine alone and stayed beside it.",
+				"order": 1
+			},
+			{
+				"id": "weena_rescued",
+				"chapterId": "c08",
+				"chapterNumber": 8,
+				"chapterLabel": "Chapter 8",
+				"chapterTag": "Chapter 8",
+				"label": "The River Rescue",
+				"whatIf": "What if another Eloi plunged in to save Weena before the Traveller reached her?",
+				"gist": "Another Eloi plunged in to save Weena before the Traveller reached her.",
+				"order": 3
+			},
+			{
+				"id": "well_refusal",
+				"chapterId": "c09",
+				"chapterNumber": 9,
+				"chapterLabel": "Chapter 9",
+				"chapterTag": "Chapter 9",
+				"label": "Weena at the Well",
+				"whatIf": "What if Weena persuaded him to leave the well unexplored that morning?",
+				"gist": "Weena persuaded him to leave the well unexplored that morning.",
+				"order": 4
+			},
+			{
+				"id": "sphinx_trap",
+				"chapterId": "c13",
+				"chapterNumber": 13,
+				"chapterLabel": "Chapter 13",
+				"chapterTag": "Chapter 13",
+				"label": "The Open Bronze Doors",
+				"whatIf": "What if he kept his iron bar and refused to enter the open pedestal?",
+				"gist": "He kept his iron bar and refused to enter the open pedestal.",
+				"order": 6
+			},
+			{
+				"id": "second_departure",
+				"chapterId": "c16",
+				"chapterNumber": 16,
+				"chapterLabel": "Chapter 16",
+				"chapterTag": "Chapter 16",
+				"label": "A Witness for the Journey",
+				"whatIf": "What if the narrator followed him into the laboratory before he started the machine?",
+				"gist": "The narrator followed him into the laboratory before he started the machine.",
+				"order": 7
+			}
+		],
+		"example": {
+			"id": "weena_rescued",
+			"chapterId": "c08",
+			"label": "The River Rescue",
+			"whatIf": "What if another Eloi plunged in to save Weena before the Traveller reached her?"
+		},
+		"voice": [
+			"I looked for the building I knew. Then my eye travelled along to the figure of the White Sphinx upon the pedestal of bronze, growing distinct as the light of the rising moon grew brighter. I could see the silver birch against it. There was the tangle of rhododendron bushes, black in the pale light, and there was the little lawn. I looked at the lawn again. A queer doubt chilled my complacency. ‘No,’ said I stoutly to myself, ‘that was not the lawn.’",
+			"The thing the Time Traveller held in his hand was a glittering metallic framework, scarcely larger than a small clock, and very delicately made. There was ivory in it, and some transparent crystalline substance. And now I must be explicit, for this that follows—unless his explanation is to be accepted—is an absolutely unaccountable thing. He took one of the small octagonal tables that were scattered about the room, and set it in front of the fire, with two legs on the hearthrug. On this table he placed the mechanism."
+		],
+		"chapterNumbers": {
+			"c01": 1,
+			"c02": 2,
+			"c03": 3,
+			"c04": 4,
+			"c05": 5,
+			"c06": 6,
+			"c07": 7,
+			"c08": 8,
+			"c09": 9,
+			"c10": 10,
+			"c11": 11,
+			"c12": 12,
+			"c13": 13,
+			"c14": 14,
+			"c15": 15,
+			"c16": 16
+		},
+		"chapterLabels": {
+			"c01": "Chapter 1",
+			"c02": "Chapter 2",
+			"c03": "Chapter 3",
+			"c04": "Chapter 4",
+			"c05": "Chapter 5",
+			"c06": "Chapter 6",
+			"c07": "Chapter 7",
+			"c08": "Chapter 8",
+			"c09": "Chapter 9",
+			"c10": "Chapter 10",
+			"c11": "Chapter 11",
+			"c12": "Chapter 12",
+			"c13": "Chapter 13",
+			"c14": "Chapter 14",
+			"c15": "Chapter 15",
+			"c16": "Chapter 16",
+			"c17": "Epilogue"
+		},
+		"cast": [
+			{
+				"key": "time_traveller",
+				"name": "the Time Traveller",
+				"role": "Inventor of the Time Machine and narrator of the journey into the future."
+			},
+			{
+				"key": "narrator",
+				"name": "the narrator",
+				"role": "The Traveller’s frequent guest, who records the demonstration, story and disappearance."
+			},
+			{
+				"key": "weena",
+				"name": "Weena",
+				"role": "An Eloi rescued from drowning who becomes the Traveller’s companion."
+			},
+			{
+				"key": "morlocks",
+				"name": "the Morlock",
+				"role": "Subterranean human descendant"
+			},
+			{
+				"key": "medical_man",
+				"name": "the Medical Man",
+				"role": "A dinner guest who questions the machine and examines the Traveller’s evidence."
+			},
+			{
+				"key": "psychologist",
+				"name": "the Psychologist",
+				"role": "A guest who operates the model’s lever and offers an explanation for its disappearance."
+			},
+			{
+				"key": "editor",
+				"name": "the Editor",
+				"role": "A sceptical dinner guest who treats the Traveller’s experience as journalistic material."
+			}
+		],
+		"toc": [
+			{
+				"id": "c01",
+				"kind": "chapter",
+				"title": "Chapter 1: Introduction"
+			},
+			{
+				"id": "c02",
+				"kind": "chapter",
+				"title": "Chapter 2: The Machine"
+			},
+			{
+				"id": "c03",
+				"kind": "chapter",
+				"title": "Chapter 3: The Time Traveller Returns"
+			},
+			{
+				"id": "c04",
+				"kind": "chapter",
+				"title": "Chapter 4: Time Travelling"
+			},
+			{
+				"id": "c05",
+				"kind": "chapter",
+				"title": "Chapter 5: In the Golden Age"
+			},
+			{
+				"id": "c06",
+				"kind": "chapter",
+				"title": "Chapter 6: The Sunset of Mankind"
+			},
+			{
+				"id": "c07",
+				"kind": "chapter",
+				"title": "Chapter 7: A Sudden Shock"
+			},
+			{
+				"id": "c08",
+				"kind": "chapter",
+				"title": "Chapter 8: Explanation"
+			},
+			{
+				"id": "c09",
+				"kind": "chapter",
+				"title": "Chapter 9: The Morlocks"
+			},
+			{
+				"id": "c10",
+				"kind": "chapter",
+				"title": "Chapter 10: When Night Came"
+			},
+			{
+				"id": "c11",
+				"kind": "chapter",
+				"title": "Chapter 11: The Palace of Green Porcelain"
+			},
+			{
+				"id": "c12",
+				"kind": "chapter",
+				"title": "Chapter 12: In the Darkness"
+			},
+			{
+				"id": "c13",
+				"kind": "chapter",
+				"title": "Chapter 13: The Trap of the White Sphinx"
+			},
+			{
+				"id": "c14",
+				"kind": "chapter",
+				"title": "Chapter 14: The Further Vision"
+			},
+			{
+				"id": "c15",
+				"kind": "chapter",
+				"title": "Chapter 15: The Time Traveller’s Return"
+			},
+			{
+				"id": "c16",
+				"kind": "chapter",
+				"title": "Chapter 16: After the Story"
+			},
+			{
+				"id": "c17",
+				"kind": "chapter",
+				"title": "Epilogue"
+			}
+		]
+	},
+	{
+		"slug": "the-hound-of-the-baskervilles",
+		"title": "The Hound of the Baskervilles",
+		"shortTitle": "The Hound of the Baskervilles",
+		"author": "Arthur Conan Doyle",
+		"railLabel": "Remix The Hound of the Baskervilles by Arthur Conan Doyle",
+		"buildKicker": "A novel from The Hound of the Baskervilles",
+		"lightboxCaption": "The Hound of the Baskervilles, remixed: “{lightboxTitle}”",
+		"kicker": "The Hound of the Baskervilles, remixed",
+		"openingTitle": "Opening The Hound of the Baskervilles at {openChapter}",
+		"findingTitle": "Finding where The Hound of the Baskervilles turns",
+		"voiceBy": "— Arthur Conan Doyle, The Hound of the Baskervilles",
+		"demoNote": "Live writing is off in this demo, so this is the closest chapter already written for The Hound of the Baskervilles.",
+		"genre": "Mystery",
+		"subgenres": [
+			"Detective fiction",
+			"Gothic mystery",
+			"Suspense"
+		],
+		"tone": "A rational investigation moves through dread, loneliness, and sudden violence, relieved by affectionate banter and flashes of comedy.",
+		"hook": "A stolen boot, a family curse, and a hound whose jaws appear to burn.",
+		"premise": "After Sir Charles Baskerville is found dead near his moorland home, a doctor brings Sherlock Holmes a family legend and evidence of a gigantic hound. Sir Charles’s Canadian heir arrives to claim the estate, carrying a fortune and a warning to keep away from the moor.",
+		"nsGenre": "mystery",
+		"nsArc": "man_in_hole",
+		"chips": [
+			{
+				"id": "mortimer_silence",
+				"chapterId": "c02",
+				"chapterNumber": 2,
+				"chapterLabel": "Chapter 2",
+				"chapterTag": "Chapter 2",
+				"label": "The Footprints Withheld",
+				"whatIf": "What if Mortimer kept the hound footprints secret from Holmes as well as the coroner?",
+				"gist": "Mortimer kept the hound footprints secret from Holmes as well as the coroner.",
+				"order": 0
+			},
+			{
+				"id": "spy_followed",
+				"chapterId": "c04",
+				"chapterNumber": 4,
+				"chapterLabel": "Chapter 4",
+				"chapterTag": "Chapter 4",
+				"label": "The Cab Shadowed",
+				"whatIf": "What if Holmes quietly hired another cab and followed the bearded watcher instead of exposing himself?",
+				"gist": "Holmes quietly hired another cab and followed the bearded watcher instead of exposing himself.",
+				"order": 2
+			},
+			{
+				"id": "selden_shot",
+				"chapterId": "c09",
+				"chapterNumber": 9,
+				"chapterLabel": "Chapter 9",
+				"chapterTag": "Chapter 9",
+				"label": "A Shot at Selden",
+				"whatIf": "What if Watson fired at the fleeing Selden and brought him down?",
+				"gist": "Watson fired at the fleeing Selden and brought him down.",
+				"order": 4
+			},
+			{
+				"id": "barrymore_betrayed",
+				"chapterId": "c10",
+				"chapterNumber": 10,
+				"chapterLabel": "Chapter 10",
+				"chapterTag": "Chapter 10",
+				"label": "The Butler’s Bargain",
+				"whatIf": "What if Sir Henry refused Barrymore's plea and reported Selden to the police?",
+				"gist": "Sir Henry refused Barrymore's plea and reported Selden to the police.",
+				"order": 5
+			},
+			{
+				"id": "laura_stays_loyal",
+				"chapterId": "c13",
+				"chapterNumber": 13,
+				"chapterLabel": "Chapter 13",
+				"chapterTag": "Chapter 13",
+				"label": "Laura’s Silence",
+				"whatIf": "What if Laura refused to believe Holmes's evidence and kept Stapleton's secret?",
+				"gist": "Laura refused to believe Holmes's evidence and kept Stapleton's secret.",
+				"order": 7
+			},
+			{
+				"id": "beryl_wands",
+				"chapterId": "c14",
+				"chapterNumber": 14,
+				"chapterLabel": "Chapter 14",
+				"chapterTag": "Chapter 14",
+				"label": "The Missing Wands",
+				"whatIf": "What if Beryl had pulled out the guiding wands before Stapleton fled toward the mire?",
+				"gist": "Beryl had pulled out the guiding wands before Stapleton fled toward the mire.",
+				"order": 9
+			}
+		],
+		"example": {
+			"id": "beryl_wands",
+			"chapterId": "c14",
+			"label": "The Missing Wands",
+			"whatIf": "What if Beryl had pulled out the guiding wands before Stapleton fled toward the mire?"
+		},
+		"voice": [
+			"A long, low moan, indescribably sad, swept over the moor. It filled the whole air, and yet it was impossible to say whence it came. From a dull murmur it swelled into a deep roar, and then sank back into a melancholy, throbbing murmur once again. Stapleton looked at me with a curious expression in his face.\n\n“Queer place, the moor!” said he.\n\n“But what is it?”\n\n“The peasants say it is the Hound of the Baskervilles calling for its prey. I’ve heard it once or twice before, but never quite so loud.”",
+			"He had never said as much before, and I must admit that his words gave me keen pleasure, for I had often been piqued by his indifference to my admiration and to the attempts which I had made to give publicity to his methods. I was proud, too, to think that I had so far mastered his system as to apply it in a way which earned his approval. He now took the stick from my hands and examined it for a few minutes with his naked eyes. Then with an expression of interest he laid down his cigarette, and carrying the cane to the window, he looked over it again with a convex lens."
+		],
+		"chapterNumbers": {
+			"c01": 1,
+			"c02": 2,
+			"c03": 3,
+			"c04": 4,
+			"c05": 5,
+			"c06": 6,
+			"c07": 7,
+			"c08": 8,
+			"c09": 9,
+			"c10": 10,
+			"c11": 11,
+			"c12": 12,
+			"c13": 13,
+			"c14": 14,
+			"c15": 15
+		},
+		"chapterLabels": {
+			"c01": "Chapter 1",
+			"c02": "Chapter 2",
+			"c03": "Chapter 3",
+			"c04": "Chapter 4",
+			"c05": "Chapter 5",
+			"c06": "Chapter 6",
+			"c07": "Chapter 7",
+			"c08": "Chapter 8",
+			"c09": "Chapter 9",
+			"c10": "Chapter 10",
+			"c11": "Chapter 11",
+			"c12": "Chapter 12",
+			"c13": "Chapter 13",
+			"c14": "Chapter 14",
+			"c15": "Chapter 15"
+		},
+		"cast": [
+			{
+				"key": "watson",
+				"name": "Dr. Watson",
+				"role": "Narrator, physician, Holmes's companion and Sir Henry's appointed protector."
+			},
+			{
+				"key": "holmes",
+				"name": "Sherlock Holmes",
+				"role": "Consulting detective who investigates the threat to the Baskervilles."
+			},
+			{
+				"key": "mortimer",
+				"name": "Dr. Mortimer",
+				"role": "Country medical practitioner, Sir Charles's friend and executor, who brings Holmes the problem."
+			},
+			{
+				"key": "henry",
+				"name": "Sir Henry Baskerville",
+				"role": "Sir Charles's heir, newly returned from North America to take possession of Baskerville Hall."
+			},
+			{
+				"key": "stapleton",
+				"name": "Stapleton",
+				"role": "Naturalist of Merripit House and concealed Baskerville heir who engineers the attacks."
+			},
+			{
+				"key": "beryl",
+				"name": "Mrs. Stapleton",
+				"role": "Stapleton's wife, presented as his sister, who tries to warn Sir Henry."
+			},
+			{
+				"key": "barrymore",
+				"name": "Barrymore",
+				"role": "Baskerville Hall's butler, whose secret signals conceal help for his wife's brother."
+			},
+			{
+				"key": "eliza",
+				"name": "Mrs. Barrymore",
+				"role": "Baskerville Hall's housekeeper and the escaped convict Selden's elder sister."
+			},
+			{
+				"key": "laura",
+				"name": "Mrs. Laura Lyons",
+				"role": "Frankland's estranged daughter, whose letter brings Sir Charles to the moor-gate."
+			}
+		],
+		"toc": [
+			{
+				"id": "c01",
+				"kind": "chapter",
+				"title": "Chapter 1: Mr. Sherlock Holmes"
+			},
+			{
+				"id": "c02",
+				"kind": "chapter",
+				"title": "Chapter 2: The Curse of the Baskervilles"
+			},
+			{
+				"id": "c03",
+				"kind": "chapter",
+				"title": "Chapter 3: The Problem"
+			},
+			{
+				"id": "c04",
+				"kind": "chapter",
+				"title": "Chapter 4: Sir Henry Baskerville"
+			},
+			{
+				"id": "c05",
+				"kind": "chapter",
+				"title": "Chapter 5: Three Broken Threads"
+			},
+			{
+				"id": "c06",
+				"kind": "chapter",
+				"title": "Chapter 6: Baskerville Hall"
+			},
+			{
+				"id": "c07",
+				"kind": "chapter",
+				"title": "Chapter 7: The Stapletons of Merripit House"
+			},
+			{
+				"id": "c08",
+				"kind": "chapter",
+				"title": "Chapter 8: First Report of Dr. Watson"
+			},
+			{
+				"id": "c09",
+				"kind": "chapter",
+				"title": "Chapter 9: The Light upon the Moor [Second Report of Dr. Watson]"
+			},
+			{
+				"id": "c10",
+				"kind": "chapter",
+				"title": "Chapter 10: Extract from the Diary of Dr. Watson"
+			},
+			{
+				"id": "c11",
+				"kind": "chapter",
+				"title": "Chapter 11: The Man on the Tor"
+			},
+			{
+				"id": "c12",
+				"kind": "chapter",
+				"title": "Chapter 12: Death on the Moor"
+			},
+			{
+				"id": "c13",
+				"kind": "chapter",
+				"title": "Chapter 13: Fixing the Nets"
+			},
+			{
+				"id": "c14",
+				"kind": "chapter",
+				"title": "Chapter 14: The Hound of the Baskervilles"
+			},
+			{
+				"id": "c15",
+				"kind": "chapter",
+				"title": "Chapter 15: A Retrospection"
+			}
+		]
+	},
+	{
+		"slug": "persuasion",
+		"title": "Persuasion",
+		"shortTitle": "Persuasion",
+		"author": "Jane Austen",
+		"railLabel": "Remix Persuasion by Jane Austen",
+		"buildKicker": "A novel from Persuasion",
+		"lightboxCaption": "Persuasion, remixed: “{lightboxTitle}”",
+		"kicker": "Persuasion, remixed",
+		"openingTitle": "Opening Persuasion at {openChapter}",
+		"findingTitle": "Finding where Persuasion turns",
+		"voiceBy": "— Jane Austen, Persuasion",
+		"demoNote": "Live writing is off in this demo, so this is the closest chapter already written for Persuasion.",
+		"genre": "Romance",
+		"subgenres": [
+			"Second-chance romance",
+			"Novel of manners",
+			"Psychological fiction"
+		],
+		"tone": "Tender and quietly painful, with sharp social comedy, irony, and a growing sense of recovered hope.",
+		"hook": "Eight years after giving him up, Anne must watch the man she still loves choose a wife.",
+		"premise": "Anne Elliot, overlooked by her proud family, meets again the naval officer whose engagement she was persuaded to break eight years before. As her father lets their Somersetshire home and moves to Bath, Anne must observe Captain Wentworth’s apparent courtship of another woman while concealing her own attachment.",
+		"nsGenre": "romance",
+		"nsArc": "cinderella",
+		"chips": [
+			{
+				"id": "engagement_kept",
+				"chapterId": "c04",
+				"chapterNumber": 4,
+				"chapterLabel": "Chapter 4",
+				"chapterTag": "Chapter 4",
+				"label": "Anne Holds Fast",
+				"whatIf": "What if Anne refused to break her engagement to Captain Wentworth, even after Lady Russell's tender, persistent advice?",
+				"gist": "Anne refused to break her engagement to Captain Wentworth, even after Lady Russell's tender, persistent advice.",
+				"order": 0
+			},
+			{
+				"id": "winthrop_turned_back",
+				"chapterId": "c10",
+				"chapterNumber": 10,
+				"chapterLabel": "Chapter 10",
+				"chapterTag": "Chapter 10",
+				"label": "Henrietta Turns Back",
+				"whatIf": "What if Louisa failed to persuade Henrietta to call at Winthrop, and Henrietta turned back with Mary?",
+				"gist": "Louisa failed to persuade Henrietta to call at Winthrop, and Henrietta turned back with Mary.",
+				"order": 2
+			},
+			{
+				"id": "anne_stays_lyme",
+				"chapterId": "c12",
+				"chapterNumber": 12,
+				"chapterLabel": "Chapter 12",
+				"chapterTag": "Chapter 12",
+				"label": "Anne at the Bedside",
+				"whatIf": "What if Mary accepted the original arrangement and Anne stayed at the Harvilles' to nurse Louisa?",
+				"gist": "Mary accepted the original arrangement and Anne stayed at the Harvilles' to nurse Louisa.",
+				"order": 4
+			},
+			{
+				"id": "kellynch_temptation",
+				"chapterId": "c17",
+				"chapterNumber": 17,
+				"chapterLabel": "Chapter 17",
+				"chapterTag": "Chapter 17",
+				"label": "The Future Lady Elliot",
+				"whatIf": "What if Lady Russell's picture of Kellynch persuaded Anne to welcome Mr Elliot's courtship?",
+				"gist": "Lady Russell's picture of Kellynch persuaded Anne to welcome Mr Elliot's courtship.",
+				"order": 5
+			},
+			{
+				"id": "smith_silent",
+				"chapterId": "c21",
+				"chapterNumber": 21,
+				"chapterLabel": "Chapter 21",
+				"chapterTag": "Chapter 21",
+				"label": "Mrs Smith Keeps Silent",
+				"whatIf": "What if Mrs Smith decided that revealing Mr Elliot's past would be an improper interference and kept her knowledge to herself?",
+				"gist": "Mrs Smith decided that revealing Mr Elliot's past would be an improper interference and kept her knowledge to herself.",
+				"order": 7
+			},
+			{
+				"id": "russell_resists",
+				"chapterId": "c24",
+				"chapterNumber": 24,
+				"chapterLabel": "Chapter 24",
+				"chapterTag": "Chapter 24",
+				"label": "Lady Russell’s Resistance",
+				"whatIf": "What if Lady Russell could not bring herself to welcome Wentworth and openly opposed Anne's renewed engagement?",
+				"gist": "Lady Russell could not bring herself to welcome Wentworth and openly opposed Anne's renewed engagement.",
+				"order": 9
+			}
+		],
+		"example": {
+			"id": "engagement_kept",
+			"chapterId": "c04",
+			"label": "Anne Holds Fast",
+			"whatIf": "What if Anne refused to break her engagement to Captain Wentworth, even after Lady Russell's tender, persistent advice?"
+		},
+		"voice": [
+			"“Perhaps I shall. Yes, yes, if you please, no reference to examples in books. Men have had every advantage of us in telling their own story. Education has been theirs in so much higher a degree; the pen has been in their hands. I will not allow books to prove anything.”\n\n“But how shall we prove anything?”\n\n“We never shall. We never can expect to prove any thing upon such a point. It is a difference of opinion which does not admit of proof.",
+			"A few years before, Anne Elliot had been a very pretty girl, but her bloom had vanished early; and as even in its height, her father had found little to admire in her, (so totally different were her delicate features and mild dark eyes from his own), there could be nothing in them, now that she was faded and thin, to excite his esteem. He had never indulged much hope, he had now none, of ever reading her name in any other page of his favourite work."
+		],
+		"chapterNumbers": {
+			"c01": 1,
+			"c02": 2,
+			"c03": 3,
+			"c04": 4,
+			"c05": 5,
+			"c06": 6,
+			"c07": 7,
+			"c08": 8,
+			"c09": 9,
+			"c10": 10,
+			"c11": 11,
+			"c12": 12,
+			"c13": 13,
+			"c14": 14,
+			"c15": 15,
+			"c16": 16,
+			"c17": 17,
+			"c18": 18,
+			"c19": 19,
+			"c20": 20,
+			"c21": 21,
+			"c22": 22,
+			"c23": 23,
+			"c24": 24
+		},
+		"chapterLabels": {
+			"c01": "Chapter 1",
+			"c02": "Chapter 2",
+			"c03": "Chapter 3",
+			"c04": "Chapter 4",
+			"c05": "Chapter 5",
+			"c06": "Chapter 6",
+			"c07": "Chapter 7",
+			"c08": "Chapter 8",
+			"c09": "Chapter 9",
+			"c10": "Chapter 10",
+			"c11": "Chapter 11",
+			"c12": "Chapter 12",
+			"c13": "Chapter 13",
+			"c14": "Chapter 14",
+			"c15": "Chapter 15",
+			"c16": "Chapter 16",
+			"c17": "Chapter 17",
+			"c18": "Chapter 18",
+			"c19": "Chapter 19",
+			"c20": "Chapter 20",
+			"c21": "Chapter 21",
+			"c22": "Chapter 22",
+			"c23": "Chapter 23",
+			"c24": "Chapter 24"
+		},
+		"cast": [
+			{
+				"key": "anne",
+				"name": "Anne Elliot",
+				"role": "The neglected middle Elliot daughter and emotional centre of the story."
+			},
+			{
+				"key": "wentworth",
+				"name": "Captain Wentworth",
+				"role": "Anne's former fiancé, a successful naval captain seeking a wife."
+			},
+			{
+				"key": "sir_walter",
+				"name": "Sir Walter Elliot",
+				"role": "Anne's vain father, a baronet whose debts force him to let Kellynch Hall."
+			},
+			{
+				"key": "elizabeth",
+				"name": "Elizabeth Elliot",
+				"role": "Sir Walter's eldest daughter and mistress of his household."
+			},
+			{
+				"key": "lady_russell",
+				"name": "Lady Russell",
+				"role": "Anne's godmother, her mother's intimate friend and a wealthy widow."
+			},
+			{
+				"key": "mary",
+				"name": "Mary Musgrove",
+				"role": "Anne's younger sister, married to Charles Musgrove and mother of two boys."
+			},
+			{
+				"key": "charles",
+				"name": "Charles Musgrove",
+				"role": "Mary's husband and heir to the Uppercross estate; he once proposed to Anne."
+			},
+			{
+				"key": "louisa",
+				"name": "Louisa Musgrove",
+				"role": "Charles's high-spirited sister, admired by Wentworth before her fall at Lyme."
+			},
+			{
+				"key": "henrietta",
+				"name": "Henrietta Musgrove",
+				"role": "Louisa's sister, courted by her cousin Charles Hayter and briefly attracted to Wentworth."
+			},
+			{
+				"key": "mrs_croft",
+				"name": "Mrs Croft",
+				"role": "Wentworth's sister and the admiral's wife; a welcoming tenant of Kellynch."
+			},
+			{
+				"key": "admiral_croft",
+				"name": "Admiral Croft",
+				"role": "A retired naval officer who rents Kellynch Hall with his wife."
+			},
+			{
+				"key": "mr_elliot",
+				"name": "Mr Elliot",
+				"role": "Sir Walter's heir presumptive and Anne's polished, calculating cousin."
+			},
+			{
+				"key": "mrs_clay",
+				"name": "Mrs Clay",
+				"role": "Mr Shepherd's widowed daughter and Elizabeth's insinuating companion."
+			},
+			{
+				"key": "mrs_smith",
+				"name": "Mrs Smith",
+				"role": "Anne's former school friend, now a poor and disabled widow in Bath."
+			},
+			{
+				"key": "harville",
+				"name": "Captain Harville",
+				"role": "Wentworth's wounded naval friend and Benwick's almost brother-in-law."
+			},
+			{
+				"key": "benwick",
+				"name": "Captain Benwick",
+				"role": "A young naval commander mourning Fanny Harville, later engaged to Louisa."
+			}
+		],
+		"toc": [
+			{
+				"id": "c01",
+				"kind": "chapter",
+				"title": "Chapter 1"
+			},
+			{
+				"id": "c02",
+				"kind": "chapter",
+				"title": "Chapter 2"
+			},
+			{
+				"id": "c03",
+				"kind": "chapter",
+				"title": "Chapter 3"
+			},
+			{
+				"id": "c04",
+				"kind": "chapter",
+				"title": "Chapter 4"
+			},
+			{
+				"id": "c05",
+				"kind": "chapter",
+				"title": "Chapter 5"
+			},
+			{
+				"id": "c06",
+				"kind": "chapter",
+				"title": "Chapter 6"
+			},
+			{
+				"id": "c07",
+				"kind": "chapter",
+				"title": "Chapter 7"
+			},
+			{
+				"id": "c08",
+				"kind": "chapter",
+				"title": "Chapter 8"
+			},
+			{
+				"id": "c09",
+				"kind": "chapter",
+				"title": "Chapter 9"
+			},
+			{
+				"id": "c10",
+				"kind": "chapter",
+				"title": "Chapter 10"
+			},
+			{
+				"id": "c11",
+				"kind": "chapter",
+				"title": "Chapter 11"
+			},
+			{
+				"id": "c12",
+				"kind": "chapter",
+				"title": "Chapter 12"
+			},
+			{
+				"id": "c13",
+				"kind": "chapter",
+				"title": "Chapter 13"
+			},
+			{
+				"id": "c14",
+				"kind": "chapter",
+				"title": "Chapter 14"
+			},
+			{
+				"id": "c15",
+				"kind": "chapter",
+				"title": "Chapter 15"
+			},
+			{
+				"id": "c16",
+				"kind": "chapter",
+				"title": "Chapter 16"
+			},
+			{
+				"id": "c17",
+				"kind": "chapter",
+				"title": "Chapter 17"
+			},
+			{
+				"id": "c18",
+				"kind": "chapter",
+				"title": "Chapter 18"
+			},
+			{
+				"id": "c19",
+				"kind": "chapter",
+				"title": "Chapter 19"
+			},
+			{
+				"id": "c20",
+				"kind": "chapter",
+				"title": "Chapter 20"
+			},
+			{
+				"id": "c21",
+				"kind": "chapter",
+				"title": "Chapter 21"
+			},
+			{
+				"id": "c22",
+				"kind": "chapter",
+				"title": "Chapter 22"
+			},
+			{
+				"id": "c23",
+				"kind": "chapter",
+				"title": "Chapter 23"
+			},
+			{
+				"id": "c24",
+				"kind": "chapter",
+				"title": "Chapter 24"
+			}
+		]
+	}
+]

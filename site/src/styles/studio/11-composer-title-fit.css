@@ -1,0 +1,41 @@
+@media (width >= 64rem) {
+  #SiteDocument #SiteBody [data-classlist~="remix-compose-books"] > [data-book-panel="frankenstein"] {
+    --remix-title-fit: 10.29cqi;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-compose-books"] > [data-book-panel="alices-adventures-in-wonderland"] {
+    --remix-title-fit: 7.69cqi;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-compose-books"] > [data-book-panel="a-christmas-carol"] {
+    --remix-title-fit: 8.93cqi;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-compose-books"] > [data-book-panel="treasure-island"] {
+    --remix-title-fit: 8.89cqi;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-compose-books"] > [data-book-panel="the-picture-of-dorian-gray"] {
+    --remix-title-fit: 10.59cqi;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-compose-books"] > [data-book-panel="strange-case-of-dr-jekyll-and-mr-hyde"] {
+    --remix-title-fit: 9.3cqi;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-compose-books"] > [data-book-panel="the-wonderful-wizard-of-oz"] {
+    --remix-title-fit: 9.72cqi;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-compose-books"] > [data-book-panel="the-time-machine"] {
+    --remix-title-fit: 8.42cqi;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-compose-books"] > [data-book-panel="the-hound-of-the-baskervilles"] {
+    --remix-title-fit: 6.96cqi;
+  }
+
+  #SiteDocument #SiteBody [data-classlist~="remix-compose-books"] > [data-book-panel="persuasion"] {
+    --remix-title-fit: 11.34cqi;
+  }
+}
